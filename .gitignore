@@ -1,0 +1,9 @@
+Katalon Studio/TapasTest/
+Katalon Studio/TapasTest/
+bin/
+Libs/
+reports/
+logs/
+output/
+.DS_Store
+node_modules/
