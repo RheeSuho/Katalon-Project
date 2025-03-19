@@ -7,3 +7,6 @@ logs/
 output/
 .DS_Store
 node_modules/
+Library/Application Support/Firefox/
+Library/Application Support/FileProvider/
+Library/Application Support/
