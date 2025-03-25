@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Home,Chrome 132.0.6834.160,,,05-02-2025 14:57:01,05-02-2025 14:57:17,15.636s,FAILED
+,,,,,,,
+Test Cases/Home/숏컷 객체 강조,Chrome 132.0.6834.160,,,05-02-2025 14:57:02,05-02-2025 14:57:08,5.952s,FAILED
+"openBrowser("""")",Chrome 132.0.6834.160,,,05-02-2025 14:57:02,05-02-2025 14:57:05,3.443s,PASSED
+"navigateToUrl(""https://tapas.io/"")",Chrome 132.0.6834.160,,,05-02-2025 14:57:05,05-02-2025 14:57:07,1.977s,PASSED
+"searchBox = findTestObject(""null"")",Chrome 132.0.6834.160,,,05-02-2025 14:57:07,05-02-2025 14:57:07,0.049s,PASSED
+HighlightElement.run(searchBox),Chrome 132.0.6834.160,,,05-02-2025 14:57:07,05-02-2025 14:57:08,0.109s,FAILED
+,,,,,,,
+Test Cases/Home/숏컷 확인 - 로그인 - 강조 확인,Chrome 132.0.6834.160,,,05-02-2025 14:57:08,05-02-2025 14:57:17,9.454s,FAILED
+"url = ""https://tapas.io/account/signin?from=/""",Chrome 132.0.6834.160,,,05-02-2025 14:57:08,05-02-2025 14:57:08,0.003s,PASSED
+"email = ""dkttapas00@gmail.com""",Chrome 132.0.6834.160,,,05-02-2025 14:57:08,05-02-2025 14:57:08,0.003s,PASSED
+"password = ""winehouse""",Chrome 132.0.6834.160,,,05-02-2025 14:57:08,05-02-2025 14:57:08,0.003s,PASSED
+"cookieFilePath = ""cookies.save""",Chrome 132.0.6834.160,,,05-02-2025 14:57:08,05-02-2025 14:57:08,0.002s,PASSED
+"openBrowser("""")",Chrome 132.0.6834.160,,,05-02-2025 14:57:08,05-02-2025 14:57:10,1.538s,PASSED
+navigateToUrl(url),Chrome 132.0.6834.160,,,05-02-2025 14:57:10,05-02-2025 14:57:13,3.578s,PASSED
+cookieFile = new java.io.File(cookieFilePath),Chrome 132.0.6834.160,,,05-02-2025 14:57:13,05-02-2025 14:57:13,0.003s,PASSED
+if (cookieFile.exists()),Chrome 132.0.6834.160,,,05-02-2025 14:57:13,05-02-2025 14:57:16,2.490s,PASSED
+"searchBox = findTestObject(""숏컷 로그인 신규/Page_Home  Spotlight/input_More_q"")",Chrome 132.0.6834.160,,,05-02-2025 14:57:16,05-02-2025 14:57:16,0.098s,PASSED
+HighlightElement.run(searchBox),Chrome 132.0.6834.160,,,05-02-2025 14:57:16,05-02-2025 14:57:17,0.966s,FAILED

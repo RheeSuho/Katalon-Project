@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+배너 확인,,,,11-02-2025 10:29:35,11-02-2025 10:29:36,1.730s,ERROR
+,,,,,,,
+Test Cases/Home/홈화면 확인/프로모션 배너 확인 _ 강조,,,,11-02-2025 10:29:35,11-02-2025 10:29:35,0.276s,FAILED
+"comment(""✅ 프로모션 배너 실행"")",,,,11-02-2025 10:29:35,11-02-2025 10:29:35,0.035s,PASSED
+"navigateToUrl(""https://qa.tapas.io/"")",,,,11-02-2025 10:29:35,11-02-2025 10:29:35,0.104s,FAILED
+,,,,,,,
+Test Cases/Home/홈화면 확인/빅배너 확인_랜딩 후 복귀,,,,11-02-2025 10:29:35,11-02-2025 10:29:36,1.137s,ERROR
+"comment(""✅ 배너 실행"")",,,,11-02-2025 10:29:35,11-02-2025 10:29:35,0.003s,PASSED
+delay(1),,,,11-02-2025 10:29:35,11-02-2025 10:29:36,1.018s,PASSED
+"next = findTestObject(""Home/빅배너 이동 클릭 동작 확인/Page_Home  Spotlight/img_EVENT_ml-2 cursor-pointer"")",,,,11-02-2025 10:29:36,11-02-2025 10:29:36,0.043s,PASSED
+HighlightElement.run(next),,,,11-02-2025 10:29:36,11-02-2025 10:29:36,0.013s,ERROR
+,,,,,,,
+Test Cases/Home/홈화면 확인/라인배너 확인,,,,11-02-2025 10:29:36,11-02-2025 10:29:36,0.036s,FAILED
+"comment(""✅ 라인배너 실행"")",,,,11-02-2025 10:29:36,11-02-2025 10:29:36,0.002s,PASSED
+"navigateToUrl(""https://qa.tapas.io/"")",,,,11-02-2025 10:29:36,11-02-2025 10:29:36,0.006s,FAILED
+,,,,,,,
+Test Cases/Home/홈화면 확인/최근본섹션-로그인,,,,11-02-2025 10:29:36,11-02-2025 10:29:36,0.188s,ERROR
+"url = ""https://qa.tapas.io/account/signin?from=/""",,,,11-02-2025 10:29:36,11-02-2025 10:29:36,0.001s,PASSED
+"email = ""dkttapas00@gmail.com""",,,,11-02-2025 10:29:36,11-02-2025 10:29:36,0.001s,PASSED
+"password = ""winehouse""",,,,11-02-2025 10:29:36,11-02-2025 10:29:36,0.001s,PASSED
+"cookieFilePath = ""cookies.save""",,,,11-02-2025 10:29:36,11-02-2025 10:29:36,0.001s,PASSED
+"comment(""✅ 최근본섹션 실행"")",,,,11-02-2025 10:29:36,11-02-2025 10:29:36,0.003s,PASSED
+driver = getWebDriver(),,,,11-02-2025 10:29:36,11-02-2025 10:29:36,0.001s,ERROR

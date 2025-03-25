@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>01.1위 작품</name>
+   <tag></tag>
+   <elementGuidId>8d477f8c-0666-4e37-b5f9-a5f993d212fd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div/main/section[2]/section/div/div/div/div/div/article/a/div/div/div/div/picture</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>picture</value>
+      <webElementGuid>3ae10b2f-71d7-4463-bf39-86c8c70fcfaa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;relative mx-auto flex min-h-full flex-col text-base60 __variable_a04e73 __variable_aa69c3&quot;]/div[@class=&quot;mx-auto flex grow flex-col w-1010&quot;]/main[@class=&quot;flex flex-col items-center w-full space-y-4&quot;]/section[@class=&quot;flex flex-col items-center self-stretch w-full space-y-4&quot;]/section[@class=&quot;w-full&quot;]/div[@class=&quot;px-11 flex w-full flex-col space-y-4&quot;]/div[@class=&quot;w-full rounded-16 relative overflow-hidden flex&quot;]/div[@class=&quot;swiper swiper-initialized swiper-horizontal !z-0 w-full swiper-backface-hidden&quot;]/div[@class=&quot;swiper-wrapper&quot;]/div[@class=&quot;swiper-slide swiper-slide-active&quot;]/article[1]/a[1]/div[@class=&quot;relative w-full flex-[1_0_100%] cursor-pointer&quot;]/div[@class=&quot;relative max-h-400 overflow-hidden h-400&quot;]/div[@class=&quot;relative w-full max-h-[inherit]&quot;]/div[@class=&quot;absolute inset-0 max-h-[inherit] pt-10 h-400&quot;]/picture[1]</value>
+      <webElementGuid>71e6b8b5-8d5d-4e4f-81b1-c1370f22b6b1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div/main/section[2]/section/div/div/div/div/div/article/a/div/div/div/div/picture</value>
+      <webElementGuid>350b484c-8527-4ddb-be8a-e8b8005e8f15</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Novels'])[2]/following::picture[2]</value>
+      <webElementGuid>16d06a7c-fdf5-4a93-b06e-66946b5e2891</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Comics'])[2]/following::picture[2]</value>
+      <webElementGuid>948c40ba-c599-41ef-884e-5c0c03c225b1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='UP'])[1]/preceding::picture[2]</value>
+      <webElementGuid>ac74c5ea-261d-4e7f-837b-19296b5339fc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='UP'])[2]/preceding::picture[11]</value>
+      <webElementGuid>9062213c-4dc4-4c45-a468-4bb767692def</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div/picture</value>
+      <webElementGuid>08fa2f6d-5a19-498c-8247-76442e0cd6d8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

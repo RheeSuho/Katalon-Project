@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>22.최신순버튼</name>
+   <tag></tag>
+   <elementGuidId>f2d129ae-1f39-4513-bb69-dd61c702cb56</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='headlessui-popover-panel-:r7:']/div/div/button[2]/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.flex-auto.line-clamp-1.text-left.text-base40.font-system-14r</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>2c571a09-cb6b-4e05-8373-89ac337f511c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex-auto line-clamp-1 text-left text-base40 font-system-14r</value>
+      <webElementGuid>d923a6e2-b2a8-4c54-9db1-6b9ada2c9186</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Newest episode</value>
+      <webElementGuid>c06f7ef7-6b80-4fb2-9413-1e6e7c8e2df9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;headlessui-popover-panel-:r7:&quot;)/div[@class=&quot;w-218 rounded-16 border-1 border-solid border-base20 bg-bg10 py-8&quot;]/div[@class=&quot;w-full flex flex-col items-start self-stretch&quot;]/button[@class=&quot;h-40 w-full px-18 space-x-10 flex flex-none items-center cursor-pointer&quot;]/span[@class=&quot;flex-auto line-clamp-1 text-left text-base40 font-system-14r&quot;]</value>
+      <webElementGuid>276fbe2d-4d1a-44b5-ad57-f0b97a422456</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='headlessui-popover-panel-:r7:']/div/div/button[2]/span</value>
+      <webElementGuid>d3e35911-bc65-41c2-aed9-2ae4d889a89f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Popular'])[2]/following::span[1]</value>
+      <webElementGuid>88b491bd-a44b-4f36-9102-cf2609d19bc0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fantasy'])[1]/following::span[2]</value>
+      <webElementGuid>c35ef6f7-825d-4eb6-9fe3-01bbdd85bbd7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Newest series'])[1]/preceding::span[1]</value>
+      <webElementGuid>5a67f318-fe5f-4c17-b1c2-707c6a9d5f08</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='UP'])[1]/preceding::span[9]</value>
+      <webElementGuid>0850402a-27aa-4ffd-8090-aa4055e4c50b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Newest episode']/parent::*</value>
+      <webElementGuid>7f432af3-6cbf-4769-9edb-d94ae6235e4c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[2]/span</value>
+      <webElementGuid>e7a22364-f5a8-48ca-8fe4-10e1915a7f80</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Newest episode' or . = 'Newest episode')]</value>
+      <webElementGuid>231e35d0-af91-4f09-b60b-d2f1ec2879d4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>04.팝업 작품 썸네일</name>
+   <tag></tag>
+   <elementGuidId>623767f9-fd6f-485a-9e7d-1d10ef3a7ac7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.thumb.js-thumbnail > div.thumb-overlay</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[2]/div[2]/div/div/a/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>153d58f3-6bd5-4c9d-908e-c6ae6f994c85</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>thumb-overlay</value>
+      <webElementGuid>d20c960c-04de-43b2-be76-9333b830179e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;overlay&quot;]/body[@class=&quot;desktop series content&quot;]/div[@class=&quot;modal-backdrop&quot;]/div[@class=&quot;series-root&quot;]/div[@class=&quot;section-wrapper&quot;]/div[@class=&quot;section-sub-wrapper&quot;]/section[@class=&quot;section section--left&quot;]/div[@class=&quot;section__top&quot;]/div[@class=&quot;info info--bottom&quot;]/div[@class=&quot;info__left info__left--mg54&quot;]/div[@class=&quot;thumb-wrapper&quot;]/a[@class=&quot;thumb js-thumbnail&quot;]/div[@class=&quot;thumb-overlay&quot;]</value>
+      <webElementGuid>8546feae-ea57-4e40-83ad-8099b095c0dc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div/a/div[2]</value>
+      <webElementGuid>013b2afb-2d04-428d-95ed-fb0eddc6b6ca</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>03.2페이지</name>
+   <tag></tag>
+   <elementGuidId>353221c5-5ab1-4c29-8d24-82080fe552cc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.w-14.text-center.font-custom-10c.text-s-white</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div/main/section/section/div/div/div[2]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>6b9cd1db-3d43-4e40-a38f-2ae5df54941b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w-14 text-center font-custom-10c text-s-white</value>
+      <webElementGuid>b9800c91-6a63-4199-ae78-b9d3c223960e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>2</value>
+      <webElementGuid>ee33fc9c-48b4-435a-bc0f-17d132aa1a42</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;relative mx-auto flex min-h-full flex-col text-base60 __variable_a04e73 __variable_aa69c3&quot;]/div[@class=&quot;mx-auto flex grow flex-col w-1010&quot;]/main[@class=&quot;flex flex-col items-center w-full space-y-4&quot;]/section[@class=&quot;flex flex-col items-center self-stretch w-full space-y-4&quot;]/section[@class=&quot;w-full&quot;]/div[@class=&quot;px-11 flex w-full flex-col space-y-4&quot;]/div[@class=&quot;w-full rounded-16 relative overflow-hidden flex&quot;]/div[@class=&quot;flex items-center justify-center h-20 px-4 rounded-100 bg-t-dim absolute bottom-32 left-32&quot;]/span[@class=&quot;w-14 text-center font-custom-10c text-s-white&quot;]</value>
+      <webElementGuid>8db90368-7af8-4559-8f90-943fbd9008ad</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div/main/section/section/div/div/div[2]/span</value>
+      <webElementGuid>4f1e7ed0-ab91-4910-9dd8-9a6ab59a42bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Romance Fantasy'])[4]/following::span[1]</value>
+      <webElementGuid>17b06f13-2694-4d55-a43e-06f8360f9936</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Novel'])[2]/following::span[2]</value>
+      <webElementGuid>c04496a3-8549-4702-9ba8-acca9d624ab5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='EVENT'])[8]/preceding::span[2]</value>
+      <webElementGuid>e05843fc-eac1-475f-ac60-2b9d46c8232b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='EVENT'])[9]/preceding::span[3]</value>
+      <webElementGuid>8be04709-c1d6-400c-bc90-7c2036cbf546</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='2']/parent::*</value>
+      <webElementGuid>ee4b08c4-53a4-403a-8772-f82566e3db21</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/span</value>
+      <webElementGuid>b9f198b5-a650-4516-b5d8-e786dd97982a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '2' or . = '2')]</value>
+      <webElementGuid>14fd2bad-1a46-49b2-8dfc-ae645dd6fc1b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,988 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Home" time="43.496" tests="8" failures="3" errors="1">
+   <testsuite name="Home" tests="8" failures="3" errors="1" time="43.496" skipped="0" timestamp="11-02-2025T09:30:02" hostname="ruben.lee - localhost" id="Test Suites/Home">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/ruben.lee/Katalon Studio/Tapas Test/Reports/20250211_092958/Home/20250211_092958"/>
+         <property name="logFiles" value="/Users/ruben.lee/Katalon Studio/Tapas Test/Reports/20250211_092958/Home/20250211_092958/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ruben.lee - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="10.1.0.223"/>
+         <property name="browser" value="Chrome 132.0.6834.160"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="1e38fd617f88ae5e525c837fcbf5cc07"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Home/홈화면 확인/숏컷 객체 강조" time="17.085" classname="Test Cases/Home/홈화면 확인/숏컷 객체 강조" status="PASSED">
+         <system-out><![CDATA[11-02-2025T09:30:02 - [TEST_CASE][PASSED] - Test Cases/Home/홈화면 확인/숏컷 객체 강조: Test Cases/Home/홈화면 확인/숏컷 객체 강조
+
+11-02-2025T09:30:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-02-2025T09:30:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-02-2025T09:30:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-02-2025T09:30:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-02-2025T09:30:04 - [TEST_STEP][PASSED] - navigateToUrl("https:/qa.tapas.io/"): Navigate to 'https:/qa.tapas.io/' successfully
+
+11-02-2025T09:30:05 - [MESSAGE][PASSED] - Navigate to 'https:/qa.tapas.io/' successfully
+
+11-02-2025T09:30:05 - [TEST_STEP][PASSED] - searchBox = findTestObject("Home/숏컷 미로그인/Page_Home  Spotlight/input_More_q"): null
+
+11-02-2025T09:30:06 - [TEST_STEP][PASSED] - HighlightElement.run(searchBox): null
+
+11-02-2025T09:30:09 - [TEST_STEP][PASSED] - verifyElementPresent(searchBox, 1): Object 'Object Repository/Home/숏컷 미로그인/Page_Home  Spotlight/input_More_q' is present
+
+11-02-2025T09:30:11 - [MESSAGE][PASSED] - Object 'Object Repository/Home/숏컷 미로그인/Page_Home  Spotlight/input_More_q' is present
+
+11-02-2025T09:30:11 - [TEST_STEP][PASSED] - logoImage = findTestObject("Home/숏컷 미로그인/Page_Home  Spotlight/img_More_absolute right-2 top-24 -translate-y-24"): null
+
+11-02-2025T09:30:11 - [TEST_STEP][PASSED] - HighlightElement.run(logoImage): null
+
+11-02-2025T09:30:13 - [TEST_STEP][PASSED] - verifyElementPresent(logoImage, 1): Object 'Object Repository/Home/숏컷 미로그인/Page_Home  Spotlight/img_More_absolute right-2 top-24 -translate-y-24' is present
+
+11-02-2025T09:30:13 - [MESSAGE][PASSED] - Object 'Object Repository/Home/숏컷 미로그인/Page_Home  Spotlight/img_More_absolute right-2 top-24 -translate-y-24' is present
+
+11-02-2025T09:30:13 - [TEST_STEP][PASSED] - loginButton = findTestObject("Home/숏컷 미로그인/Page_Home  Spotlight/button_Login"): null
+
+11-02-2025T09:30:13 - [TEST_STEP][PASSED] - HighlightElement.run(loginButton): null
+
+11-02-2025T09:30:15 - [TEST_STEP][PASSED] - verifyElementPresent(loginButton, 1): Object 'Object Repository/Home/숏컷 미로그인/Page_Home  Spotlight/button_Login' is present
+
+11-02-2025T09:30:16 - [MESSAGE][PASSED] - Object 'Object Repository/Home/숏컷 미로그인/Page_Home  Spotlight/button_Login' is present
+
+11-02-2025T09:30:16 - [TEST_STEP][PASSED] - publishButton = findTestObject("Home/숏컷 미로그인/Page_Home  Spotlight/button_Publish"): null
+
+11-02-2025T09:30:16 - [TEST_STEP][PASSED] - HighlightElement.run(publishButton): null
+
+11-02-2025T09:30:19 - [TEST_STEP][PASSED] - verifyElementPresent(publishButton, 1): Object 'Object Repository/Home/숏컷 미로그인/Page_Home  Spotlight/button_Publish' is present
+
+11-02-2025T09:30:19 - [MESSAGE][PASSED] - Object 'Object Repository/Home/숏컷 미로그인/Page_Home  Spotlight/button_Publish' is present
+
+11-02-2025T09:30:19 - [TEST_STEP][PASSED] - comment("✅ Test 1 완료. 브라우저 유지 상태에서 Test 2 실행"): ✅ Test 1 완료. 브라우저 유지 상태에서 Test 2 실행
+
+11-02-2025T09:30:19 - [MESSAGE][INFO] - ✅ Test 1 완료. 브라우저 유지 상태에서 Test 2 실행]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Home/홈화면 확인/숏컷 확인 - 로그인 - 강조 확인" time="17.05" classname="Test Cases/Home/홈화면 확인/숏컷 확인 - 로그인 - 강조 확인" status="PASSED">
+         <system-out><![CDATA[11-02-2025T09:30:19 - [TEST_CASE][PASSED] - Test Cases/Home/홈화면 확인/숏컷 확인 - 로그인 - 강조 확인: Test Cases/Home/홈화면 확인/숏컷 확인 - 로그인 - 강조 확인
+
+11-02-2025T09:30:19 - [TEST_STEP][PASSED] - url = "https://qa.tapas.io/account/signin?from=/": null
+
+11-02-2025T09:30:19 - [TEST_STEP][PASSED] - email = "dkttapas00@gmail.com": null
+
+11-02-2025T09:30:19 - [TEST_STEP][PASSED] - password = "winehouse": null
+
+11-02-2025T09:30:19 - [TEST_STEP][PASSED] - cookieFilePath = "cookies.save": null
+
+11-02-2025T09:30:19 - [TEST_STEP][PASSED] - comment("🚀 Test 2 시작! 기존 브라우저 사용"): 🚀 Test 2 시작! 기존 브라우저 사용
+
+11-02-2025T09:30:19 - [MESSAGE][INFO] - 🚀 Test 2 시작! 기존 브라우저 사용
+
+11-02-2025T09:30:19 - [TEST_STEP][PASSED] - cookieFile = new java.io.File(cookieFilePath): null
+
+11-02-2025T09:30:19 - [TEST_STEP][PASSED] - if (cookieFile.exists()): ✅ 쿠키 로드 완료! 자동 로그인 성공
+
+11-02-2025T09:30:19 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+11-02-2025T09:30:19 - [TEST_STEP][PASSED] - try: ✅ 쿠키 로드 완료! 자동 로그인 성공
+
+11-02-2025T09:30:19 - [TEST_STEP][PASSED] - fis = new java.io.FileInputStream(cookieFile): null
+
+11-02-2025T09:30:19 - [TEST_STEP][PASSED] - ois = new java.io.ObjectInputStream(fis): null
+
+11-02-2025T09:30:19 - [TEST_STEP][PASSED] - cookies = ois.readObject(): null
+
+11-02-2025T09:30:19 - [TEST_STEP][PASSED] - ois.close(): null
+
+11-02-2025T09:30:19 - [TEST_STEP][PASSED] - fis.close(): null
+
+11-02-2025T09:30:19 - [TEST_STEP][PASSED] - for (org.openqa.selenium.Cookie cookie : cookies): null
+
+11-02-2025T09:30:19 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:30:19 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:30:19 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:30:19 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:30:19 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:30:19 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:30:19 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:30:19 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:30:19 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:30:19 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:30:19 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:30:19 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:30:19 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:30:19 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:30:19 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:30:19 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:30:19 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:30:19 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:30:19 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:30:19 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:30:19 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:30:19 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:30:19 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:30:19 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:30:19 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:30:19 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:30:19 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:30:19 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:30:19 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:30:19 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:30:19 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:30:19 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+11-02-2025T09:30:20 - [MESSAGE][PASSED] - Refresh successfully
+
+11-02-2025T09:30:20 - [TEST_STEP][PASSED] - comment("✅ 쿠키 로드 완료! 자동 로그인 성공"): ✅ 쿠키 로드 완료! 자동 로그인 성공
+
+11-02-2025T09:30:20 - [MESSAGE][INFO] - ✅ 쿠키 로드 완료! 자동 로그인 성공
+
+11-02-2025T09:30:20 - [TEST_STEP][PASSED] - searchBox = findTestObject("Home/숏컷 로그인 신규/Page_Home  Spotlight/input_More_q"): null
+
+11-02-2025T09:30:20 - [TEST_STEP][PASSED] - HighlightElement.run(searchBox): null
+
+11-02-2025T09:30:23 - [TEST_STEP][PASSED] - verifyElementPresent(searchBox, 0): Object 'Object Repository/Home/숏컷 로그인 신규/Page_Home  Spotlight/input_More_q' is present
+
+11-02-2025T09:30:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+11-02-2025T09:30:23 - [MESSAGE][PASSED] - Object 'Object Repository/Home/숏컷 로그인 신규/Page_Home  Spotlight/input_More_q' is present
+
+11-02-2025T09:30:23 - [TEST_STEP][PASSED] - logoImage = findTestObject("Home/숏컷 로그인 신규/Page_Home  Spotlight/img_More_absolute right-2 top-24 -translate-y-24"): null
+
+11-02-2025T09:30:23 - [TEST_STEP][PASSED] - HighlightElement.run(logoImage): null
+
+11-02-2025T09:30:26 - [TEST_STEP][PASSED] - verifyElementPresent(logoImage, 0): Object 'Object Repository/Home/숏컷 로그인 신규/Page_Home  Spotlight/img_More_absolute right-2 top-24 -translate-y-24' is present
+
+11-02-2025T09:30:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+11-02-2025T09:30:26 - [MESSAGE][PASSED] - Object 'Object Repository/Home/숏컷 로그인 신규/Page_Home  Spotlight/img_More_absolute right-2 top-24 -translate-y-24' is present
+
+11-02-2025T09:30:26 - [TEST_STEP][PASSED] - libraryimage = findTestObject("Home/숏컷 로그인 신규/Page_Home  Spotlight/library"): null
+
+11-02-2025T09:30:26 - [TEST_STEP][PASSED] - HighlightElement.run(libraryimage): null
+
+11-02-2025T09:30:28 - [TEST_STEP][PASSED] - verifyElementPresent(libraryimage, 0): Object 'Object Repository/Home/숏컷 로그인 신규/Page_Home  Spotlight/library' is present
+
+11-02-2025T09:30:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+11-02-2025T09:30:28 - [MESSAGE][PASSED] - Object 'Object Repository/Home/숏컷 로그인 신규/Page_Home  Spotlight/library' is present
+
+11-02-2025T09:30:28 - [TEST_STEP][PASSED] - inboximage = findTestObject("Home/숏컷 로그인 신규/Page_Home  Spotlight/inbox"): null
+
+11-02-2025T09:30:28 - [TEST_STEP][PASSED] - HighlightElement.run(inboximage): null
+
+11-02-2025T09:30:31 - [TEST_STEP][PASSED] - verifyElementPresent(inboximage, 0): Object 'Object Repository/Home/숏컷 로그인 신규/Page_Home  Spotlight/inbox' is present
+
+11-02-2025T09:30:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+11-02-2025T09:30:31 - [MESSAGE][PASSED] - Object 'Object Repository/Home/숏컷 로그인 신규/Page_Home  Spotlight/inbox' is present
+
+11-02-2025T09:30:31 - [TEST_STEP][PASSED] - profileImage = findTestObject("Home/숏컷 로그인 신규/Page_Home  Spotlight/div_More_absolute left-0 top-0 size-full rounded-100 border-1 border-888"): null
+
+11-02-2025T09:30:31 - [TEST_STEP][PASSED] - HighlightElement.run(profileImage): null
+
+11-02-2025T09:30:33 - [TEST_STEP][PASSED] - verifyElementPresent(profileImage, 0): Object 'Object Repository/Home/숏컷 로그인 신규/Page_Home  Spotlight/div_More_absolute left-0 top-0 size-full rounded-100 border-1 border-888' is present
+
+11-02-2025T09:30:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+11-02-2025T09:30:33 - [MESSAGE][PASSED] - Object 'Object Repository/Home/숏컷 로그인 신규/Page_Home  Spotlight/div_More_absolute left-0 top-0 size-full rounded-100 border-1 border-888' is present
+
+11-02-2025T09:30:33 - [TEST_STEP][PASSED] - publishButton = findTestObject("Home/숏컷 로그인 신규/Page_Home  Spotlight/button_Publish"): null
+
+11-02-2025T09:30:33 - [TEST_STEP][PASSED] - HighlightElement.run(publishButton): null
+
+11-02-2025T09:30:36 - [TEST_STEP][PASSED] - verifyElementPresent(publishButton, 0): Object 'Object Repository/Home/숏컷 로그인 신규/Page_Home  Spotlight/button_Publish' is present
+
+11-02-2025T09:30:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+11-02-2025T09:30:36 - [MESSAGE][PASSED] - Object 'Object Repository/Home/숏컷 로그인 신규/Page_Home  Spotlight/button_Publish' is present
+
+11-02-2025T09:30:36 - [TEST_STEP][PASSED] - comment("✅ 로그인 확인 완료 - 검색 실행"): ✅ 로그인 확인 완료 - 검색 실행
+
+11-02-2025T09:30:36 - [MESSAGE][INFO] - ✅ 로그인 확인 완료 - 검색 실행]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Home/검색 동작/검색 결과 없음 확인" time="4.789" classname="Test Cases/Home/검색 동작/검색 결과 없음 확인" status="PASSED">
+         <system-out><![CDATA[11-02-2025T09:30:36 - [TEST_CASE][PASSED] - Test Cases/Home/검색 동작/검색 결과 없음 확인: Test Cases/Home/검색 동작/검색 결과 없음 확인
+
+11-02-2025T09:30:36 - [TEST_STEP][PASSED] - comment("✅ 검색 실행"): ✅ 검색 실행
+
+11-02-2025T09:30:36 - [MESSAGE][INFO] - ✅ 검색 실행
+
+11-02-2025T09:30:36 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.tapas.io/"): Navigate to 'https://qa.tapas.io/' successfully
+
+11-02-2025T09:30:37 - [MESSAGE][PASSED] - Navigate to 'https://qa.tapas.io/' successfully
+
+11-02-2025T09:30:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Home/검색 결과 없음/Page_Home  Spotlight/input_More_q"), "비비비비비비비비비비"): Text '비비비비비비비비비비' is set on object 'Object Repository/Home/검색 결과 없음/Page_Home  Spotlight/input_More_q'
+
+11-02-2025T09:30:38 - [MESSAGE][PASSED] - Text '비비비비비비비비비비' is set on object 'Object Repository/Home/검색 결과 없음/Page_Home  Spotlight/input_More_q'
+
+11-02-2025T09:30:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Home/검색 결과 없음/Page_Home  Spotlight/img_More_absolute right-2 top-24 -translate-y-24")): Object: 'Object Repository/Home/검색 결과 없음/Page_Home  Spotlight/img_More_absolute right-2 top-24 -translate-y-24' is clicked on
+
+11-02-2025T09:30:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Home/검색 결과 없음/Page_Home  Spotlight/img_More_absolute right-2 top-24 -translate-y-24' is clicked on
+
+11-02-2025T09:30:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Home/검색 결과 없음 문구 확인/Page_Search  Tapas/p_No results for"), 0): Object 'Object Repository/Home/검색 결과 없음 문구 확인/Page_Search  Tapas/p_No results for' is present
+
+11-02-2025T09:30:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+11-02-2025T09:30:41 - [MESSAGE][PASSED] - Object 'Object Repository/Home/검색 결과 없음 문구 확인/Page_Search  Tapas/p_No results for' is present
+
+11-02-2025T09:30:41 - [TEST_STEP][PASSED] - comment("✅ 검색 완료"): ✅ 검색 완료
+
+11-02-2025T09:30:41 - [MESSAGE][INFO] - ✅ 검색 완료]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Home/검색 동작/검색 리스트 확인" time="4.242" classname="Test Cases/Home/검색 동작/검색 리스트 확인" status="PASSED">
+         <system-out><![CDATA[11-02-2025T09:30:41 - [TEST_CASE][PASSED] - Test Cases/Home/검색 동작/검색 리스트 확인: Test Cases/Home/검색 동작/검색 리스트 확인
+
+11-02-2025T09:30:41 - [TEST_STEP][PASSED] - comment("✅ 로그인/검색 실행"): ✅ 로그인/검색 실행
+
+11-02-2025T09:30:41 - [MESSAGE][INFO] - ✅ 로그인/검색 실행
+
+11-02-2025T09:30:41 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.tapas.io/"): Navigate to 'https://qa.tapas.io/' successfully
+
+11-02-2025T09:30:42 - [MESSAGE][PASSED] - Navigate to 'https://qa.tapas.io/' successfully
+
+11-02-2025T09:30:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Home/검색 리스트 확인/Page_Home  Spotlight/input_More_q"), "the"): Text 'the' is set on object 'Object Repository/Home/검색 리스트 확인/Page_Home  Spotlight/input_More_q'
+
+11-02-2025T09:30:43 - [MESSAGE][PASSED] - Text 'the' is set on object 'Object Repository/Home/검색 리스트 확인/Page_Home  Spotlight/input_More_q'
+
+11-02-2025T09:30:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Home/검색 리스트 확인/Page_Home  Spotlight/img_More_absolute right-2 top-24 -translate-y-24")): Object: 'Object Repository/Home/검색 리스트 확인/Page_Home  Spotlight/img_More_absolute right-2 top-24 -translate-y-24' is clicked on
+
+11-02-2025T09:30:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Home/검색 리스트 확인/Page_Home  Spotlight/img_More_absolute right-2 top-24 -translate-y-24' is clicked on
+
+11-02-2025T09:30:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Home/검색 리스트 확인/Page_Search  Tapas/input_search results_q"), "`the"): Text '`the' is set on object 'Object Repository/Home/검색 리스트 확인/Page_Search  Tapas/input_search results_q'
+
+11-02-2025T09:30:45 - [MESSAGE][PASSED] - Text '`the' is set on object 'Object Repository/Home/검색 리스트 확인/Page_Search  Tapas/input_search results_q'
+
+11-02-2025T09:30:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-02-2025T09:30:45 - [MESSAGE][PASSED] - Browser is closed
+
+11-02-2025T09:30:45 - [TEST_STEP][PASSED] - comment("✅ 완료"): ✅ 완료
+
+11-02-2025T09:30:45 - [MESSAGE][INFO] - ✅ 완료]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Home/홈화면 확인/프로모션 배너 확인 _ 강조" time="0.038" classname="Test Cases/Home/홈화면 확인/프로모션 배너 확인 _ 강조" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Home/홈화면 확인/프로모션 배너 확인 _ 강조 FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'https://qa.tapas.io/'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:185)&#xa;	at 프로모션 배너 확인 _ 강조.run(프로모션 배너 확인 _ 강조:23)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1739233798075.run(TempTestSuite1739233798075.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened&#xa;Build info: version: '4.22.0', revision: 'c5f3146703'&#xa;System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '17.0.13'&#xa;Driver info: driver.version: unknown&#xa;	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:570)&#xa;	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:555)&#xa;	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:541)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:80)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[11-02-2025T09:30:45 - [TEST_CASE][FAILED] - Test Cases/Home/홈화면 확인/프로모션 배너 확인 _ 강조: Test Cases/Home/홈화면 확인/프로모션 배너 확인 _ 강조 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'https://qa.tapas.io/'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:185)
+	at 프로모션 배너 확인 _ 강조.run(프로모션 배너 확인 _ 강조:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739233798075.run(TempTestSuite1739233798075.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '17.0.13'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:570)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:555)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:541)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more
+
+
+11-02-2025T09:30:45 - [TEST_STEP][PASSED] - comment("✅ 프로모션 배너 실행"): ✅ 프로모션 배너 실행
+
+11-02-2025T09:30:45 - [MESSAGE][INFO] - ✅ 프로모션 배너 실행
+
+11-02-2025T09:30:45 - [TEST_STEP][FAILED] - navigateToUrl("https://qa.tapas.io/"): Unable to navigate to 'https://qa.tapas.io/' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'https://qa.tapas.io/'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:185)
+	at 프로모션 배너 확인 _ 강조.run(프로모션 배너 확인 _ 강조:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739233798075.run(TempTestSuite1739233798075.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '17.0.13'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:570)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:555)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:541)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:185)
+	at Script1739150860450.run(Script1739150860450.groovy:23)
+	... 15 more
+)
+
+11-02-2025T09:30:45 - [MESSAGE][WARNING] - Cannot take screenshot
+
+11-02-2025T09:30:45 - [MESSAGE][FAILED] - Unable to navigate to 'https://qa.tapas.io/' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'https://qa.tapas.io/'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:185)
+	at 프로모션 배너 확인 _ 강조.run(프로모션 배너 확인 _ 강조:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739233798075.run(TempTestSuite1739233798075.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '17.0.13'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:570)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:555)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:541)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:185)
+	at Script1739150860450.run(Script1739150860450.groovy:23)
+	... 15 more
+)]]></system-out>
+         <system-err><![CDATA[11-02-2025T09:30:45 - [TEST_CASE][FAILED] - Test Cases/Home/홈화면 확인/프로모션 배너 확인 _ 강조: Test Cases/Home/홈화면 확인/프로모션 배너 확인 _ 강조 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'https://qa.tapas.io/'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:185)
+	at 프로모션 배너 확인 _ 강조.run(프로모션 배너 확인 _ 강조:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739233798075.run(TempTestSuite1739233798075.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '17.0.13'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:570)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:555)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:541)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Home/홈화면 확인/빅배너 확인_랜딩 후 복귀" time="0.032" classname="Test Cases/Home/홈화면 확인/빅배너 확인_랜딩 후 복귀" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Home/홈화면 확인/빅배너 확인_랜딩 후 복귀 FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'https://qa.tapas.io/'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:185)&#xa;	at 빅배너 확인_랜딩 후 복귀.run(빅배너 확인_랜딩 후 복귀:25)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1739233798075.run(TempTestSuite1739233798075.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened&#xa;Build info: version: '4.22.0', revision: 'c5f3146703'&#xa;System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '17.0.13'&#xa;Driver info: driver.version: unknown&#xa;	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:570)&#xa;	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:555)&#xa;	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:541)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:80)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[11-02-2025T09:30:45 - [TEST_CASE][FAILED] - Test Cases/Home/홈화면 확인/빅배너 확인_랜딩 후 복귀: Test Cases/Home/홈화면 확인/빅배너 확인_랜딩 후 복귀 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'https://qa.tapas.io/'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:185)
+	at 빅배너 확인_랜딩 후 복귀.run(빅배너 확인_랜딩 후 복귀:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739233798075.run(TempTestSuite1739233798075.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '17.0.13'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:570)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:555)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:541)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more
+
+
+11-02-2025T09:30:45 - [TEST_STEP][PASSED] - comment("✅ 배너 실행"): ✅ 배너 실행
+
+11-02-2025T09:30:45 - [MESSAGE][INFO] - ✅ 배너 실행
+
+11-02-2025T09:30:45 - [TEST_STEP][FAILED] - navigateToUrl("https://qa.tapas.io/"): Unable to navigate to 'https://qa.tapas.io/' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'https://qa.tapas.io/'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:185)
+	at 빅배너 확인_랜딩 후 복귀.run(빅배너 확인_랜딩 후 복귀:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739233798075.run(TempTestSuite1739233798075.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '17.0.13'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:570)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:555)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:541)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:185)
+	at Script1739177103367.run(Script1739177103367.groovy:25)
+	... 15 more
+)
+
+11-02-2025T09:30:45 - [MESSAGE][WARNING] - Cannot take screenshot
+
+11-02-2025T09:30:45 - [MESSAGE][FAILED] - Unable to navigate to 'https://qa.tapas.io/' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'https://qa.tapas.io/'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:185)
+	at 빅배너 확인_랜딩 후 복귀.run(빅배너 확인_랜딩 후 복귀:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739233798075.run(TempTestSuite1739233798075.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '17.0.13'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:570)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:555)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:541)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:185)
+	at Script1739177103367.run(Script1739177103367.groovy:25)
+	... 15 more
+)]]></system-out>
+         <system-err><![CDATA[11-02-2025T09:30:45 - [TEST_CASE][FAILED] - Test Cases/Home/홈화면 확인/빅배너 확인_랜딩 후 복귀: Test Cases/Home/홈화면 확인/빅배너 확인_랜딩 후 복귀 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'https://qa.tapas.io/'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:185)
+	at 빅배너 확인_랜딩 후 복귀.run(빅배너 확인_랜딩 후 복귀:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739233798075.run(TempTestSuite1739233798075.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '17.0.13'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:570)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:555)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:541)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Home/홈화면 확인/라인배너 확인" time="0.026" classname="Test Cases/Home/홈화면 확인/라인배너 확인" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Home/홈화면 확인/라인배너 확인 FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'https://qa.tapas.io/'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:185)&#xa;	at 라인배너 확인.run(라인배너 확인:23)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1739233798075.run(TempTestSuite1739233798075.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened&#xa;Build info: version: '4.22.0', revision: 'c5f3146703'&#xa;System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '17.0.13'&#xa;Driver info: driver.version: unknown&#xa;	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:570)&#xa;	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:555)&#xa;	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:541)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:80)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[11-02-2025T09:30:45 - [TEST_CASE][FAILED] - Test Cases/Home/홈화면 확인/라인배너 확인: Test Cases/Home/홈화면 확인/라인배너 확인 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'https://qa.tapas.io/'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:185)
+	at 라인배너 확인.run(라인배너 확인:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739233798075.run(TempTestSuite1739233798075.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '17.0.13'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:570)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:555)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:541)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more
+
+
+11-02-2025T09:30:45 - [TEST_STEP][PASSED] - comment("✅ 라인배너 실행"): ✅ 라인배너 실행
+
+11-02-2025T09:30:45 - [MESSAGE][INFO] - ✅ 라인배너 실행
+
+11-02-2025T09:30:45 - [TEST_STEP][FAILED] - navigateToUrl("https://qa.tapas.io/"): Unable to navigate to 'https://qa.tapas.io/' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'https://qa.tapas.io/'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:185)
+	at 라인배너 확인.run(라인배너 확인:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739233798075.run(TempTestSuite1739233798075.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '17.0.13'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:570)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:555)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:541)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:185)
+	at Script1739156270462.run(Script1739156270462.groovy:23)
+	... 15 more
+)
+
+11-02-2025T09:30:45 - [MESSAGE][WARNING] - Cannot take screenshot
+
+11-02-2025T09:30:45 - [MESSAGE][FAILED] - Unable to navigate to 'https://qa.tapas.io/' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'https://qa.tapas.io/'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:185)
+	at 라인배너 확인.run(라인배너 확인:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739233798075.run(TempTestSuite1739233798075.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '17.0.13'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:570)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:555)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:541)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:185)
+	at Script1739156270462.run(Script1739156270462.groovy:23)
+	... 15 more
+)]]></system-out>
+         <system-err><![CDATA[11-02-2025T09:30:45 - [TEST_CASE][FAILED] - Test Cases/Home/홈화면 확인/라인배너 확인: Test Cases/Home/홈화면 확인/라인배너 확인 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'https://qa.tapas.io/'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:185)
+	at 라인배너 확인.run(라인배너 확인:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739233798075.run(TempTestSuite1739233798075.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '17.0.13'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:570)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:555)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:541)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Home/홈화면 확인/최근본섹션-로그인" time="0.128" classname="Test Cases/Home/홈화면 확인/최근본섹션-로그인" status="ERROR">
+         <error type="ERROR" message="Test Cases/Home/홈화면 확인/최근본섹션-로그인 FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened&#xa;Build info: version: '4.22.0', revision: 'c5f3146703'&#xa;System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '17.0.13'&#xa;Driver info: driver.version: unknown&#xa;	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:570)&#xa;	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:555)&#xa;	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:541)&#xa;	at 최근본섹션-로그인.run(최근본섹션-로그인:45)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1739233798075.run(TempTestSuite1739233798075.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[11-02-2025T09:30:45 - [TEST_CASE][ERROR] - Test Cases/Home/홈화면 확인/최근본섹션-로그인: Test Cases/Home/홈화면 확인/최근본섹션-로그인 FAILED.
+Reason:
+com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '17.0.13'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:570)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:555)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:541)
+	at 최근본섹션-로그인.run(최근본섹션-로그인:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739233798075.run(TempTestSuite1739233798075.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+11-02-2025T09:30:45 - [TEST_STEP][PASSED] - url = "https://qa.tapas.io/account/signin?from=/": null
+
+11-02-2025T09:30:45 - [TEST_STEP][PASSED] - email = "dkttapas00@gmail.com": null
+
+11-02-2025T09:30:45 - [TEST_STEP][PASSED] - password = "winehouse": null
+
+11-02-2025T09:30:45 - [TEST_STEP][PASSED] - cookieFilePath = "cookies.save": null
+
+11-02-2025T09:30:45 - [TEST_STEP][PASSED] - comment("✅ 최근본섹션 실행"): ✅ 최근본섹션 실행
+
+11-02-2025T09:30:45 - [MESSAGE][INFO] - ✅ 최근본섹션 실행
+
+11-02-2025T09:30:45 - [TEST_STEP][ERROR] - driver = getWebDriver(): Test Cases/Home/홈화면 확인/최근본섹션-로그인 FAILED.
+Reason:
+com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '17.0.13'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:570)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:555)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:541)
+	at 최근본섹션-로그인.run(최근본섹션-로그인:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739233798075.run(TempTestSuite1739233798075.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+11-02-2025T09:30:45 - [MESSAGE][ERROR] - Test Cases/Home/홈화면 확인/최근본섹션-로그인 FAILED.
+Reason:
+com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '17.0.13'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:570)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:555)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:541)
+	at 최근본섹션-로그인.run(최근본섹션-로그인:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739233798075.run(TempTestSuite1739233798075.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+         <system-err><![CDATA[11-02-2025T09:30:45 - [TEST_CASE][ERROR] - Test Cases/Home/홈화면 확인/최근본섹션-로그인: Test Cases/Home/홈화면 확인/최근본섹션-로그인 FAILED.
+Reason:
+com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '17.0.13'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:570)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:555)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:541)
+	at 최근본섹션-로그인.run(최근본섹션-로그인:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739233798075.run(TempTestSuite1739233798075.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[11-02-2025T09:30:02 - [TEST_SUITE][FAILED] - Home: Test Cases/Home/홈화면 확인/프로모션 배너 확인 _ 강조 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'https://qa.tapas.io/'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:185)
+	at 프로모션 배너 확인 _ 강조.run(프로모션 배너 확인 _ 강조:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739233798075.run(TempTestSuite1739233798075.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '17.0.13'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:570)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:555)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:541)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[11-02-2025T09:30:02 - [TEST_SUITE][FAILED] - Home: Test Cases/Home/홈화면 확인/프로모션 배너 확인 _ 강조 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'https://qa.tapas.io/'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:185)
+	at 프로모션 배너 확인 _ 강조.run(프로모션 배너 확인 _ 강조:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739233798075.run(TempTestSuite1739233798075.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '17.0.13'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:570)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:555)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:541)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

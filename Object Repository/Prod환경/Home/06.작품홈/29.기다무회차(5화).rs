@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>29.기다무회차(5화)</name>
+   <tag></tag>
+   <elementGuidId>217afe01-592e-44db-9548-0f280b1341e7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='page-wrap']/div/div/div/section/div[4]/ul/li[6]/a/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.thumb-overlay.thumb-overlay--flat.thumb-overlay--layer.thumb-overlay--locked</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>17fe0bf4-f441-45c6-84ff-5bf131768554</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>thumb-overlay thumb-overlay--flat thumb-overlay--layer thumb-overlay--locked</value>
+      <webElementGuid>f49e679f-193d-4a78-aeb7-8e92454046c6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;page-wrap&quot;)/div[@class=&quot;series-root&quot;]/div[@class=&quot;section-wrapper&quot;]/div[@class=&quot;section-sub-wrapper&quot;]/section[@class=&quot;section section--left&quot;]/div[@class=&quot;section__bottom section__bottom--episode js-section-row&quot;]/ul[@class=&quot;episode-list js-episode-list&quot;]/li[@class=&quot;episode-list__item&quot;]/a[@class=&quot;ga-tracking episode-item js-fb-tracking js-tiara-tracking js-episode js-locked&quot;]/div[@class=&quot;thumb&quot;]/div[@class=&quot;thumb-overlay thumb-overlay--flat thumb-overlay--layer thumb-overlay--locked&quot;]</value>
+      <webElementGuid>6ba169c7-7c43-4ac2-b7b4-120ec1157390</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='page-wrap']/div/div/div/section/div[4]/ul/li[6]/a/div/div</value>
+      <webElementGuid>57b16870-3a17-422e-bb10-26a900697570</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Apr 05, 2021'])[5]/following::div[3]</value>
+      <webElementGuid>9c0e9ad8-850d-4ac4-9076-b8f1383205a4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Episode 4'])[2]/following::div[3]</value>
+      <webElementGuid>5081ec17-0943-42c3-9ada-b0cff93e9294</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Episode 5'])[2]/preceding::div[1]</value>
+      <webElementGuid>53bc59eb-fd39-448d-9881-eb4f6a7aa4be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Apr 05, 2021'])[6]/preceding::div[1]</value>
+      <webElementGuid>85547108-2559-4bb5-9a85-725a9030617a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[6]/a/div/div</value>
+      <webElementGuid>2cc30e53-1251-402a-aa29-a772d96eaa91</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

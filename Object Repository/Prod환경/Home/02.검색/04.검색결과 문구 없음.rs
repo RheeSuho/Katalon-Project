@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>04.검색결과 문구 없음</name>
+   <tag></tag>
+   <elementGuidId>be6d859f-2066-46bb-b01e-8c217cc060aa</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>p.title</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='page-wrap']/div/section/ul/div/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>d4018ff1-d9a2-4706-b202-c3fd1d0ddce3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>title</value>
+      <webElementGuid>fa13c802-0b56-4d54-9d9a-eee0fd8bd85c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>No results for “비비비비비비비비비비”</value>
+      <webElementGuid>306dd88a-be1f-4207-840c-12f28c9e6195</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;page-wrap&quot;)/div[@class=&quot;global-page&quot;]/section[@class=&quot;page-section&quot;]/ul[@class=&quot;content-list-wrap&quot;]/div[@class=&quot;page-empty&quot;]/p[@class=&quot;title&quot;]</value>
+      <webElementGuid>b4180d34-2327-483c-82f1-d97d334ed993</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='page-wrap']/div/section/ul/div/p</value>
+      <webElementGuid>cf5b9e80-c001-4c17-ab93-60eaae1dc1da</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='tags'])[1]/following::p[1]</value>
+      <webElementGuid>e02b79c4-46ad-46ac-bcc6-0e1ddee699fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='people'])[1]/following::p[1]</value>
+      <webElementGuid>8e37d577-8c5f-4800-808c-c07af432fac5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Help'])[3]/preceding::p[1]</value>
+      <webElementGuid>09324af8-ec58-450e-82cd-691d51014c71</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Forums'])[3]/preceding::p[1]</value>
+      <webElementGuid>4142aba3-eb3e-465b-9e23-69a7cb940478</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='No results for “비비비비비비비비비비”']/parent::*</value>
+      <webElementGuid>a72c29ee-39b8-40ca-9769-a6b416834750</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p</value>
+      <webElementGuid>1393ea3c-c015-431c-b09d-ca2880d42483</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'No results for “비비비비비비비비비비”' or . = 'No results for “비비비비비비비비비비”')]</value>
+      <webElementGuid>639a483a-2dcc-4b22-8ac5-0a5a46d3accc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

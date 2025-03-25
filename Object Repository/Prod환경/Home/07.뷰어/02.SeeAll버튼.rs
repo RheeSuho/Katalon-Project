@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>02.SeeAll버튼</name>
+   <tag></tag>
+   <elementGuidId>afbe6f6a-609f-4f63-820f-c9cdae646c57</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='episode-3465298']/div[2]/div[4]/div/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.comment-header__btn.js-comment-more</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>7ba66e48-2ff8-4a90-8c9a-d9cb9b7619dc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>comment-header__btn js-comment-more</value>
+      <webElementGuid>f5163a9e-2af2-4099-b760-9d3e431e2cf6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-episode-id</name>
+      <type>Main</type>
+      <value>3465298</value>
+      <webElementGuid>278f2380-21da-41df-822d-4bd6585ba535</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>See all</value>
+      <webElementGuid>8062afb1-6b40-4e15-a4f1-f484f47499ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;episode-3465298&quot;)/div[@class=&quot;viewer-bottom&quot;]/div[@class=&quot;viewer-section viewer-section--comment&quot;]/div[@class=&quot;comment-header&quot;]/a[@class=&quot;comment-header__btn js-comment-more&quot;]</value>
+      <webElementGuid>e3af4e48-9eb7-4a8c-86fa-289335994709</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='episode-3465298']/div[2]/div[4]/div/a</value>
+      <webElementGuid>d055e6ba-23b3-4f4c-aaa2-fadd482e9859</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'See all')]</value>
+      <webElementGuid>52dcf325-f0ed-4fc3-a489-805c164942df</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Z-Pico (z.pico)'])[1]/following::a[1]</value>
+      <webElementGuid>5dc5724d-5691-4cff-afaa-18e9adb484be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Log out'])[2]/following::a[6]</value>
+      <webElementGuid>c07de1df-a694-4fa9-9ba1-899bc4a41ad2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Peaches2026'])[1]/preceding::a[2]</value>
+      <webElementGuid>f0d52e39-9c02-4bb9-99ec-4c6c9d6955a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add a comment'])[1]/preceding::a[4]</value>
+      <webElementGuid>0546ac55-44d9-44f1-9eee-c7a35640ba41</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='See all']/parent::*</value>
+      <webElementGuid>f79c5c32-42ef-4ec7-8d29-4aa46bf9c99a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/a</value>
+      <webElementGuid>8fe9b857-bf76-4885-92df-c89fd06d2500</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'See all' or . = 'See all')]</value>
+      <webElementGuid>f798f0b3-e9c5-4299-b80e-0720611853e5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

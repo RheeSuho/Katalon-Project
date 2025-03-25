@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>05.빅배너전체이미지</name>
+   <tag></tag>
+   <elementGuidId>3a1d28e3-6108-45f1-916d-480483b178a5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div/main/section[2]/section/div/div/div/div/div/article/a/div/div/div/div/picture</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>picture</value>
+      <webElementGuid>ab273e0e-65fc-4813-ab4a-8275d8c776da</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;relative mx-auto flex min-h-full flex-col text-base60 __variable_1a3b9d __variable_ca7604&quot;]/div[@class=&quot;mx-auto flex grow flex-col w-1010&quot;]/main[@class=&quot;flex flex-col items-center w-full space-y-4&quot;]/section[@class=&quot;flex flex-col items-center self-stretch w-full space-y-4&quot;]/section[@class=&quot;w-full&quot;]/div[@class=&quot;px-11 flex w-full flex-col space-y-4&quot;]/div[@class=&quot;w-full rounded-16 relative overflow-hidden flex&quot;]/div[@class=&quot;swiper swiper-initialized swiper-horizontal !z-0 w-full swiper-backface-hidden&quot;]/div[@class=&quot;swiper-wrapper&quot;]/div[@class=&quot;swiper-slide swiper-slide-active&quot;]/article[1]/a[1]/div[@class=&quot;relative w-full flex-[1_0_100%] cursor-pointer&quot;]/div[@class=&quot;relative max-h-400 overflow-hidden h-400&quot;]/div[@class=&quot;relative w-full max-h-[inherit]&quot;]/div[@class=&quot;absolute inset-0 max-h-[inherit] pt-10 h-400&quot;]/picture[1]</value>
+      <webElementGuid>da776f82-e1ba-4c49-8368-74609e827dcf</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div/main/section[2]/section/div/div/div/div/div/article/a/div/div/div/div/picture</value>
+      <webElementGuid>b4f675e6-f8a6-4ca7-8c0f-ee3bf4a5794f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Publish'])[1]/following::picture[17]</value>
+      <webElementGuid>162e7125-c9d5-4288-9f11-34495034dba8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Login'])[1]/following::picture[17]</value>
+      <webElementGuid>70c0bd6a-893f-494f-9465-42787226376d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='FREE'])[1]/preceding::picture[2]</value>
+      <webElementGuid>8a17d8cf-3e4b-4d5f-81be-dfe0e7f88a66</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='EVENT'])[1]/preceding::picture[2]</value>
+      <webElementGuid>46dc7b97-4a24-4bfd-a1a9-5146b05f9b84</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div/picture</value>
+      <webElementGuid>04605bee-a13f-43a6-bd4b-b693e526c403</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

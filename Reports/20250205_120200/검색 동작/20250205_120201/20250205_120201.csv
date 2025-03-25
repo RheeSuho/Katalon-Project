@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+검색 동작,Chrome 132.0.6834.160,,,05-02-2025 12:02:06,05-02-2025 12:02:24,18.219s,PASSED
+,,,,,,,
+Test Cases/검색 동작/검색 리스트 확인,Chrome 132.0.6834.160,,,05-02-2025 12:02:06,05-02-2025 12:02:16,10.286s,PASSED
+"openBrowser("""")",Chrome 132.0.6834.160,,,05-02-2025 12:02:06,05-02-2025 12:02:08,2.272s,PASSED
+"navigateToUrl(""https://tapas.io/"")",Chrome 132.0.6834.160,,,05-02-2025 12:02:08,05-02-2025 12:02:10,1.855s,PASSED
+"setText(findTestObject(""Object Repository/검색 리스트 확인/Page_Home  Spotlight/input_More_q""), ""the"")",Chrome 132.0.6834.160,,,05-02-2025 12:02:10,05-02-2025 12:02:12,2.348s,PASSED
+"click(findTestObject(""Object Repository/검색 리스트 확인/Page_Home  Spotlight/img_More_absolute right-2 top-24 -translate-y-24""))",Chrome 132.0.6834.160,,,05-02-2025 12:02:12,05-02-2025 12:02:15,2.434s,PASSED
+"setText(findTestObject(""Object Repository/검색 리스트 확인/Page_Search  Tapas/input_search results_q""), ""`the"")",Chrome 132.0.6834.160,,,05-02-2025 12:02:15,05-02-2025 12:02:16,1.108s,PASSED
+closeBrowser(),Chrome 132.0.6834.160,,,05-02-2025 12:02:16,05-02-2025 12:02:16,0.159s,PASSED
+,,,,,,,
+Test Cases/검색 동작/검색 결과 없음 확인,Chrome 132.0.6834.160,,,05-02-2025 12:02:16,05-02-2025 12:02:24,7.863s,PASSED
+"openBrowser("""")",Chrome 132.0.6834.160,,,05-02-2025 12:02:16,05-02-2025 12:02:17,1.308s,PASSED
+"navigateToUrl(""https://tapas.io/"")",Chrome 132.0.6834.160,,,05-02-2025 12:02:17,05-02-2025 12:02:19,1.619s,PASSED
+"setText(findTestObject(""Object Repository/검색 결과 없음/Page_Home  Spotlight/input_More_q""), ""비비비비비비비비비비"")",Chrome 132.0.6834.160,,,05-02-2025 12:02:19,05-02-2025 12:02:21,2.222s,PASSED
+"click(findTestObject(""Object Repository/검색 결과 없음/Page_Home  Spotlight/img_More_absolute right-2 top-24 -translate-y-24""))",Chrome 132.0.6834.160,,,05-02-2025 12:02:21,05-02-2025 12:02:23,2.087s,PASSED
+"verifyElementPresent(findTestObject(""검색 결과 없음 문구 확인/Page_Search  Tapas/p_No results for""), 0)",Chrome 132.0.6834.160,,,05-02-2025 12:02:23,05-02-2025 12:02:24,0.464s,PASSED
+closeBrowser(),Chrome 132.0.6834.160,,,05-02-2025 12:02:24,05-02-2025 12:02:24,0.130s,PASSED

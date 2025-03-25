@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Home" time="15.318" tests="2" failures="0" errors="0">
+   <testsuite name="Home" tests="2" failures="0" errors="0" time="15.318" skipped="0" timestamp="05-02-2025T14:12:09" hostname="ruben.lee - localhost" id="Test Suites/Home">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/ruben.lee/Katalon Studio/Tapas Test/Reports/20250205_141204/Home/20250205_141205"/>
+         <property name="logFiles" value="/Users/ruben.lee/Katalon Studio/Tapas Test/Reports/20250205_141204/Home/20250205_141205/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ruben.lee - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="10.1.0.223"/>
+         <property name="browser" value="Chrome 132.0.6834.160"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="0de1397a1a91f152d08e77499b0cba17"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Home/숏컷 확인" time="6.246" classname="Test Cases/Home/숏컷 확인" status="PASSED">
+         <system-out><![CDATA[05-02-2025T14:12:09 - [TEST_CASE][PASSED] - Test Cases/Home/숏컷 확인: Test Cases/Home/숏컷 확인
+
+05-02-2025T14:12:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-02-2025T14:12:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-02-2025T14:12:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-02-2025T14:12:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-02-2025T14:12:11 - [TEST_STEP][PASSED] - navigateToUrl("https://tapas.io/"): Navigate to 'https://tapas.io/' successfully
+
+05-02-2025T14:12:13 - [MESSAGE][PASSED] - Navigate to 'https://tapas.io/' successfully
+
+05-02-2025T14:12:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("숏컷 - 미로그인/Page_Home  Spotlight/input_More_q"), 0): Object 'Object Repository/숏컷 - 미로그인/Page_Home  Spotlight/input_More_q' is present
+
+05-02-2025T14:12:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+05-02-2025T14:12:15 - [MESSAGE][PASSED] - Object 'Object Repository/숏컷 - 미로그인/Page_Home  Spotlight/input_More_q' is present
+
+05-02-2025T14:12:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("숏컷 - 미로그인/Page_Home  Spotlight/img_More_absolute right-2 top-24 -translate-y-24"), 0): Object 'Object Repository/숏컷 - 미로그인/Page_Home  Spotlight/img_More_absolute right-2 top-24 -translate-y-24' is present
+
+05-02-2025T14:12:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+05-02-2025T14:12:15 - [MESSAGE][PASSED] - Object 'Object Repository/숏컷 - 미로그인/Page_Home  Spotlight/img_More_absolute right-2 top-24 -translate-y-24' is present
+
+05-02-2025T14:12:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("숏컷 - 미로그인/Page_Home  Spotlight/button_Login"), 0): Object 'Object Repository/숏컷 - 미로그인/Page_Home  Spotlight/button_Login' is present
+
+05-02-2025T14:12:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+05-02-2025T14:12:15 - [MESSAGE][PASSED] - Object 'Object Repository/숏컷 - 미로그인/Page_Home  Spotlight/button_Login' is present
+
+05-02-2025T14:12:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("숏컷 - 미로그인/Page_Home  Spotlight/button_Publish"), 0): Object 'Object Repository/숏컷 - 미로그인/Page_Home  Spotlight/button_Publish' is present
+
+05-02-2025T14:12:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+05-02-2025T14:12:15 - [MESSAGE][PASSED] - Object 'Object Repository/숏컷 - 미로그인/Page_Home  Spotlight/button_Publish' is present
+
+05-02-2025T14:12:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+05-02-2025T14:12:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Home/숏컷 확인 - 로그인" time="8.994" classname="Test Cases/Home/숏컷 확인 - 로그인" status="PASSED">
+         <system-out><![CDATA[05-02-2025T14:12:16 - [TEST_CASE][PASSED] - Test Cases/Home/숏컷 확인 - 로그인: Test Cases/Home/숏컷 확인 - 로그인
+
+05-02-2025T14:12:16 - [TEST_STEP][PASSED] - url = "https://tapas.io/account/signin?from=/": null
+
+05-02-2025T14:12:16 - [TEST_STEP][PASSED] - email = "dkttapas00@gmail.com": null
+
+05-02-2025T14:12:16 - [TEST_STEP][PASSED] - password = "winehouse": null
+
+05-02-2025T14:12:16 - [TEST_STEP][PASSED] - cookieFilePath = "cookies.save": null
+
+05-02-2025T14:12:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-02-2025T14:12:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-02-2025T14:12:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-02-2025T14:12:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-02-2025T14:12:17 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://tapas.io/account/signin?from=/' successfully
+
+05-02-2025T14:12:20 - [MESSAGE][PASSED] - Navigate to 'https://tapas.io/account/signin?from=/' successfully
+
+05-02-2025T14:12:20 - [TEST_STEP][PASSED] - cookieFile = new java.io.File(cookieFilePath): null
+
+05-02-2025T14:12:20 - [TEST_STEP][PASSED] - if (cookieFile.exists()): ✅ 쿠키 로드 완료! 자동 로그인 성공
+
+05-02-2025T14:12:20 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+05-02-2025T14:12:20 - [TEST_STEP][PASSED] - try: ✅ 쿠키 로드 완료! 자동 로그인 성공
+
+05-02-2025T14:12:20 - [TEST_STEP][PASSED] - fis = new java.io.FileInputStream(cookieFile): null
+
+05-02-2025T14:12:20 - [TEST_STEP][PASSED] - ois = new java.io.ObjectInputStream(fis): null
+
+05-02-2025T14:12:20 - [TEST_STEP][PASSED] - cookies = ois.readObject(): null
+
+05-02-2025T14:12:20 - [TEST_STEP][PASSED] - ois.close(): null
+
+05-02-2025T14:12:20 - [TEST_STEP][PASSED] - fis.close(): null
+
+05-02-2025T14:12:20 - [TEST_STEP][PASSED] - for (org.openqa.selenium.Cookie cookie : cookies): null
+
+05-02-2025T14:12:20 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+05-02-2025T14:12:20 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+05-02-2025T14:12:20 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+05-02-2025T14:12:20 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+05-02-2025T14:12:20 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+05-02-2025T14:12:20 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+05-02-2025T14:12:20 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+05-02-2025T14:12:20 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+05-02-2025T14:12:20 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+05-02-2025T14:12:20 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+05-02-2025T14:12:20 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+05-02-2025T14:12:20 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+05-02-2025T14:12:20 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+05-02-2025T14:12:20 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+05-02-2025T14:12:20 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+05-02-2025T14:12:20 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+05-02-2025T14:12:20 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+05-02-2025T14:12:20 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+05-02-2025T14:12:20 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+05-02-2025T14:12:20 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+05-02-2025T14:12:20 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+05-02-2025T14:12:20 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+05-02-2025T14:12:20 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+05-02-2025T14:12:20 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+05-02-2025T14:12:20 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+05-02-2025T14:12:20 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+05-02-2025T14:12:20 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+05-02-2025T14:12:20 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+05-02-2025T14:12:20 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+05-02-2025T14:12:20 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+05-02-2025T14:12:20 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+05-02-2025T14:12:22 - [MESSAGE][PASSED] - Refresh successfully
+
+05-02-2025T14:12:22 - [TEST_STEP][PASSED] - comment("✅ 쿠키 로드 완료! 자동 로그인 성공"): ✅ 쿠키 로드 완료! 자동 로그인 성공
+
+05-02-2025T14:12:22 - [MESSAGE][INFO] - ✅ 쿠키 로드 완료! 자동 로그인 성공
+
+05-02-2025T14:12:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("숏컷 - 로그인/Page_Home  Spotlight/input_More_q"), 0): Object 'Object Repository/숏컷 - 로그인/Page_Home  Spotlight/input_More_q' is present
+
+05-02-2025T14:12:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+05-02-2025T14:12:23 - [MESSAGE][PASSED] - Object 'Object Repository/숏컷 - 로그인/Page_Home  Spotlight/input_More_q' is present
+
+05-02-2025T14:12:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("숏컷 - 로그인/Page_Home  Spotlight/img_More_absolute right-2 top-24 -translate-y-24"), 0): Object 'Object Repository/숏컷 - 로그인/Page_Home  Spotlight/img_More_absolute right-2 top-24 -translate-y-24' is present
+
+05-02-2025T14:12:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+05-02-2025T14:12:24 - [MESSAGE][PASSED] - Object 'Object Repository/숏컷 - 로그인/Page_Home  Spotlight/img_More_absolute right-2 top-24 -translate-y-24' is present
+
+05-02-2025T14:12:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("숏컷 - 로그인/Page_Home  Spotlight/img"), 0): Object 'Object Repository/숏컷 - 로그인/Page_Home  Spotlight/img' is present
+
+05-02-2025T14:12:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+05-02-2025T14:12:24 - [MESSAGE][PASSED] - Object 'Object Repository/숏컷 - 로그인/Page_Home  Spotlight/img' is present
+
+05-02-2025T14:12:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("숏컷 - 로그인/Page_Home  Spotlight/div_More_absolute left-0 top-0 size-full rounded-100 border-1 border-888"), 0): Object 'Object Repository/숏컷 - 로그인/Page_Home  Spotlight/div_More_absolute left-0 top-0 size-full rounded-100 border-1 border-888' is present
+
+05-02-2025T14:12:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+05-02-2025T14:12:24 - [MESSAGE][PASSED] - Object 'Object Repository/숏컷 - 로그인/Page_Home  Spotlight/div_More_absolute left-0 top-0 size-full rounded-100 border-1 border-888' is present
+
+05-02-2025T14:12:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("숏컷 - 로그인/Page_Home  Spotlight/button_Publish"), 0): Object 'Object Repository/숏컷 - 로그인/Page_Home  Spotlight/button_Publish' is present
+
+05-02-2025T14:12:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+05-02-2025T14:12:24 - [MESSAGE][PASSED] - Object 'Object Repository/숏컷 - 로그인/Page_Home  Spotlight/button_Publish' is present
+
+05-02-2025T14:12:24 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+05-02-2025T14:12:25 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[05-02-2025T14:12:09 - [TEST_SUITE][PASSED] - Home: Test Cases/Home/숏컷 확인 - 로그인]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

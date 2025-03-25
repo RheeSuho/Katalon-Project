@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>21.구독버튼</name>
+   <tag></tag>
+   <elementGuidId>d8a0137b-0d56-4f6e-9018-e8415a818690</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='page-wrap']/div/div[5]/div/div/div[2]/div/ul/li/a/span/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.ico.ico--subscribe.sp-ico-subscribe-line-wht-s</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>f4edcb11-0216-4818-806c-986db43353b6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ico ico--subscribe sp-ico-subscribe-line-wht-s</value>
+      <webElementGuid>aa20bdfa-a152-49c9-9646-d4992662a6a3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;page-wrap&quot;)/div[@class=&quot;vw-root js-viewer-root&quot;]/div[@class=&quot;toolbar&quot;]/div[@class=&quot;toolbar__wrapper toolbar__wrapper--wide js-toolbar&quot;]/div[@class=&quot;toolbar__row toolbar__row--left&quot;]/div[@class=&quot;row-item&quot;]/div[@class=&quot;dropdown-float js-float&quot;]/ul[@class=&quot;dropdown-list&quot;]/li[@class=&quot;dropdown-list__item&quot;]/a[@class=&quot;js-tiara-tracking dropdown-list__button list--subscribe  js-subscribe-btn&quot;]/span[@class=&quot;ico-wrapper&quot;]/i[@class=&quot;ico ico--subscribe sp-ico-subscribe-line-wht-s&quot;]</value>
+      <webElementGuid>0e312b5e-2091-4d5f-8d11-727d29a7cc2f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='page-wrap']/div/div[5]/div/div/div[2]/div/ul/li/a/span/i</value>
+      <webElementGuid>b4ee1701-70ea-49c1-96b8-07cd33a9259a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/i</value>
+      <webElementGuid>014eea3e-f8a3-4ec1-9d1d-8fe009565171</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

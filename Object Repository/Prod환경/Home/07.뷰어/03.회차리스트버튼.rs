@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>03.회차리스트버튼</name>
+   <tag></tag>
+   <elementGuidId>963435e2-a46d-4302-96f5-dfbdb681d4ae</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='comment-section']/div/div/a/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.ico.ico--light.sp-ico-list-ink-s</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>e585af9e-732f-4400-a303-b0f4f16ab8b6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ico ico--light sp-ico-list-ink-s</value>
+      <webElementGuid>eada225b-3303-4b53-aa70-dedd921c99e1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;comment-section&quot;)/div[@class=&quot;section-nav&quot;]/div[@class=&quot;section-nav__title js-episode-back&quot;]/a[@class=&quot;section-nav__button js-comment-ep-list-btn&quot;]/i[@class=&quot;ico ico--light sp-ico-list-ink-s&quot;]</value>
+      <webElementGuid>c562a2cf-b281-4fe3-8786-a4e161d465fb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='comment-section']/div/div/a/i</value>
+      <webElementGuid>16b1610f-9e35-4789-a6bf-3ab22b7de00f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/a/i</value>
+      <webElementGuid>e36e6753-292a-49b3-9fc5-4a197636e891</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

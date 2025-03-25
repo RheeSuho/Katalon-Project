@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>prod 로그인 - 쿠키 저장 케이스</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>474e7aa3-c866-49ce-8c7a-67ca9d2d51af</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Home,,,,11-02-2025 11:05:37,11-02-2025 11:05:38,0.433s,FAILED
+,,,,,,,
+Test Cases/Home/홈화면 확인/프로모션 배너 확인 _ 강조,,,,11-02-2025 11:05:37,11-02-2025 11:05:38,0.279s,FAILED
+"comment(""✅ 프로모션 배너 실행"")",,,,11-02-2025 11:05:37,11-02-2025 11:05:38,0.031s,PASSED
+"navigateToUrl(""https://qa.tapas.io/"")",,,,11-02-2025 11:05:38,11-02-2025 11:05:38,0.103s,FAILED
+,,,,,,,
+Test Cases/Home/홈화면 확인/빅배너 확인_랜딩 후 복귀,,,,11-02-2025 11:05:38,11-02-2025 11:05:38,0.067s,FAILED
+"comment(""✅ 배너 실행"")",,,,11-02-2025 11:05:38,11-02-2025 11:05:38,0.002s,PASSED
+"navigateToUrl(""https://qa.tapas.io/"")",,,,11-02-2025 11:05:38,11-02-2025 11:05:38,0.008s,FAILED

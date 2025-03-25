@@ -1,0 +1,33 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Home,Chrome 132.0.6834.160,,,05-02-2025 16:08:05,05-02-2025 16:08:41,36.196s,FAILED
+,,,,,,,
+Test Cases/Home/숏컷 객체 강조,Chrome 132.0.6834.160,,,05-02-2025 16:08:05,05-02-2025 16:08:31,26.115s,PASSED
+"openBrowser("""")",Chrome 132.0.6834.160,,,05-02-2025 16:08:06,05-02-2025 16:08:09,3.183s,PASSED
+"navigateToUrl(""https://tapas.io/"")",Chrome 132.0.6834.160,,,05-02-2025 16:08:09,05-02-2025 16:08:12,3.263s,PASSED
+"searchBox = findTestObject(""숏컷 미로그인/Page_Home  Spotlight/input_More_q"")",Chrome 132.0.6834.160,,,05-02-2025 16:08:12,05-02-2025 16:08:12,0.095s,PASSED
+HighlightElement.run(searchBox),Chrome 132.0.6834.160,,,05-02-2025 16:08:12,05-02-2025 16:08:17,5.363s,PASSED
+"verifyElementPresent(searchBox, 0)",Chrome 132.0.6834.160,,,05-02-2025 16:08:17,05-02-2025 16:08:18,0.238s,PASSED
+"logoImage = findTestObject(""숏컷 미로그인/Page_Home  Spotlight/img_More_absolute right-2 top-24 -translate-y-24"")",Chrome 132.0.6834.160,,,05-02-2025 16:08:18,05-02-2025 16:08:18,0.006s,PASSED
+HighlightElement.run(logoImage),Chrome 132.0.6834.160,,,05-02-2025 16:08:18,05-02-2025 16:08:21,3.280s,PASSED
+"verifyElementPresent(logoImage, 0)",Chrome 132.0.6834.160,,,05-02-2025 16:08:21,05-02-2025 16:08:21,0.233s,PASSED
+"loginButton = findTestObject(""숏컷 미로그인/Page_Home  Spotlight/button_Login"")",Chrome 132.0.6834.160,,,05-02-2025 16:08:21,05-02-2025 16:08:21,0.010s,PASSED
+HighlightElement.run(loginButton),Chrome 132.0.6834.160,,,05-02-2025 16:08:21,05-02-2025 16:08:25,3.299s,PASSED
+"verifyElementPresent(loginButton, 0)",Chrome 132.0.6834.160,,,05-02-2025 16:08:25,05-02-2025 16:08:25,0.230s,PASSED
+"publishButton = findTestObject(""숏컷 미로그인/Page_Home  Spotlight/button_Publish"")",Chrome 132.0.6834.160,,,05-02-2025 16:08:25,05-02-2025 16:08:25,0.005s,PASSED
+HighlightElement.run(publishButton),Chrome 132.0.6834.160,,,05-02-2025 16:08:25,05-02-2025 16:08:28,3.275s,PASSED
+"verifyElementPresent(publishButton, 0)",Chrome 132.0.6834.160,,,05-02-2025 16:08:28,05-02-2025 16:08:28,0.226s,PASSED
+"comment(""⏳ 3초 대기 후 다음 테스트 케이스 실행"")",Chrome 132.0.6834.160,,,05-02-2025 16:08:28,05-02-2025 16:08:28,0.011s,PASSED
+delay(3),Chrome 132.0.6834.160,,,05-02-2025 16:08:28,05-02-2025 16:08:31,3.012s,PASSED
+closeBrowser(),Chrome 132.0.6834.160,,,05-02-2025 16:08:31,05-02-2025 16:08:31,0.178s,PASSED
+,,,,,,,
+Test Cases/Home/숏컷 확인 - 로그인 - 강조 확인,Chrome 132.0.6834.160,,,05-02-2025 16:08:31,05-02-2025 16:08:41,9.943s,FAILED
+"url = ""https://tapas.io/account/signin?from=/""",Chrome 132.0.6834.160,,,05-02-2025 16:08:32,05-02-2025 16:08:32,0.001s,PASSED
+"email = ""dkttapas00@gmail.com""",Chrome 132.0.6834.160,,,05-02-2025 16:08:32,05-02-2025 16:08:32,0.001s,PASSED
+"password = ""winehouse""",Chrome 132.0.6834.160,,,05-02-2025 16:08:32,05-02-2025 16:08:32,0.001s,PASSED
+"cookieFilePath = ""cookies.save""",Chrome 132.0.6834.160,,,05-02-2025 16:08:32,05-02-2025 16:08:32,0.001s,PASSED
+"openBrowser("""")",Chrome 132.0.6834.160,,,05-02-2025 16:08:32,05-02-2025 16:08:33,1.130s,PASSED
+navigateToUrl(url),Chrome 132.0.6834.160,,,05-02-2025 16:08:33,05-02-2025 16:08:38,4.609s,PASSED
+cookieFile = new java.io.File(cookieFilePath),Chrome 132.0.6834.160,,,05-02-2025 16:08:38,05-02-2025 16:08:38,0.001s,PASSED
+if (cookieFile.exists()),Chrome 132.0.6834.160,,,05-02-2025 16:08:38,05-02-2025 16:08:40,2.552s,PASSED
+"searchBox = findTestObject(""숏컷 로그인 신규/Page_Home  Spotlight/input_More_q"")",Chrome 132.0.6834.160,,,05-02-2025 16:08:40,05-02-2025 16:08:40,0.009s,PASSED
+HighlightElement.run(searchBox),Chrome 132.0.6834.160,,,05-02-2025 16:08:40,05-02-2025 16:08:41,1.315s,FAILED

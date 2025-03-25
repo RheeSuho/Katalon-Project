@@ -1,0 +1,117 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Home,Chrome 132.0.6834.160,,,11-02-2025 09:41:37,11-02-2025 09:43:07,1m - 30.008s,FAILED
+,,,,,,,
+Test Cases/Home/홈화면 확인/숏컷 객체 강조,Chrome 132.0.6834.160,,,11-02-2025 09:41:37,11-02-2025 09:41:53,15.949s,PASSED
+"openBrowser("""")",Chrome 132.0.6834.160,,,11-02-2025 09:41:37,11-02-2025 09:41:39,2.042s,PASSED
+"navigateToUrl(""https:/qa.tapas.io/"")",Chrome 132.0.6834.160,,,11-02-2025 09:41:39,11-02-2025 09:41:41,1.404s,PASSED
+"searchBox = findTestObject(""Home/숏컷 미로그인/Page_Home  Spotlight/input_More_q"")",Chrome 132.0.6834.160,,,11-02-2025 09:41:41,11-02-2025 09:41:41,0.087s,PASSED
+HighlightElement.run(searchBox),Chrome 132.0.6834.160,,,11-02-2025 09:41:41,11-02-2025 09:41:45,3.664s,PASSED
+"verifyElementPresent(searchBox, 1)",Chrome 132.0.6834.160,,,11-02-2025 09:41:45,11-02-2025 09:41:46,0.971s,PASSED
+"logoImage = findTestObject(""Home/숏컷 미로그인/Page_Home  Spotlight/img_More_absolute right-2 top-24 -translate-y-24"")",Chrome 132.0.6834.160,,,11-02-2025 09:41:46,11-02-2025 09:41:46,0.009s,PASSED
+HighlightElement.run(logoImage),Chrome 132.0.6834.160,,,11-02-2025 09:41:46,11-02-2025 09:41:48,2.290s,PASSED
+"verifyElementPresent(logoImage, 1)",Chrome 132.0.6834.160,,,11-02-2025 09:41:48,11-02-2025 09:41:48,0.246s,PASSED
+"loginButton = findTestObject(""Home/숏컷 미로그인/Page_Home  Spotlight/button_Login"")",Chrome 132.0.6834.160,,,11-02-2025 09:41:48,11-02-2025 09:41:48,0.007s,PASSED
+HighlightElement.run(loginButton),Chrome 132.0.6834.160,,,11-02-2025 09:41:48,11-02-2025 09:41:50,2.302s,PASSED
+"verifyElementPresent(loginButton, 1)",Chrome 132.0.6834.160,,,11-02-2025 09:41:50,11-02-2025 09:41:51,0.239s,PASSED
+"publishButton = findTestObject(""Home/숏컷 미로그인/Page_Home  Spotlight/button_Publish"")",Chrome 132.0.6834.160,,,11-02-2025 09:41:51,11-02-2025 09:41:51,0.003s,PASSED
+HighlightElement.run(publishButton),Chrome 132.0.6834.160,,,11-02-2025 09:41:51,11-02-2025 09:41:53,2.291s,PASSED
+"verifyElementPresent(publishButton, 1)",Chrome 132.0.6834.160,,,11-02-2025 09:41:53,11-02-2025 09:41:53,0.234s,PASSED
+"comment(""✅ Test 1 완료. 브라우저 유지 상태에서 Test 2 실행"")",Chrome 132.0.6834.160,,,11-02-2025 09:41:53,11-02-2025 09:41:53,0.008s,PASSED
+,,,,,,,
+Test Cases/Home/홈화면 확인/숏컷 확인 - 로그인 - 강조 확인,Chrome 132.0.6834.160,,,11-02-2025 09:41:53,11-02-2025 09:42:10,17.089s,PASSED
+"url = ""https://qa.tapas.io/account/signin?from=/""",Chrome 132.0.6834.160,,,11-02-2025 09:41:53,11-02-2025 09:41:53,0.000s,PASSED
+"email = ""dkttapas00@gmail.com""",Chrome 132.0.6834.160,,,11-02-2025 09:41:53,11-02-2025 09:41:53,0.001s,PASSED
+"password = ""winehouse""",Chrome 132.0.6834.160,,,11-02-2025 09:41:53,11-02-2025 09:41:53,0.000s,PASSED
+"cookieFilePath = ""cookies.save""",Chrome 132.0.6834.160,,,11-02-2025 09:41:53,11-02-2025 09:41:53,0.001s,PASSED
+"comment(""🚀 Test 2 시작! 기존 브라우저 사용"")",Chrome 132.0.6834.160,,,11-02-2025 09:41:53,11-02-2025 09:41:53,0.001s,PASSED
+cookieFile = new java.io.File(cookieFilePath),Chrome 132.0.6834.160,,,11-02-2025 09:41:53,11-02-2025 09:41:53,0.001s,PASSED
+if (cookieFile.exists()),Chrome 132.0.6834.160,,,11-02-2025 09:41:53,11-02-2025 09:41:55,1.232s,PASSED
+"searchBox = findTestObject(""Home/숏컷 로그인 신규/Page_Home  Spotlight/input_More_q"")",Chrome 132.0.6834.160,,,11-02-2025 09:41:55,11-02-2025 09:41:55,0.015s,PASSED
+HighlightElement.run(searchBox),Chrome 132.0.6834.160,,,11-02-2025 09:41:55,11-02-2025 09:41:57,2.768s,PASSED
+"verifyElementPresent(searchBox, 0)",Chrome 132.0.6834.160,,,11-02-2025 09:41:57,11-02-2025 09:41:58,0.225s,PASSED
+"logoImage = findTestObject(""Home/숏컷 로그인 신규/Page_Home  Spotlight/img_More_absolute right-2 top-24 -translate-y-24"")",Chrome 132.0.6834.160,,,11-02-2025 09:41:58,11-02-2025 09:41:58,0.003s,PASSED
+HighlightElement.run(logoImage),Chrome 132.0.6834.160,,,11-02-2025 09:41:58,11-02-2025 09:42:00,2.271s,PASSED
+"verifyElementPresent(logoImage, 0)",Chrome 132.0.6834.160,,,11-02-2025 09:42:00,11-02-2025 09:42:00,0.235s,PASSED
+"libraryimage = findTestObject(""Home/숏컷 로그인 신규/Page_Home  Spotlight/library"")",Chrome 132.0.6834.160,,,11-02-2025 09:42:00,11-02-2025 09:42:00,0.005s,PASSED
+HighlightElement.run(libraryimage),Chrome 132.0.6834.160,,,11-02-2025 09:42:00,11-02-2025 09:42:02,2.283s,PASSED
+"verifyElementPresent(libraryimage, 0)",Chrome 132.0.6834.160,,,11-02-2025 09:42:02,11-02-2025 09:42:03,0.244s,PASSED
+"inboximage = findTestObject(""Home/숏컷 로그인 신규/Page_Home  Spotlight/inbox"")",Chrome 132.0.6834.160,,,11-02-2025 09:42:03,11-02-2025 09:42:03,0.006s,PASSED
+HighlightElement.run(inboximage),Chrome 132.0.6834.160,,,11-02-2025 09:42:03,11-02-2025 09:42:05,2.279s,PASSED
+"verifyElementPresent(inboximage, 0)",Chrome 132.0.6834.160,,,11-02-2025 09:42:05,11-02-2025 09:42:05,0.248s,PASSED
+"profileImage = findTestObject(""Home/숏컷 로그인 신규/Page_Home  Spotlight/div_More_absolute left-0 top-0 size-full rounded-100 border-1 border-888"")",Chrome 132.0.6834.160,,,11-02-2025 09:42:05,11-02-2025 09:42:05,0.005s,PASSED
+HighlightElement.run(profileImage),Chrome 132.0.6834.160,,,11-02-2025 09:42:05,11-02-2025 09:42:08,2.296s,PASSED
+"verifyElementPresent(profileImage, 0)",Chrome 132.0.6834.160,,,11-02-2025 09:42:08,11-02-2025 09:42:08,0.246s,PASSED
+"publishButton = findTestObject(""Home/숏컷 로그인 신규/Page_Home  Spotlight/button_Publish"")",Chrome 132.0.6834.160,,,11-02-2025 09:42:08,11-02-2025 09:42:08,0.011s,PASSED
+HighlightElement.run(publishButton),Chrome 132.0.6834.160,,,11-02-2025 09:42:08,11-02-2025 09:42:10,2.287s,PASSED
+"verifyElementPresent(publishButton, 0)",Chrome 132.0.6834.160,,,11-02-2025 09:42:10,11-02-2025 09:42:10,0.234s,PASSED
+"comment(""✅ 로그인 확인 완료 - 검색 실행"")",Chrome 132.0.6834.160,,,11-02-2025 09:42:10,11-02-2025 09:42:10,0.002s,PASSED
+,,,,,,,
+Test Cases/Home/검색 동작/검색 결과 없음 확인,Chrome 132.0.6834.160,,,11-02-2025 09:42:10,11-02-2025 09:42:17,6.826s,PASSED
+"comment(""✅ 검색 실행"")",Chrome 132.0.6834.160,,,11-02-2025 09:42:10,11-02-2025 09:42:10,0.002s,PASSED
+"navigateToUrl(""https://qa.tapas.io/"")",Chrome 132.0.6834.160,,,11-02-2025 09:42:10,11-02-2025 09:42:14,3.170s,PASSED
+"setText(findTestObject(""Object Repository/Home/검색 결과 없음/Page_Home  Spotlight/input_More_q""), ""비비비비비비비비비비"")",Chrome 132.0.6834.160,,,11-02-2025 09:42:14,11-02-2025 09:42:15,1.146s,PASSED
+"click(findTestObject(""Object Repository/Home/검색 결과 없음/Page_Home  Spotlight/img_More_absolute right-2 top-24 -translate-y-24""))",Chrome 132.0.6834.160,,,11-02-2025 09:42:15,11-02-2025 09:42:17,2.032s,PASSED
+"verifyElementPresent(findTestObject(""Home/검색 결과 없음 문구 확인/Page_Search  Tapas/p_No results for""), 0)",Chrome 132.0.6834.160,,,11-02-2025 09:42:17,11-02-2025 09:42:17,0.442s,PASSED
+"comment(""✅ 검색 완료"")",Chrome 132.0.6834.160,,,11-02-2025 09:42:17,11-02-2025 09:42:17,0.002s,PASSED
+,,,,,,,
+Test Cases/Home/검색 동작/검색 리스트 확인,Chrome 132.0.6834.160,,,11-02-2025 09:42:17,11-02-2025 09:42:21,3.692s,PASSED
+"comment(""✅ 로그인/검색 실행"")",Chrome 132.0.6834.160,,,11-02-2025 09:42:17,11-02-2025 09:42:17,0.002s,PASSED
+"navigateToUrl(""https://qa.tapas.io/"")",Chrome 132.0.6834.160,,,11-02-2025 09:42:17,11-02-2025 09:42:18,0.891s,PASSED
+"setText(findTestObject(""Object Repository/Home/검색 리스트 확인/Page_Home  Spotlight/input_More_q""), ""the"")",Chrome 132.0.6834.160,,,11-02-2025 09:42:18,11-02-2025 09:42:19,1.057s,PASSED
+"click(findTestObject(""Object Repository/Home/검색 리스트 확인/Page_Home  Spotlight/img_More_absolute right-2 top-24 -translate-y-24""))",Chrome 132.0.6834.160,,,11-02-2025 09:42:19,11-02-2025 09:42:20,0.766s,PASSED
+"setText(findTestObject(""Object Repository/Home/검색 리스트 확인/Page_Search  Tapas/input_search results_q""), ""`the"")",Chrome 132.0.6834.160,,,11-02-2025 09:42:20,11-02-2025 09:42:21,0.947s,PASSED
+"comment(""✅ 완료"")",Chrome 132.0.6834.160,,,11-02-2025 09:42:21,11-02-2025 09:42:21,0.001s,PASSED
+,,,,,,,
+Test Cases/Home/홈화면 확인/프로모션 배너 확인 _ 강조,Chrome 132.0.6834.160,,,11-02-2025 09:42:21,11-02-2025 09:42:30,8.732s,PASSED
+"comment(""✅ 프로모션 배너 실행"")",Chrome 132.0.6834.160,,,11-02-2025 09:42:21,11-02-2025 09:42:21,0.001s,PASSED
+"navigateToUrl(""https://qa.tapas.io/"")",Chrome 132.0.6834.160,,,11-02-2025 09:42:21,11-02-2025 09:42:22,0.948s,PASSED
+"promotion = findTestObject(""Home/프로모션 배너/Page_Home  Spotlight/div_adonis"")",Chrome 132.0.6834.160,,,11-02-2025 09:42:22,11-02-2025 09:42:22,0.006s,PASSED
+HighlightElement.run(promotion),Chrome 132.0.6834.160,,,11-02-2025 09:42:22,11-02-2025 09:42:25,2.907s,PASSED
+"verifyElementPresent(promotion, 0)",Chrome 132.0.6834.160,,,11-02-2025 09:42:25,11-02-2025 09:42:25,0.244s,PASSED
+"click(findTestObject(""Home/프로모션 배너/Page_Home  Spotlight/div_adonis""))",Chrome 132.0.6834.160,,,11-02-2025 09:42:25,11-02-2025 09:42:26,1.032s,PASSED
+"contents = findTestObject(""Home/프로모션 배너 _ 랜딩 확인/Page_Read Adonis  Leftover Memories  Tapas Comics/p_Leftover Memories"")",Chrome 132.0.6834.160,,,11-02-2025 09:42:26,11-02-2025 09:42:26,0.002s,PASSED
+HighlightElement.run(contents),Chrome 132.0.6834.160,,,11-02-2025 09:42:26,11-02-2025 09:42:29,3.308s,PASSED
+"verifyElementPresent(contents, 0)",Chrome 132.0.6834.160,,,11-02-2025 09:42:29,11-02-2025 09:42:30,0.249s,PASSED
+"comment(""✅ 프로모션 배너 완료"")",Chrome 132.0.6834.160,,,11-02-2025 09:42:30,11-02-2025 09:42:30,0.002s,PASSED
+,,,,,,,
+Test Cases/Home/홈화면 확인/빅배너 확인_랜딩 후 복귀,Chrome 132.0.6834.160,,,11-02-2025 09:42:30,11-02-2025 09:43:07,37.435s,FAILED
+"comment(""✅ 배너 실행"")",Chrome 132.0.6834.160,,,11-02-2025 09:42:30,11-02-2025 09:42:30,0.001s,PASSED
+"navigateToUrl(""https://qa.tapas.io/"")",Chrome 132.0.6834.160,,,11-02-2025 09:42:30,11-02-2025 09:42:31,1.079s,PASSED
+"next = findTestObject(""Home/빅배너 이동 클릭 동작 확인/Page_Home  Spotlight/img_EVENT_ml-2 cursor-pointer"")",Chrome 132.0.6834.160,,,11-02-2025 09:42:31,11-02-2025 09:42:31,0.008s,PASSED
+HighlightElement.run(next),Chrome 132.0.6834.160,,,11-02-2025 09:42:31,11-02-2025 09:42:34,2.875s,PASSED
+"verifyElementPresent(next, 0)",Chrome 132.0.6834.160,,,11-02-2025 09:42:34,11-02-2025 09:42:34,0.243s,PASSED
+"click(findTestObject(""Object Repository/Home/빅배너 이동 클릭 동작 확인/Page_Home  Spotlight/img_EVENT_ml-2 cursor-pointer""))",Chrome 132.0.6834.160,,,11-02-2025 09:42:34,11-02-2025 09:42:34,0.281s,PASSED
+"prev = findTestObject(""Home/빅배너 이동 클릭 동작 확인/Page_Home  Spotlight/img_EVENT_mr-2 cursor-pointer"")",Chrome 132.0.6834.160,,,11-02-2025 09:42:34,11-02-2025 09:42:34,0.003s,PASSED
+HighlightElement.run(prev),Chrome 132.0.6834.160,,,11-02-2025 09:42:34,11-02-2025 09:42:36,2.272s,PASSED
+"verifyElementPresent(prev, 0)",Chrome 132.0.6834.160,,,11-02-2025 09:42:36,11-02-2025 09:42:37,0.248s,PASSED
+"click(findTestObject(""Object Repository/Home/빅배너 이동 클릭 동작 확인/Page_Home  Spotlight/img_EVENT_mr-2 cursor-pointer""))",Chrome 132.0.6834.160,,,11-02-2025 09:42:37,11-02-2025 09:42:37,0.288s,PASSED
+delay(11),Chrome 132.0.6834.160,,,11-02-2025 09:42:37,11-02-2025 09:42:48,11.010s,PASSED
+"page2 = findTestObject(""Home/빅배너 자동 스와이프 확인/Page_Home  Spotlight/span_2"")",Chrome 132.0.6834.160,,,11-02-2025 09:42:48,11-02-2025 09:42:48,0.003s,PASSED
+HighlightElement.run(page2),Chrome 132.0.6834.160,,,11-02-2025 09:42:48,11-02-2025 09:42:50,2.284s,PASSED
+"verifyElementPresent(page2, 0)",Chrome 132.0.6834.160,,,11-02-2025 09:42:50,11-02-2025 09:42:50,0.232s,PASSED
+"prev1 = findTestObject(""Home/빅배너 이동 클릭 동작 확인/Page_Home  Spotlight/img_EVENT_mr-2 cursor-pointer"")",Chrome 132.0.6834.160,,,11-02-2025 09:42:50,11-02-2025 09:42:50,0.002s,PASSED
+HighlightElement.run(prev1),Chrome 132.0.6834.160,,,11-02-2025 09:42:50,11-02-2025 09:42:53,2.274s,PASSED
+"verifyElementPresent(prev1, 0)",Chrome 132.0.6834.160,,,11-02-2025 09:42:53,11-02-2025 09:42:53,0.249s,PASSED
+"click(findTestObject(""Object Repository/Home/빅배너 이동 클릭 동작 확인/Page_Home  Spotlight/img_EVENT_mr-2 cursor-pointer""))",Chrome 132.0.6834.160,,,11-02-2025 09:42:53,11-02-2025 09:42:53,0.258s,PASSED
+"click(findTestObject(""Object Repository/Home/빅배너 복귀/Page_Home  Spotlight/picture""))",Chrome 132.0.6834.160,,,11-02-2025 09:42:53,11-02-2025 09:42:55,1.521s,PASSED
+delay(1),Chrome 132.0.6834.160,,,11-02-2025 09:42:55,11-02-2025 09:42:56,1.008s,PASSED
+"title1 = findTestObject(""Home/빅배너 복귀/Page_Read Love for Hire  Tapas Web Comics/div_Love for Hire"")",Chrome 132.0.6834.160,,,11-02-2025 09:42:56,11-02-2025 09:42:56,0.004s,PASSED
+HighlightElement.run(title1),Chrome 132.0.6834.160,,,11-02-2025 09:42:56,11-02-2025 09:43:07,11.228s,FAILED
+,,,,,,,
+Test Cases/Home/홈화면 확인/라인배너 확인,Chrome 132.0.6834.160,,,11-02-2025 09:43:07,11-02-2025 09:43:07,0.032s,FAILED
+"comment(""✅ 라인배너 실행"")",Chrome 132.0.6834.160,,,11-02-2025 09:43:07,11-02-2025 09:43:07,0.001s,PASSED
+"navigateToUrl(""https://qa.tapas.io/"")",Chrome 132.0.6834.160,,,11-02-2025 09:43:07,11-02-2025 09:43:07,0.011s,FAILED
+,,,,,,,
+Test Cases/Home/홈화면 확인/최근본섹션-로그인,Chrome 132.0.6834.160,,,11-02-2025 09:43:07,11-02-2025 09:43:07,0.142s,FAILED
+"url = ""https://qa.tapas.io/account/signin?from=/""",Chrome 132.0.6834.160,,,11-02-2025 09:43:07,11-02-2025 09:43:07,0.000s,PASSED
+"email = ""dkttapas00@gmail.com""",Chrome 132.0.6834.160,,,11-02-2025 09:43:07,11-02-2025 09:43:07,0.000s,PASSED
+"password = ""winehouse""",Chrome 132.0.6834.160,,,11-02-2025 09:43:07,11-02-2025 09:43:07,0.001s,PASSED
+"cookieFilePath = ""cookies.save""",Chrome 132.0.6834.160,,,11-02-2025 09:43:07,11-02-2025 09:43:07,0.000s,PASSED
+"comment(""✅ 최근본섹션 실행"")",Chrome 132.0.6834.160,,,11-02-2025 09:43:07,11-02-2025 09:43:07,0.001s,PASSED
+driver = getWebDriver(),Chrome 132.0.6834.160,,,11-02-2025 09:43:07,11-02-2025 09:43:07,0.001s,PASSED
+cookieFile = new java.io.File(cookieFilePath),Chrome 132.0.6834.160,,,11-02-2025 09:43:07,11-02-2025 09:43:07,0.000s,PASSED
+if (cookieFile.exists()),Chrome 132.0.6834.160,,,11-02-2025 09:43:07,11-02-2025 09:43:07,0.030s,PASSED
+"comment(""🆕 쿠키 없음 또는 자동 로그인 실패, 로그인 진행"")",Chrome 132.0.6834.160,,,11-02-2025 09:43:07,11-02-2025 09:43:07,0.001s,PASSED
+emailField = new com.kms.katalon.core.testobject.TestObject(),Chrome 132.0.6834.160,,,11-02-2025 09:43:07,11-02-2025 09:43:07,0.002s,PASSED
+"emailField.addProperty(""xpath"", EQUALS, ""//input[@name=""email""]"")",Chrome 132.0.6834.160,,,11-02-2025 09:43:07,11-02-2025 09:43:07,0.003s,PASSED
+"if (waitForElementPresent(emailField, 10))",Chrome 132.0.6834.160,,,11-02-2025 09:43:07,11-02-2025 09:43:07,0.009s,FAILED

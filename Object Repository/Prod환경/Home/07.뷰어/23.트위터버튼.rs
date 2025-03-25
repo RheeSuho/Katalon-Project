@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>23.트위터버튼</name>
+   <tag></tag>
+   <elementGuidId>d10c6457-4e41-427e-8785-4e759957dddc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='page-wrap']/div/div[5]/div/div/div[2]/div/ul/li[3]/a/span/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.ico.sp-ico-tw-wht-s</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>31ba0151-0418-4d6d-a36c-0669abdc7789</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ico sp-ico-tw-wht-s</value>
+      <webElementGuid>17b16b66-a10c-49db-9b41-d92fb27d385e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;page-wrap&quot;)/div[@class=&quot;vw-root js-viewer-root&quot;]/div[@class=&quot;toolbar&quot;]/div[@class=&quot;toolbar__wrapper toolbar__wrapper--wide js-toolbar&quot;]/div[@class=&quot;toolbar__row toolbar__row--left&quot;]/div[@class=&quot;row-item&quot;]/div[@class=&quot;dropdown-float js-float&quot;]/ul[@class=&quot;dropdown-list&quot;]/li[@class=&quot;dropdown-list__item js-share-menu&quot;]/a[@class=&quot;dropdown-list__button js-share-twitter ga-tracking&quot;]/span[@class=&quot;ico-wrapper&quot;]/i[@class=&quot;ico sp-ico-tw-wht-s&quot;]</value>
+      <webElementGuid>3880e3b8-d710-4d95-bf71-9c60c706b56b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='page-wrap']/div/div[5]/div/div/div[2]/div/ul/li[3]/a/span/i</value>
+      <webElementGuid>1dbf1244-f444-43df-a2bc-8c2a7707eb25</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[3]/a/span/i</value>
+      <webElementGuid>929bc825-ecc1-4398-aa12-25af7ded01fb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="배너 확인" time="56.775" tests="4" failures="0" errors="0">
+   <testsuite name="배너 확인" tests="4" failures="0" errors="0" time="56.775" skipped="0" timestamp="11-02-2025T10:06:08" hostname="ruben.lee - localhost" id="Test Suites/배너 확인">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/ruben.lee/Katalon Studio/Tapas Test/Reports/20250211_100603/\uBC30\uB108 \uD655\uC778/20250211_100604"/>
+         <property name="logFiles" value="/Users/ruben.lee/Katalon Studio/Tapas Test/Reports/20250211_100603/\uBC30\uB108 \uD655\uC778/20250211_100604/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ruben.lee - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="10.1.0.223"/>
+         <property name="browser" value="Chrome 132.0.6834.160"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="49acb524a68d033fd33f92a083585275"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Home/홈화면 확인/프로모션 배너 확인 _ 강조" time="15.221" classname="Test Cases/Home/홈화면 확인/프로모션 배너 확인 _ 강조" status="PASSED">
+         <system-out><![CDATA[11-02-2025T10:06:08 - [TEST_CASE][PASSED] - Test Cases/Home/홈화면 확인/프로모션 배너 확인 _ 강조: Test Cases/Home/홈화면 확인/프로모션 배너 확인 _ 강조
+
+11-02-2025T10:06:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-02-2025T10:06:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-02-2025T10:06:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-02-2025T10:06:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-02-2025T10:06:10 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.tapas.io/"): Navigate to 'https://qa.tapas.io/' successfully
+
+11-02-2025T10:06:12 - [MESSAGE][PASSED] - Navigate to 'https://qa.tapas.io/' successfully
+
+11-02-2025T10:06:12 - [TEST_STEP][PASSED] - promotion = findTestObject("Home/프로모션 배너/Page_Home  Spotlight/div_adonis"): null
+
+11-02-2025T10:06:12 - [TEST_STEP][PASSED] - HighlightElement.run(promotion): null
+
+11-02-2025T10:06:16 - [TEST_STEP][PASSED] - verifyElementPresent(promotion, 0): Object 'Object Repository/Home/프로모션 배너/Page_Home  Spotlight/div_adonis' is present
+
+11-02-2025T10:06:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+11-02-2025T10:06:17 - [MESSAGE][PASSED] - Object 'Object Repository/Home/프로모션 배너/Page_Home  Spotlight/div_adonis' is present
+
+11-02-2025T10:06:17 - [TEST_STEP][PASSED] - click(findTestObject("Home/프로모션 배너/Page_Home  Spotlight/div_adonis")): Object: 'Object Repository/Home/프로모션 배너/Page_Home  Spotlight/div_adonis' is clicked on
+
+11-02-2025T10:06:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Home/프로모션 배너/Page_Home  Spotlight/div_adonis' is clicked on
+
+11-02-2025T10:06:19 - [TEST_STEP][PASSED] - contents = findTestObject("Home/프로모션 배너 _ 랜딩 확인/Page_Read Adonis  Leftover Memories  Tapas Comics/p_Leftover Memories"): null
+
+11-02-2025T10:06:19 - [TEST_STEP][PASSED] - HighlightElement.run(contents): null
+
+11-02-2025T10:06:22 - [TEST_STEP][PASSED] - verifyElementPresent(contents, 0): Object 'Object Repository/Home/프로모션 배너 _ 랜딩 확인/Page_Read Adonis  Leftover Memories  Tapas Comics/p_Leftover Memories' is present
+
+11-02-2025T10:06:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+11-02-2025T10:06:22 - [MESSAGE][PASSED] - Object 'Object Repository/Home/프로모션 배너 _ 랜딩 확인/Page_Read Adonis  Leftover Memories  Tapas Comics/p_Leftover Memories' is present
+
+11-02-2025T10:06:22 - [TEST_STEP][PASSED] - comment("✅ 프로모션 배너 완료"): ✅ 프로모션 배너 완료
+
+11-02-2025T10:06:22 - [MESSAGE][INFO] - ✅ 프로모션 배너 완료
+
+11-02-2025T10:06:22 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+11-02-2025T10:06:23 - [MESSAGE][PASSED] - Navigate back successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Home/홈화면 확인/빅배너 확인_랜딩 후 복귀" time="33.554" classname="Test Cases/Home/홈화면 확인/빅배너 확인_랜딩 후 복귀" status="PASSED">
+         <system-out><![CDATA[11-02-2025T10:06:23 - [TEST_CASE][PASSED] - Test Cases/Home/홈화면 확인/빅배너 확인_랜딩 후 복귀: Test Cases/Home/홈화면 확인/빅배너 확인_랜딩 후 복귀
+
+11-02-2025T10:06:23 - [TEST_STEP][PASSED] - comment("✅ 배너 실행"): ✅ 배너 실행
+
+11-02-2025T10:06:23 - [MESSAGE][INFO] - ✅ 배너 실행
+
+11-02-2025T10:06:23 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+11-02-2025T10:06:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+11-02-2025T10:06:24 - [TEST_STEP][PASSED] - next = findTestObject("Home/빅배너 이동 클릭 동작 확인/Page_Home  Spotlight/img_EVENT_ml-2 cursor-pointer"): null
+
+11-02-2025T10:06:24 - [TEST_STEP][PASSED] - HighlightElement.run(next): null
+
+11-02-2025T10:06:27 - [TEST_STEP][PASSED] - verifyElementPresent(next, 0): Object 'Object Repository/Home/빅배너 이동 클릭 동작 확인/Page_Home  Spotlight/img_EVENT_ml-2 cursor-pointer' is present
+
+11-02-2025T10:06:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+11-02-2025T10:06:27 - [MESSAGE][PASSED] - Object 'Object Repository/Home/빅배너 이동 클릭 동작 확인/Page_Home  Spotlight/img_EVENT_ml-2 cursor-pointer' is present
+
+11-02-2025T10:06:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Home/빅배너 이동 클릭 동작 확인/Page_Home  Spotlight/img_EVENT_ml-2 cursor-pointer")): Object: 'Object Repository/Home/빅배너 이동 클릭 동작 확인/Page_Home  Spotlight/img_EVENT_ml-2 cursor-pointer' is clicked on
+
+11-02-2025T10:06:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Home/빅배너 이동 클릭 동작 확인/Page_Home  Spotlight/img_EVENT_ml-2 cursor-pointer' is clicked on
+
+11-02-2025T10:06:27 - [TEST_STEP][PASSED] - prev = findTestObject("Home/빅배너 이동 클릭 동작 확인/Page_Home  Spotlight/img_EVENT_mr-2 cursor-pointer"): null
+
+11-02-2025T10:06:27 - [TEST_STEP][PASSED] - HighlightElement.run(prev): null
+
+11-02-2025T10:06:30 - [TEST_STEP][PASSED] - verifyElementPresent(prev, 0): Object 'Object Repository/Home/빅배너 이동 클릭 동작 확인/Page_Home  Spotlight/img_EVENT_mr-2 cursor-pointer' is present
+
+11-02-2025T10:06:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+11-02-2025T10:06:30 - [MESSAGE][PASSED] - Object 'Object Repository/Home/빅배너 이동 클릭 동작 확인/Page_Home  Spotlight/img_EVENT_mr-2 cursor-pointer' is present
+
+11-02-2025T10:06:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Home/빅배너 이동 클릭 동작 확인/Page_Home  Spotlight/img_EVENT_mr-2 cursor-pointer")): Object: 'Object Repository/Home/빅배너 이동 클릭 동작 확인/Page_Home  Spotlight/img_EVENT_mr-2 cursor-pointer' is clicked on
+
+11-02-2025T10:06:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Home/빅배너 이동 클릭 동작 확인/Page_Home  Spotlight/img_EVENT_mr-2 cursor-pointer' is clicked on
+
+11-02-2025T10:06:30 - [TEST_STEP][PASSED] - delay(11): Delayed 11 second(s)
+
+11-02-2025T10:06:41 - [MESSAGE][PASSED] - Delayed 11 second(s)
+
+11-02-2025T10:06:41 - [TEST_STEP][PASSED] - page2 = findTestObject("Home/빅배너 자동 스와이프 확인/Page_Home  Spotlight/span_2"): null
+
+11-02-2025T10:06:41 - [TEST_STEP][PASSED] - HighlightElement.run(page2): null
+
+11-02-2025T10:06:43 - [TEST_STEP][PASSED] - verifyElementPresent(page2, 0): Object 'Object Repository/Home/빅배너 자동 스와이프 확인/Page_Home  Spotlight/span_2' is present
+
+11-02-2025T10:06:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+11-02-2025T10:06:44 - [MESSAGE][PASSED] - Object 'Object Repository/Home/빅배너 자동 스와이프 확인/Page_Home  Spotlight/span_2' is present
+
+11-02-2025T10:06:44 - [TEST_STEP][PASSED] - prev1 = findTestObject("Home/빅배너 이동 클릭 동작 확인/Page_Home  Spotlight/img_EVENT_mr-2 cursor-pointer"): null
+
+11-02-2025T10:06:44 - [TEST_STEP][PASSED] - HighlightElement.run(prev1): null
+
+11-02-2025T10:06:46 - [TEST_STEP][PASSED] - verifyElementPresent(prev1, 0): Object 'Object Repository/Home/빅배너 이동 클릭 동작 확인/Page_Home  Spotlight/img_EVENT_mr-2 cursor-pointer' is present
+
+11-02-2025T10:06:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+11-02-2025T10:06:46 - [MESSAGE][PASSED] - Object 'Object Repository/Home/빅배너 이동 클릭 동작 확인/Page_Home  Spotlight/img_EVENT_mr-2 cursor-pointer' is present
+
+11-02-2025T10:06:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Home/빅배너 이동 클릭 동작 확인/Page_Home  Spotlight/img_EVENT_mr-2 cursor-pointer")): Object: 'Object Repository/Home/빅배너 이동 클릭 동작 확인/Page_Home  Spotlight/img_EVENT_mr-2 cursor-pointer' is clicked on
+
+11-02-2025T10:06:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Home/빅배너 이동 클릭 동작 확인/Page_Home  Spotlight/img_EVENT_mr-2 cursor-pointer' is clicked on
+
+11-02-2025T10:06:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Home/빅배너 복귀/Page_Home  Spotlight/picture")): Object: 'Object Repository/Home/빅배너 복귀/Page_Home  Spotlight/picture' is clicked on
+
+11-02-2025T10:06:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Home/빅배너 복귀/Page_Home  Spotlight/picture' is clicked on
+
+11-02-2025T10:06:48 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+11-02-2025T10:06:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+11-02-2025T10:06:49 - [TEST_STEP][PASSED] - title1 = findTestObject("Home/빅배너 복귀/Page_Read Love for Hire  Tapas Web Comics/div_Love for Hire"): null
+
+11-02-2025T10:06:49 - [TEST_STEP][PASSED] - waitForElementPresent(title1, 5): Object 'Object Repository/Home/빅배너 복귀/Page_Read Love for Hire  Tapas Web Comics/div_Love for Hire' is present
+
+11-02-2025T10:06:49 - [MESSAGE][PASSED] - Object 'Object Repository/Home/빅배너 복귀/Page_Read Love for Hire  Tapas Web Comics/div_Love for Hire' is present
+
+11-02-2025T10:06:49 - [TEST_STEP][PASSED] - HighlightElement.run(title1): null
+
+11-02-2025T10:06:51 - [TEST_STEP][PASSED] - verifyElementPresent(title1, 0): Object 'Object Repository/Home/빅배너 복귀/Page_Read Love for Hire  Tapas Web Comics/div_Love for Hire' is present
+
+11-02-2025T10:06:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+11-02-2025T10:06:52 - [MESSAGE][PASSED] - Object 'Object Repository/Home/빅배너 복귀/Page_Read Love for Hire  Tapas Web Comics/div_Love for Hire' is present
+
+11-02-2025T10:06:52 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+11-02-2025T10:06:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+11-02-2025T10:06:53 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+11-02-2025T10:06:54 - [MESSAGE][PASSED] - Navigate back successfully
+
+11-02-2025T10:06:54 - [TEST_STEP][PASSED] - bancheck = findTestObject("Home/빅배너 복귀/Page_Home  Spotlight/picture"): null
+
+11-02-2025T10:06:54 - [TEST_STEP][PASSED] - HighlightElement.run(bancheck): null
+
+11-02-2025T10:06:57 - [TEST_STEP][PASSED] - verifyElementPresent(bancheck, 0): Object 'Object Repository/Home/빅배너 복귀/Page_Home  Spotlight/picture' is present
+
+11-02-2025T10:06:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+11-02-2025T10:06:57 - [MESSAGE][PASSED] - Object 'Object Repository/Home/빅배너 복귀/Page_Home  Spotlight/picture' is present
+
+11-02-2025T10:06:57 - [TEST_STEP][PASSED] - comment("✅ 빅배너 완료"): ✅ 빅배너 완료
+
+11-02-2025T10:06:57 - [MESSAGE][INFO] - ✅ 빅배너 완료]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Home/홈화면 확인/라인배너 확인" time="5.573" classname="Test Cases/Home/홈화면 확인/라인배너 확인" status="PASSED">
+         <system-out><![CDATA[11-02-2025T10:06:57 - [TEST_CASE][PASSED] - Test Cases/Home/홈화면 확인/라인배너 확인: Test Cases/Home/홈화면 확인/라인배너 확인
+
+11-02-2025T10:06:57 - [TEST_STEP][PASSED] - comment("✅ 라인배너 실행"): ✅ 라인배너 실행
+
+11-02-2025T10:06:57 - [MESSAGE][INFO] - ✅ 라인배너 실행
+
+11-02-2025T10:06:57 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.tapas.io/"): Navigate to 'https://qa.tapas.io/' successfully
+
+11-02-2025T10:06:58 - [MESSAGE][PASSED] - Navigate to 'https://qa.tapas.io/' successfully
+
+11-02-2025T10:06:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Home/라인배너 확인/Page_Home  Spotlight/div_0228")): Object: 'Object Repository/Home/라인배너 확인/Page_Home  Spotlight/div_0228' is clicked on
+
+11-02-2025T10:06:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Home/라인배너 확인/Page_Home  Spotlight/div_0228' is clicked on
+
+11-02-2025T10:06:59 - [TEST_STEP][PASSED] - linelanding = findTestObject("Home/라인배너 확인/Page_Event  _1221_0315_1221_0315_1221_0315_1221_0315/img_Publish_h-auto w-full"): null
+
+11-02-2025T10:06:59 - [TEST_STEP][PASSED] - HighlightElement.run(linelanding): null
+
+11-02-2025T10:07:02 - [TEST_STEP][PASSED] - verifyElementPresent(linelanding, 0): Object 'Object Repository/Home/라인배너 확인/Page_Event  _1221_0315_1221_0315_1221_0315_1221_0315/img_Publish_h-auto w-full' is present
+
+11-02-2025T10:07:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+11-02-2025T10:07:02 - [MESSAGE][PASSED] - Object 'Object Repository/Home/라인배너 확인/Page_Event  _1221_0315_1221_0315_1221_0315_1221_0315/img_Publish_h-auto w-full' is present
+
+11-02-2025T10:07:02 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+11-02-2025T10:07:02 - [MESSAGE][PASSED] - Navigate back successfully
+
+11-02-2025T10:07:02 - [TEST_STEP][PASSED] - comment("✅ 라인배너 완"): ✅ 라인배너 완
+
+11-02-2025T10:07:02 - [MESSAGE][INFO] - ✅ 라인배너 완]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Home/홈화면 확인/최근본섹션-로그인" time="2.32" classname="Test Cases/Home/홈화면 확인/최근본섹션-로그인" status="PASSED">
+         <system-out><![CDATA[11-02-2025T10:07:02 - [TEST_CASE][PASSED] - Test Cases/Home/홈화면 확인/최근본섹션-로그인: Test Cases/Home/홈화면 확인/최근본섹션-로그인
+
+11-02-2025T10:07:03 - [TEST_STEP][PASSED] - url = "https://qa.tapas.io/account/signin?from=/": null
+
+11-02-2025T10:07:03 - [TEST_STEP][PASSED] - email = "dkttapas00@gmail.com": null
+
+11-02-2025T10:07:03 - [TEST_STEP][PASSED] - password = "winehouse": null
+
+11-02-2025T10:07:03 - [TEST_STEP][PASSED] - cookieFilePath = "cookies.save": null
+
+11-02-2025T10:07:03 - [TEST_STEP][PASSED] - comment("✅ 최근본섹션 실행"): ✅ 최근본섹션 실행
+
+11-02-2025T10:07:03 - [MESSAGE][INFO] - ✅ 최근본섹션 실행
+
+11-02-2025T10:07:03 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+11-02-2025T10:07:03 - [TEST_STEP][PASSED] - cookieFile = new java.io.File(cookieFilePath): null
+
+11-02-2025T10:07:03 - [TEST_STEP][PASSED] - if (cookieFile.exists()): null
+
+11-02-2025T10:07:03 - [TEST_STEP][PASSED] - try: null
+
+11-02-2025T10:07:03 - [TEST_STEP][PASSED] - fis = new java.io.FileInputStream(cookieFile): null
+
+11-02-2025T10:07:03 - [TEST_STEP][PASSED] - ois = new java.io.ObjectInputStream(fis): null
+
+11-02-2025T10:07:03 - [TEST_STEP][PASSED] - cookies = ois.readObject(): null
+
+11-02-2025T10:07:03 - [TEST_STEP][PASSED] - ois.close(): null
+
+11-02-2025T10:07:03 - [TEST_STEP][PASSED] - fis.close(): null
+
+11-02-2025T10:07:03 - [TEST_STEP][PASSED] - for (org.openqa.selenium.Cookie cookie : cookies): null
+
+11-02-2025T10:07:03 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T10:07:03 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T10:07:03 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T10:07:03 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T10:07:03 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T10:07:03 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T10:07:03 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T10:07:03 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T10:07:03 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T10:07:03 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T10:07:03 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T10:07:03 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T10:07:03 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T10:07:03 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T10:07:03 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T10:07:03 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T10:07:03 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T10:07:03 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T10:07:03 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T10:07:03 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T10:07:03 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T10:07:03 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T10:07:03 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T10:07:03 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T10:07:03 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T10:07:03 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T10:07:03 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T10:07:03 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T10:07:03 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T10:07:03 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T10:07:03 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T10:07:03 - [TEST_STEP][PASSED] - driver.get(url): null
+
+11-02-2025T10:07:04 - [TEST_STEP][PASSED] - comment("✅ 쿠키 로드 완료! 자동 로그인 성공 시도"): ✅ 쿠키 로드 완료! 자동 로그인 성공 시도
+
+11-02-2025T10:07:04 - [MESSAGE][INFO] - ✅ 쿠키 로드 완료! 자동 로그인 성공 시도
+
+11-02-2025T10:07:04 - [TEST_STEP][PASSED] - profileIcon = new com.kms.katalon.core.testobject.TestObject(): null
+
+11-02-2025T10:07:04 - [TEST_STEP][PASSED] - profileIcon.addProperty("xpath", EQUALS, "//img[contains(@alt, "profile")]"): null
+
+11-02-2025T10:07:04 - [TEST_STEP][PASSED] - if (waitForElementPresent(profileIcon, 5)): null
+
+11-02-2025T10:07:05 - [MESSAGE][PASSED] - Object '' is present
+
+11-02-2025T10:07:05 - [TEST_STEP][PASSED] - comment("✅ 자동 로그인 성공!"): ✅ 자동 로그인 성공!
+
+11-02-2025T10:07:05 - [MESSAGE][INFO] - ✅ 자동 로그인 성공!
+
+11-02-2025T10:07:05 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[11-02-2025T10:06:08 - [TEST_SUITE][PASSED] - 배너 확인: Test Cases/Home/홈화면 확인/최근본섹션-로그인]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

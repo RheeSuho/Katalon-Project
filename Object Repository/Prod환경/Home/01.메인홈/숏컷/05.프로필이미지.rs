@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>05.프로필이미지</name>
+   <tag></tag>
+   <elementGuidId>c5d7b128-4412-43f6-8fc2-b871471ee54a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='headlessui-popover-button-:Rbraqcm:']/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>ea9d7df3-bbf2-4d4f-82f3-e5dbfdd94591</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>absolute left-0 top-0 size-full rounded-100 border-1 border-[#888]</value>
+      <webElementGuid>6cf27624-a665-4668-9804-10a547e0b888</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;headlessui-popover-button-:Rbraqcm:&quot;)/div[@class=&quot;relative rounded-100&quot;]/div[@class=&quot;absolute left-0 top-0 size-full rounded-100 border-1 border-[#888]&quot;]</value>
+      <webElementGuid>5de1a14a-3b43-489d-aa0f-3ee94c4a5253</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//button[@id='headlessui-popover-button-:Rbraqcm:']/div/div</value>
+      <webElementGuid>0dfc8ef1-14b4-46df-baa6-0d68eedc153c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/button/div/div</value>
+      <webElementGuid>37d410a4-78d3-448a-928f-8adacf74a0d2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

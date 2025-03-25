@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>prod 로그인 확인</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>aff49a11-9e8a-472b-b330-7c632bfb7a67</testCaseGuid>
+</TestCaseEntity>

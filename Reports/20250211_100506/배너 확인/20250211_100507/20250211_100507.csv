@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+배너 확인,Chrome 132.0.6834.160,,,11-02-2025 10:05:12,11-02-2025 10:05:39,27.201s,FAILED
+,,,,,,,
+Test Cases/Home/홈화면 확인/프로모션 배너 확인 _ 강조,Chrome 132.0.6834.160,,,11-02-2025 10:05:12,11-02-2025 10:05:25,12.586s,PASSED
+"openBrowser("""")",Chrome 132.0.6834.160,,,11-02-2025 10:05:12,11-02-2025 10:05:14,2.051s,PASSED
+"navigateToUrl(""https://qa.tapas.io/"")",Chrome 132.0.6834.160,,,11-02-2025 10:05:14,11-02-2025 10:05:16,1.460s,PASSED
+"promotion = findTestObject(""Home/프로모션 배너/Page_Home  Spotlight/div_adonis"")",Chrome 132.0.6834.160,,,11-02-2025 10:05:16,11-02-2025 10:05:16,0.093s,PASSED
+HighlightElement.run(promotion),Chrome 132.0.6834.160,,,11-02-2025 10:05:16,11-02-2025 10:05:19,3.745s,PASSED
+"verifyElementPresent(promotion, 0)",Chrome 132.0.6834.160,,,11-02-2025 10:05:19,11-02-2025 10:05:20,0.260s,PASSED
+"click(findTestObject(""Home/프로모션 배너/Page_Home  Spotlight/div_adonis""))",Chrome 132.0.6834.160,,,11-02-2025 10:05:20,11-02-2025 10:05:22,2.092s,PASSED
+"contents = findTestObject(""Home/프로모션 배너 _ 랜딩 확인/Page_Read Adonis  Leftover Memories  Tapas Comics/p_Leftover Memories"")",Chrome 132.0.6834.160,,,11-02-2025 10:05:22,11-02-2025 10:05:22,0.005s,PASSED
+HighlightElement.run(contents),Chrome 132.0.6834.160,,,11-02-2025 10:05:22,11-02-2025 10:05:24,2.508s,PASSED
+"verifyElementPresent(contents, 0)",Chrome 132.0.6834.160,,,11-02-2025 10:05:24,11-02-2025 10:05:25,0.229s,PASSED
+"comment(""✅ 프로모션 배너 완료"")",Chrome 132.0.6834.160,,,11-02-2025 10:05:25,11-02-2025 10:05:25,0.006s,PASSED
+,,,,,,,
+Test Cases/Home/홈화면 확인/빅배너 확인_랜딩 후 복귀,Chrome 132.0.6834.160,,,11-02-2025 10:05:25,11-02-2025 10:05:39,14.245s,FAILED
+"comment(""✅ 배너 실행"")",Chrome 132.0.6834.160,,,11-02-2025 10:05:25,11-02-2025 10:05:25,0.001s,PASSED
+delay(1),Chrome 132.0.6834.160,,,11-02-2025 10:05:25,11-02-2025 10:05:26,1.010s,PASSED
+"next = findTestObject(""Home/빅배너 이동 클릭 동작 확인/Page_Home  Spotlight/img_EVENT_ml-2 cursor-pointer"")",Chrome 132.0.6834.160,,,11-02-2025 10:05:26,11-02-2025 10:05:26,0.010s,PASSED
+HighlightElement.run(next),Chrome 132.0.6834.160,,,11-02-2025 10:05:26,11-02-2025 10:05:39,13.179s,FAILED
+,,,,,,,
+Test Cases/Home/홈화면 확인/라인배너 확인,Chrome 132.0.6834.160,,,11-02-2025 10:05:39,11-02-2025 10:05:39,0.040s,FAILED
+"comment(""✅ 라인배너 실행"")",Chrome 132.0.6834.160,,,11-02-2025 10:05:39,11-02-2025 10:05:39,0.002s,PASSED
+"navigateToUrl(""https://qa.tapas.io/"")",Chrome 132.0.6834.160,,,11-02-2025 10:05:39,11-02-2025 10:05:39,0.013s,FAILED
+,,,,,,,
+Test Cases/Home/홈화면 확인/최근본섹션-로그인,Chrome 132.0.6834.160,,,11-02-2025 10:05:39,11-02-2025 10:05:39,0.224s,FAILED
+"url = ""https://qa.tapas.io/account/signin?from=/""",Chrome 132.0.6834.160,,,11-02-2025 10:05:39,11-02-2025 10:05:39,0.000s,PASSED
+"email = ""dkttapas00@gmail.com""",Chrome 132.0.6834.160,,,11-02-2025 10:05:39,11-02-2025 10:05:39,0.001s,PASSED
+"password = ""winehouse""",Chrome 132.0.6834.160,,,11-02-2025 10:05:39,11-02-2025 10:05:39,0.001s,PASSED
+"cookieFilePath = ""cookies.save""",Chrome 132.0.6834.160,,,11-02-2025 10:05:39,11-02-2025 10:05:39,0.000s,PASSED
+"comment(""✅ 최근본섹션 실행"")",Chrome 132.0.6834.160,,,11-02-2025 10:05:39,11-02-2025 10:05:39,0.002s,PASSED
+driver = getWebDriver(),Chrome 132.0.6834.160,,,11-02-2025 10:05:39,11-02-2025 10:05:39,0.000s,PASSED
+cookieFile = new java.io.File(cookieFilePath),Chrome 132.0.6834.160,,,11-02-2025 10:05:39,11-02-2025 10:05:39,0.001s,PASSED
+if (cookieFile.exists()),Chrome 132.0.6834.160,,,11-02-2025 10:05:39,11-02-2025 10:05:39,0.049s,PASSED
+"comment(""🆕 쿠키 없음 또는 자동 로그인 실패, 로그인 진행"")",Chrome 132.0.6834.160,,,11-02-2025 10:05:39,11-02-2025 10:05:39,0.001s,PASSED
+emailField = new com.kms.katalon.core.testobject.TestObject(),Chrome 132.0.6834.160,,,11-02-2025 10:05:39,11-02-2025 10:05:39,0.002s,PASSED
+"emailField.addProperty(""xpath"", EQUALS, ""//input[@name=""email""]"")",Chrome 132.0.6834.160,,,11-02-2025 10:05:39,11-02-2025 10:05:39,0.002s,PASSED
+"if (waitForElementPresent(emailField, 10))",Chrome 132.0.6834.160,,,11-02-2025 10:05:39,11-02-2025 10:05:39,0.011s,FAILED

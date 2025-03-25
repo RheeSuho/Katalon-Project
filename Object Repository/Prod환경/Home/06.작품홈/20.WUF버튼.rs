@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>20.WUF버튼</name>
+   <tag></tag>
+   <elementGuidId>7046bb6b-6e13-4d72-b1bb-584f183e3c5d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='headlessui-popover-panel-:r2:']/div/div/button[2]/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.flex-auto.line-clamp-1.text-left.text-base40.font-system-14r</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>0af713f7-e590-4422-9f78-e3d74942200c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex-auto line-clamp-1 text-left text-base40 font-system-14r</value>
+      <webElementGuid>a82cd117-b233-4950-a0fe-f87e02b4f870</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>WUF</value>
+      <webElementGuid>0a3cf9c7-9de2-4162-8708-7b2ad2cd078c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;headlessui-popover-panel-:r2:&quot;)/div[@class=&quot;w-218 rounded-16 border-1 border-solid border-base20 bg-bg10 py-8&quot;]/div[@class=&quot;w-full flex flex-col items-start self-stretch&quot;]/button[@class=&quot;h-40 w-full px-18 space-x-10 flex flex-none items-center cursor-pointer&quot;]/span[@class=&quot;flex-auto line-clamp-1 text-left text-base40 font-system-14r&quot;]</value>
+      <webElementGuid>443a7025-50c5-4ed5-9d7d-cf342460c6dd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='headlessui-popover-panel-:r2:']/div/div/button[2]/span</value>
+      <webElementGuid>45d4cc0e-974b-4781-9ae5-08ffac8ef349</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='All'])[3]/following::span[1]</value>
+      <webElementGuid>602ce551-bde0-4d5b-81fd-bf418c0b6b66</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fantasy'])[1]/following::span[2]</value>
+      <webElementGuid>e2884031-2647-4425-b848-7aa56f7bb803</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Free to read'])[1]/preceding::span[1]</value>
+      <webElementGuid>f69484f7-2568-4ec4-8f61-d04ec2189a00</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='UP'])[1]/preceding::span[9]</value>
+      <webElementGuid>e50d91dd-e5a1-4678-abb1-9330082a47bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='WUF']/parent::*</value>
+      <webElementGuid>0dc31067-3bc3-4866-a58a-31b1ace05dd7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[2]/span</value>
+      <webElementGuid>913e3580-be3d-420c-923e-f2f47cedc47b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'WUF' or . = 'WUF')]</value>
+      <webElementGuid>94e1dd29-c796-4eee-9ede-3b0ddae2b7ce</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

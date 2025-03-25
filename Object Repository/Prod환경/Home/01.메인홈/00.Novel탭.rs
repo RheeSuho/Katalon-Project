@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>00.Novel탭</name>
+   <tag></tag>
+   <elementGuidId>9ff20c84-0b10-4852-bbcd-462c58d08e12</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/nav/div/div/div/div/div/div/div/a[3]/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>e9fb58c5-7e2d-46b3-84ab-7d86239b5234</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>border-solid border-base60 border-b-2 pb-2 group-hover:border-b-2 group-hover:pb-2</value>
+      <webElementGuid>1614f98c-2026-404a-925d-c7b1264205e6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Novels</value>
+      <webElementGuid>4e80106f-f46b-4bde-9e38-2179109ee223</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;relative mx-auto flex min-h-full flex-col text-base60 __variable_a04e73 __variable_aa69c3&quot;]/nav[@class=&quot;sticky top-0 z-navigation w-full bg-bg10&quot;]/div[@class=&quot;mx-auto w-1010 bg-bg10&quot;]/div[1]/div[@class=&quot;relative bg-bg10 px-18 pb-20 pt-32&quot;]/div[@class=&quot;flex items-center justify-between space-x-20&quot;]/div[@class=&quot;flex-1&quot;]/div[@class=&quot;h-44 scrollbar-hide overflow-x-visible&quot;]/div[@class=&quot;flex h-full w-fit items-center whitespace-nowrap space-x-4&quot;]/a[3]/div[@class=&quot;relative cursor-pointer px-8 group&quot;]/div[@class=&quot;border-solid border-base60 border-b-2 pb-2 group-hover:border-b-2 group-hover:pb-2&quot;]</value>
+      <webElementGuid>bd76620b-0dfb-46ce-9835-3c7d2bcebe0d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/nav/div/div/div/div/div/div/div/a[3]/div/div</value>
+      <webElementGuid>ad18015d-0208-4ef0-9880-d7c0b2af82d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Comics'])[1]/following::div[2]</value>
+      <webElementGuid>2ea5f715-a9c3-4ebf-a1a7-698b48e7978b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::div[5]</value>
+      <webElementGuid>ab8becb6-dd2f-494d-8071-df17175fb95f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Community'])[1]/preceding::div[2]</value>
+      <webElementGuid>4176a2c5-a59b-4ed6-9783-469a794900dc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[3]/div/div</value>
+      <webElementGuid>2619fa94-1160-4a2c-b73f-49f10d2c8b62</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Novels' or . = 'Novels')]</value>
+      <webElementGuid>72653abf-330b-4e32-91d3-1c42c88f5fdc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

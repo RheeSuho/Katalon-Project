@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>13.OK버튼</name>
+   <tag></tag>
+   <elementGuidId>25dbff3a-f563-4907-bddf-574896aa0df7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.confirm-body__btn.hide-overlay</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Accept'])[1]/following::button[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>cbee6206-6522-4d92-be8a-9bd28448f4d9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>confirm-body__btn hide-overlay</value>
+      <webElementGuid>75487e77-9d0b-4fb4-808e-d9d6ec7ca565</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>OK</value>
+      <webElementGuid>b9980ea7-8af3-4c32-808d-ba54452fa31f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;overlay&quot;]/body[@class=&quot;desktop series&quot;]/div[@class=&quot;modal-backdrop&quot;]/div[@class=&quot;popup-confirm&quot;]/div[@class=&quot;confirm-body&quot;]/button[@class=&quot;confirm-body__btn hide-overlay&quot;]</value>
+      <webElementGuid>0225a83d-eee7-4974-bb7a-ccfb859c80db</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Accept'])[1]/following::button[1]</value>
+      <webElementGuid>822e82a4-b311-47e7-b785-21ca92f2bf10</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Marketing'])[1]/following::button[2]</value>
+      <webElementGuid>ff734b6b-7875-4b12-8dc4-15211ac5e85b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[7]/div/div/button</value>
+      <webElementGuid>83c3e39e-312b-4f30-bc53-f109bb2ca244</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'OK' or . = 'OK')]</value>
+      <webElementGuid>fc0bf1d7-0125-4910-9d42-e7cd6537378e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

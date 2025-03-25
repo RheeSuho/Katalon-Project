@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>section_Continue Reading</name>
+   <tag></tag>
+   <elementGuidId>ce4d60ca-54e8-47eb-826f-84a1b3d8ab9c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div/main/section[4]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>section</value>
+      <webElementGuid>e8f2344a-c18c-4beb-8512-9bfff1daf1ad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex flex-col items-center self-stretch w-full space-y-4</value>
+      <webElementGuid>a23ef117-aa1b-48ed-95b9-831cf22ea894</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-section-ordnum</name>
+      <type>Main</type>
+      <value>4</value>
+      <webElementGuid>39a61572-b533-431f-9645-d140c6df40b6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-section-id</name>
+      <type>Main</type>
+      <value>5</value>
+      <webElementGuid>5bb77474-ed6c-494a-9b3b-b01c980d7a78</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-section-title</name>
+      <type>Main</type>
+      <value>Continue Reading</value>
+      <webElementGuid>bf3742b6-48ee-4f2c-b2c4-3afb4c74704b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Continue Reading</value>
+      <webElementGuid>e62171a4-5f50-4486-ba6a-cff3d24a9081</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;relative mx-auto flex min-h-full flex-col text-base60 __variable_a04e73 __variable_aa69c3&quot;]/div[@class=&quot;mx-auto flex grow flex-col w-1010&quot;]/main[@class=&quot;flex flex-col items-center w-full space-y-4&quot;]/section[@class=&quot;flex flex-col items-center self-stretch w-full space-y-4&quot;]</value>
+      <webElementGuid>540101ea-cabe-401f-9d35-867b34223c53</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div/main/section[4]</value>
+      <webElementGuid>5ad1f854-6e72-495a-9469-ff6e5856db9e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Go to Tapas App'])[1]/following::section[1]</value>
+      <webElementGuid>ada6b17b-7be7-4e09-9bb8-bf11c4a1a8bc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NEW to TAPAS?'])[1]/following::section[1]</value>
+      <webElementGuid>e14caf16-76bd-4774-b1a1-8f1aab086e04</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='🎊Tapas Turns 13🎊: Creators Fest💛'])[1]/preceding::section[2]</value>
+      <webElementGuid>9ed8dc8e-12c1-4464-ace1-32be4b320fd4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section[4]</value>
+      <webElementGuid>a8747cce-1b24-48f1-a074-e31201362f2f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//section[(text() = 'Continue Reading' or . = 'Continue Reading')]</value>
+      <webElementGuid>f786e35e-3d6b-481a-ade1-6c60fa960953</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

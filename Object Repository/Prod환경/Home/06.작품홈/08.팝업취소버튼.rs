@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>08.팝업취소버튼</name>
+   <tag></tag>
+   <elementGuidId>60e9ce79-8acd-4ba3-b031-5baa394c01c3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.js-tiara-tracking.popup-web-to-app__inner__btn-wrapper__btn.popup-web-to-app__inner__btn-wrapper__btn__cancel.hide-overlay.js-web-to-app-popup-cancel</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Accept'])[1]/following::button[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>cede0824-f9c4-4f08-b630-86d1141722d9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>js-tiara-tracking popup-web-to-app__inner__btn-wrapper__btn popup-web-to-app__inner__btn-wrapper__btn__cancel hide-overlay js-web-to-app-popup-cancel</value>
+      <webElementGuid>d6241748-85a9-41fa-9f3e-40c7f8e008dc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-tiara-section</name>
+      <type>Main</type>
+      <value>content_home</value>
+      <webElementGuid>9052b0be-6742-4013-8e92-f7baeaa53b18</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-tiara-page</name>
+      <type>Main</type>
+      <value>content_home_details</value>
+      <webElementGuid>76c6d9ee-d4e9-4c1f-b07d-67dc8ace477a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-tiara-action-name</name>
+      <type>Main</type>
+      <value>webtoapp_close</value>
+      <webElementGuid>51d79378-942a-4a5b-9c48-0db9af806e9b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-tiara-page-meta-id</name>
+      <type>Main</type>
+      <value>298705</value>
+      <webElementGuid>d08a0485-6aa6-4828-9200-9bf39f5dce07</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-tiara-page-meta-type</name>
+      <type>Main</type>
+      <value>series_id</value>
+      <webElementGuid>188f1c35-7678-4d51-b7e0-b7dde8a7c55b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-tiara-page-meta-series</name>
+      <type>Main</type>
+      <value>The Duke's Family Is Not My Problem</value>
+      <webElementGuid>ae4dbe8d-1ca0-46be-a456-fa401a1cc0f0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-tiara-page-meta-series-id</name>
+      <type>Main</type>
+      <value>298705</value>
+      <webElementGuid>7b39c137-2219-44a8-9e45-1d9cf02fd925</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-tiara-event-meta-series</name>
+      <type>Main</type>
+      <value>The Duke's Family Is Not My Problem</value>
+      <webElementGuid>d75d8316-2e42-4d88-9b07-f19e255d3cbe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-tiara-event-meta-series-id</name>
+      <type>Main</type>
+      <value>298705</value>
+      <webElementGuid>06fdc3bc-4a83-4718-b529-0cca0c93cc74</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-tiara-click-layer1</name>
+      <type>Main</type>
+      <value>app_download</value>
+      <webElementGuid>5d317c12-eef3-4df1-b472-d7b021226ab9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-tiara-custom-props-user-action</name>
+      <type>Main</type>
+      <value>click</value>
+      <webElementGuid>bfa255a2-5c11-4b51-9714-c18f3b1a1807</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-tiara-custom-props-popup-type</name>
+      <type>Main</type>
+      <value>app_download</value>
+      <webElementGuid>1eebefb0-20dd-4957-8e21-22bfae8b0601</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                    
+                        Close
+                    
+                </value>
+      <webElementGuid>e64fd660-e53f-4ae9-a052-67b79600900d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;overlay&quot;]/body[@class=&quot;desktop series&quot;]/div[@class=&quot;modal-backdrop&quot;]/div[@class=&quot;popup-web-to-app&quot;]/div[@class=&quot;popup-web-to-app__inner&quot;]/div[@class=&quot;popup-web-to-app__inner__btn-wrapper&quot;]/button[@class=&quot;js-tiara-tracking popup-web-to-app__inner__btn-wrapper__btn popup-web-to-app__inner__btn-wrapper__btn__cancel hide-overlay js-web-to-app-popup-cancel&quot;]</value>
+      <webElementGuid>ee454398-264e-4b2c-b449-42bd7f0f9538</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Accept'])[1]/following::button[1]</value>
+      <webElementGuid>816b15a5-dcf7-44a4-ac35-277da52221c2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Marketing'])[1]/following::button[2]</value>
+      <webElementGuid>e7d3985e-3acf-45a5-8682-5f4cbcbf8cb6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View in app'])[1]/preceding::button[1]</value>
+      <webElementGuid>381dbaaa-e7d1-4d90-b398-be260421abc6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[7]/div/div/div/button</value>
+      <webElementGuid>4b17f3cf-ab13-4468-a01c-c2e84f603d98</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = '
+                    
+                        Close
+                    
+                ' or . = '
+                    
+                        Close
+                    
+                ')]</value>
+      <webElementGuid>86da6dde-2ae4-40e6-86b5-83c5cbd4bb96</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

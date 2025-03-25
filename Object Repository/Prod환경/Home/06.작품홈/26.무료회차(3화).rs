@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>26.무료회차(3화)</name>
+   <tag></tag>
+   <elementGuidId>b7cfd6e6-3d74-4230-9b13-8fa1034fb18a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='page-wrap']/div/div/div/section/div[4]/ul/li[4]/a/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>16ab4edc-3c5b-4c3b-8b55-ea755d657b35</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>thumb-overlay thumb-overlay--flat</value>
+      <webElementGuid>929e6c1e-e389-45ca-a823-e8223e2aaaab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;page-wrap&quot;)/div[@class=&quot;series-root&quot;]/div[@class=&quot;section-wrapper&quot;]/div[@class=&quot;section-sub-wrapper&quot;]/section[@class=&quot;section section--left&quot;]/div[@class=&quot;section__bottom section__bottom--episode js-section-row&quot;]/ul[@class=&quot;episode-list js-episode-list&quot;]/li[@class=&quot;episode-list__item episode-list__item--read&quot;]/a[@class=&quot;ga-tracking episode-item js-fb-tracking js-tiara-tracking&quot;]/div[@class=&quot;thumb&quot;]/div[@class=&quot;thumb-overlay thumb-overlay--flat&quot;]</value>
+      <webElementGuid>cff22cbc-1965-4d2e-a595-b1a10ffcf370</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='page-wrap']/div/div/div/section/div[4]/ul/li[4]/a/div/div</value>
+      <webElementGuid>5a8f0db2-b3c6-47a4-8827-938c9e68cebc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Apr 05, 2021'])[3]/following::div[2]</value>
+      <webElementGuid>3a4a5446-d420-4349-9867-d1ef18395d57</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Episode 2'])[2]/following::div[2]</value>
+      <webElementGuid>54d0540e-111e-4fd7-b4bc-8526ae57a429</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Episode 3'])[2]/preceding::div[1]</value>
+      <webElementGuid>f9b1e601-00e6-4b2d-b0a8-5c58a6e0156a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Apr 05, 2021'])[4]/preceding::div[1]</value>
+      <webElementGuid>aa0d5df3-d8f2-4eba-a439-e97d8329898a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[4]/a/div/div</value>
+      <webElementGuid>facff661-3aa2-4694-95cc-d824ed162e30</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

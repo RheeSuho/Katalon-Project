@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>24.리포트버튼</name>
+   <tag></tag>
+   <elementGuidId>33bb1197-d3ec-400d-96a4-53a34131f3cf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='page-wrap']/div/div[5]/div/div/div[2]/div/ul/li[4]/a/span/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.ico.sp-ico-report-wht-s</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>94509d77-8438-4d5b-a631-cf575d6220eb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ico sp-ico-report-wht-s</value>
+      <webElementGuid>3908a5d2-2ac4-497b-9f54-3f5759110bc2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;page-wrap&quot;)/div[@class=&quot;vw-root js-viewer-root&quot;]/div[@class=&quot;toolbar&quot;]/div[@class=&quot;toolbar__wrapper toolbar__wrapper--wide js-toolbar&quot;]/div[@class=&quot;toolbar__row toolbar__row--left&quot;]/div[@class=&quot;row-item&quot;]/div[@class=&quot;dropdown-float js-float&quot;]/ul[@class=&quot;dropdown-list&quot;]/li[@class=&quot;dropdown-list__item&quot;]/a[@class=&quot;dropdown-list__button js-report-btn&quot;]/span[@class=&quot;ico-wrapper&quot;]/i[@class=&quot;ico sp-ico-report-wht-s&quot;]</value>
+      <webElementGuid>56a8d77c-767f-46a5-9179-f726647823ec</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='page-wrap']/div/div[5]/div/div/div[2]/div/ul/li[4]/a/span/i</value>
+      <webElementGuid>cba96af9-aa52-4ecd-8750-f70e09934135</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[4]/a/span/i</value>
+      <webElementGuid>ba24d233-0ec8-47e3-bb39-b64b5c8adb2b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

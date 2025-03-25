@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>26.취소버튼</name>
+   <tag></tag>
+   <elementGuidId>731b111c-787b-4401-8875-ff9083668b48</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='contact us'])[1]/following::a[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.hide-overlay.p-btn.large.static.item__left</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>b32726a7-8895-48f0-ba5f-a5040de53df1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#!/close</value>
+      <webElementGuid>641d10d4-4589-4282-a182-9b696e893da5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>hide-overlay p-btn large static item__left</value>
+      <webElementGuid>ea98a42d-5586-4b47-9052-30cd62b907f8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>cancel</value>
+      <webElementGuid>868a9b25-ad09-4992-b05b-960036fd61e0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;overlay&quot;]/body[@class=&quot;desktop series content&quot;]/div[@class=&quot;modal-backdrop&quot;]/div[@class=&quot;popup-box popup__report&quot;]/div[@class=&quot;popup__footer&quot;]/div[@class=&quot;footer__item&quot;]/a[@class=&quot;hide-overlay p-btn large static item__left&quot;]</value>
+      <webElementGuid>80fb9177-f249-4f28-94dd-500672bb4be7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='contact us'])[1]/following::a[1]</value>
+      <webElementGuid>825da30d-bd51-4525-a6a6-5d2340f57042</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Content Guidelines'])[1]/following::a[2]</value>
+      <webElementGuid>b36df4f6-eb21-4a21-af6f-b32755cb09da</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='report'])[1]/preceding::a[1]</value>
+      <webElementGuid>b16640f3-cc17-412a-8f6a-6c9164b45f06</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '#!/close')]</value>
+      <webElementGuid>247dec39-7832-4a4e-af3c-695214a85041</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[7]/div/div[3]/div[2]/a</value>
+      <webElementGuid>7fc9848d-2872-4083-9dae-1530b11aa502</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '#!/close' and (text() = 'cancel' or . = 'cancel')]</value>
+      <webElementGuid>69850e5c-297e-43a3-9dfb-63f079687bdd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

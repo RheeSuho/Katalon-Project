@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>08.썸네일</name>
+   <tag></tag>
+   <elementGuidId>87dedd8e-8a31-4ace-a57c-90ffcdb97a97</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='page-wrap']/div/div[5]/div/div/div/img</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.row-item.row-item--info.js-toolbar-episode > img[alt=&quot;Thank you&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>e1a32b5d-cd20-447e-b696-7c34e4097970</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://us-a.tapas.io/sa/72/2fbbf2c8-31ab-4c89-af80-8859c338bf7b.jpg</value>
+      <webElementGuid>0d8aa21a-8096-4b99-b25f-009208506a13</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>Thank you</value>
+      <webElementGuid>ce2dcfe9-a504-4572-a4d2-1dd43e151221</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;page-wrap&quot;)/div[@class=&quot;vw-root js-viewer-root&quot;]/div[@class=&quot;toolbar&quot;]/div[@class=&quot;toolbar__wrapper toolbar__wrapper--wide js-toolbar&quot;]/div[@class=&quot;toolbar__row toolbar__row--left&quot;]/div[@class=&quot;row-item row-item--info js-toolbar-episode&quot;]/img[1]</value>
+      <webElementGuid>88ac7afd-fe83-4420-948b-0825ed6db558</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='page-wrap']/div/div[5]/div/div/div/img</value>
+      <webElementGuid>2b0970ac-9797-454c-8414-f49c561c823b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>(//img[@alt='Thank you'])[2]</value>
+      <webElementGuid>14db9d68-5450-44a1-be45-9ee444bad821</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/img</value>
+      <webElementGuid>cd8f4de4-1292-4913-b28b-2d49b56f81c8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'https://us-a.tapas.io/sa/72/2fbbf2c8-31ab-4c89-af80-8859c338bf7b.jpg' and @alt = 'Thank you']</value>
+      <webElementGuid>2af89515-1655-4eb0-b275-20a2c855b343</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

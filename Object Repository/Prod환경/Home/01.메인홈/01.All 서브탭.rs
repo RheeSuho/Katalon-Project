@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>01.All 서브탭</name>
+   <tag></tag>
+   <elementGuidId>9dc560a3-7b22-467d-bd74-e7ef9f07307e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.absolute.left-0.top-0.size-full.rounded-16.border-1.border-transparent</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/nav/div/div[2]/div/div/div/div[2]/a[2]/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>fac5e647-e079-4808-b359-c1eeb6f252e9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>absolute left-0 top-0 size-full rounded-16 border-1 border-transparent</value>
+      <webElementGuid>f8f75599-f839-4334-9f86-84abce8515c9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;relative mx-auto flex min-h-full flex-col text-base60 __variable_a04e73 __variable_aa69c3&quot;]/nav[@class=&quot;sticky top-0 z-navigation w-full bg-bg10&quot;]/div[@class=&quot;mx-auto w-1010 bg-bg10&quot;]/div[2]/div[1]/div[@class=&quot;relative&quot;]/div[@class=&quot;z-navigation flex w-full items-center overflow-x-scroll scrollbar-hide&quot;]/div[@class=&quot;flex items-center space-x-6 pb-12 pt-4 after:h-1 after:w-11 after:shrink-0 after:content-[&quot;&quot;]&quot;]/a[@class=&quot;shrink-0&quot;]/div[@class=&quot;relative h-40 min-w-104 rounded-16 px-12 py-10&quot;]/div[@class=&quot;absolute left-0 top-0 size-full rounded-16 border-1 border-transparent&quot;]</value>
+      <webElementGuid>458c475f-1560-413f-9d15-3116ec292678</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/nav/div/div[2]/div/div/div/div[2]/a[2]/div/div</value>
+      <webElementGuid>a44e14b3-976b-4846-9079-b9a8a0c83351</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/a[2]/div/div</value>
+      <webElementGuid>b62fe4e2-2910-481f-9008-8a64e84e2bb7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

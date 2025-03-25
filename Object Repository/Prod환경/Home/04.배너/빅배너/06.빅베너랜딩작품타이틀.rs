@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>06.빅베너랜딩작품타이틀</name>
+   <tag></tag>
+   <elementGuidId>b3ebba4a-9db7-45c3-ae45-96b26172fa38</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.title</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='page-wrap']/div/div/div/section/div[2]/div[2]/div[2]/div/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>eaf693a2-b3ff-4137-b945-816fa8ae952d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>title</value>
+      <webElementGuid>90c6e614-7f25-412b-992d-d9d7c489bb84</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/series/love-for-hire/info</value>
+      <webElementGuid>9bb16370-b9f6-402c-b900-dc4fb8c54d7a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Love for Hire</value>
+      <webElementGuid>373ac326-0a72-4fe5-9b9a-a4e43556fd25</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;page-wrap&quot;)/div[@class=&quot;series-root&quot;]/div[@class=&quot;section-wrapper&quot;]/div[@class=&quot;section-sub-wrapper&quot;]/section[@class=&quot;section section--left&quot;]/div[@class=&quot;section__top&quot;]/div[@class=&quot;info info--bottom&quot;]/div[@class=&quot;info__right&quot;]/div[@class=&quot;title-wrapper title-wrapper--mg20&quot;]/a[@class=&quot;title&quot;]</value>
+      <webElementGuid>168b6062-27c6-46ac-b959-c8ce26214287</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='page-wrap']/div/div/div/section/div[2]/div[2]/div[2]/div/a</value>
+      <webElementGuid>fd67dfa3-1e05-498a-a824-54a56f25bd60</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Love for Hire')]</value>
+      <webElementGuid>ffdf05b5-eb01-4e8e-8ffe-bf220cec267c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Romance'])[2]/following::a[2]</value>
+      <webElementGuid>9760e16c-377f-492d-a61b-38a824612948</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Livingston'])[1]/following::a[6]</value>
+      <webElementGuid>9a05c3e2-d6f7-44ed-bb49-2d1a97026cbd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Comic'])[1]/preceding::a[1]</value>
+      <webElementGuid>2595f876-8193-45bf-8c1e-bbcb9fe6b7d2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Read Ep.1 for free'])[1]/preceding::a[5]</value>
+      <webElementGuid>4fc16318-c71a-4d62-ac15-a1beda0de6a3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '/series/love-for-hire/info')])[3]</value>
+      <webElementGuid>3e45fa4a-565a-4dfa-b38a-c8a17fddf2ee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div[2]/div/a</value>
+      <webElementGuid>58117000-78d3-4a0f-8498-7c6e63241a51</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/series/love-for-hire/info' and (text() = 'Love for Hire' or . = 'Love for Hire')]</value>
+      <webElementGuid>55b067d1-7657-494b-b5c7-1130d84ce293</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

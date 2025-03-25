@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+타파스,Chrome 132.0.6834.160,,,05-02-2025 10:58:26,05-02-2025 10:58:43,17.358s,PASSED
+,,,,,,,
+Test Cases/로그인 확인,Chrome 132.0.6834.160,,,05-02-2025 10:58:26,05-02-2025 10:58:36,9.932s,PASSED
+"email = ""dkttapas00@gmail.com""",Chrome 132.0.6834.160,,,05-02-2025 10:58:26,05-02-2025 10:58:26,0.002s,PASSED
+"url = ""https://tapas.io/account/signin?from=/""",Chrome 132.0.6834.160,,,05-02-2025 10:58:26,05-02-2025 10:58:26,0.001s,PASSED
+"password = ""winehouse""",Chrome 132.0.6834.160,,,05-02-2025 10:58:26,05-02-2025 10:58:26,0.001s,PASSED
+"openBrowser("""")",Chrome 132.0.6834.160,,,05-02-2025 10:58:26,05-02-2025 10:58:28,2.191s,PASSED
+navigateToUrl(url),Chrome 132.0.6834.160,,,05-02-2025 10:58:28,05-02-2025 10:58:31,3.050s,PASSED
+emailField = new com.kms.katalon.core.testobject.TestObject(),Chrome 132.0.6834.160,,,05-02-2025 10:58:31,05-02-2025 10:58:31,0.006s,PASSED
+"emailField.addProperty(""xpath"", EQUALS, ""//input[@name='email']"")",Chrome 132.0.6834.160,,,05-02-2025 10:58:31,05-02-2025 10:58:31,0.004s,PASSED
+"if (waitForElementPresent(emailField, 10))",Chrome 132.0.6834.160,,,05-02-2025 10:58:31,05-02-2025 10:58:32,1.123s,PASSED
+passwordField = new com.kms.katalon.core.testobject.TestObject(),Chrome 132.0.6834.160,,,05-02-2025 10:58:32,05-02-2025 10:58:32,0.001s,PASSED
+"passwordField.addProperty(""xpath"", EQUALS, ""//input[@name='password']"")",Chrome 132.0.6834.160,,,05-02-2025 10:58:32,05-02-2025 10:58:32,0.001s,PASSED
+"if (waitForElementPresent(passwordField, 10))",Chrome 132.0.6834.160,,,05-02-2025 10:58:32,05-02-2025 10:58:33,0.725s,PASSED
+loginButton = new com.kms.katalon.core.testobject.TestObject(),Chrome 132.0.6834.160,,,05-02-2025 10:58:33,05-02-2025 10:58:33,0.001s,PASSED
+"loginButton.addProperty(""xpath"", EQUALS, ""//button[contains(text(), 'Log in')]"")",Chrome 132.0.6834.160,,,05-02-2025 10:58:33,05-02-2025 10:58:33,0.001s,PASSED
+click(loginButton),Chrome 132.0.6834.160,,,05-02-2025 10:58:33,05-02-2025 10:58:36,2.677s,PASSED
+,,,,,,,
+Test Cases/로그인 후 작품홈 진입,Chrome 132.0.6834.160,,,05-02-2025 10:58:36,05-02-2025 10:58:43,7.336s,PASSED
+"url = ""https://tapas.io/account/signin?from=/""",Chrome 132.0.6834.160,,,05-02-2025 10:58:36,05-02-2025 10:58:36,0.001s,PASSED
+"email = ""dkttapas00@gmail.com""",Chrome 132.0.6834.160,,,05-02-2025 10:58:36,05-02-2025 10:58:36,0.000s,PASSED
+"password = ""winehouse""",Chrome 132.0.6834.160,,,05-02-2025 10:58:36,05-02-2025 10:58:36,0.001s,PASSED
+"cookieFilePath = ""cookies.save""",Chrome 132.0.6834.160,,,05-02-2025 10:58:36,05-02-2025 10:58:36,0.001s,PASSED
+"openBrowser("""")",Chrome 132.0.6834.160,,,05-02-2025 10:58:36,05-02-2025 10:58:37,1.543s,PASSED
+navigateToUrl(url),Chrome 132.0.6834.160,,,05-02-2025 10:58:37,05-02-2025 10:58:41,3.070s,PASSED
+cookieFile = new java.io.File(cookieFilePath),Chrome 132.0.6834.160,,,05-02-2025 10:58:41,05-02-2025 10:58:41,0.001s,PASSED
+if (cookieFile.exists()),Chrome 132.0.6834.160,,,05-02-2025 10:58:41,05-02-2025 10:58:43,2.460s,PASSED

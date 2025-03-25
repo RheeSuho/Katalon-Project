@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="타파스" time="17.358" tests="2" failures="0" errors="0">
+   <testsuite name="타파스" tests="2" failures="0" errors="0" time="17.358" skipped="0" timestamp="05-02-2025T10:58:26" hostname="ruben.lee - localhost" id="Test Suites/타파스">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/ruben.lee/Katalon Studio/Tapas Test/Reports/20250205_105821/\uD0C0\uD30C\uC2A4/20250205_105821"/>
+         <property name="logFiles" value="/Users/ruben.lee/Katalon Studio/Tapas Test/Reports/20250205_105821/\uD0C0\uD30C\uC2A4/20250205_105821/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ruben.lee - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="10.1.0.223"/>
+         <property name="browser" value="Chrome 132.0.6834.160"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="13bc0312fe2e8f920a8e3e6a06afbf7c"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/로그인 확인" time="9.932" classname="Test Cases/로그인 확인" status="PASSED">
+         <system-out><![CDATA[05-02-2025T10:58:26 - [TEST_CASE][PASSED] - Test Cases/로그인 확인: Test Cases/로그인 확인
+
+05-02-2025T10:58:26 - [TEST_STEP][PASSED] - email = "dkttapas00@gmail.com": null
+
+05-02-2025T10:58:26 - [TEST_STEP][PASSED] - url = "https://tapas.io/account/signin?from=/": null
+
+05-02-2025T10:58:26 - [TEST_STEP][PASSED] - password = "winehouse": null
+
+05-02-2025T10:58:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-02-2025T10:58:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-02-2025T10:58:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-02-2025T10:58:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-02-2025T10:58:28 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://tapas.io/account/signin?from=/' successfully
+
+05-02-2025T10:58:31 - [MESSAGE][PASSED] - Navigate to 'https://tapas.io/account/signin?from=/' successfully
+
+05-02-2025T10:58:31 - [TEST_STEP][PASSED] - emailField = new com.kms.katalon.core.testobject.TestObject(): null
+
+05-02-2025T10:58:31 - [TEST_STEP][PASSED] - emailField.addProperty("xpath", EQUALS, "//input[@name='email']"): null
+
+05-02-2025T10:58:31 - [TEST_STEP][PASSED] - if (waitForElementPresent(emailField, 10)): null
+
+05-02-2025T10:58:32 - [MESSAGE][PASSED] - Object '' is present
+
+05-02-2025T10:58:32 - [TEST_STEP][PASSED] - setText(emailField, email): Text 'dkttapas00@gmail.com' is set on object ''
+
+05-02-2025T10:58:32 - [MESSAGE][PASSED] - Text 'dkttapas00@gmail.com' is set on object ''
+
+05-02-2025T10:58:32 - [TEST_STEP][PASSED] - passwordField = new com.kms.katalon.core.testobject.TestObject(): null
+
+05-02-2025T10:58:32 - [TEST_STEP][PASSED] - passwordField.addProperty("xpath", EQUALS, "//input[@name='password']"): null
+
+05-02-2025T10:58:32 - [TEST_STEP][PASSED] - if (waitForElementPresent(passwordField, 10)): null
+
+05-02-2025T10:58:32 - [MESSAGE][PASSED] - Object '' is present
+
+05-02-2025T10:58:32 - [TEST_STEP][PASSED] - setText(passwordField, password): Text 'winehouse' is set on object ''
+
+05-02-2025T10:58:33 - [MESSAGE][PASSED] - Text 'winehouse' is set on object ''
+
+05-02-2025T10:58:33 - [TEST_STEP][PASSED] - loginButton = new com.kms.katalon.core.testobject.TestObject(): null
+
+05-02-2025T10:58:33 - [TEST_STEP][PASSED] - loginButton.addProperty("xpath", EQUALS, "//button[contains(text(), 'Log in')]"): null
+
+05-02-2025T10:58:33 - [TEST_STEP][PASSED] - click(loginButton): Object: '' is clicked on
+
+05-02-2025T10:58:36 - [MESSAGE][PASSED] - Object: '' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/로그인 후 작품홈 진입" time="7.336" classname="Test Cases/로그인 후 작품홈 진입" status="PASSED">
+         <system-out><![CDATA[05-02-2025T10:58:36 - [TEST_CASE][PASSED] - Test Cases/로그인 후 작품홈 진입: Test Cases/로그인 후 작품홈 진입
+
+05-02-2025T10:58:36 - [TEST_STEP][PASSED] - url = "https://tapas.io/account/signin?from=/": null
+
+05-02-2025T10:58:36 - [TEST_STEP][PASSED] - email = "dkttapas00@gmail.com": null
+
+05-02-2025T10:58:36 - [TEST_STEP][PASSED] - password = "winehouse": null
+
+05-02-2025T10:58:36 - [TEST_STEP][PASSED] - cookieFilePath = "cookies.save": null
+
+05-02-2025T10:58:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-02-2025T10:58:36 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+05-02-2025T10:58:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-02-2025T10:58:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-02-2025T10:58:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-02-2025T10:58:37 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://tapas.io/account/signin?from=/' successfully
+
+05-02-2025T10:58:41 - [MESSAGE][PASSED] - Navigate to 'https://tapas.io/account/signin?from=/' successfully
+
+05-02-2025T10:58:41 - [TEST_STEP][PASSED] - cookieFile = new java.io.File(cookieFilePath): null
+
+05-02-2025T10:58:41 - [TEST_STEP][PASSED] - if (cookieFile.exists()): ✅ 쿠키 로드 완료! 자동 로그인 성공
+
+05-02-2025T10:58:41 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+05-02-2025T10:58:41 - [TEST_STEP][PASSED] - try: ✅ 쿠키 로드 완료! 자동 로그인 성공
+
+05-02-2025T10:58:41 - [TEST_STEP][PASSED] - fis = new java.io.FileInputStream(cookieFile): null
+
+05-02-2025T10:58:41 - [TEST_STEP][PASSED] - ois = new java.io.ObjectInputStream(fis): null
+
+05-02-2025T10:58:41 - [TEST_STEP][PASSED] - cookies = ois.readObject(): null
+
+05-02-2025T10:58:41 - [TEST_STEP][PASSED] - ois.close(): null
+
+05-02-2025T10:58:41 - [TEST_STEP][PASSED] - fis.close(): null
+
+05-02-2025T10:58:41 - [TEST_STEP][PASSED] - for (org.openqa.selenium.Cookie cookie : cookies): null
+
+05-02-2025T10:58:41 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+05-02-2025T10:58:41 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+05-02-2025T10:58:41 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+05-02-2025T10:58:41 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+05-02-2025T10:58:41 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+05-02-2025T10:58:41 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+05-02-2025T10:58:41 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+05-02-2025T10:58:41 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+05-02-2025T10:58:41 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+05-02-2025T10:58:41 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+05-02-2025T10:58:41 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+05-02-2025T10:58:41 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+05-02-2025T10:58:41 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+05-02-2025T10:58:41 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+05-02-2025T10:58:41 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+05-02-2025T10:58:41 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+05-02-2025T10:58:41 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+05-02-2025T10:58:41 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+05-02-2025T10:58:41 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+05-02-2025T10:58:41 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+05-02-2025T10:58:41 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+05-02-2025T10:58:41 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+05-02-2025T10:58:41 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+05-02-2025T10:58:41 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+05-02-2025T10:58:41 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+05-02-2025T10:58:41 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+05-02-2025T10:58:41 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+05-02-2025T10:58:41 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+05-02-2025T10:58:41 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+05-02-2025T10:58:41 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+05-02-2025T10:58:41 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+05-02-2025T10:58:43 - [MESSAGE][PASSED] - Refresh successfully
+
+05-02-2025T10:58:43 - [TEST_STEP][PASSED] - comment("✅ 쿠키 로드 완료! 자동 로그인 성공"): ✅ 쿠키 로드 완료! 자동 로그인 성공
+
+05-02-2025T10:58:43 - [MESSAGE][INFO] - ✅ 쿠키 로드 완료! 자동 로그인 성공]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[05-02-2025T10:58:26 - [TEST_SUITE][PASSED] - 타파스: Test Cases/로그인 후 작품홈 진입]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

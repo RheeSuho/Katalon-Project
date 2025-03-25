@@ -1,0 +1,831 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Comic 홈" time="167.22" tests="6" failures="2" errors="0">
+   <testsuite name="Comic 홈" tests="6" failures="2" errors="0" time="167.22" skipped="0" timestamp="11-02-2025T12:21:23" hostname="ruben.lee - 172.25.109.197" id="Test Suites/Comic 홈">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/ruben.lee/Katalon Studio/Tapas Test/Reports/20250211_122117/Comic \uD648/20250211_122118"/>
+         <property name="logFiles" value="/Users/ruben.lee/Katalon Studio/Tapas Test/Reports/20250211_122117/Comic \uD648/20250211_122118/execution0.log"/>
+         <property name="attachments" value="/Users/ruben.lee/Katalon Studio/Tapas Test/Reports/20250211_122117/Comic \uD648/20250211_122118/1739244179651.png"/>
+         <property name="hostName" value="ruben.lee - 172.25.109.197"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="10.1.0.223"/>
+         <property name="browser" value="Chrome 132.0.6834.160"/>
+         <property name="hostAddress" value="172.25.109.197"/>
+         <property name="sessionId" value="85332cd669db9a18200a144ca5bc5c3d"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/서브탭 확인/New 서브탭 - 로그인 경우 추가필요" time="28.318" classname="Test Cases/서브탭 확인/New 서브탭 - 로그인 경우 추가필요" status="FAILED">
+         <failure type="FAILED" message="Test Cases/서브탭 확인/New 서브탭 - 로그인 경우 추가필요 FAILED.&#xa;Reason:&#xa;java.lang.AssertionError: Web element with id: 'Object Repository/서브탭/New 서브탭/Page_Home  New/h2_No results were found' located by '//div[@id='__next']/div/div/main/div/div/div/h2' not found&#xa;	at org.testng.Assert.fail(Assert.java:111)&#xa;	at com.reusableComponents.HighlightElement.run(HighlightElement.groovy:33)&#xa;	at New 서브탭 - 로그인 경우 추가필요.run(New 서브탭 - 로그인 경우 추가필요:33)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1739244078617.run(TempTestSuite1739244078617.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[11-02-2025T12:21:23 - [TEST_CASE][FAILED] - Test Cases/서브탭 확인/New 서브탭 - 로그인 경우 추가필요: Test Cases/서브탭 확인/New 서브탭 - 로그인 경우 추가필요 FAILED.
+Reason:
+java.lang.AssertionError: Web element with id: 'Object Repository/서브탭/New 서브탭/Page_Home  New/h2_No results were found' located by '//div[@id='__next']/div/div/main/div/div/div/h2' not found
+	at org.testng.Assert.fail(Assert.java:111)
+	at com.reusableComponents.HighlightElement.run(HighlightElement.groovy:33)
+	at New 서브탭 - 로그인 경우 추가필요.run(New 서브탭 - 로그인 경우 추가필요:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739244078617.run(TempTestSuite1739244078617.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+11-02-2025T12:21:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-02-2025T12:21:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-02-2025T12:21:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-02-2025T12:21:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-02-2025T12:21:25 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.tapas.io/"): Navigate to 'https://qa.tapas.io/' successfully
+
+11-02-2025T12:21:27 - [MESSAGE][PASSED] - Navigate to 'https://qa.tapas.io/' successfully
+
+11-02-2025T12:21:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/서브탭/New 서브탭/Page_Home  Spotlight/div_Publish_absolute left-0 top-0 size-full_9e46ba")): Object: 'Object Repository/서브탭/New 서브탭/Page_Home  Spotlight/div_Publish_absolute left-0 top-0 size-full_9e46ba' is clicked on
+
+11-02-2025T12:21:29 - [MESSAGE][PASSED] - Object: 'Object Repository/서브탭/New 서브탭/Page_Home  Spotlight/div_Publish_absolute left-0 top-0 size-full_9e46ba' is clicked on
+
+11-02-2025T12:21:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/서브탭/New 서브탭/Page_Home  New/a_Novels")): Object: 'Object Repository/서브탭/New 서브탭/Page_Home  New/a_Novels' is clicked on
+
+11-02-2025T12:21:30 - [MESSAGE][PASSED] - Object: 'Object Repository/서브탭/New 서브탭/Page_Home  New/a_Novels' is clicked on
+
+11-02-2025T12:21:30 - [TEST_STEP][PASSED] - NewNovel = findTestObject("서브탭/New 서브탭/Page_Home  New/h2_No results were found"): null
+
+11-02-2025T12:21:30 - [TEST_STEP][FAILED] - HighlightElement.run(NewNovel): Test Cases/서브탭 확인/New 서브탭 - 로그인 경우 추가필요 FAILED.
+Reason:
+java.lang.AssertionError: Web element with id: 'Object Repository/서브탭/New 서브탭/Page_Home  New/h2_No results were found' located by '//div[@id='__next']/div/div/main/div/div/div/h2' not found
+	at org.testng.Assert.fail(Assert.java:111)
+	at com.reusableComponents.HighlightElement.run(HighlightElement.groovy:33)
+	at New 서브탭 - 로그인 경우 추가필요.run(New 서브탭 - 로그인 경우 추가필요:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739244078617.run(TempTestSuite1739244078617.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+11-02-2025T12:21:51 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='__next']/div/div/main/div/div/div/h2'. Please recheck the objects properties to make sure the desired element is located. 
+
+11-02-2025T12:21:51 - [MESSAGE][FAILED] - Test Cases/서브탭 확인/New 서브탭 - 로그인 경우 추가필요 FAILED.
+Reason:
+java.lang.AssertionError: Web element with id: 'Object Repository/서브탭/New 서브탭/Page_Home  New/h2_No results were found' located by '//div[@id='__next']/div/div/main/div/div/div/h2' not found
+	at org.testng.Assert.fail(Assert.java:111)
+	at com.reusableComponents.HighlightElement.run(HighlightElement.groovy:33)
+	at New 서브탭 - 로그인 경우 추가필요.run(New 서브탭 - 로그인 경우 추가필요:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739244078617.run(TempTestSuite1739244078617.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+         <system-err><![CDATA[11-02-2025T12:21:23 - [TEST_CASE][FAILED] - Test Cases/서브탭 확인/New 서브탭 - 로그인 경우 추가필요: Test Cases/서브탭 확인/New 서브탭 - 로그인 경우 추가필요 FAILED.
+Reason:
+java.lang.AssertionError: Web element with id: 'Object Repository/서브탭/New 서브탭/Page_Home  New/h2_No results were found' located by '//div[@id='__next']/div/div/main/div/div/div/h2' not found
+	at org.testng.Assert.fail(Assert.java:111)
+	at com.reusableComponents.HighlightElement.run(HighlightElement.groovy:33)
+	at New 서브탭 - 로그인 경우 추가필요.run(New 서브탭 - 로그인 경우 추가필요:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739244078617.run(TempTestSuite1739244078617.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/서브탭 확인/Popular 서브탭" time="68.091" classname="Test Cases/서브탭 확인/Popular 서브탭" status="FAILED">
+         <failure type="FAILED" message="Test Cases/서브탭 확인/Popular 서브탭 FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/서브탭/Popular 서브탭/Page_Home  Popular/a_Novels'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)&#xa;	at Popular 서브탭.run(Popular 서브탭:42)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1739244078617.run(TempTestSuite1739244078617.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a class=&quot;group relative mb-4 mr-12 inline-flex h-20 cursor-pointer whitespace-nowrap text-base30 font-system-14b hover:text-base60&quot; href=&quot;/menu/1/subtab/7?category=NOVEL&quot;>...&lt;/a> is not clickable at point (212, 10). Other element would receive the click: &lt;div class=&quot;relative bg-bg10 px-18 pb-20 pt-32&quot; style=&quot;height:96px&quot;>...&lt;/div>&#xa;  (Session info: chrome=132.0.6834.160)&#xa;Build info: version: '4.22.0', revision: 'c5f3146703'&#xa;System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '17.0.13'&#xa;Driver info: com.kms.katalon.selenium.driver.CChromeDriver&#xa;Command: [85332cd669db9a18200a144ca5bc5c3d, clickElement {id=f.8EADF2D6EC2533027DB7AC70E248EEEA.d.AC733335174957ABB89DB7F304876187.e.555}]&#xa;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.83 (03d59cf5ecf1..., userDataDir: /var/folders/jt/hwd168h1059...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51480}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51480/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:15069/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#xa;Element: [[CChromeDriver: chrome on mac (85332cd669db9a18200a144ca5bc5c3d)] -> xpath: //div[@id='__next']/div/div/main/section/section/div/div/div/div/div/div/div/div/a[2]]&#xa;Session ID: 85332cd669db9a18200a144ca5bc5c3d&#xa;	at jdk.internal.reflect.GeneratedConstructorAccessor20.newInstance(Unknown Source)&#xa;	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#xa;	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)&#xa;	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)&#xa;	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)&#xa;	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)&#xa;	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)&#xa;	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)&#xa;	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)&#xa;	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)&#xa;	at jdk.internal.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)&#xa;	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)&#xa;	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)&#xa;	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$tths3gaj.click(Unknown Source)&#xa;	at org.openqa.selenium.WebElement$click.call(Unknown Source)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:82)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[11-02-2025T12:21:51 - [TEST_CASE][FAILED] - Test Cases/서브탭 확인/Popular 서브탭: Test Cases/서브탭 확인/Popular 서브탭 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/서브탭/Popular 서브탭/Page_Home  Popular/a_Novels'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Popular 서브탭.run(Popular 서브탭:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739244078617.run(TempTestSuite1739244078617.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a class="group relative mb-4 mr-12 inline-flex h-20 cursor-pointer whitespace-nowrap text-base30 font-system-14b hover:text-base60" href="/menu/1/subtab/7?category=NOVEL">...</a> is not clickable at point (212, 10). Other element would receive the click: <div class="relative bg-bg10 px-18 pb-20 pt-32" style="height:96px">...</div>
+  (Session info: chrome=132.0.6834.160)
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '17.0.13'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [85332cd669db9a18200a144ca5bc5c3d, clickElement {id=f.8EADF2D6EC2533027DB7AC70E248EEEA.d.AC733335174957ABB89DB7F304876187.e.555}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.83 (03d59cf5ecf1..., userDataDir: /var/folders/jt/hwd168h1059...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51480}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51480/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:15069/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[CChromeDriver: chrome on mac (85332cd669db9a18200a144ca5bc5c3d)] -> xpath: //div[@id='__next']/div/div/main/section/section/div/div/div/div/div/div/div/div/a[2]]
+Session ID: 85332cd669db9a18200a144ca5bc5c3d
+	at jdk.internal.reflect.GeneratedConstructorAccessor20.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at jdk.internal.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$tths3gaj.click(Unknown Source)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more
+
+
+11-02-2025T12:21:51 - [TEST_STEP][PASSED] - comment("✅ New 서브탭 실행"): ✅ New 서브탭 실행
+
+11-02-2025T12:21:51 - [MESSAGE][INFO] - ✅ New 서브탭 실행
+
+11-02-2025T12:21:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/서브탭/Popular 서브탭/Page_Home  Spotlight/div_Publish_absolute left-0 top-0 size-full_9e46ba")): Object: 'Object Repository/서브탭/Popular 서브탭/Page_Home  Spotlight/div_Publish_absolute left-0 top-0 size-full_9e46ba' is clicked on
+
+11-02-2025T12:21:52 - [MESSAGE][PASSED] - Object: 'Object Repository/서브탭/Popular 서브탭/Page_Home  Spotlight/div_Publish_absolute left-0 top-0 size-full_9e46ba' is clicked on
+
+11-02-2025T12:21:52 - [TEST_STEP][PASSED] - for ([i = 0, i < 11, (i++)]): Delayed 2 second(s)
+
+11-02-2025T12:21:52 - [TEST_STEP][PASSED] - executeJavaScript("window.scrollTo(0, document.body.scrollHeight);", null): Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+11-02-2025T12:21:52 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+11-02-2025T12:21:52 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+11-02-2025T12:21:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-02-2025T12:21:54 - [TEST_STEP][PASSED] - executeJavaScript("window.scrollTo(0, document.body.scrollHeight);", null): Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+11-02-2025T12:21:54 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+11-02-2025T12:21:54 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+11-02-2025T12:21:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-02-2025T12:21:56 - [TEST_STEP][PASSED] - executeJavaScript("window.scrollTo(0, document.body.scrollHeight);", null): Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+11-02-2025T12:21:56 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+11-02-2025T12:21:56 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+11-02-2025T12:21:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-02-2025T12:21:58 - [TEST_STEP][PASSED] - executeJavaScript("window.scrollTo(0, document.body.scrollHeight);", null): Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+11-02-2025T12:21:58 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+11-02-2025T12:21:58 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+11-02-2025T12:22:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-02-2025T12:22:00 - [TEST_STEP][PASSED] - executeJavaScript("window.scrollTo(0, document.body.scrollHeight);", null): Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+11-02-2025T12:22:00 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+11-02-2025T12:22:00 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+11-02-2025T12:22:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-02-2025T12:22:02 - [TEST_STEP][PASSED] - executeJavaScript("window.scrollTo(0, document.body.scrollHeight);", null): Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+11-02-2025T12:22:02 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+11-02-2025T12:22:02 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+11-02-2025T12:22:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-02-2025T12:22:04 - [TEST_STEP][PASSED] - executeJavaScript("window.scrollTo(0, document.body.scrollHeight);", null): Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+11-02-2025T12:22:04 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+11-02-2025T12:22:04 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+11-02-2025T12:22:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-02-2025T12:22:06 - [TEST_STEP][PASSED] - executeJavaScript("window.scrollTo(0, document.body.scrollHeight);", null): Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+11-02-2025T12:22:06 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+11-02-2025T12:22:06 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+11-02-2025T12:22:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-02-2025T12:22:08 - [TEST_STEP][PASSED] - executeJavaScript("window.scrollTo(0, document.body.scrollHeight);", null): Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+11-02-2025T12:22:08 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+11-02-2025T12:22:08 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+11-02-2025T12:22:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-02-2025T12:22:10 - [TEST_STEP][PASSED] - executeJavaScript("window.scrollTo(0, document.body.scrollHeight);", null): Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+11-02-2025T12:22:10 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+11-02-2025T12:22:10 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+11-02-2025T12:22:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-02-2025T12:22:12 - [TEST_STEP][PASSED] - executeJavaScript("window.scrollTo(0, document.body.scrollHeight);", null): Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+11-02-2025T12:22:12 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+11-02-2025T12:22:12 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+11-02-2025T12:22:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-02-2025T12:22:14 - [TEST_STEP][PASSED] - rank300 = findTestObject("서브탭/Popular 서브탭/Page_Home  Popular/div_300"): null
+
+11-02-2025T12:22:14 - [TEST_STEP][PASSED] - HighlightElement.run(rank300): null
+
+11-02-2025T12:22:16 - [TEST_STEP][PASSED] - verifyElementPresent(rank300, 0): Object 'Object Repository/서브탭/Popular 서브탭/Page_Home  Popular/div_300' is present
+
+11-02-2025T12:22:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+11-02-2025T12:22:17 - [MESSAGE][PASSED] - Object 'Object Repository/서브탭/Popular 서브탭/Page_Home  Popular/div_300' is present
+
+11-02-2025T12:22:17 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/서브탭/Popular 서브탭/Page_Home  Popular/a_Novels")): Unable to click on object 'Object Repository/서브탭/Popular 서브탭/Page_Home  Popular/a_Novels' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/서브탭/Popular 서브탭/Page_Home  Popular/a_Novels'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Popular 서브탭.run(Popular 서브탭:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739244078617.run(TempTestSuite1739244078617.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a class="group relative mb-4 mr-12 inline-flex h-20 cursor-pointer whitespace-nowrap text-base30 font-system-14b hover:text-base60" href="/menu/1/subtab/7?category=NOVEL">...</a> is not clickable at point (212, 10). Other element would receive the click: <div class="relative bg-bg10 px-18 pb-20 pt-32" style="height:96px">...</div>
+  (Session info: chrome=132.0.6834.160)
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '17.0.13'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [85332cd669db9a18200a144ca5bc5c3d, clickElement {id=f.8EADF2D6EC2533027DB7AC70E248EEEA.d.AC733335174957ABB89DB7F304876187.e.555}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.83 (03d59cf5ecf1..., userDataDir: /var/folders/jt/hwd168h1059...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51480}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51480/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:15069/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[CChromeDriver: chrome on mac (85332cd669db9a18200a144ca5bc5c3d)] -> xpath: //div[@id='__next']/div/div/main/section/section/div/div/div/div/div/div/div/div/a[2]]
+Session ID: 85332cd669db9a18200a144ca5bc5c3d
+	at jdk.internal.reflect.GeneratedConstructorAccessor20.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at jdk.internal.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$tths3gaj.click(Unknown Source)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Script1739165658376.run(Script1739165658376.groovy:42)
+	... 15 more
+)
+
+11-02-2025T12:22:59 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/서브탭/Popular 서브탭/Page_Home  Popular/a_Novels' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/서브탭/Popular 서브탭/Page_Home  Popular/a_Novels'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Popular 서브탭.run(Popular 서브탭:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739244078617.run(TempTestSuite1739244078617.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a class="group relative mb-4 mr-12 inline-flex h-20 cursor-pointer whitespace-nowrap text-base30 font-system-14b hover:text-base60" href="/menu/1/subtab/7?category=NOVEL">...</a> is not clickable at point (212, 10). Other element would receive the click: <div class="relative bg-bg10 px-18 pb-20 pt-32" style="height:96px">...</div>
+  (Session info: chrome=132.0.6834.160)
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '17.0.13'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [85332cd669db9a18200a144ca5bc5c3d, clickElement {id=f.8EADF2D6EC2533027DB7AC70E248EEEA.d.AC733335174957ABB89DB7F304876187.e.555}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.83 (03d59cf5ecf1..., userDataDir: /var/folders/jt/hwd168h1059...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51480}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51480/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:15069/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[CChromeDriver: chrome on mac (85332cd669db9a18200a144ca5bc5c3d)] -> xpath: //div[@id='__next']/div/div/main/section/section/div/div/div/div/div/div/div/div/a[2]]
+Session ID: 85332cd669db9a18200a144ca5bc5c3d
+	at jdk.internal.reflect.GeneratedConstructorAccessor20.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at jdk.internal.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$tths3gaj.click(Unknown Source)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Script1739165658376.run(Script1739165658376.groovy:42)
+	... 15 more
+)
+[[ATTACHMENT|/Users/ruben.lee/Katalon Studio/Tapas Test/Reports/20250211_122117/Comic \uD648/20250211_122118/1739244179651.png]]]]></system-out>
+         <system-err><![CDATA[11-02-2025T12:21:51 - [TEST_CASE][FAILED] - Test Cases/서브탭 확인/Popular 서브탭: Test Cases/서브탭 확인/Popular 서브탭 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/서브탭/Popular 서브탭/Page_Home  Popular/a_Novels'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Popular 서브탭.run(Popular 서브탭:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739244078617.run(TempTestSuite1739244078617.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a class="group relative mb-4 mr-12 inline-flex h-20 cursor-pointer whitespace-nowrap text-base30 font-system-14b hover:text-base60" href="/menu/1/subtab/7?category=NOVEL">...</a> is not clickable at point (212, 10). Other element would receive the click: <div class="relative bg-bg10 px-18 pb-20 pt-32" style="height:96px">...</div>
+  (Session info: chrome=132.0.6834.160)
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '17.0.13'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [85332cd669db9a18200a144ca5bc5c3d, clickElement {id=f.8EADF2D6EC2533027DB7AC70E248EEEA.d.AC733335174957ABB89DB7F304876187.e.555}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.83 (03d59cf5ecf1..., userDataDir: /var/folders/jt/hwd168h1059...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51480}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51480/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:15069/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[CChromeDriver: chrome on mac (85332cd669db9a18200a144ca5bc5c3d)] -> xpath: //div[@id='__next']/div/div/main/section/section/div/div/div/div/div/div/div/div/a[2]]
+Session ID: 85332cd669db9a18200a144ca5bc5c3d
+	at jdk.internal.reflect.GeneratedConstructorAccessor20.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at jdk.internal.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$tths3gaj.click(Unknown Source)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/서브탭 확인/Comic_All Comic" time="22.196" classname="Test Cases/서브탭 확인/Comic_All Comic" status="PASSED">
+         <system-out><![CDATA[11-02-2025T12:22:59 - [TEST_CASE][PASSED] - Test Cases/서브탭 확인/Comic_All Comic: Test Cases/서브탭 확인/Comic_All Comic
+
+11-02-2025T12:23:00 - [TEST_STEP][PASSED] - comment("✅ All comic 서브탭 실행"): ✅ All comic 서브탭 실행
+
+11-02-2025T12:23:00 - [MESSAGE][INFO] - ✅ All comic 서브탭 실행
+
+11-02-2025T12:23:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/서브탭/Comic_Spotlight/Page_Home  Spotlight/span_Comics")): Object: 'Object Repository/서브탭/Comic_Spotlight/Page_Home  Spotlight/span_Comics' is clicked on
+
+11-02-2025T12:23:00 - [MESSAGE][PASSED] - Object: 'Object Repository/서브탭/Comic_Spotlight/Page_Home  Spotlight/span_Comics' is clicked on
+
+11-02-2025T12:23:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/서브탭/Comic_All Comic/Page_Comics  Spotlight/div_Publish_absolute left-0 top-0 size-full rounded-16 border-1 border-transparent20")): Object: 'Object Repository/서브탭/Comic_All Comic/Page_Comics  Spotlight/div_Publish_absolute left-0 top-0 size-full rounded-16 border-1 border-transparent20' is clicked on
+
+11-02-2025T12:23:01 - [MESSAGE][PASSED] - Object: 'Object Repository/서브탭/Comic_All Comic/Page_Comics  Spotlight/div_Publish_absolute left-0 top-0 size-full rounded-16 border-1 border-transparent20' is clicked on
+
+11-02-2025T12:23:01 - [TEST_STEP][PASSED] - genrefilter = findTestObject("서브탭/Comic_All Comic/Page_Comics  All Genres/a_Action Fantasy"): null
+
+11-02-2025T12:23:01 - [TEST_STEP][PASSED] - HighlightElement.run(genrefilter): null
+
+11-02-2025T12:23:04 - [TEST_STEP][PASSED] - verifyElementPresent(genrefilter, 0): Object 'Object Repository/서브탭/Comic_All Comic/Page_Comics  All Genres/a_Action Fantasy' is present
+
+11-02-2025T12:23:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+11-02-2025T12:23:05 - [MESSAGE][PASSED] - Object 'Object Repository/서브탭/Comic_All Comic/Page_Comics  All Genres/a_Action Fantasy' is present
+
+11-02-2025T12:23:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/서브탭/Comic_All Comic/Page_Comics  All Genres/a_Action Fantasy")): Object: 'Object Repository/서브탭/Comic_All Comic/Page_Comics  All Genres/a_Action Fantasy' is clicked on
+
+11-02-2025T12:23:05 - [MESSAGE][PASSED] - Object: 'Object Repository/서브탭/Comic_All Comic/Page_Comics  All Genres/a_Action Fantasy' is clicked on
+
+11-02-2025T12:23:05 - [TEST_STEP][PASSED] - filter = findTestObject("서브탭/Comic_All Comic/Page_Comics  All Genres/img_Fantasy_block"): null
+
+11-02-2025T12:23:05 - [TEST_STEP][PASSED] - HighlightElement.run(filter): null
+
+11-02-2025T12:23:08 - [TEST_STEP][PASSED] - verifyElementPresent(filter, 0): Object 'Object Repository/서브탭/Comic_All Comic/Page_Comics  All Genres/img_Fantasy_block' is present
+
+11-02-2025T12:23:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+11-02-2025T12:23:08 - [MESSAGE][PASSED] - Object 'Object Repository/서브탭/Comic_All Comic/Page_Comics  All Genres/img_Fantasy_block' is present
+
+11-02-2025T12:23:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/서브탭/Comic_All Comic/Page_Comics  All Genres/img_Fantasy_block")): Object: 'Object Repository/서브탭/Comic_All Comic/Page_Comics  All Genres/img_Fantasy_block' is clicked on
+
+11-02-2025T12:23:09 - [MESSAGE][PASSED] - Object: 'Object Repository/서브탭/Comic_All Comic/Page_Comics  All Genres/img_Fantasy_block' is clicked on
+
+11-02-2025T12:23:09 - [TEST_STEP][PASSED] - epfilter = findTestObject("서브탭/Comic_All Comic/Page_Comics  All Genres/span_Newest episode"): null
+
+11-02-2025T12:23:09 - [TEST_STEP][PASSED] - HighlightElement.run(epfilter): null
+
+11-02-2025T12:23:11 - [TEST_STEP][PASSED] - verifyElementPresent(epfilter, 0): Object 'Object Repository/서브탭/Comic_All Comic/Page_Comics  All Genres/span_Newest episode' is present
+
+11-02-2025T12:23:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+11-02-2025T12:23:11 - [MESSAGE][PASSED] - Object 'Object Repository/서브탭/Comic_All Comic/Page_Comics  All Genres/span_Newest episode' is present
+
+11-02-2025T12:23:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/서브탭/Comic_All Comic/Page_Comics  All Genres/span_Newest episode")): Object: 'Object Repository/서브탭/Comic_All Comic/Page_Comics  All Genres/span_Newest episode' is clicked on
+
+11-02-2025T12:23:12 - [MESSAGE][PASSED] - Object: 'Object Repository/서브탭/Comic_All Comic/Page_Comics  All Genres/span_Newest episode' is clicked on
+
+11-02-2025T12:23:12 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+11-02-2025T12:23:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-02-2025T12:23:14 - [TEST_STEP][PASSED] - filter1 = findTestObject("서브탭/Comic_All Comic/Page_Comics  All Genres/img_Fantasy_block_1"): null
+
+11-02-2025T12:23:14 - [TEST_STEP][PASSED] - HighlightElement.run(filter1): null
+
+11-02-2025T12:23:16 - [TEST_STEP][PASSED] - verifyElementPresent(filter1, 0): Object 'Object Repository/서브탭/Comic_All Comic/Page_Comics  All Genres/img_Fantasy_block_1' is present
+
+11-02-2025T12:23:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+11-02-2025T12:23:16 - [MESSAGE][PASSED] - Object 'Object Repository/서브탭/Comic_All Comic/Page_Comics  All Genres/img_Fantasy_block_1' is present
+
+11-02-2025T12:23:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/서브탭/Comic_All Comic/Page_Comics  All Genres/img_Fantasy_block_1")): Object: 'Object Repository/서브탭/Comic_All Comic/Page_Comics  All Genres/img_Fantasy_block_1' is clicked on
+
+11-02-2025T12:23:17 - [MESSAGE][PASSED] - Object: 'Object Repository/서브탭/Comic_All Comic/Page_Comics  All Genres/img_Fantasy_block_1' is clicked on
+
+11-02-2025T12:23:17 - [TEST_STEP][PASSED] - sefilter = findTestObject("서브탭/Comic_All Comic/Page_Comics  All Genres/span_Newest series"): null
+
+11-02-2025T12:23:17 - [TEST_STEP][PASSED] - HighlightElement.run(sefilter): null
+
+11-02-2025T12:23:19 - [TEST_STEP][PASSED] - verifyElementPresent(sefilter, 0): Object 'Object Repository/서브탭/Comic_All Comic/Page_Comics  All Genres/span_Newest series' is present
+
+11-02-2025T12:23:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+11-02-2025T12:23:19 - [MESSAGE][PASSED] - Object 'Object Repository/서브탭/Comic_All Comic/Page_Comics  All Genres/span_Newest series' is present
+
+11-02-2025T12:23:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/서브탭/Comic_All Comic/Page_Comics  All Genres/span_Newest series")): Object: 'Object Repository/서브탭/Comic_All Comic/Page_Comics  All Genres/span_Newest series' is clicked on
+
+11-02-2025T12:23:20 - [MESSAGE][PASSED] - Object: 'Object Repository/서브탭/Comic_All Comic/Page_Comics  All Genres/span_Newest series' is clicked on
+
+11-02-2025T12:23:20 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+11-02-2025T12:23:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-02-2025T12:23:22 - [TEST_STEP][PASSED] - comment("✅ All comic 서브탭 완료"): ✅ All comic 서브탭 완료
+
+11-02-2025T12:23:22 - [MESSAGE][INFO] - ✅ All comic 서브탭 완료]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/서브탭 확인/Comic _ Spolight_promobanner" time="6.668" classname="Test Cases/서브탭 확인/Comic _ Spolight_promobanner" status="PASSED">
+         <system-out><![CDATA[11-02-2025T12:23:22 - [TEST_CASE][PASSED] - Test Cases/서브탭 확인/Comic _ Spolight_promobanner: Test Cases/서브탭 확인/Comic _ Spolight_promobanner
+
+11-02-2025T12:23:22 - [TEST_STEP][PASSED] - comment("✅ spotlight - promo 서브탭 실행"): ✅ spotlight - promo 서브탭 실행
+
+11-02-2025T12:23:22 - [MESSAGE][INFO] - ✅ spotlight - promo 서브탭 실행
+
+11-02-2025T12:23:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/서브탭/Comic_Spotlight/Page_Home  Spotlight/span_Comics")): Object: 'Object Repository/서브탭/Comic_Spotlight/Page_Home  Spotlight/span_Comics' is clicked on
+
+11-02-2025T12:23:22 - [MESSAGE][PASSED] - Object: 'Object Repository/서브탭/Comic_Spotlight/Page_Home  Spotlight/span_Comics' is clicked on
+
+11-02-2025T12:23:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/서브탭/Comic_Spotlight/Page_Comics  Spotlight/div_Publish_absolute left-0 top-0 size-full_65218a")): Object: 'Object Repository/서브탭/Comic_Spotlight/Page_Comics  Spotlight/div_Publish_absolute left-0 top-0 size-full_65218a' is clicked on
+
+11-02-2025T12:23:23 - [MESSAGE][PASSED] - Object: 'Object Repository/서브탭/Comic_Spotlight/Page_Comics  Spotlight/div_Publish_absolute left-0 top-0 size-full_65218a' is clicked on
+
+11-02-2025T12:23:23 - [TEST_STEP][PASSED] - promotion = findTestObject("서브탭/Comic_Spotlight/Page_Comics  Spotlight/div_0314 jerotest"): null
+
+11-02-2025T12:23:23 - [TEST_STEP][PASSED] - HighlightElement.run(promotion): null
+
+11-02-2025T12:23:25 - [TEST_STEP][PASSED] - verifyElementPresent(promotion, 0): Object 'Object Repository/서브탭/Comic_Spotlight/Page_Comics  Spotlight/div_0314 jerotest' is present
+
+11-02-2025T12:23:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+11-02-2025T12:23:25 - [MESSAGE][PASSED] - Object 'Object Repository/서브탭/Comic_Spotlight/Page_Comics  Spotlight/div_0314 jerotest' is present
+
+11-02-2025T12:23:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/서브탭/Comic_Spotlight/Page_Comics  Spotlight/div_0314 jerotest")): Object: 'Object Repository/서브탭/Comic_Spotlight/Page_Comics  Spotlight/div_0314 jerotest' is clicked on
+
+11-02-2025T12:23:26 - [MESSAGE][PASSED] - Object: 'Object Repository/서브탭/Comic_Spotlight/Page_Comics  Spotlight/div_0314 jerotest' is clicked on
+
+11-02-2025T12:23:26 - [TEST_STEP][PASSED] - prolanding = findTestObject("서브탭/Comic_Spotlight/Page_Redeem/div_Redeem code"): null
+
+11-02-2025T12:23:26 - [TEST_STEP][PASSED] - HighlightElement.run(prolanding): null
+
+11-02-2025T12:23:28 - [TEST_STEP][PASSED] - verifyElementPresent(prolanding, 0): Object 'Object Repository/서브탭/Comic_Spotlight/Page_Redeem/div_Redeem code' is present
+
+11-02-2025T12:23:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+11-02-2025T12:23:28 - [MESSAGE][PASSED] - Object 'Object Repository/서브탭/Comic_Spotlight/Page_Redeem/div_Redeem code' is present
+
+11-02-2025T12:23:28 - [TEST_STEP][PASSED] - comment("✅ spotlight - promo 서브탭 실행"): ✅ spotlight - promo 서브탭 실행
+
+11-02-2025T12:23:28 - [MESSAGE][INFO] - ✅ spotlight - promo 서브탭 실행]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/서브탭 확인/Comic_Bigbanner" time="28.527" classname="Test Cases/서브탭 확인/Comic_Bigbanner" status="PASSED">
+         <system-out><![CDATA[11-02-2025T12:23:28 - [TEST_CASE][PASSED] - Test Cases/서브탭 확인/Comic_Bigbanner: Test Cases/서브탭 확인/Comic_Bigbanner
+
+11-02-2025T12:23:28 - [TEST_STEP][PASSED] - comment("✅ spotlight -big 서브탭 실행"): ✅ spotlight -big 서브탭 실행
+
+11-02-2025T12:23:28 - [MESSAGE][INFO] - ✅ spotlight -big 서브탭 실행
+
+11-02-2025T12:23:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/서브탭/Comic_Spotlight/Page_Home  Spotlight/span_Comics")): Object: 'Object Repository/서브탭/Comic_Spotlight/Page_Home  Spotlight/span_Comics' is clicked on
+
+11-02-2025T12:23:29 - [MESSAGE][PASSED] - Object: 'Object Repository/서브탭/Comic_Spotlight/Page_Home  Spotlight/span_Comics' is clicked on
+
+11-02-2025T12:23:29 - [TEST_STEP][PASSED] - next = findTestObject("서브탭/Comic_Spotlight/Page_Home  Spotlight/img_EVENT_ml-2 cursor-pointer"): null
+
+11-02-2025T12:23:29 - [TEST_STEP][PASSED] - HighlightElement.run(next): null
+
+11-02-2025T12:23:31 - [TEST_STEP][PASSED] - verifyElementPresent(next, 0): Object 'Object Repository/서브탭/Comic_Spotlight/Page_Home  Spotlight/img_EVENT_ml-2 cursor-pointer' is present
+
+11-02-2025T12:23:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+11-02-2025T12:23:32 - [MESSAGE][PASSED] - Object 'Object Repository/서브탭/Comic_Spotlight/Page_Home  Spotlight/img_EVENT_ml-2 cursor-pointer' is present
+
+11-02-2025T12:23:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/서브탭/Comic_Spotlight/Page_Home  Spotlight/img_EVENT_ml-2 cursor-pointer")): Object: 'Object Repository/서브탭/Comic_Spotlight/Page_Home  Spotlight/img_EVENT_ml-2 cursor-pointer' is clicked on
+
+11-02-2025T12:23:32 - [MESSAGE][PASSED] - Object: 'Object Repository/서브탭/Comic_Spotlight/Page_Home  Spotlight/img_EVENT_ml-2 cursor-pointer' is clicked on
+
+11-02-2025T12:23:32 - [TEST_STEP][PASSED] - prev = findTestObject("서브탭/Comic_Spotlight/Page_Home  Spotlight/img_EVENT_mr-2 cursor-pointer"): null
+
+11-02-2025T12:23:32 - [TEST_STEP][PASSED] - HighlightElement.run(prev): null
+
+11-02-2025T12:23:34 - [TEST_STEP][PASSED] - verifyElementPresent(prev, 0): Object 'Object Repository/서브탭/Comic_Spotlight/Page_Home  Spotlight/img_EVENT_mr-2 cursor-pointer' is present
+
+11-02-2025T12:23:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+11-02-2025T12:23:34 - [MESSAGE][PASSED] - Object 'Object Repository/서브탭/Comic_Spotlight/Page_Home  Spotlight/img_EVENT_mr-2 cursor-pointer' is present
+
+11-02-2025T12:23:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/서브탭/Comic_Spotlight/Page_Home  Spotlight/img_EVENT_mr-2 cursor-pointer")): Object: 'Object Repository/서브탭/Comic_Spotlight/Page_Home  Spotlight/img_EVENT_mr-2 cursor-pointer' is clicked on
+
+11-02-2025T12:23:35 - [MESSAGE][PASSED] - Object: 'Object Repository/서브탭/Comic_Spotlight/Page_Home  Spotlight/img_EVENT_mr-2 cursor-pointer' is clicked on
+
+11-02-2025T12:23:35 - [TEST_STEP][PASSED] - delay(11): Delayed 11 second(s)
+
+11-02-2025T12:23:46 - [MESSAGE][PASSED] - Delayed 11 second(s)
+
+11-02-2025T12:23:46 - [TEST_STEP][PASSED] - page2 = findTestObject("서브탭/Comic_Spotlight/Page_Home  Spotlight/span_2"): null
+
+11-02-2025T12:23:46 - [TEST_STEP][PASSED] - HighlightElement.run(page2): null
+
+11-02-2025T12:23:48 - [TEST_STEP][PASSED] - verifyElementPresent(page2, 0): Object 'Object Repository/서브탭/Comic_Spotlight/Page_Home  Spotlight/span_2' is present
+
+11-02-2025T12:23:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+11-02-2025T12:23:48 - [MESSAGE][PASSED] - Object 'Object Repository/서브탭/Comic_Spotlight/Page_Home  Spotlight/span_2' is present
+
+11-02-2025T12:23:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/서브탭/Comic_Spotlight/Page_Home  Spotlight/img_EVENT_mr-2 cursor-pointer")): Object: 'Object Repository/서브탭/Comic_Spotlight/Page_Home  Spotlight/img_EVENT_mr-2 cursor-pointer' is clicked on
+
+11-02-2025T12:23:48 - [MESSAGE][PASSED] - Object: 'Object Repository/서브탭/Comic_Spotlight/Page_Home  Spotlight/img_EVENT_mr-2 cursor-pointer' is clicked on
+
+11-02-2025T12:23:48 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+11-02-2025T12:23:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-02-2025T12:23:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/서브탭/Comic_Spotlight/Page_Comics  Spotlight/picture")): Object: 'Object Repository/서브탭/Comic_Spotlight/Page_Comics  Spotlight/picture' is clicked on
+
+11-02-2025T12:23:51 - [MESSAGE][PASSED] - Object: 'Object Repository/서브탭/Comic_Spotlight/Page_Comics  Spotlight/picture' is clicked on
+
+11-02-2025T12:23:51 - [TEST_STEP][PASSED] - cblanding = findTestObject("서브탭/Comic_Spotlight/Page_Events/h1_Event List"): null
+
+11-02-2025T12:23:51 - [TEST_STEP][PASSED] - HighlightElement.run(cblanding): null
+
+11-02-2025T12:23:54 - [TEST_STEP][PASSED] - verifyElementPresent(cblanding, 0): Object 'Object Repository/서브탭/Comic_Spotlight/Page_Events/h1_Event List' is present
+
+11-02-2025T12:23:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+11-02-2025T12:23:54 - [MESSAGE][PASSED] - Object 'Object Repository/서브탭/Comic_Spotlight/Page_Events/h1_Event List' is present
+
+11-02-2025T12:23:54 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+11-02-2025T12:23:54 - [MESSAGE][PASSED] - Navigate back successfully
+
+11-02-2025T12:23:54 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+11-02-2025T12:23:57 - [MESSAGE][PASSED] - Refresh successfully
+
+11-02-2025T12:23:57 - [TEST_STEP][PASSED] - comment("✅ spotlight -big 서브탭 실행"): ✅ spotlight -big 서브탭 실행
+
+11-02-2025T12:23:57 - [MESSAGE][INFO] - ✅ spotlight -big 서브탭 실행]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/서브탭 확인/Comic_lina banner" time="13.327" classname="Test Cases/서브탭 확인/Comic_lina banner" status="PASSED">
+         <system-out><![CDATA[11-02-2025T12:23:57 - [TEST_CASE][PASSED] - Test Cases/서브탭 확인/Comic_lina banner: Test Cases/서브탭 확인/Comic_lina banner
+
+11-02-2025T12:23:57 - [TEST_STEP][PASSED] - comment("✅ spotlight -big 서브탭 실행"): ✅ spotlight -big 서브탭 실행
+
+11-02-2025T12:23:57 - [MESSAGE][INFO] - ✅ spotlight -big 서브탭 실행
+
+11-02-2025T12:23:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/서브탭/Comic_Spotlight/Page_Home  Spotlight/span_Comics")): Object: 'Object Repository/서브탭/Comic_Spotlight/Page_Home  Spotlight/span_Comics' is clicked on
+
+11-02-2025T12:23:58 - [MESSAGE][PASSED] - Object: 'Object Repository/서브탭/Comic_Spotlight/Page_Home  Spotlight/span_Comics' is clicked on
+
+11-02-2025T12:23:58 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+11-02-2025T12:24:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-02-2025T12:24:00 - [TEST_STEP][PASSED] - linebanner = findTestObject("서브탭/Comic_line banner/Page_Comics  Spotlight/div_--"): null
+
+11-02-2025T12:24:00 - [TEST_STEP][PASSED] - HighlightElement.run(linebanner): null
+
+11-02-2025T12:24:02 - [TEST_STEP][PASSED] - verifyElementPresent(linebanner, 0): Object 'Object Repository/서브탭/Comic_line banner/Page_Comics  Spotlight/div_--' is present
+
+11-02-2025T12:24:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+11-02-2025T12:24:02 - [MESSAGE][PASSED] - Object 'Object Repository/서브탭/Comic_line banner/Page_Comics  Spotlight/div_--' is present
+
+11-02-2025T12:24:02 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+11-02-2025T12:24:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-02-2025T12:24:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/서브탭/Comic_line banner/Page_Comics  Spotlight/div_--")): Object: 'Object Repository/서브탭/Comic_line banner/Page_Comics  Spotlight/div_--' is clicked on
+
+11-02-2025T12:24:05 - [MESSAGE][PASSED] - Object: 'Object Repository/서브탭/Comic_line banner/Page_Comics  Spotlight/div_--' is clicked on
+
+11-02-2025T12:24:05 - [TEST_STEP][PASSED] - linelanding = findTestObject("서브탭/Comic_line banner/Page_Events/h1_Event List"): null
+
+11-02-2025T12:24:05 - [TEST_STEP][PASSED] - HighlightElement.run(linelanding): null
+
+11-02-2025T12:24:08 - [TEST_STEP][PASSED] - verifyElementPresent(linelanding, 0): Object 'Object Repository/서브탭/Comic_line banner/Page_Events/h1_Event List' is present
+
+11-02-2025T12:24:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+11-02-2025T12:24:08 - [MESSAGE][PASSED] - Object 'Object Repository/서브탭/Comic_line banner/Page_Events/h1_Event List' is present
+
+11-02-2025T12:24:08 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+11-02-2025T12:24:08 - [MESSAGE][PASSED] - Navigate back successfully
+
+11-02-2025T12:24:08 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+11-02-2025T12:24:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-02-2025T12:24:10 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-02-2025T12:24:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[11-02-2025T12:21:23 - [TEST_SUITE][FAILED] - Comic 홈: Test Cases/서브탭 확인/New 서브탭 - 로그인 경우 추가필요 FAILED.
+Reason:
+java.lang.AssertionError: Web element with id: 'Object Repository/서브탭/New 서브탭/Page_Home  New/h2_No results were found' located by '//div[@id='__next']/div/div/main/div/div/div/h2' not found
+	at org.testng.Assert.fail(Assert.java:111)
+	at com.reusableComponents.HighlightElement.run(HighlightElement.groovy:33)
+	at New 서브탭 - 로그인 경우 추가필요.run(New 서브탭 - 로그인 경우 추가필요:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739244078617.run(TempTestSuite1739244078617.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+      <system-err><![CDATA[11-02-2025T12:21:23 - [TEST_SUITE][FAILED] - Comic 홈: Test Cases/서브탭 확인/New 서브탭 - 로그인 경우 추가필요 FAILED.
+Reason:
+java.lang.AssertionError: Web element with id: 'Object Repository/서브탭/New 서브탭/Page_Home  New/h2_No results were found' located by '//div[@id='__next']/div/div/main/div/div/div/h2' not found
+	at org.testng.Assert.fail(Assert.java:111)
+	at com.reusableComponents.HighlightElement.run(HighlightElement.groovy:33)
+	at New 서브탭 - 로그인 경우 추가필요.run(New 서브탭 - 로그인 경우 추가필요:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739244078617.run(TempTestSuite1739244078617.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+   </testsuite>
+</testsuites>

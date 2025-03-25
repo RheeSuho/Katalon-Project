@@ -1,0 +1,763 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Home" time="68.607" tests="8" failures="2" errors="0">
+   <testsuite name="Home" tests="8" failures="2" errors="0" time="68.607" skipped="0" timestamp="11-02-2025T09:54:31" hostname="ruben.lee - localhost" id="Test Suites/Home">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/ruben.lee/Katalon Studio/Tapas Test/Reports/20250211_095425/Home/20250211_095426"/>
+         <property name="logFiles" value="/Users/ruben.lee/Katalon Studio/Tapas Test/Reports/20250211_095425/Home/20250211_095426/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ruben.lee - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="10.1.0.223"/>
+         <property name="browser" value="Chrome 132.0.6834.160"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="7c822f9917baeb2b9154026750914b53"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Home/홈화면 확인/숏컷 객체 강조" time="16.475" classname="Test Cases/Home/홈화면 확인/숏컷 객체 강조" status="PASSED">
+         <system-out><![CDATA[11-02-2025T09:54:31 - [TEST_CASE][PASSED] - Test Cases/Home/홈화면 확인/숏컷 객체 강조: Test Cases/Home/홈화면 확인/숏컷 객체 강조
+
+11-02-2025T09:54:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-02-2025T09:54:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-02-2025T09:54:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-02-2025T09:54:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-02-2025T09:54:33 - [TEST_STEP][PASSED] - navigateToUrl("https:/qa.tapas.io/"): Navigate to 'https:/qa.tapas.io/' successfully
+
+11-02-2025T09:54:36 - [MESSAGE][PASSED] - Navigate to 'https:/qa.tapas.io/' successfully
+
+11-02-2025T09:54:36 - [TEST_STEP][PASSED] - searchBox = findTestObject("Home/숏컷 미로그인/Page_Home  Spotlight/input_More_q"): null
+
+11-02-2025T09:54:36 - [TEST_STEP][PASSED] - HighlightElement.run(searchBox): null
+
+11-02-2025T09:54:40 - [TEST_STEP][PASSED] - verifyElementPresent(searchBox, 1): Object 'Object Repository/Home/숏컷 미로그인/Page_Home  Spotlight/input_More_q' is present
+
+11-02-2025T09:54:40 - [MESSAGE][PASSED] - Object 'Object Repository/Home/숏컷 미로그인/Page_Home  Spotlight/input_More_q' is present
+
+11-02-2025T09:54:40 - [TEST_STEP][PASSED] - logoImage = findTestObject("Home/숏컷 미로그인/Page_Home  Spotlight/img_More_absolute right-2 top-24 -translate-y-24"): null
+
+11-02-2025T09:54:40 - [TEST_STEP][PASSED] - HighlightElement.run(logoImage): null
+
+11-02-2025T09:54:42 - [TEST_STEP][PASSED] - verifyElementPresent(logoImage, 1): Object 'Object Repository/Home/숏컷 미로그인/Page_Home  Spotlight/img_More_absolute right-2 top-24 -translate-y-24' is present
+
+11-02-2025T09:54:43 - [MESSAGE][PASSED] - Object 'Object Repository/Home/숏컷 미로그인/Page_Home  Spotlight/img_More_absolute right-2 top-24 -translate-y-24' is present
+
+11-02-2025T09:54:43 - [TEST_STEP][PASSED] - loginButton = findTestObject("Home/숏컷 미로그인/Page_Home  Spotlight/button_Login"): null
+
+11-02-2025T09:54:43 - [TEST_STEP][PASSED] - HighlightElement.run(loginButton): null
+
+11-02-2025T09:54:45 - [TEST_STEP][PASSED] - verifyElementPresent(loginButton, 1): Object 'Object Repository/Home/숏컷 미로그인/Page_Home  Spotlight/button_Login' is present
+
+11-02-2025T09:54:45 - [MESSAGE][PASSED] - Object 'Object Repository/Home/숏컷 미로그인/Page_Home  Spotlight/button_Login' is present
+
+11-02-2025T09:54:45 - [TEST_STEP][PASSED] - publishButton = findTestObject("Home/숏컷 미로그인/Page_Home  Spotlight/button_Publish"): null
+
+11-02-2025T09:54:45 - [TEST_STEP][PASSED] - HighlightElement.run(publishButton): null
+
+11-02-2025T09:54:47 - [TEST_STEP][PASSED] - verifyElementPresent(publishButton, 1): Object 'Object Repository/Home/숏컷 미로그인/Page_Home  Spotlight/button_Publish' is present
+
+11-02-2025T09:54:48 - [MESSAGE][PASSED] - Object 'Object Repository/Home/숏컷 미로그인/Page_Home  Spotlight/button_Publish' is present
+
+11-02-2025T09:54:48 - [TEST_STEP][PASSED] - comment("✅ Test 1 완료. 브라우저 유지 상태에서 Test 2 실행"): ✅ Test 1 완료. 브라우저 유지 상태에서 Test 2 실행
+
+11-02-2025T09:54:48 - [MESSAGE][INFO] - ✅ Test 1 완료. 브라우저 유지 상태에서 Test 2 실행]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Home/홈화면 확인/숏컷 확인 - 로그인 - 강조 확인" time="17.247" classname="Test Cases/Home/홈화면 확인/숏컷 확인 - 로그인 - 강조 확인" status="PASSED">
+         <system-out><![CDATA[11-02-2025T09:54:48 - [TEST_CASE][PASSED] - Test Cases/Home/홈화면 확인/숏컷 확인 - 로그인 - 강조 확인: Test Cases/Home/홈화면 확인/숏컷 확인 - 로그인 - 강조 확인
+
+11-02-2025T09:54:48 - [TEST_STEP][PASSED] - url = "https://qa.tapas.io/account/signin?from=/": null
+
+11-02-2025T09:54:48 - [TEST_STEP][PASSED] - email = "dkttapas00@gmail.com": null
+
+11-02-2025T09:54:48 - [TEST_STEP][PASSED] - password = "winehouse": null
+
+11-02-2025T09:54:48 - [TEST_STEP][PASSED] - cookieFilePath = "cookies.save": null
+
+11-02-2025T09:54:48 - [TEST_STEP][PASSED] - comment("🚀 Test 2 시작! 기존 브라우저 사용"): 🚀 Test 2 시작! 기존 브라우저 사용
+
+11-02-2025T09:54:48 - [MESSAGE][INFO] - 🚀 Test 2 시작! 기존 브라우저 사용
+
+11-02-2025T09:54:48 - [TEST_STEP][PASSED] - cookieFile = new java.io.File(cookieFilePath): null
+
+11-02-2025T09:54:48 - [TEST_STEP][PASSED] - if (cookieFile.exists()): ✅ 쿠키 로드 완료! 자동 로그인 성공
+
+11-02-2025T09:54:48 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+11-02-2025T09:54:48 - [TEST_STEP][PASSED] - try: ✅ 쿠키 로드 완료! 자동 로그인 성공
+
+11-02-2025T09:54:48 - [TEST_STEP][PASSED] - fis = new java.io.FileInputStream(cookieFile): null
+
+11-02-2025T09:54:48 - [TEST_STEP][PASSED] - ois = new java.io.ObjectInputStream(fis): null
+
+11-02-2025T09:54:48 - [TEST_STEP][PASSED] - cookies = ois.readObject(): null
+
+11-02-2025T09:54:48 - [TEST_STEP][PASSED] - ois.close(): null
+
+11-02-2025T09:54:48 - [TEST_STEP][PASSED] - fis.close(): null
+
+11-02-2025T09:54:48 - [TEST_STEP][PASSED] - for (org.openqa.selenium.Cookie cookie : cookies): null
+
+11-02-2025T09:54:48 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:54:48 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:54:48 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:54:48 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:54:48 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:54:48 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:54:48 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:54:48 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:54:48 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:54:48 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:54:48 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:54:48 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:54:48 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:54:48 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:54:48 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:54:48 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:54:48 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:54:48 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:54:48 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:54:48 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:54:48 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:54:48 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:54:48 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:54:48 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:54:48 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:54:48 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:54:48 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:54:48 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:54:48 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:54:48 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:54:48 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:54:48 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+11-02-2025T09:54:49 - [MESSAGE][PASSED] - Refresh successfully
+
+11-02-2025T09:54:49 - [TEST_STEP][PASSED] - comment("✅ 쿠키 로드 완료! 자동 로그인 성공"): ✅ 쿠키 로드 완료! 자동 로그인 성공
+
+11-02-2025T09:54:49 - [MESSAGE][INFO] - ✅ 쿠키 로드 완료! 자동 로그인 성공
+
+11-02-2025T09:54:49 - [TEST_STEP][PASSED] - searchBox = findTestObject("Home/숏컷 로그인 신규/Page_Home  Spotlight/input_More_q"): null
+
+11-02-2025T09:54:49 - [TEST_STEP][PASSED] - HighlightElement.run(searchBox): null
+
+11-02-2025T09:54:52 - [TEST_STEP][PASSED] - verifyElementPresent(searchBox, 0): Object 'Object Repository/Home/숏컷 로그인 신규/Page_Home  Spotlight/input_More_q' is present
+
+11-02-2025T09:54:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+11-02-2025T09:54:52 - [MESSAGE][PASSED] - Object 'Object Repository/Home/숏컷 로그인 신규/Page_Home  Spotlight/input_More_q' is present
+
+11-02-2025T09:54:52 - [TEST_STEP][PASSED] - logoImage = findTestObject("Home/숏컷 로그인 신규/Page_Home  Spotlight/img_More_absolute right-2 top-24 -translate-y-24"): null
+
+11-02-2025T09:54:52 - [TEST_STEP][PASSED] - HighlightElement.run(logoImage): null
+
+11-02-2025T09:54:54 - [TEST_STEP][PASSED] - verifyElementPresent(logoImage, 0): Object 'Object Repository/Home/숏컷 로그인 신규/Page_Home  Spotlight/img_More_absolute right-2 top-24 -translate-y-24' is present
+
+11-02-2025T09:54:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+11-02-2025T09:54:55 - [MESSAGE][PASSED] - Object 'Object Repository/Home/숏컷 로그인 신규/Page_Home  Spotlight/img_More_absolute right-2 top-24 -translate-y-24' is present
+
+11-02-2025T09:54:55 - [TEST_STEP][PASSED] - libraryimage = findTestObject("Home/숏컷 로그인 신규/Page_Home  Spotlight/library"): null
+
+11-02-2025T09:54:55 - [TEST_STEP][PASSED] - HighlightElement.run(libraryimage): null
+
+11-02-2025T09:54:57 - [TEST_STEP][PASSED] - verifyElementPresent(libraryimage, 0): Object 'Object Repository/Home/숏컷 로그인 신규/Page_Home  Spotlight/library' is present
+
+11-02-2025T09:54:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+11-02-2025T09:54:57 - [MESSAGE][PASSED] - Object 'Object Repository/Home/숏컷 로그인 신규/Page_Home  Spotlight/library' is present
+
+11-02-2025T09:54:57 - [TEST_STEP][PASSED] - inboximage = findTestObject("Home/숏컷 로그인 신규/Page_Home  Spotlight/inbox"): null
+
+11-02-2025T09:54:57 - [TEST_STEP][PASSED] - HighlightElement.run(inboximage): null
+
+11-02-2025T09:55:00 - [TEST_STEP][PASSED] - verifyElementPresent(inboximage, 0): Object 'Object Repository/Home/숏컷 로그인 신규/Page_Home  Spotlight/inbox' is present
+
+11-02-2025T09:55:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+11-02-2025T09:55:00 - [MESSAGE][PASSED] - Object 'Object Repository/Home/숏컷 로그인 신규/Page_Home  Spotlight/inbox' is present
+
+11-02-2025T09:55:00 - [TEST_STEP][PASSED] - profileImage = findTestObject("Home/숏컷 로그인 신규/Page_Home  Spotlight/div_More_absolute left-0 top-0 size-full rounded-100 border-1 border-888"): null
+
+11-02-2025T09:55:00 - [TEST_STEP][PASSED] - HighlightElement.run(profileImage): null
+
+11-02-2025T09:55:02 - [TEST_STEP][PASSED] - verifyElementPresent(profileImage, 0): Object 'Object Repository/Home/숏컷 로그인 신규/Page_Home  Spotlight/div_More_absolute left-0 top-0 size-full rounded-100 border-1 border-888' is present
+
+11-02-2025T09:55:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+11-02-2025T09:55:02 - [MESSAGE][PASSED] - Object 'Object Repository/Home/숏컷 로그인 신규/Page_Home  Spotlight/div_More_absolute left-0 top-0 size-full rounded-100 border-1 border-888' is present
+
+11-02-2025T09:55:02 - [TEST_STEP][PASSED] - publishButton = findTestObject("Home/숏컷 로그인 신규/Page_Home  Spotlight/button_Publish"): null
+
+11-02-2025T09:55:02 - [TEST_STEP][PASSED] - HighlightElement.run(publishButton): null
+
+11-02-2025T09:55:05 - [TEST_STEP][PASSED] - verifyElementPresent(publishButton, 0): Object 'Object Repository/Home/숏컷 로그인 신규/Page_Home  Spotlight/button_Publish' is present
+
+11-02-2025T09:55:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+11-02-2025T09:55:05 - [MESSAGE][PASSED] - Object 'Object Repository/Home/숏컷 로그인 신규/Page_Home  Spotlight/button_Publish' is present
+
+11-02-2025T09:55:05 - [TEST_STEP][PASSED] - comment("✅ 로그인 확인 완료 - 검색 실행"): ✅ 로그인 확인 완료 - 검색 실행
+
+11-02-2025T09:55:05 - [MESSAGE][INFO] - ✅ 로그인 확인 완료 - 검색 실행]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Home/검색 동작/검색 결과 없음 확인" time="5.718" classname="Test Cases/Home/검색 동작/검색 결과 없음 확인" status="PASSED">
+         <system-out><![CDATA[11-02-2025T09:55:05 - [TEST_CASE][PASSED] - Test Cases/Home/검색 동작/검색 결과 없음 확인: Test Cases/Home/검색 동작/검색 결과 없음 확인
+
+11-02-2025T09:55:05 - [TEST_STEP][PASSED] - comment("✅ 검색 실행"): ✅ 검색 실행
+
+11-02-2025T09:55:05 - [MESSAGE][INFO] - ✅ 검색 실행
+
+11-02-2025T09:55:05 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.tapas.io/"): Navigate to 'https://qa.tapas.io/' successfully
+
+11-02-2025T09:55:06 - [MESSAGE][PASSED] - Navigate to 'https://qa.tapas.io/' successfully
+
+11-02-2025T09:55:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Home/검색 결과 없음/Page_Home  Spotlight/input_More_q"), "비비비비비비비비비비"): Text '비비비비비비비비비비' is set on object 'Object Repository/Home/검색 결과 없음/Page_Home  Spotlight/input_More_q'
+
+11-02-2025T09:55:08 - [MESSAGE][PASSED] - Text '비비비비비비비비비비' is set on object 'Object Repository/Home/검색 결과 없음/Page_Home  Spotlight/input_More_q'
+
+11-02-2025T09:55:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Home/검색 결과 없음/Page_Home  Spotlight/img_More_absolute right-2 top-24 -translate-y-24")): Object: 'Object Repository/Home/검색 결과 없음/Page_Home  Spotlight/img_More_absolute right-2 top-24 -translate-y-24' is clicked on
+
+11-02-2025T09:55:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Home/검색 결과 없음/Page_Home  Spotlight/img_More_absolute right-2 top-24 -translate-y-24' is clicked on
+
+11-02-2025T09:55:10 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Home/검색 결과 없음 문구 확인/Page_Search  Tapas/p_No results for"), 0): Object 'Object Repository/Home/검색 결과 없음 문구 확인/Page_Search  Tapas/p_No results for' is present
+
+11-02-2025T09:55:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+11-02-2025T09:55:11 - [MESSAGE][PASSED] - Object 'Object Repository/Home/검색 결과 없음 문구 확인/Page_Search  Tapas/p_No results for' is present
+
+11-02-2025T09:55:11 - [TEST_STEP][PASSED] - comment("✅ 검색 완료"): ✅ 검색 완료
+
+11-02-2025T09:55:11 - [MESSAGE][INFO] - ✅ 검색 완료]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Home/검색 동작/검색 리스트 확인" time="4.215" classname="Test Cases/Home/검색 동작/검색 리스트 확인" status="PASSED">
+         <system-out><![CDATA[11-02-2025T09:55:11 - [TEST_CASE][PASSED] - Test Cases/Home/검색 동작/검색 리스트 확인: Test Cases/Home/검색 동작/검색 리스트 확인
+
+11-02-2025T09:55:11 - [TEST_STEP][PASSED] - comment("✅ 로그인/검색 실행"): ✅ 로그인/검색 실행
+
+11-02-2025T09:55:11 - [MESSAGE][INFO] - ✅ 로그인/검색 실행
+
+11-02-2025T09:55:11 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.tapas.io/"): Navigate to 'https://qa.tapas.io/' successfully
+
+11-02-2025T09:55:12 - [MESSAGE][PASSED] - Navigate to 'https://qa.tapas.io/' successfully
+
+11-02-2025T09:55:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Home/검색 리스트 확인/Page_Home  Spotlight/input_More_q"), "the"): Text 'the' is set on object 'Object Repository/Home/검색 리스트 확인/Page_Home  Spotlight/input_More_q'
+
+11-02-2025T09:55:13 - [MESSAGE][PASSED] - Text 'the' is set on object 'Object Repository/Home/검색 리스트 확인/Page_Home  Spotlight/input_More_q'
+
+11-02-2025T09:55:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Home/검색 리스트 확인/Page_Home  Spotlight/img_More_absolute right-2 top-24 -translate-y-24")): Object: 'Object Repository/Home/검색 리스트 확인/Page_Home  Spotlight/img_More_absolute right-2 top-24 -translate-y-24' is clicked on
+
+11-02-2025T09:55:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Home/검색 리스트 확인/Page_Home  Spotlight/img_More_absolute right-2 top-24 -translate-y-24' is clicked on
+
+11-02-2025T09:55:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Home/검색 리스트 확인/Page_Search  Tapas/input_search results_q"), "`the"): Text '`the' is set on object 'Object Repository/Home/검색 리스트 확인/Page_Search  Tapas/input_search results_q'
+
+11-02-2025T09:55:15 - [MESSAGE][PASSED] - Text '`the' is set on object 'Object Repository/Home/검색 리스트 확인/Page_Search  Tapas/input_search results_q'
+
+11-02-2025T09:55:15 - [TEST_STEP][PASSED] - comment("✅ 완료"): ✅ 완료
+
+11-02-2025T09:55:15 - [MESSAGE][INFO] - ✅ 완료]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Home/홈화면 확인/프로모션 배너 확인 _ 강조" time="8.76" classname="Test Cases/Home/홈화면 확인/프로모션 배너 확인 _ 강조" status="PASSED">
+         <system-out><![CDATA[11-02-2025T09:55:15 - [TEST_CASE][PASSED] - Test Cases/Home/홈화면 확인/프로모션 배너 확인 _ 강조: Test Cases/Home/홈화면 확인/프로모션 배너 확인 _ 강조
+
+11-02-2025T09:55:15 - [TEST_STEP][PASSED] - comment("✅ 프로모션 배너 실행"): ✅ 프로모션 배너 실행
+
+11-02-2025T09:55:15 - [MESSAGE][INFO] - ✅ 프로모션 배너 실행
+
+11-02-2025T09:55:15 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.tapas.io/"): Navigate to 'https://qa.tapas.io/' successfully
+
+11-02-2025T09:55:16 - [MESSAGE][PASSED] - Navigate to 'https://qa.tapas.io/' successfully
+
+11-02-2025T09:55:16 - [TEST_STEP][PASSED] - promotion = findTestObject("Home/프로모션 배너/Page_Home  Spotlight/div_adonis"): null
+
+11-02-2025T09:55:16 - [TEST_STEP][PASSED] - HighlightElement.run(promotion): null
+
+11-02-2025T09:55:19 - [TEST_STEP][PASSED] - verifyElementPresent(promotion, 0): Object 'Object Repository/Home/프로모션 배너/Page_Home  Spotlight/div_adonis' is present
+
+11-02-2025T09:55:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+11-02-2025T09:55:19 - [MESSAGE][PASSED] - Object 'Object Repository/Home/프로모션 배너/Page_Home  Spotlight/div_adonis' is present
+
+11-02-2025T09:55:19 - [TEST_STEP][PASSED] - click(findTestObject("Home/프로모션 배너/Page_Home  Spotlight/div_adonis")): Object: 'Object Repository/Home/프로모션 배너/Page_Home  Spotlight/div_adonis' is clicked on
+
+11-02-2025T09:55:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Home/프로모션 배너/Page_Home  Spotlight/div_adonis' is clicked on
+
+11-02-2025T09:55:20 - [TEST_STEP][PASSED] - contents = findTestObject("Home/프로모션 배너 _ 랜딩 확인/Page_Read Adonis  Leftover Memories  Tapas Comics/p_Leftover Memories"): null
+
+11-02-2025T09:55:20 - [TEST_STEP][PASSED] - HighlightElement.run(contents): null
+
+11-02-2025T09:55:23 - [TEST_STEP][PASSED] - verifyElementPresent(contents, 0): Object 'Object Repository/Home/프로모션 배너 _ 랜딩 확인/Page_Read Adonis  Leftover Memories  Tapas Comics/p_Leftover Memories' is present
+
+11-02-2025T09:55:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+11-02-2025T09:55:24 - [MESSAGE][PASSED] - Object 'Object Repository/Home/프로모션 배너 _ 랜딩 확인/Page_Read Adonis  Leftover Memories  Tapas Comics/p_Leftover Memories' is present
+
+11-02-2025T09:55:24 - [TEST_STEP][PASSED] - comment("✅ 프로모션 배너 완료"): ✅ 프로모션 배너 완료
+
+11-02-2025T09:55:24 - [MESSAGE][INFO] - ✅ 프로모션 배너 완료]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Home/홈화면 확인/빅배너 확인_랜딩 후 복귀" time="4.312" classname="Test Cases/Home/홈화면 확인/빅배너 확인_랜딩 후 복귀" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Home/홈화면 확인/빅배너 확인_랜딩 후 복귀 FAILED.&#xa;Reason:&#xa;java.lang.AssertionError: Session ID is null. Using WebDriver after calling quit()?&#xa;Build info: version: '4.22.0', revision: 'c5f3146703'&#xa;System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '17.0.13'&#xa;Driver info: com.kms.katalon.selenium.driver.CChromeDriver&#xa;Command: [null, executeScript {script=arguments[0].setAttribute('style','background: yellow; border: 5px solid red;');, args=[{element-6066-11e4-a52e-4f735466cecf=f.0D5A1659DCFC554E1B66769BA853F4F7.d.834247BA07AAE889F30488272D99F07D.e.23}]}]&#xa;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.83 (03d59cf5ecf1..., userDataDir: /var/folders/jt/hwd168h1059...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52288}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:52288/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:10582/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#xa;	at org.testng.Assert.fail(Assert.java:111)&#xa;	at com.reusableComponents.HighlightElement.run(HighlightElement.groovy:33)&#xa;	at 빅배너 확인_랜딩 후 복귀.run(빅배너 확인_랜딩 후 복귀:28)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1739235266999.run(TempTestSuite1739235266999.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[11-02-2025T09:55:24 - [TEST_CASE][FAILED] - Test Cases/Home/홈화면 확인/빅배너 확인_랜딩 후 복귀: Test Cases/Home/홈화면 확인/빅배너 확인_랜딩 후 복귀 FAILED.
+Reason:
+java.lang.AssertionError: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '17.0.13'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [null, executeScript {script=arguments[0].setAttribute('style','background: yellow; border: 5px solid red;');, args=[{element-6066-11e4-a52e-4f735466cecf=f.0D5A1659DCFC554E1B66769BA853F4F7.d.834247BA07AAE889F30488272D99F07D.e.23}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.83 (03d59cf5ecf1..., userDataDir: /var/folders/jt/hwd168h1059...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52288}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:52288/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:10582/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+	at org.testng.Assert.fail(Assert.java:111)
+	at com.reusableComponents.HighlightElement.run(HighlightElement.groovy:33)
+	at 빅배너 확인_랜딩 후 복귀.run(빅배너 확인_랜딩 후 복귀:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739235266999.run(TempTestSuite1739235266999.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+11-02-2025T09:55:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-02-2025T09:55:24 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+11-02-2025T09:55:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-02-2025T09:55:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-02-2025T09:55:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-02-2025T09:55:25 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.tapas.io/"): Navigate to 'https://qa.tapas.io/' successfully
+
+11-02-2025T09:55:26 - [MESSAGE][PASSED] - Navigate to 'https://qa.tapas.io/' successfully
+
+11-02-2025T09:55:26 - [TEST_STEP][PASSED] - next = findTestObject("Home/빅배너 이동 클릭 동작 확인/Page_Home  Spotlight/img_EVENT_ml-2 cursor-pointer"): null
+
+11-02-2025T09:55:26 - [TEST_STEP][FAILED] - HighlightElement.run(next): Test Cases/Home/홈화면 확인/빅배너 확인_랜딩 후 복귀 FAILED.
+Reason:
+java.lang.AssertionError: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '17.0.13'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [null, executeScript {script=arguments[0].setAttribute('style','background: yellow; border: 5px solid red;');, args=[{element-6066-11e4-a52e-4f735466cecf=f.0D5A1659DCFC554E1B66769BA853F4F7.d.834247BA07AAE889F30488272D99F07D.e.23}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.83 (03d59cf5ecf1..., userDataDir: /var/folders/jt/hwd168h1059...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52288}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:52288/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:10582/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+	at org.testng.Assert.fail(Assert.java:111)
+	at com.reusableComponents.HighlightElement.run(HighlightElement.groovy:33)
+	at 빅배너 확인_랜딩 후 복귀.run(빅배너 확인_랜딩 후 복귀:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739235266999.run(TempTestSuite1739235266999.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+11-02-2025T09:55:28 - [MESSAGE][FAILED] - Test Cases/Home/홈화면 확인/빅배너 확인_랜딩 후 복귀 FAILED.
+Reason:
+java.lang.AssertionError: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '17.0.13'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [null, executeScript {script=arguments[0].setAttribute('style','background: yellow; border: 5px solid red;');, args=[{element-6066-11e4-a52e-4f735466cecf=f.0D5A1659DCFC554E1B66769BA853F4F7.d.834247BA07AAE889F30488272D99F07D.e.23}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.83 (03d59cf5ecf1..., userDataDir: /var/folders/jt/hwd168h1059...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52288}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:52288/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:10582/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+	at org.testng.Assert.fail(Assert.java:111)
+	at com.reusableComponents.HighlightElement.run(HighlightElement.groovy:33)
+	at 빅배너 확인_랜딩 후 복귀.run(빅배너 확인_랜딩 후 복귀:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739235266999.run(TempTestSuite1739235266999.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+         <system-err><![CDATA[11-02-2025T09:55:24 - [TEST_CASE][FAILED] - Test Cases/Home/홈화면 확인/빅배너 확인_랜딩 후 복귀: Test Cases/Home/홈화면 확인/빅배너 확인_랜딩 후 복귀 FAILED.
+Reason:
+java.lang.AssertionError: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '17.0.13'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [null, executeScript {script=arguments[0].setAttribute('style','background: yellow; border: 5px solid red;');, args=[{element-6066-11e4-a52e-4f735466cecf=f.0D5A1659DCFC554E1B66769BA853F4F7.d.834247BA07AAE889F30488272D99F07D.e.23}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.83 (03d59cf5ecf1..., userDataDir: /var/folders/jt/hwd168h1059...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52288}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:52288/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:10582/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+	at org.testng.Assert.fail(Assert.java:111)
+	at com.reusableComponents.HighlightElement.run(HighlightElement.groovy:33)
+	at 빅배너 확인_랜딩 후 복귀.run(빅배너 확인_랜딩 후 복귀:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739235266999.run(TempTestSuite1739235266999.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Home/홈화면 확인/라인배너 확인" time="9.226" classname="Test Cases/Home/홈화면 확인/라인배너 확인" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Home/홈화면 확인/라인배너 확인 FAILED.&#xa;Reason:&#xa;java.lang.AssertionError: Session ID is null. Using WebDriver after calling quit()?&#xa;Build info: version: '4.22.0', revision: 'c5f3146703'&#xa;System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '17.0.13'&#xa;Driver info: com.kms.katalon.selenium.driver.CChromeDriver&#xa;Command: [null, executeScript {script=arguments[0].setAttribute('style','background: yellow; border: 5px solid red;');, args=[{element-6066-11e4-a52e-4f735466cecf=f.0D5A1659DCFC554E1B66769BA853F4F7.d.4935922FA1037BA341B4FBE0A6DB70DA.e.159}]}]&#xa;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.83 (03d59cf5ecf1..., userDataDir: /var/folders/jt/hwd168h1059...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52288}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:52288/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:10582/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#xa;	at org.testng.Assert.fail(Assert.java:111)&#xa;	at com.reusableComponents.HighlightElement.run(HighlightElement.groovy:33)&#xa;	at 라인배너 확인.run(라인배너 확인:30)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1739235266999.run(TempTestSuite1739235266999.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[11-02-2025T09:55:28 - [TEST_CASE][FAILED] - Test Cases/Home/홈화면 확인/라인배너 확인: Test Cases/Home/홈화면 확인/라인배너 확인 FAILED.
+Reason:
+java.lang.AssertionError: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '17.0.13'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [null, executeScript {script=arguments[0].setAttribute('style','background: yellow; border: 5px solid red;');, args=[{element-6066-11e4-a52e-4f735466cecf=f.0D5A1659DCFC554E1B66769BA853F4F7.d.4935922FA1037BA341B4FBE0A6DB70DA.e.159}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.83 (03d59cf5ecf1..., userDataDir: /var/folders/jt/hwd168h1059...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52288}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:52288/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:10582/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+	at org.testng.Assert.fail(Assert.java:111)
+	at com.reusableComponents.HighlightElement.run(HighlightElement.groovy:33)
+	at 라인배너 확인.run(라인배너 확인:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739235266999.run(TempTestSuite1739235266999.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+11-02-2025T09:55:28 - [TEST_STEP][PASSED] - comment("✅ 라인배너 실행"): ✅ 라인배너 실행
+
+11-02-2025T09:55:28 - [MESSAGE][INFO] - ✅ 라인배너 실행
+
+11-02-2025T09:55:28 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.tapas.io/"): Navigate to 'https://qa.tapas.io/' successfully
+
+11-02-2025T09:55:29 - [MESSAGE][PASSED] - Navigate to 'https://qa.tapas.io/' successfully
+
+11-02-2025T09:55:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Home/라인배너 확인/Page_Home  Spotlight/div_0228")): Object: 'Object Repository/Home/라인배너 확인/Page_Home  Spotlight/div_0228' is clicked on
+
+11-02-2025T09:55:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Home/라인배너 확인/Page_Home  Spotlight/div_0228' is clicked on
+
+11-02-2025T09:55:36 - [TEST_STEP][PASSED] - linelanding = findTestObject("Home/라인배너 확인/Page_Event  _1221_0315_1221_0315_1221_0315_1221_0315/img_Publish_h-auto w-full"): null
+
+11-02-2025T09:55:36 - [TEST_STEP][FAILED] - HighlightElement.run(linelanding): Test Cases/Home/홈화면 확인/라인배너 확인 FAILED.
+Reason:
+java.lang.AssertionError: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '17.0.13'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [null, executeScript {script=arguments[0].setAttribute('style','background: yellow; border: 5px solid red;');, args=[{element-6066-11e4-a52e-4f735466cecf=f.0D5A1659DCFC554E1B66769BA853F4F7.d.4935922FA1037BA341B4FBE0A6DB70DA.e.159}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.83 (03d59cf5ecf1..., userDataDir: /var/folders/jt/hwd168h1059...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52288}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:52288/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:10582/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+	at org.testng.Assert.fail(Assert.java:111)
+	at com.reusableComponents.HighlightElement.run(HighlightElement.groovy:33)
+	at 라인배너 확인.run(라인배너 확인:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739235266999.run(TempTestSuite1739235266999.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+11-02-2025T09:55:37 - [MESSAGE][FAILED] - Test Cases/Home/홈화면 확인/라인배너 확인 FAILED.
+Reason:
+java.lang.AssertionError: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '17.0.13'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [null, executeScript {script=arguments[0].setAttribute('style','background: yellow; border: 5px solid red;');, args=[{element-6066-11e4-a52e-4f735466cecf=f.0D5A1659DCFC554E1B66769BA853F4F7.d.4935922FA1037BA341B4FBE0A6DB70DA.e.159}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.83 (03d59cf5ecf1..., userDataDir: /var/folders/jt/hwd168h1059...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52288}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:52288/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:10582/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+	at org.testng.Assert.fail(Assert.java:111)
+	at com.reusableComponents.HighlightElement.run(HighlightElement.groovy:33)
+	at 라인배너 확인.run(라인배너 확인:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739235266999.run(TempTestSuite1739235266999.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+         <system-err><![CDATA[11-02-2025T09:55:28 - [TEST_CASE][FAILED] - Test Cases/Home/홈화면 확인/라인배너 확인: Test Cases/Home/홈화면 확인/라인배너 확인 FAILED.
+Reason:
+java.lang.AssertionError: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '17.0.13'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [null, executeScript {script=arguments[0].setAttribute('style','background: yellow; border: 5px solid red;');, args=[{element-6066-11e4-a52e-4f735466cecf=f.0D5A1659DCFC554E1B66769BA853F4F7.d.4935922FA1037BA341B4FBE0A6DB70DA.e.159}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.83 (03d59cf5ecf1..., userDataDir: /var/folders/jt/hwd168h1059...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52288}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:52288/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:10582/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+	at org.testng.Assert.fail(Assert.java:111)
+	at com.reusableComponents.HighlightElement.run(HighlightElement.groovy:33)
+	at 라인배너 확인.run(라인배너 확인:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739235266999.run(TempTestSuite1739235266999.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Home/홈화면 확인/최근본섹션-로그인" time="2.556" classname="Test Cases/Home/홈화면 확인/최근본섹션-로그인" status="PASSED">
+         <system-out><![CDATA[11-02-2025T09:55:37 - [TEST_CASE][PASSED] - Test Cases/Home/홈화면 확인/최근본섹션-로그인: Test Cases/Home/홈화면 확인/최근본섹션-로그인
+
+11-02-2025T09:55:37 - [TEST_STEP][PASSED] - url = "https://qa.tapas.io/account/signin?from=/": null
+
+11-02-2025T09:55:37 - [TEST_STEP][PASSED] - email = "dkttapas00@gmail.com": null
+
+11-02-2025T09:55:37 - [TEST_STEP][PASSED] - password = "winehouse": null
+
+11-02-2025T09:55:37 - [TEST_STEP][PASSED] - cookieFilePath = "cookies.save": null
+
+11-02-2025T09:55:37 - [TEST_STEP][PASSED] - comment("✅ 최근본섹션 실행"): ✅ 최근본섹션 실행
+
+11-02-2025T09:55:37 - [MESSAGE][INFO] - ✅ 최근본섹션 실행
+
+11-02-2025T09:55:37 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+11-02-2025T09:55:37 - [TEST_STEP][PASSED] - cookieFile = new java.io.File(cookieFilePath): null
+
+11-02-2025T09:55:37 - [TEST_STEP][PASSED] - if (cookieFile.exists()): null
+
+11-02-2025T09:55:37 - [TEST_STEP][PASSED] - try: null
+
+11-02-2025T09:55:37 - [TEST_STEP][PASSED] - fis = new java.io.FileInputStream(cookieFile): null
+
+11-02-2025T09:55:37 - [TEST_STEP][PASSED] - ois = new java.io.ObjectInputStream(fis): null
+
+11-02-2025T09:55:37 - [TEST_STEP][PASSED] - cookies = ois.readObject(): null
+
+11-02-2025T09:55:37 - [TEST_STEP][PASSED] - ois.close(): null
+
+11-02-2025T09:55:37 - [TEST_STEP][PASSED] - fis.close(): null
+
+11-02-2025T09:55:37 - [TEST_STEP][PASSED] - for (org.openqa.selenium.Cookie cookie : cookies): null
+
+11-02-2025T09:55:37 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:55:37 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:55:37 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:55:37 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:55:37 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:55:37 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:55:37 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:55:37 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:55:37 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:55:37 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:55:37 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:55:37 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:55:37 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:55:37 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:55:37 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:55:37 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:55:37 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:55:37 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:55:37 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:55:37 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:55:37 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:55:37 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:55:37 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:55:37 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:55:37 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:55:37 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:55:37 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:55:37 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:55:37 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:55:37 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:55:37 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:55:37 - [TEST_STEP][PASSED] - driver.get(url): null
+
+11-02-2025T09:55:39 - [TEST_STEP][PASSED] - comment("✅ 쿠키 로드 완료! 자동 로그인 성공 시도"): ✅ 쿠키 로드 완료! 자동 로그인 성공 시도
+
+11-02-2025T09:55:39 - [MESSAGE][INFO] - ✅ 쿠키 로드 완료! 자동 로그인 성공 시도
+
+11-02-2025T09:55:39 - [TEST_STEP][PASSED] - profileIcon = new com.kms.katalon.core.testobject.TestObject(): null
+
+11-02-2025T09:55:39 - [TEST_STEP][PASSED] - profileIcon.addProperty("xpath", EQUALS, "//img[contains(@alt, "profile")]"): null
+
+11-02-2025T09:55:39 - [TEST_STEP][PASSED] - if (waitForElementPresent(profileIcon, 5)): null
+
+11-02-2025T09:55:40 - [MESSAGE][PASSED] - Object '' is present
+
+11-02-2025T09:55:40 - [TEST_STEP][PASSED] - comment("✅ 자동 로그인 성공!"): ✅ 자동 로그인 성공!
+
+11-02-2025T09:55:40 - [MESSAGE][INFO] - ✅ 자동 로그인 성공!
+
+11-02-2025T09:55:40 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[11-02-2025T09:54:31 - [TEST_SUITE][FAILED] - Home: Test Cases/Home/홈화면 확인/빅배너 확인_랜딩 후 복귀 FAILED.
+Reason:
+java.lang.AssertionError: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '17.0.13'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [null, executeScript {script=arguments[0].setAttribute('style','background: yellow; border: 5px solid red;');, args=[{element-6066-11e4-a52e-4f735466cecf=f.0D5A1659DCFC554E1B66769BA853F4F7.d.834247BA07AAE889F30488272D99F07D.e.23}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.83 (03d59cf5ecf1..., userDataDir: /var/folders/jt/hwd168h1059...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52288}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:52288/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:10582/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+	at org.testng.Assert.fail(Assert.java:111)
+	at com.reusableComponents.HighlightElement.run(HighlightElement.groovy:33)
+	at 빅배너 확인_랜딩 후 복귀.run(빅배너 확인_랜딩 후 복귀:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739235266999.run(TempTestSuite1739235266999.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+      <system-err><![CDATA[11-02-2025T09:54:31 - [TEST_SUITE][FAILED] - Home: Test Cases/Home/홈화면 확인/빅배너 확인_랜딩 후 복귀 FAILED.
+Reason:
+java.lang.AssertionError: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '17.0.13'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [null, executeScript {script=arguments[0].setAttribute('style','background: yellow; border: 5px solid red;');, args=[{element-6066-11e4-a52e-4f735466cecf=f.0D5A1659DCFC554E1B66769BA853F4F7.d.834247BA07AAE889F30488272D99F07D.e.23}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.83 (03d59cf5ecf1..., userDataDir: /var/folders/jt/hwd168h1059...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52288}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:52288/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:10582/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+	at org.testng.Assert.fail(Assert.java:111)
+	at com.reusableComponents.HighlightElement.run(HighlightElement.groovy:33)
+	at 빅배너 확인_랜딩 후 복귀.run(빅배너 확인_랜딩 후 복귀:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739235266999.run(TempTestSuite1739235266999.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+   </testsuite>
+</testsuites>

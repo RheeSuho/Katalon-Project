@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>19.BM버튼</name>
+   <tag></tag>
+   <elementGuidId>7fd9582f-637d-4e45-bd36-5a4f5f62b14f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='headlessui-popover-button-:r0:']/div/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.whitespace-nowrap.text-base50.font-system-12b</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>0f88ef68-a201-44a3-bf75-04f213e23ff2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>whitespace-nowrap text-base50 font-system-12b</value>
+      <webElementGuid>78e7ae1c-bfe1-47d5-93ca-3f30ca667284</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>All</value>
+      <webElementGuid>0bccb1dc-1d6b-4894-857b-b729fc3add91</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;headlessui-popover-button-:r0:&quot;)/div[@class=&quot;flex w-full cursor-pointer items-center justify-center h-32 space-x-2 rounded-8&quot;]/p[@class=&quot;whitespace-nowrap text-base50 font-system-12b&quot;]</value>
+      <webElementGuid>036941ca-0b01-4fdd-82f0-2dc5454261dc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//button[@id='headlessui-popover-button-:r0:']/div/p</value>
+      <webElementGuid>732dfb0b-f1d0-4060-a4b4-d3aea6d9d7f4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fantasy'])[1]/following::p[1]</value>
+      <webElementGuid>2705c324-74c8-4574-85fb-d11b69bd6046</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Comedy'])[1]/following::p[1]</value>
+      <webElementGuid>0e8e3dc6-b190-4cf3-ba34-a31bc4e079d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='UP'])[1]/preceding::p[2]</value>
+      <webElementGuid>20e0e403-b1e7-4e6c-b3fa-29c35078ccc8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='UP'])[2]/preceding::p[2]</value>
+      <webElementGuid>c4cb09e0-5114-42c6-99e9-dd3c16a38de9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button/div/p</value>
+      <webElementGuid>5d49de50-8d8e-4779-9b24-1c8444d077c2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'All' or . = 'All')]</value>
+      <webElementGuid>ac0c5ca1-7835-4d1e-9422-4e03b2a43535</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

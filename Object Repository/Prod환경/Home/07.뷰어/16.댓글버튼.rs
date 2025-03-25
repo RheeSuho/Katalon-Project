@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>16.댓글버튼</name>
+   <tag></tag>
+   <elementGuidId>3c09ab18-5bd5-4778-a4d0-21a0dd8a7ae0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.ico.ico--comment.sp-ico-comment-line-wht-m</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='page-wrap']/div/div[5]/div/div[3]/div/div[2]/a/div/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>ef50bfbf-61bb-4d5e-b193-e5826943ef12</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ico ico--comment sp-ico-comment-line-wht-m</value>
+      <webElementGuid>57e75261-38b2-48e9-a839-bd5485546b8b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;page-wrap&quot;)/div[@class=&quot;vw-root js-viewer-root&quot;]/div[@class=&quot;toolbar&quot;]/div[@class=&quot;toolbar__wrapper toolbar__wrapper--wide js-toolbar&quot;]/div[@class=&quot;toolbar__row toolbar__row--right&quot;]/div[@class=&quot;row-item row-item--toggle js-hide-section&quot;]/div[@class=&quot;toggle-btn&quot;]/a[@class=&quot;toolbar-btn js-wide-comment-btn js-comment-btn js-fb-tracking&quot;]/div[@class=&quot;ico-wrap ico-wrap--auto&quot;]/i[@class=&quot;ico ico--comment sp-ico-comment-line-wht-m&quot;]</value>
+      <webElementGuid>1ef270b4-ad48-4582-a152-db754525c74c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='page-wrap']/div/div[5]/div/div[3]/div/div[2]/a/div/i</value>
+      <webElementGuid>af9de813-6e68-4b51-9372-cab671d5d506</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div[2]/a/div/i</value>
+      <webElementGuid>ce1481ee-a2e9-4b98-8b08-49e90878ea37</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

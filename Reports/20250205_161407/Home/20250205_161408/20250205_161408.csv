@@ -1,0 +1,37 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Home,Chrome 132.0.6834.160,,,05-02-2025 16:14:14,05-02-2025 16:14:49,35.423s,FAILED
+,,,,,,,
+Test Cases/Home/숏컷 확인 - 로그인 - 강조 확인,Chrome 132.0.6834.160,,,05-02-2025 16:14:14,05-02-2025 16:14:44,29.678s,PASSED
+"url = ""https://tapas.io/account/signin?from=/""",Chrome 132.0.6834.160,,,05-02-2025 16:14:14,05-02-2025 16:14:14,0.003s,PASSED
+"email = ""dkttapas00@gmail.com""",Chrome 132.0.6834.160,,,05-02-2025 16:14:14,05-02-2025 16:14:15,0.002s,PASSED
+"password = ""winehouse""",Chrome 132.0.6834.160,,,05-02-2025 16:14:15,05-02-2025 16:14:15,0.001s,PASSED
+"cookieFilePath = ""cookies.save""",Chrome 132.0.6834.160,,,05-02-2025 16:14:15,05-02-2025 16:14:15,0.002s,PASSED
+"openBrowser("""")",Chrome 132.0.6834.160,,,05-02-2025 16:14:15,05-02-2025 16:14:19,4.021s,PASSED
+navigateToUrl(url),Chrome 132.0.6834.160,,,05-02-2025 16:14:19,05-02-2025 16:14:23,4.486s,PASSED
+cookieFile = new java.io.File(cookieFilePath),Chrome 132.0.6834.160,,,05-02-2025 16:14:23,05-02-2025 16:14:23,0.004s,PASSED
+if (cookieFile.exists()),Chrome 132.0.6834.160,,,05-02-2025 16:14:23,05-02-2025 16:14:26,3.080s,PASSED
+"searchBox = findTestObject(""숏컷 로그인 신규/Page_Home  Spotlight/input_More_q"")",Chrome 132.0.6834.160,,,05-02-2025 16:14:26,05-02-2025 16:14:26,0.075s,PASSED
+HighlightElement.run(searchBox),Chrome 132.0.6834.160,,,05-02-2025 16:14:26,05-02-2025 16:14:31,4.427s,PASSED
+"verifyElementPresent(searchBox, 0)",Chrome 132.0.6834.160,,,05-02-2025 16:14:31,05-02-2025 16:14:31,0.237s,PASSED
+"logoImage = findTestObject(""숏컷 로그인 신규/Page_Home  Spotlight/img_More_absolute right-2 top-24 -translate-y-24"")",Chrome 132.0.6834.160,,,05-02-2025 16:14:31,05-02-2025 16:14:31,0.006s,PASSED
+HighlightElement.run(logoImage),Chrome 132.0.6834.160,,,05-02-2025 16:14:31,05-02-2025 16:14:33,2.405s,PASSED
+"verifyElementPresent(logoImage, 0)",Chrome 132.0.6834.160,,,05-02-2025 16:14:33,05-02-2025 16:14:33,0.231s,PASSED
+"libraryimage = findTestObject(""숏컷 로그인 신규/Page_Home  Spotlight/library"")",Chrome 132.0.6834.160,,,05-02-2025 16:14:33,05-02-2025 16:14:33,0.006s,PASSED
+HighlightElement.run(libraryimage),Chrome 132.0.6834.160,,,05-02-2025 16:14:33,05-02-2025 16:14:36,2.266s,PASSED
+"verifyElementPresent(libraryimage, 0)",Chrome 132.0.6834.160,,,05-02-2025 16:14:36,05-02-2025 16:14:36,0.235s,PASSED
+"inboximage = findTestObject(""숏컷 로그인 신규/Page_Home  Spotlight/inbox"")",Chrome 132.0.6834.160,,,05-02-2025 16:14:36,05-02-2025 16:14:36,0.009s,PASSED
+HighlightElement.run(inboximage),Chrome 132.0.6834.160,,,05-02-2025 16:14:36,05-02-2025 16:14:38,2.263s,PASSED
+"verifyElementPresent(inboximage, 0)",Chrome 132.0.6834.160,,,05-02-2025 16:14:38,05-02-2025 16:14:38,0.228s,PASSED
+"profileImage = findTestObject(""숏컷 로그인 신규/Page_Home  Spotlight/div_More_absolute left-0 top-0 size-full rounded-100 border-1 border-888"")",Chrome 132.0.6834.160,,,05-02-2025 16:14:38,05-02-2025 16:14:38,0.005s,PASSED
+HighlightElement.run(profileImage),Chrome 132.0.6834.160,,,05-02-2025 16:14:39,05-02-2025 16:14:41,2.259s,PASSED
+"verifyElementPresent(profileImage, 0)",Chrome 132.0.6834.160,,,05-02-2025 16:14:41,05-02-2025 16:14:41,0.224s,PASSED
+"publishButton = findTestObject(""숏컷 로그인 신규/Page_Home  Spotlight/button_Publish"")",Chrome 132.0.6834.160,,,05-02-2025 16:14:41,05-02-2025 16:14:41,0.004s,PASSED
+HighlightElement.run(publishButton),Chrome 132.0.6834.160,,,05-02-2025 16:14:41,05-02-2025 16:14:43,2.256s,PASSED
+"verifyElementPresent(publishButton, 0)",Chrome 132.0.6834.160,,,05-02-2025 16:14:43,05-02-2025 16:14:43,0.225s,PASSED
+closeBrowser(),Chrome 132.0.6834.160,,,05-02-2025 16:14:43,05-02-2025 16:14:44,0.181s,PASSED
+,,,,,,,
+Test Cases/Home/숏컷 객체 강조,Chrome 132.0.6834.160,,,05-02-2025 16:14:44,05-02-2025 16:14:49,5.607s,FAILED
+"openBrowser("""")",Chrome 132.0.6834.160,,,05-02-2025 16:14:44,05-02-2025 16:14:45,1.263s,PASSED
+"navigateToUrl(""https://tapas.io/"")",Chrome 132.0.6834.160,,,05-02-2025 16:14:45,05-02-2025 16:14:47,1.849s,PASSED
+"searchBox = findTestObject(""숏컷 미로그인/Page_Home  Spotlight/input_More_q"")",Chrome 132.0.6834.160,,,05-02-2025 16:14:47,05-02-2025 16:14:47,0.008s,PASSED
+HighlightElement.run(searchBox),Chrome 132.0.6834.160,,,05-02-2025 16:14:47,05-02-2025 16:14:49,2.420s,FAILED

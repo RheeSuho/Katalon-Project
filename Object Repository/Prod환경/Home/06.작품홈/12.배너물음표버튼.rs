@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>12.배너물음표버튼</name>
+   <tag></tag>
+   <elementGuidId>9bbb4974-b4bc-4a15-9989-2ebc0db1fd59</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.ico-question.sp2-ico-question-mark-18</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='page-wrap']/div/div/div/section/div[2]/div[3]/div[2]/i[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>07d53fb2-990a-4dfd-9fc8-8735fbdcebe1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ico-question sp2-ico-question-mark-18</value>
+      <webElementGuid>db355f90-3369-4241-bc7f-9f8497425785</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;page-wrap&quot;)/div[@class=&quot;series-root&quot;]/div[@class=&quot;section-wrapper&quot;]/div[@class=&quot;section-sub-wrapper&quot;]/section[@class=&quot;section section--left&quot;]/div[@class=&quot;section__top&quot;]/div[@class=&quot;wuf-status&quot;]/div[@class=&quot;wuf-status__body clickable js-wuf-modal-btn&quot;]/i[@class=&quot;ico-question sp2-ico-question-mark-18&quot;]</value>
+      <webElementGuid>304a9354-bfbd-4815-9f43-691dd9bfe906</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='page-wrap']/div/div/div/section/div[2]/div[3]/div[2]/i[2]</value>
+      <webElementGuid>c18bc645-b71b-4aa3-8bc9-810aac67e81e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/i[2]</value>
+      <webElementGuid>05b70182-ec7f-465a-bd36-caee774eb06f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

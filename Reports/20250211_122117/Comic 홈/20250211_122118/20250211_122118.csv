@@ -1,0 +1,101 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Comic 홈,Chrome 132.0.6834.160,,,11-02-2025 12:21:23,11-02-2025 12:24:10,2m - 47.220s,FAILED
+,,,,,,,
+Test Cases/서브탭 확인/New 서브탭 - 로그인 경우 추가필요,Chrome 132.0.6834.160,,,11-02-2025 12:21:23,11-02-2025 12:21:51,28.318s,FAILED
+"openBrowser("""")",Chrome 132.0.6834.160,,,11-02-2025 12:21:23,11-02-2025 12:21:25,2.030s,PASSED
+"navigateToUrl(""https://qa.tapas.io/"")",Chrome 132.0.6834.160,,,11-02-2025 12:21:25,11-02-2025 12:21:27,1.522s,PASSED
+"click(findTestObject(""Object Repository/서브탭/New 서브탭/Page_Home  Spotlight/div_Publish_absolute left-0 top-0 size-full_9e46ba""))",Chrome 132.0.6834.160,,,11-02-2025 12:21:27,11-02-2025 12:21:29,2.151s,PASSED
+"click(findTestObject(""Object Repository/서브탭/New 서브탭/Page_Home  New/a_Novels""))",Chrome 132.0.6834.160,,,11-02-2025 12:21:29,11-02-2025 12:21:30,1.233s,PASSED
+"NewNovel = findTestObject(""서브탭/New 서브탭/Page_Home  New/h2_No results were found"")",Chrome 132.0.6834.160,,,11-02-2025 12:21:30,11-02-2025 12:21:30,0.015s,PASSED
+HighlightElement.run(NewNovel),Chrome 132.0.6834.160,,,11-02-2025 12:21:30,11-02-2025 12:21:51,21.262s,FAILED
+,,,,,,,
+Test Cases/서브탭 확인/Popular 서브탭,Chrome 132.0.6834.160,,,11-02-2025 12:21:51,11-02-2025 12:22:59,1m - 8.091s,FAILED
+"comment(""✅ New 서브탭 실행"")",Chrome 132.0.6834.160,,,11-02-2025 12:21:51,11-02-2025 12:21:51,0.006s,PASSED
+"click(findTestObject(""Object Repository/서브탭/Popular 서브탭/Page_Home  Spotlight/div_Publish_absolute left-0 top-0 size-full_9e46ba""))",Chrome 132.0.6834.160,,,11-02-2025 12:21:51,11-02-2025 12:21:52,0.264s,PASSED
+"for ([i = 0, i < 11, (i++)])",Chrome 132.0.6834.160,,,11-02-2025 12:21:52,11-02-2025 12:22:14,22.240s,PASSED
+"rank300 = findTestObject(""서브탭/Popular 서브탭/Page_Home  Popular/div_300"")",Chrome 132.0.6834.160,,,11-02-2025 12:22:14,11-02-2025 12:22:14,0.007s,PASSED
+HighlightElement.run(rank300),Chrome 132.0.6834.160,,,11-02-2025 12:22:14,11-02-2025 12:22:16,2.320s,PASSED
+"verifyElementPresent(rank300, 0)",Chrome 132.0.6834.160,,,11-02-2025 12:22:16,11-02-2025 12:22:17,0.248s,PASSED
+"click(findTestObject(""Object Repository/서브탭/Popular 서브탭/Page_Home  Popular/a_Novels""))",Chrome 132.0.6834.160,,,11-02-2025 12:22:17,11-02-2025 12:22:59,42.955s,FAILED
+,,,,,,,
+Test Cases/서브탭 확인/Comic_All Comic,Chrome 132.0.6834.160,,,11-02-2025 12:22:59,11-02-2025 12:23:22,22.196s,PASSED
+"comment(""✅ All comic 서브탭 실행"")",Chrome 132.0.6834.160,,,11-02-2025 12:23:00,11-02-2025 12:23:00,0.001s,PASSED
+"click(findTestObject(""Object Repository/서브탭/Comic_Spotlight/Page_Home  Spotlight/span_Comics""))",Chrome 132.0.6834.160,,,11-02-2025 12:23:00,11-02-2025 12:23:00,0.275s,PASSED
+"click(findTestObject(""Object Repository/서브탭/Comic_All Comic/Page_Comics  Spotlight/div_Publish_absolute left-0 top-0 size-full rounded-16 border-1 border-transparent20""))",Chrome 132.0.6834.160,,,11-02-2025 12:23:00,11-02-2025 12:23:01,1.281s,PASSED
+"genrefilter = findTestObject(""서브탭/Comic_All Comic/Page_Comics  All Genres/a_Action Fantasy"")",Chrome 132.0.6834.160,,,11-02-2025 12:23:01,11-02-2025 12:23:01,0.004s,PASSED
+HighlightElement.run(genrefilter),Chrome 132.0.6834.160,,,11-02-2025 12:23:01,11-02-2025 12:23:04,3.239s,PASSED
+"verifyElementPresent(genrefilter, 0)",Chrome 132.0.6834.160,,,11-02-2025 12:23:04,11-02-2025 12:23:05,0.246s,PASSED
+"click(findTestObject(""Object Repository/서브탭/Comic_All Comic/Page_Comics  All Genres/a_Action Fantasy""))",Chrome 132.0.6834.160,,,11-02-2025 12:23:05,11-02-2025 12:23:05,0.311s,PASSED
+"filter = findTestObject(""서브탭/Comic_All Comic/Page_Comics  All Genres/img_Fantasy_block"")",Chrome 132.0.6834.160,,,11-02-2025 12:23:05,11-02-2025 12:23:05,0.003s,PASSED
+HighlightElement.run(filter),Chrome 132.0.6834.160,,,11-02-2025 12:23:05,11-02-2025 12:23:08,3.287s,PASSED
+"verifyElementPresent(filter, 0)",Chrome 132.0.6834.160,,,11-02-2025 12:23:08,11-02-2025 12:23:08,0.239s,PASSED
+"click(findTestObject(""Object Repository/서브탭/Comic_All Comic/Page_Comics  All Genres/img_Fantasy_block""))",Chrome 132.0.6834.160,,,11-02-2025 12:23:08,11-02-2025 12:23:09,0.286s,PASSED
+"epfilter = findTestObject(""서브탭/Comic_All Comic/Page_Comics  All Genres/span_Newest episode"")",Chrome 132.0.6834.160,,,11-02-2025 12:23:09,11-02-2025 12:23:09,0.006s,PASSED
+HighlightElement.run(epfilter),Chrome 132.0.6834.160,,,11-02-2025 12:23:09,11-02-2025 12:23:11,2.495s,PASSED
+"verifyElementPresent(epfilter, 0)",Chrome 132.0.6834.160,,,11-02-2025 12:23:11,11-02-2025 12:23:11,0.240s,PASSED
+"click(findTestObject(""Object Repository/서브탭/Comic_All Comic/Page_Comics  All Genres/span_Newest episode""))",Chrome 132.0.6834.160,,,11-02-2025 12:23:11,11-02-2025 12:23:12,0.353s,PASSED
+delay(2),Chrome 132.0.6834.160,,,11-02-2025 12:23:12,11-02-2025 12:23:14,2.005s,PASSED
+"filter1 = findTestObject(""서브탭/Comic_All Comic/Page_Comics  All Genres/img_Fantasy_block_1"")",Chrome 132.0.6834.160,,,11-02-2025 12:23:14,11-02-2025 12:23:14,0.002s,PASSED
+HighlightElement.run(filter1),Chrome 132.0.6834.160,,,11-02-2025 12:23:14,11-02-2025 12:23:16,2.285s,PASSED
+"verifyElementPresent(filter1, 0)",Chrome 132.0.6834.160,,,11-02-2025 12:23:16,11-02-2025 12:23:16,0.235s,PASSED
+"click(findTestObject(""Object Repository/서브탭/Comic_All Comic/Page_Comics  All Genres/img_Fantasy_block_1""))",Chrome 132.0.6834.160,,,11-02-2025 12:23:16,11-02-2025 12:23:17,0.277s,PASSED
+"sefilter = findTestObject(""서브탭/Comic_All Comic/Page_Comics  All Genres/span_Newest series"")",Chrome 132.0.6834.160,,,11-02-2025 12:23:17,11-02-2025 12:23:17,0.004s,PASSED
+HighlightElement.run(sefilter),Chrome 132.0.6834.160,,,11-02-2025 12:23:17,11-02-2025 12:23:19,2.492s,PASSED
+"verifyElementPresent(sefilter, 0)",Chrome 132.0.6834.160,,,11-02-2025 12:23:19,11-02-2025 12:23:19,0.245s,PASSED
+"click(findTestObject(""Object Repository/서브탭/Comic_All Comic/Page_Comics  All Genres/span_Newest series""))",Chrome 132.0.6834.160,,,11-02-2025 12:23:19,11-02-2025 12:23:20,0.326s,PASSED
+delay(2),Chrome 132.0.6834.160,,,11-02-2025 12:23:20,11-02-2025 12:23:22,2.007s,PASSED
+"comment(""✅ All comic 서브탭 완료"")",Chrome 132.0.6834.160,,,11-02-2025 12:23:22,11-02-2025 12:23:22,0.004s,PASSED
+,,,,,,,
+Test Cases/서브탭 확인/Comic _ Spolight_promobanner,Chrome 132.0.6834.160,,,11-02-2025 12:23:22,11-02-2025 12:23:28,6.668s,PASSED
+"comment(""✅ spotlight - promo 서브탭 실행"")",Chrome 132.0.6834.160,,,11-02-2025 12:23:22,11-02-2025 12:23:22,0.002s,PASSED
+"click(findTestObject(""Object Repository/서브탭/Comic_Spotlight/Page_Home  Spotlight/span_Comics""))",Chrome 132.0.6834.160,,,11-02-2025 12:23:22,11-02-2025 12:23:22,0.281s,PASSED
+"click(findTestObject(""Object Repository/서브탭/Comic_Spotlight/Page_Comics  Spotlight/div_Publish_absolute left-0 top-0 size-full_65218a""))",Chrome 132.0.6834.160,,,11-02-2025 12:23:22,11-02-2025 12:23:23,0.599s,PASSED
+"promotion = findTestObject(""서브탭/Comic_Spotlight/Page_Comics  Spotlight/div_0314 jerotest"")",Chrome 132.0.6834.160,,,11-02-2025 12:23:23,11-02-2025 12:23:23,0.002s,PASSED
+HighlightElement.run(promotion),Chrome 132.0.6834.160,,,11-02-2025 12:23:23,11-02-2025 12:23:25,2.412s,PASSED
+"verifyElementPresent(promotion, 0)",Chrome 132.0.6834.160,,,11-02-2025 12:23:25,11-02-2025 12:23:25,0.246s,PASSED
+"click(findTestObject(""Object Repository/서브탭/Comic_Spotlight/Page_Comics  Spotlight/div_0314 jerotest""))",Chrome 132.0.6834.160,,,11-02-2025 12:23:25,11-02-2025 12:23:26,0.294s,PASSED
+"prolanding = findTestObject(""서브탭/Comic_Spotlight/Page_Redeem/div_Redeem code"")",Chrome 132.0.6834.160,,,11-02-2025 12:23:26,11-02-2025 12:23:26,0.003s,PASSED
+HighlightElement.run(prolanding),Chrome 132.0.6834.160,,,11-02-2025 12:23:26,11-02-2025 12:23:28,2.539s,PASSED
+"verifyElementPresent(prolanding, 0)",Chrome 132.0.6834.160,,,11-02-2025 12:23:28,11-02-2025 12:23:28,0.242s,PASSED
+"comment(""✅ spotlight - promo 서브탭 실행"")",Chrome 132.0.6834.160,,,11-02-2025 12:23:28,11-02-2025 12:23:28,0.001s,PASSED
+,,,,,,,
+Test Cases/서브탭 확인/Comic_Bigbanner,Chrome 132.0.6834.160,,,11-02-2025 12:23:28,11-02-2025 12:23:57,28.527s,PASSED
+"comment(""✅ spotlight -big 서브탭 실행"")",Chrome 132.0.6834.160,,,11-02-2025 12:23:28,11-02-2025 12:23:28,0.001s,PASSED
+"click(findTestObject(""Object Repository/서브탭/Comic_Spotlight/Page_Home  Spotlight/span_Comics""))",Chrome 132.0.6834.160,,,11-02-2025 12:23:28,11-02-2025 12:23:29,0.281s,PASSED
+"next = findTestObject(""서브탭/Comic_Spotlight/Page_Home  Spotlight/img_EVENT_ml-2 cursor-pointer"")",Chrome 132.0.6834.160,,,11-02-2025 12:23:29,11-02-2025 12:23:29,0.003s,PASSED
+HighlightElement.run(next),Chrome 132.0.6834.160,,,11-02-2025 12:23:29,11-02-2025 12:23:31,2.590s,PASSED
+"verifyElementPresent(next, 0)",Chrome 132.0.6834.160,,,11-02-2025 12:23:31,11-02-2025 12:23:32,0.240s,PASSED
+"click(findTestObject(""Object Repository/서브탭/Comic_Spotlight/Page_Home  Spotlight/img_EVENT_ml-2 cursor-pointer""))",Chrome 132.0.6834.160,,,11-02-2025 12:23:32,11-02-2025 12:23:32,0.269s,PASSED
+"prev = findTestObject(""서브탭/Comic_Spotlight/Page_Home  Spotlight/img_EVENT_mr-2 cursor-pointer"")",Chrome 132.0.6834.160,,,11-02-2025 12:23:32,11-02-2025 12:23:32,0.004s,PASSED
+HighlightElement.run(prev),Chrome 132.0.6834.160,,,11-02-2025 12:23:32,11-02-2025 12:23:34,2.271s,PASSED
+"verifyElementPresent(prev, 0)",Chrome 132.0.6834.160,,,11-02-2025 12:23:34,11-02-2025 12:23:34,0.240s,PASSED
+"click(findTestObject(""Object Repository/서브탭/Comic_Spotlight/Page_Home  Spotlight/img_EVENT_mr-2 cursor-pointer""))",Chrome 132.0.6834.160,,,11-02-2025 12:23:34,11-02-2025 12:23:35,0.283s,PASSED
+delay(11),Chrome 132.0.6834.160,,,11-02-2025 12:23:35,11-02-2025 12:23:46,11.011s,PASSED
+"page2 = findTestObject(""서브탭/Comic_Spotlight/Page_Home  Spotlight/span_2"")",Chrome 132.0.6834.160,,,11-02-2025 12:23:46,11-02-2025 12:23:46,0.006s,PASSED
+HighlightElement.run(page2),Chrome 132.0.6834.160,,,11-02-2025 12:23:46,11-02-2025 12:23:48,2.289s,PASSED
+"verifyElementPresent(page2, 0)",Chrome 132.0.6834.160,,,11-02-2025 12:23:48,11-02-2025 12:23:48,0.244s,PASSED
+"click(findTestObject(""Object Repository/서브탭/Comic_Spotlight/Page_Home  Spotlight/img_EVENT_mr-2 cursor-pointer""))",Chrome 132.0.6834.160,,,11-02-2025 12:23:48,11-02-2025 12:23:48,0.285s,PASSED
+delay(2),Chrome 132.0.6834.160,,,11-02-2025 12:23:48,11-02-2025 12:23:50,2.009s,PASSED
+"click(findTestObject(""Object Repository/서브탭/Comic_Spotlight/Page_Comics  Spotlight/picture""))",Chrome 132.0.6834.160,,,11-02-2025 12:23:50,11-02-2025 12:23:51,0.328s,PASSED
+"cblanding = findTestObject(""서브탭/Comic_Spotlight/Page_Events/h1_Event List"")",Chrome 132.0.6834.160,,,11-02-2025 12:23:51,11-02-2025 12:23:51,0.005s,PASSED
+HighlightElement.run(cblanding),Chrome 132.0.6834.160,,,11-02-2025 12:23:51,11-02-2025 12:23:54,2.899s,PASSED
+"verifyElementPresent(cblanding, 0)",Chrome 132.0.6834.160,,,11-02-2025 12:23:54,11-02-2025 12:23:54,0.240s,PASSED
+back(),Chrome 132.0.6834.160,,,11-02-2025 12:23:54,11-02-2025 12:23:54,0.026s,PASSED
+refresh(),Chrome 132.0.6834.160,,,11-02-2025 12:23:54,11-02-2025 12:23:57,2.953s,PASSED
+"comment(""✅ spotlight -big 서브탭 실행"")",Chrome 132.0.6834.160,,,11-02-2025 12:23:57,11-02-2025 12:23:57,0.004s,PASSED
+,,,,,,,
+Test Cases/서브탭 확인/Comic_lina banner,Chrome 132.0.6834.160,,,11-02-2025 12:23:57,11-02-2025 12:24:10,13.327s,PASSED
+"comment(""✅ spotlight -big 서브탭 실행"")",Chrome 132.0.6834.160,,,11-02-2025 12:23:57,11-02-2025 12:23:57,0.007s,PASSED
+"click(findTestObject(""Object Repository/서브탭/Comic_Spotlight/Page_Home  Spotlight/span_Comics""))",Chrome 132.0.6834.160,,,11-02-2025 12:23:57,11-02-2025 12:23:58,0.962s,PASSED
+delay(2),Chrome 132.0.6834.160,,,11-02-2025 12:23:58,11-02-2025 12:24:00,2.010s,PASSED
+"linebanner = findTestObject(""서브탭/Comic_line banner/Page_Comics  Spotlight/div_--"")",Chrome 132.0.6834.160,,,11-02-2025 12:24:00,11-02-2025 12:24:00,0.004s,PASSED
+HighlightElement.run(linebanner),Chrome 132.0.6834.160,,,11-02-2025 12:24:00,11-02-2025 12:24:02,2.290s,PASSED
+"verifyElementPresent(linebanner, 0)",Chrome 132.0.6834.160,,,11-02-2025 12:24:02,11-02-2025 12:24:02,0.239s,PASSED
+delay(2),Chrome 132.0.6834.160,,,11-02-2025 12:24:02,11-02-2025 12:24:04,2.009s,PASSED
+"click(findTestObject(""Object Repository/서브탭/Comic_line banner/Page_Comics  Spotlight/div_--""))",Chrome 132.0.6834.160,,,11-02-2025 12:24:04,11-02-2025 12:24:05,0.290s,PASSED
+"linelanding = findTestObject(""서브탭/Comic_line banner/Page_Events/h1_Event List"")",Chrome 132.0.6834.160,,,11-02-2025 12:24:05,11-02-2025 12:24:05,0.002s,PASSED
+HighlightElement.run(linelanding),Chrome 132.0.6834.160,,,11-02-2025 12:24:05,11-02-2025 12:24:08,2.890s,PASSED
+"verifyElementPresent(linelanding, 0)",Chrome 132.0.6834.160,,,11-02-2025 12:24:08,11-02-2025 12:24:08,0.242s,PASSED
+back(),Chrome 132.0.6834.160,,,11-02-2025 12:24:08,11-02-2025 12:24:08,0.045s,PASSED
+delay(2),Chrome 132.0.6834.160,,,11-02-2025 12:24:08,11-02-2025 12:24:10,2.013s,PASSED
+closeBrowser(),Chrome 132.0.6834.160,,,11-02-2025 12:24:10,11-02-2025 12:24:10,0.260s,PASSED

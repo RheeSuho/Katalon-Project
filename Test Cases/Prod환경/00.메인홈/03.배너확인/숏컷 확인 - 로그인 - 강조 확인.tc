@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>숏컷 확인 - 로그인 - 강조 확인</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c825741a-3d3a-4dc2-8f0d-1048450970b7</testCaseGuid>
+</TestCaseEntity>

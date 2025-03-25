@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>섹션타이틀</name>
+   <tag></tag>
+   <elementGuidId>bef22cba-8bdf-4df2-abc2-0c60005ae3d8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h2.line-clamp-2.overflow-hidden.text-ellipsis.text-base60.font-system-18b.self-stretch</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div/main/section[5]/div/div/div/h2</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h2</value>
+      <webElementGuid>d39af637-669e-4068-acbd-b0f398a95a05</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>line-clamp-2 overflow-hidden text-ellipsis text-base60 font-system-18b self-stretch</value>
+      <webElementGuid>69d6665f-343c-4144-94da-d41ca69a5521</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Continue Reading</value>
+      <webElementGuid>489a72b0-6022-46ad-9a51-912fdcc71a6c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;relative mx-auto flex min-h-full flex-col text-base60 __variable_1a3b9d __variable_ca7604&quot;]/div[@class=&quot;mx-auto flex grow flex-col w-1010&quot;]/main[@class=&quot;flex flex-col items-center w-full space-y-4&quot;]/section[@class=&quot;flex flex-col items-center self-stretch w-full space-y-4&quot;]/div[@class=&quot;w-full&quot;]/div[@class=&quot;w-full flex items-end space-x-10 px-18 pb-8 pt-24 bg-base10&quot;]/div[@class=&quot;flex flex-[1_0_0] flex-col items-start justify-center space-y-4 py-3&quot;]/h2[@class=&quot;line-clamp-2 overflow-hidden text-ellipsis text-base60 font-system-18b self-stretch&quot;]</value>
+      <webElementGuid>b95a063a-080f-4604-9e83-8223dfac73cb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div/main/section[5]/div/div/div/h2</value>
+      <webElementGuid>298bd439-771d-4713-9cbd-7311bf938e9c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Go to Tapas App'])[1]/following::h2[1]</value>
+      <webElementGuid>5e5e7859-5b8c-4b2a-9288-8db0afd981be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='리카테스트'])[1]/following::h2[1]</value>
+      <webElementGuid>e9f8a874-adc2-40d5-9450-1c69afbaeacb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='FREE'])[2]/preceding::h2[1]</value>
+      <webElementGuid>8f66bf0f-96f0-4ad9-aaaa-8027d7a3ebda</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='리카 0319 타이틀 안녕하세요 리카 0319 타이틀 안녕하세요 리카 0319 타이틀 안녕'])[1]/preceding::h2[1]</value>
+      <webElementGuid>838f2e36-deb8-46e9-9ceb-56b0898f9e40</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Continue Reading']/parent::*</value>
+      <webElementGuid>e2e41480-0a64-444d-b177-1af42d558a54</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h2</value>
+      <webElementGuid>2e0eb5ef-e440-4408-bb25-423eac3d0c7d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h2[(text() = 'Continue Reading' or . = 'Continue Reading')]</value>
+      <webElementGuid>4f2467db-8634-4966-a3eb-0ccfcd8c715c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

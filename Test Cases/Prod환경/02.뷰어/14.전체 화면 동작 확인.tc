@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>14.전체 화면 동작 확인</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a7593197-6522-42b8-97ad-b36b2177844c</testCaseGuid>
+</TestCaseEntity>

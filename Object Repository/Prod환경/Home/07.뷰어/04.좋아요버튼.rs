@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>04.좋아요버튼</name>
+   <tag></tag>
+   <elementGuidId>cec5c23e-2daa-44d5-9466-9db3add04b66</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='page-wrap']/div/div[5]/div/div[2]/div/a/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.toolbar-btn.js-episode-like-btn.toolbar-btn--like > div.ico-wrap</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>764f15fc-c5f8-40a1-aa1f-3651bb6651cf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ico-wrap</value>
+      <webElementGuid>4364fdbd-a128-4c74-bee9-1086b7d525ed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;page-wrap&quot;)/div[@class=&quot;vw-root js-viewer-root&quot;]/div[@class=&quot;toolbar&quot;]/div[@class=&quot;toolbar__wrapper toolbar__wrapper--wide js-toolbar&quot;]/div[@class=&quot;toolbar__row toolbar__row--center&quot;]/div[@class=&quot;row-item&quot;]/a[@class=&quot;toolbar-btn js-episode-like-btn toolbar-btn--like&quot;]/div[@class=&quot;ico-wrap&quot;]</value>
+      <webElementGuid>b80d731c-43c6-4be6-9095-00aed5d9845c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='page-wrap']/div/div[5]/div/div[2]/div/a/div</value>
+      <webElementGuid>e44a650b-79ea-41a8-a088-ae9bd02d62d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='More'])[3]/following::div[3]</value>
+      <webElementGuid>ab6a74f2-68e9-4c46-9144-354386273dbc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Comment'])[1]/following::div[10]</value>
+      <webElementGuid>4a3ad158-6e38-4198-963d-989699a0be0d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Liked'])[1]/preceding::div[1]</value>
+      <webElementGuid>d5988193-25e9-494d-99ee-12001ffdf3d6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Support'])[1]/preceding::div[2]</value>
+      <webElementGuid>b58a7dcd-ab7b-4621-bf32-ebe6b3c99d11</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/div[2]/div/a/div</value>
+      <webElementGuid>55a0204e-db61-435a-93cf-791094fa34a4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

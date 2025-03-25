@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>24.회차정렬버튼</name>
+   <tag></tag>
+   <elementGuidId>763597aa-a30e-4c47-bd7b-5397d05b50a8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='page-wrap']/div/div/div/section/div[4]/div/div[2]/a/i[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.ico.ico--oldest.sp-ico-oldest-ink-s</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>5d64df8e-abbf-4825-aa45-8e3d6c51b03d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ico ico--oldest sp-ico-oldest-ink-s</value>
+      <webElementGuid>99ee20d3-396f-4d40-8d7f-87d5b2f210ed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;page-wrap&quot;)/div[@class=&quot;series-root&quot;]/div[@class=&quot;section-wrapper&quot;]/div[@class=&quot;section-sub-wrapper&quot;]/section[@class=&quot;section section--left&quot;]/div[@class=&quot;section__bottom section__bottom--episode js-section-row&quot;]/div[@class=&quot;episode-header&quot;]/div[@class=&quot;episode-header__right&quot;]/a[@class=&quot;sort js-sort-btn sort--asc&quot;]/i[@class=&quot;ico ico--oldest sp-ico-oldest-ink-s&quot;]</value>
+      <webElementGuid>5792c6ed-7dfb-45ca-975b-dd4bf18326ce</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='page-wrap']/div/div/div/section/div[4]/div/div[2]/a/i[2]</value>
+      <webElementGuid>90a87015-a5c0-4dcb-a912-b65c20032f4b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/a/i[2]</value>
+      <webElementGuid>d1ae2d88-d925-4306-859b-4b35bfcc5c72</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

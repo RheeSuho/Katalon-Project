@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>하단 툴바</description>
+   <name>13. 회차 이동 동작 확인</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>898645e9-7117-4ea0-8043-92c23afd9be0</testCaseGuid>
+</TestCaseEntity>

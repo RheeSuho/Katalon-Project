@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="검색 동작" time="18.219" tests="2" failures="0" errors="0">
+   <testsuite name="검색 동작" tests="2" failures="0" errors="0" time="18.219" skipped="0" timestamp="05-02-2025T12:02:06" hostname="ruben.lee - localhost" id="Test Suites/검색 동작">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/ruben.lee/Katalon Studio/Tapas Test/Reports/20250205_120200/\uAC80\uC0C9 \uB3D9\uC791/20250205_120201"/>
+         <property name="logFiles" value="/Users/ruben.lee/Katalon Studio/Tapas Test/Reports/20250205_120200/\uAC80\uC0C9 \uB3D9\uC791/20250205_120201/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ruben.lee - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="10.1.0.223"/>
+         <property name="browser" value="Chrome 132.0.6834.160"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="77961f99add07576f728a27d69280f74"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/검색 동작/검색 리스트 확인" time="10.286" classname="Test Cases/검색 동작/검색 리스트 확인" status="PASSED">
+         <system-out><![CDATA[05-02-2025T12:02:06 - [TEST_CASE][PASSED] - Test Cases/검색 동작/검색 리스트 확인: Test Cases/검색 동작/검색 리스트 확인
+
+05-02-2025T12:02:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-02-2025T12:02:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-02-2025T12:02:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-02-2025T12:02:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-02-2025T12:02:08 - [TEST_STEP][PASSED] - navigateToUrl("https://tapas.io/"): Navigate to 'https://tapas.io/' successfully
+
+05-02-2025T12:02:10 - [MESSAGE][PASSED] - Navigate to 'https://tapas.io/' successfully
+
+05-02-2025T12:02:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/검색 리스트 확인/Page_Home  Spotlight/input_More_q"), "the"): Text 'the' is set on object 'Object Repository/검색 리스트 확인/Page_Home  Spotlight/input_More_q'
+
+05-02-2025T12:02:12 - [MESSAGE][PASSED] - Text 'the' is set on object 'Object Repository/검색 리스트 확인/Page_Home  Spotlight/input_More_q'
+
+05-02-2025T12:02:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/검색 리스트 확인/Page_Home  Spotlight/img_More_absolute right-2 top-24 -translate-y-24")): Object: 'Object Repository/검색 리스트 확인/Page_Home  Spotlight/img_More_absolute right-2 top-24 -translate-y-24' is clicked on
+
+05-02-2025T12:02:15 - [MESSAGE][PASSED] - Object: 'Object Repository/검색 리스트 확인/Page_Home  Spotlight/img_More_absolute right-2 top-24 -translate-y-24' is clicked on
+
+05-02-2025T12:02:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/검색 리스트 확인/Page_Search  Tapas/input_search results_q"), "`the"): Text '`the' is set on object 'Object Repository/검색 리스트 확인/Page_Search  Tapas/input_search results_q'
+
+05-02-2025T12:02:16 - [MESSAGE][PASSED] - Text '`the' is set on object 'Object Repository/검색 리스트 확인/Page_Search  Tapas/input_search results_q'
+
+05-02-2025T12:02:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+05-02-2025T12:02:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/검색 동작/검색 결과 없음 확인" time="7.863" classname="Test Cases/검색 동작/검색 결과 없음 확인" status="PASSED">
+         <system-out><![CDATA[05-02-2025T12:02:16 - [TEST_CASE][PASSED] - Test Cases/검색 동작/검색 결과 없음 확인: Test Cases/검색 동작/검색 결과 없음 확인
+
+05-02-2025T12:02:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-02-2025T12:02:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-02-2025T12:02:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-02-2025T12:02:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-02-2025T12:02:17 - [TEST_STEP][PASSED] - navigateToUrl("https://tapas.io/"): Navigate to 'https://tapas.io/' successfully
+
+05-02-2025T12:02:19 - [MESSAGE][PASSED] - Navigate to 'https://tapas.io/' successfully
+
+05-02-2025T12:02:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/검색 결과 없음/Page_Home  Spotlight/input_More_q"), "비비비비비비비비비비"): Text '비비비비비비비비비비' is set on object 'Object Repository/검색 결과 없음/Page_Home  Spotlight/input_More_q'
+
+05-02-2025T12:02:21 - [MESSAGE][PASSED] - Text '비비비비비비비비비비' is set on object 'Object Repository/검색 결과 없음/Page_Home  Spotlight/input_More_q'
+
+05-02-2025T12:02:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/검색 결과 없음/Page_Home  Spotlight/img_More_absolute right-2 top-24 -translate-y-24")): Object: 'Object Repository/검색 결과 없음/Page_Home  Spotlight/img_More_absolute right-2 top-24 -translate-y-24' is clicked on
+
+05-02-2025T12:02:23 - [MESSAGE][PASSED] - Object: 'Object Repository/검색 결과 없음/Page_Home  Spotlight/img_More_absolute right-2 top-24 -translate-y-24' is clicked on
+
+05-02-2025T12:02:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("검색 결과 없음 문구 확인/Page_Search  Tapas/p_No results for"), 0): Object 'Object Repository/검색 결과 없음 문구 확인/Page_Search  Tapas/p_No results for' is present
+
+05-02-2025T12:02:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+05-02-2025T12:02:24 - [MESSAGE][PASSED] - Object 'Object Repository/검색 결과 없음 문구 확인/Page_Search  Tapas/p_No results for' is present
+
+05-02-2025T12:02:24 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+05-02-2025T12:02:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[05-02-2025T12:02:06 - [TEST_SUITE][PASSED] - 검색 동작: Test Cases/검색 동작/검색 결과 없음 확인]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

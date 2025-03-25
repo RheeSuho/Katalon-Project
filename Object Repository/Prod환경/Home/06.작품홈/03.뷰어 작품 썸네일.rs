@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>03.뷰어 작품 썸네일</name>
+   <tag></tag>
+   <elementGuidId>f382832d-95c8-40fa-b404-8ebe4d833a19</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.thumb.js-series-btn > div.thumb-overlay</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='page-wrap']/div/div[3]/div/div[2]/div/div/a/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>b587b374-dba5-4711-9d8b-8a0279d16848</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>thumb-overlay</value>
+      <webElementGuid>2926b499-b9f1-4cdf-a8b4-07b0a6d886e4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;page-wrap&quot;)/div[@class=&quot;vw-root js-viewer-root&quot;]/div[@class=&quot;side-section side-section--series js-series-section&quot;]/div[@class=&quot;series-info js-series-info&quot;]/div[@class=&quot;info-body&quot;]/div[@class=&quot;info-body__top&quot;]/div[@class=&quot;thumb-wrapper thumb-wrapper--mg25&quot;]/a[@class=&quot;thumb js-series-btn&quot;]/div[@class=&quot;thumb-overlay&quot;]</value>
+      <webElementGuid>6528f79c-685b-4335-a00d-9be7b195048c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='page-wrap']/div/div[3]/div/div[2]/div/div/a/div[2]</value>
+      <webElementGuid>f5c20137-001f-4576-8784-bd0b0e1933a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/a/div[2]</value>
+      <webElementGuid>e016b36c-1b61-4d0d-ba54-e2300716e07b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

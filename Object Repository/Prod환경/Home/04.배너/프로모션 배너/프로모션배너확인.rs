@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>프로모션배너확인</name>
+   <tag></tag>
+   <elementGuidId>be5121ef-9716-46f1-abfb-95b4ca92a141</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#episode-467345 > div.viewer > div.viewer__header > p.title</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='episode-467345']/div/div/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>98e8a505-c16d-45bc-a3c7-5f732d7af2e0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>title</value>
+      <webElementGuid>60c9088d-195a-49a7-b51b-113c74a6bdca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Leftover Memories</value>
+      <webElementGuid>22bc6c91-2d9a-4181-8153-cc927aa50a6b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;episode-467345&quot;)/div[@class=&quot;viewer&quot;]/div[@class=&quot;viewer__header&quot;]/p[@class=&quot;title&quot;]</value>
+      <webElementGuid>f4b7b325-e44b-4185-afd5-e914ad18272c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='episode-467345']/div/div/p</value>
+      <webElementGuid>bf0629b4-6cd8-4a40-a17e-19172bc08d51</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Action Fantasy'])[2]/following::p[3]</value>
+      <webElementGuid>9a85ce28-3399-4218-b348-2cb77d0884eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Romance'])[3]/following::p[6]</value>
+      <webElementGuid>7ec0a7be-59bc-4a1b-ac30-62e4afa4165b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Team Adonis'])[2]/preceding::p[2]</value>
+      <webElementGuid>83ba9dab-d05b-4101-9120-e519c854f974</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='See all'])[2]/preceding::p[5]</value>
+      <webElementGuid>fe8b498d-3320-4093-bc8c-f02b2888d4db</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/p</value>
+      <webElementGuid>5d3116d8-d705-44fb-8024-3898783cfb30</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Leftover Memories' or . = 'Leftover Memories')]</value>
+      <webElementGuid>c76e226c-33de-4ff9-90ef-8624dc497f84</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

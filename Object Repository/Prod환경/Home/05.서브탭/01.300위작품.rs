@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>01.300위작품</name>
+   <tag></tag>
+   <elementGuidId>9cf867da-4832-4deb-94ce-b7cefe861fac</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>article:nth-of-type(299) > a > div.flex.w-full.flex-col.justify-between.relative.overflow-hidden.rounded-8 > div.flex.flex-col.items-center.justify-end.space-y-6.pb-10.absolute.inset-x-0.bottom-0 > div.flex.items-center.justify-between.h-16.pl-6.pr-4.rounded-5.bg-s-grey40.flex-row-reverse.min-w-60</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div/main/section[3]/section/div/div/article[299]/a/div/div[4]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>a068ecf7-5d85-4d4c-b05b-c4b08e99c0fa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex items-center justify-between h-16 pl-6 pr-4 rounded-5 bg-s-grey40 flex-row-reverse min-w-60</value>
+      <webElementGuid>915b0bc6-8e04-4479-81bb-e4ab925ef66e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>300</value>
+      <webElementGuid>d74dd418-a421-4113-8f99-03078e27bc49</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;relative mx-auto flex min-h-full flex-col text-base60 __variable_a04e73 __variable_aa69c3&quot;]/div[@class=&quot;mx-auto flex grow flex-col w-1010&quot;]/main[@class=&quot;flex flex-col items-center w-full space-y-4&quot;]/section[@class=&quot;flex flex-col items-center self-stretch w-full space-y-4&quot;]/section[@class=&quot;w-full&quot;]/div[@class=&quot;flex w-full flex-col space-y-4&quot;]/div[@class=&quot;flex w-full flex-wrap items-start scrollbar-hide gap-4 px-11 pc-card-list&quot;]/article[299]/a[1]/div[@class=&quot;flex w-full flex-col justify-between relative overflow-hidden rounded-8&quot;]/div[@class=&quot;flex flex-col items-center justify-end space-y-6 pb-10 absolute inset-x-0 bottom-0&quot;]/div[@class=&quot;flex items-center justify-between h-16 pl-6 pr-4 rounded-5 bg-s-grey40 flex-row-reverse min-w-60&quot;]</value>
+      <webElementGuid>873930e1-5dbc-4388-8ed8-1d78831e603a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div/main/section[3]/section/div/div/article[299]/a/div/div[4]/div</value>
+      <webElementGuid>091d5678-ea12-4376-9eaa-8da863d8f1ef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='UP'])[104]/following::div[50]</value>
+      <webElementGuid>b9c4c3c6-e9c5-47bb-a1e7-aed3752e5ba2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='UP'])[103]/following::div[98]</value>
+      <webElementGuid>32b798aa-dd71-4048-baf8-17d0c9e76599</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Help'])[1]/preceding::div[11]</value>
+      <webElementGuid>e0bc4ebf-735f-4d75-8b70-7b4ffe7bf40b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Discord'])[1]/preceding::div[11]</value>
+      <webElementGuid>61f7fbb9-a04c-49a4-a0df-7628da3607bf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//article[299]/a/div/div[4]/div</value>
+      <webElementGuid>07b983e3-b222-449e-bdb5-c36b6261c0d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '300' or . = '300')]</value>
+      <webElementGuid>207442c1-d8e2-4c01-ae92-e837c32ca4d8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

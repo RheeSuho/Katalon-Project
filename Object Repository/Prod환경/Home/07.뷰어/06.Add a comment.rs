@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>06.Add a comment</name>
+   <tag></tag>
+   <elementGuidId>193d82c0-aa7c-4385-b2e1-0d345297b5f1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='episode-3465298']/div[2]/div[4]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.add-comment-btn.js-add-comment</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>98a1e880-de61-44b5-a36a-a47a90c3bcd2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>add-comment-btn js-add-comment</value>
+      <webElementGuid>c2283942-2a0c-4087-9177-b5c3d8ef3200</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-episode-id</name>
+      <type>Main</type>
+      <value>3465298</value>
+      <webElementGuid>3a2a51ae-db73-4cb8-ab5b-bcc933fd4859</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Add a comment</value>
+      <webElementGuid>881550f6-35b9-46ab-91cb-b1c926470a46</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;episode-3465298&quot;)/div[@class=&quot;viewer-bottom&quot;]/div[@class=&quot;viewer-section viewer-section--comment&quot;]/a[@class=&quot;add-comment-btn js-add-comment&quot;]</value>
+      <webElementGuid>4b9aab7a-7316-44a3-b567-2c2502cbef79</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='episode-3465298']/div[2]/div[4]/a</value>
+      <webElementGuid>6bf107cd-327a-4c8a-89a9-643583149746</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Peaches2026'])[1]/following::a[2]</value>
+      <webElementGuid>f5f0b6a2-b6e3-4b2d-a1ae-caca29d0b1ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='See all'])[1]/following::a[4]</value>
+      <webElementGuid>69b24ac4-4480-4923-bd3f-ddc48a436552</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Romance'])[1]/preceding::a[1]</value>
+      <webElementGuid>6e950312-e9d1-4bf6-9e21-9e676c021ac0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div[2]/div[4]/a</value>
+      <webElementGuid>8ce06a94-4f88-4ccb-acf4-40157f73a3cd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'Add a comment' or . = 'Add a comment')]</value>
+      <webElementGuid>a058565d-9c39-4378-abbc-86454b4031fb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

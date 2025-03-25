@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>11.좋아요수</name>
+   <tag></tag>
+   <elementGuidId>9d3510ab-3439-4fbf-9c0a-86500363db78</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='page-wrap']/div/div[5]/div/div/div/div/p[2]/span[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.stat > span.js-like-cnt</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>c72dad9d-d945-4df9-8c2d-291d3703a67a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>js-like-cnt</value>
+      <webElementGuid>cd0f535b-fd0a-42aa-b285-665fb84e1a02</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>3.7k likes</value>
+      <webElementGuid>c6a139b0-5ecf-4e79-b742-c9a3f2e0092d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;page-wrap&quot;)/div[@class=&quot;vw-root js-viewer-root&quot;]/div[@class=&quot;toolbar&quot;]/div[@class=&quot;toolbar__wrapper toolbar__wrapper--wide js-toolbar&quot;]/div[@class=&quot;toolbar__row toolbar__row--left&quot;]/div[@class=&quot;row-item row-item--info js-toolbar-episode&quot;]/div[@class=&quot;episode-info&quot;]/p[@class=&quot;stat&quot;]/span[@class=&quot;js-like-cnt&quot;]</value>
+      <webElementGuid>21db5493-6e5f-4406-a14c-5e5dc5d09f74</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='page-wrap']/div/div[5]/div/div/div/div/p[2]/span[3]</value>
+      <webElementGuid>49a07ac1-67e2-4cde-aa6e-dbd6cfaf55b1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Comment'])[1]/following::span[3]</value>
+      <webElementGuid>e797c4af-cb87-44ab-bc37-33d1b1f90ee5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='More comments'])[1]/following::span[3]</value>
+      <webElementGuid>2426a19f-2350-4c1e-acc9-b96c94929e44</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='More'])[3]/preceding::span[3]</value>
+      <webElementGuid>b3ce17ca-a6a6-4308-8787-7ed9047ec07c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Like'])[1]/preceding::span[4]</value>
+      <webElementGuid>69dc64e2-875b-4d92-9872-0ec8b84ad475</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='3.7k likes']/parent::*</value>
+      <webElementGuid>8553a77d-bed0-4ffb-b9e9-8b8af4e77cb4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p[2]/span[3]</value>
+      <webElementGuid>8960ca38-6bc0-4113-a984-ceb27f7e4635</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '3.7k likes' or . = '3.7k likes')]</value>
+      <webElementGuid>322a3e92-478d-4e45-b790-80a43dee27c0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

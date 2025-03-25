@@ -1,0 +1,1204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Home" time="90.008" tests="8" failures="3" errors="0">
+   <testsuite name="Home" tests="8" failures="3" errors="0" time="90.008" skipped="0" timestamp="11-02-2025T09:41:37" hostname="ruben.lee - localhost" id="Test Suites/Home">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/ruben.lee/Katalon Studio/Tapas Test/Reports/20250211_094131/Home/20250211_094132"/>
+         <property name="logFiles" value="/Users/ruben.lee/Katalon Studio/Tapas Test/Reports/20250211_094131/Home/20250211_094132/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ruben.lee - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="10.1.0.223"/>
+         <property name="browser" value="Chrome 132.0.6834.160"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="7be8a107035b9c3a459685680d7dc1ea"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Home/홈화면 확인/숏컷 객체 강조" time="15.949" classname="Test Cases/Home/홈화면 확인/숏컷 객체 강조" status="PASSED">
+         <system-out><![CDATA[11-02-2025T09:41:37 - [TEST_CASE][PASSED] - Test Cases/Home/홈화면 확인/숏컷 객체 강조: Test Cases/Home/홈화면 확인/숏컷 객체 강조
+
+11-02-2025T09:41:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-02-2025T09:41:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-02-2025T09:41:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-02-2025T09:41:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-02-2025T09:41:39 - [TEST_STEP][PASSED] - navigateToUrl("https:/qa.tapas.io/"): Navigate to 'https:/qa.tapas.io/' successfully
+
+11-02-2025T09:41:41 - [MESSAGE][PASSED] - Navigate to 'https:/qa.tapas.io/' successfully
+
+11-02-2025T09:41:41 - [TEST_STEP][PASSED] - searchBox = findTestObject("Home/숏컷 미로그인/Page_Home  Spotlight/input_More_q"): null
+
+11-02-2025T09:41:41 - [TEST_STEP][PASSED] - HighlightElement.run(searchBox): null
+
+11-02-2025T09:41:45 - [TEST_STEP][PASSED] - verifyElementPresent(searchBox, 1): Object 'Object Repository/Home/숏컷 미로그인/Page_Home  Spotlight/input_More_q' is present
+
+11-02-2025T09:41:46 - [MESSAGE][PASSED] - Object 'Object Repository/Home/숏컷 미로그인/Page_Home  Spotlight/input_More_q' is present
+
+11-02-2025T09:41:46 - [TEST_STEP][PASSED] - logoImage = findTestObject("Home/숏컷 미로그인/Page_Home  Spotlight/img_More_absolute right-2 top-24 -translate-y-24"): null
+
+11-02-2025T09:41:46 - [TEST_STEP][PASSED] - HighlightElement.run(logoImage): null
+
+11-02-2025T09:41:48 - [TEST_STEP][PASSED] - verifyElementPresent(logoImage, 1): Object 'Object Repository/Home/숏컷 미로그인/Page_Home  Spotlight/img_More_absolute right-2 top-24 -translate-y-24' is present
+
+11-02-2025T09:41:48 - [MESSAGE][PASSED] - Object 'Object Repository/Home/숏컷 미로그인/Page_Home  Spotlight/img_More_absolute right-2 top-24 -translate-y-24' is present
+
+11-02-2025T09:41:48 - [TEST_STEP][PASSED] - loginButton = findTestObject("Home/숏컷 미로그인/Page_Home  Spotlight/button_Login"): null
+
+11-02-2025T09:41:48 - [TEST_STEP][PASSED] - HighlightElement.run(loginButton): null
+
+11-02-2025T09:41:50 - [TEST_STEP][PASSED] - verifyElementPresent(loginButton, 1): Object 'Object Repository/Home/숏컷 미로그인/Page_Home  Spotlight/button_Login' is present
+
+11-02-2025T09:41:51 - [MESSAGE][PASSED] - Object 'Object Repository/Home/숏컷 미로그인/Page_Home  Spotlight/button_Login' is present
+
+11-02-2025T09:41:51 - [TEST_STEP][PASSED] - publishButton = findTestObject("Home/숏컷 미로그인/Page_Home  Spotlight/button_Publish"): null
+
+11-02-2025T09:41:51 - [TEST_STEP][PASSED] - HighlightElement.run(publishButton): null
+
+11-02-2025T09:41:53 - [TEST_STEP][PASSED] - verifyElementPresent(publishButton, 1): Object 'Object Repository/Home/숏컷 미로그인/Page_Home  Spotlight/button_Publish' is present
+
+11-02-2025T09:41:53 - [MESSAGE][PASSED] - Object 'Object Repository/Home/숏컷 미로그인/Page_Home  Spotlight/button_Publish' is present
+
+11-02-2025T09:41:53 - [TEST_STEP][PASSED] - comment("✅ Test 1 완료. 브라우저 유지 상태에서 Test 2 실행"): ✅ Test 1 완료. 브라우저 유지 상태에서 Test 2 실행
+
+11-02-2025T09:41:53 - [MESSAGE][INFO] - ✅ Test 1 완료. 브라우저 유지 상태에서 Test 2 실행]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Home/홈화면 확인/숏컷 확인 - 로그인 - 강조 확인" time="17.089" classname="Test Cases/Home/홈화면 확인/숏컷 확인 - 로그인 - 강조 확인" status="PASSED">
+         <system-out><![CDATA[11-02-2025T09:41:53 - [TEST_CASE][PASSED] - Test Cases/Home/홈화면 확인/숏컷 확인 - 로그인 - 강조 확인: Test Cases/Home/홈화면 확인/숏컷 확인 - 로그인 - 강조 확인
+
+11-02-2025T09:41:53 - [TEST_STEP][PASSED] - url = "https://qa.tapas.io/account/signin?from=/": null
+
+11-02-2025T09:41:53 - [TEST_STEP][PASSED] - email = "dkttapas00@gmail.com": null
+
+11-02-2025T09:41:53 - [TEST_STEP][PASSED] - password = "winehouse": null
+
+11-02-2025T09:41:53 - [TEST_STEP][PASSED] - cookieFilePath = "cookies.save": null
+
+11-02-2025T09:41:53 - [TEST_STEP][PASSED] - comment("🚀 Test 2 시작! 기존 브라우저 사용"): 🚀 Test 2 시작! 기존 브라우저 사용
+
+11-02-2025T09:41:53 - [MESSAGE][INFO] - 🚀 Test 2 시작! 기존 브라우저 사용
+
+11-02-2025T09:41:53 - [TEST_STEP][PASSED] - cookieFile = new java.io.File(cookieFilePath): null
+
+11-02-2025T09:41:53 - [TEST_STEP][PASSED] - if (cookieFile.exists()): ✅ 쿠키 로드 완료! 자동 로그인 성공
+
+11-02-2025T09:41:53 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+11-02-2025T09:41:53 - [TEST_STEP][PASSED] - try: ✅ 쿠키 로드 완료! 자동 로그인 성공
+
+11-02-2025T09:41:53 - [TEST_STEP][PASSED] - fis = new java.io.FileInputStream(cookieFile): null
+
+11-02-2025T09:41:53 - [TEST_STEP][PASSED] - ois = new java.io.ObjectInputStream(fis): null
+
+11-02-2025T09:41:53 - [TEST_STEP][PASSED] - cookies = ois.readObject(): null
+
+11-02-2025T09:41:53 - [TEST_STEP][PASSED] - ois.close(): null
+
+11-02-2025T09:41:53 - [TEST_STEP][PASSED] - fis.close(): null
+
+11-02-2025T09:41:53 - [TEST_STEP][PASSED] - for (org.openqa.selenium.Cookie cookie : cookies): null
+
+11-02-2025T09:41:53 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:41:53 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:41:53 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:41:53 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:41:53 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:41:53 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:41:53 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:41:53 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:41:53 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:41:53 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:41:53 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:41:54 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:41:54 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:41:54 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:41:54 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:41:54 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:41:54 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:41:54 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:41:54 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:41:54 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:41:54 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:41:54 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:41:54 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:41:54 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:41:54 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:41:54 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:41:54 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:41:54 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:41:54 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:41:54 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:41:54 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:41:54 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+11-02-2025T09:41:55 - [MESSAGE][PASSED] - Refresh successfully
+
+11-02-2025T09:41:55 - [TEST_STEP][PASSED] - comment("✅ 쿠키 로드 완료! 자동 로그인 성공"): ✅ 쿠키 로드 완료! 자동 로그인 성공
+
+11-02-2025T09:41:55 - [MESSAGE][INFO] - ✅ 쿠키 로드 완료! 자동 로그인 성공
+
+11-02-2025T09:41:55 - [TEST_STEP][PASSED] - searchBox = findTestObject("Home/숏컷 로그인 신규/Page_Home  Spotlight/input_More_q"): null
+
+11-02-2025T09:41:55 - [TEST_STEP][PASSED] - HighlightElement.run(searchBox): null
+
+11-02-2025T09:41:57 - [TEST_STEP][PASSED] - verifyElementPresent(searchBox, 0): Object 'Object Repository/Home/숏컷 로그인 신규/Page_Home  Spotlight/input_More_q' is present
+
+11-02-2025T09:41:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+11-02-2025T09:41:58 - [MESSAGE][PASSED] - Object 'Object Repository/Home/숏컷 로그인 신규/Page_Home  Spotlight/input_More_q' is present
+
+11-02-2025T09:41:58 - [TEST_STEP][PASSED] - logoImage = findTestObject("Home/숏컷 로그인 신규/Page_Home  Spotlight/img_More_absolute right-2 top-24 -translate-y-24"): null
+
+11-02-2025T09:41:58 - [TEST_STEP][PASSED] - HighlightElement.run(logoImage): null
+
+11-02-2025T09:42:00 - [TEST_STEP][PASSED] - verifyElementPresent(logoImage, 0): Object 'Object Repository/Home/숏컷 로그인 신규/Page_Home  Spotlight/img_More_absolute right-2 top-24 -translate-y-24' is present
+
+11-02-2025T09:42:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+11-02-2025T09:42:00 - [MESSAGE][PASSED] - Object 'Object Repository/Home/숏컷 로그인 신규/Page_Home  Spotlight/img_More_absolute right-2 top-24 -translate-y-24' is present
+
+11-02-2025T09:42:00 - [TEST_STEP][PASSED] - libraryimage = findTestObject("Home/숏컷 로그인 신규/Page_Home  Spotlight/library"): null
+
+11-02-2025T09:42:00 - [TEST_STEP][PASSED] - HighlightElement.run(libraryimage): null
+
+11-02-2025T09:42:02 - [TEST_STEP][PASSED] - verifyElementPresent(libraryimage, 0): Object 'Object Repository/Home/숏컷 로그인 신규/Page_Home  Spotlight/library' is present
+
+11-02-2025T09:42:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+11-02-2025T09:42:03 - [MESSAGE][PASSED] - Object 'Object Repository/Home/숏컷 로그인 신규/Page_Home  Spotlight/library' is present
+
+11-02-2025T09:42:03 - [TEST_STEP][PASSED] - inboximage = findTestObject("Home/숏컷 로그인 신규/Page_Home  Spotlight/inbox"): null
+
+11-02-2025T09:42:03 - [TEST_STEP][PASSED] - HighlightElement.run(inboximage): null
+
+11-02-2025T09:42:05 - [TEST_STEP][PASSED] - verifyElementPresent(inboximage, 0): Object 'Object Repository/Home/숏컷 로그인 신규/Page_Home  Spotlight/inbox' is present
+
+11-02-2025T09:42:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+11-02-2025T09:42:05 - [MESSAGE][PASSED] - Object 'Object Repository/Home/숏컷 로그인 신규/Page_Home  Spotlight/inbox' is present
+
+11-02-2025T09:42:05 - [TEST_STEP][PASSED] - profileImage = findTestObject("Home/숏컷 로그인 신규/Page_Home  Spotlight/div_More_absolute left-0 top-0 size-full rounded-100 border-1 border-888"): null
+
+11-02-2025T09:42:05 - [TEST_STEP][PASSED] - HighlightElement.run(profileImage): null
+
+11-02-2025T09:42:08 - [TEST_STEP][PASSED] - verifyElementPresent(profileImage, 0): Object 'Object Repository/Home/숏컷 로그인 신규/Page_Home  Spotlight/div_More_absolute left-0 top-0 size-full rounded-100 border-1 border-888' is present
+
+11-02-2025T09:42:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+11-02-2025T09:42:08 - [MESSAGE][PASSED] - Object 'Object Repository/Home/숏컷 로그인 신규/Page_Home  Spotlight/div_More_absolute left-0 top-0 size-full rounded-100 border-1 border-888' is present
+
+11-02-2025T09:42:08 - [TEST_STEP][PASSED] - publishButton = findTestObject("Home/숏컷 로그인 신규/Page_Home  Spotlight/button_Publish"): null
+
+11-02-2025T09:42:08 - [TEST_STEP][PASSED] - HighlightElement.run(publishButton): null
+
+11-02-2025T09:42:10 - [TEST_STEP][PASSED] - verifyElementPresent(publishButton, 0): Object 'Object Repository/Home/숏컷 로그인 신규/Page_Home  Spotlight/button_Publish' is present
+
+11-02-2025T09:42:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+11-02-2025T09:42:10 - [MESSAGE][PASSED] - Object 'Object Repository/Home/숏컷 로그인 신규/Page_Home  Spotlight/button_Publish' is present
+
+11-02-2025T09:42:10 - [TEST_STEP][PASSED] - comment("✅ 로그인 확인 완료 - 검색 실행"): ✅ 로그인 확인 완료 - 검색 실행
+
+11-02-2025T09:42:10 - [MESSAGE][INFO] - ✅ 로그인 확인 완료 - 검색 실행]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Home/검색 동작/검색 결과 없음 확인" time="6.826" classname="Test Cases/Home/검색 동작/검색 결과 없음 확인" status="PASSED">
+         <system-out><![CDATA[11-02-2025T09:42:10 - [TEST_CASE][PASSED] - Test Cases/Home/검색 동작/검색 결과 없음 확인: Test Cases/Home/검색 동작/검색 결과 없음 확인
+
+11-02-2025T09:42:10 - [TEST_STEP][PASSED] - comment("✅ 검색 실행"): ✅ 검색 실행
+
+11-02-2025T09:42:10 - [MESSAGE][INFO] - ✅ 검색 실행
+
+11-02-2025T09:42:10 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.tapas.io/"): Navigate to 'https://qa.tapas.io/' successfully
+
+11-02-2025T09:42:14 - [MESSAGE][PASSED] - Navigate to 'https://qa.tapas.io/' successfully
+
+11-02-2025T09:42:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Home/검색 결과 없음/Page_Home  Spotlight/input_More_q"), "비비비비비비비비비비"): Text '비비비비비비비비비비' is set on object 'Object Repository/Home/검색 결과 없음/Page_Home  Spotlight/input_More_q'
+
+11-02-2025T09:42:15 - [MESSAGE][PASSED] - Text '비비비비비비비비비비' is set on object 'Object Repository/Home/검색 결과 없음/Page_Home  Spotlight/input_More_q'
+
+11-02-2025T09:42:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Home/검색 결과 없음/Page_Home  Spotlight/img_More_absolute right-2 top-24 -translate-y-24")): Object: 'Object Repository/Home/검색 결과 없음/Page_Home  Spotlight/img_More_absolute right-2 top-24 -translate-y-24' is clicked on
+
+11-02-2025T09:42:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Home/검색 결과 없음/Page_Home  Spotlight/img_More_absolute right-2 top-24 -translate-y-24' is clicked on
+
+11-02-2025T09:42:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Home/검색 결과 없음 문구 확인/Page_Search  Tapas/p_No results for"), 0): Object 'Object Repository/Home/검색 결과 없음 문구 확인/Page_Search  Tapas/p_No results for' is present
+
+11-02-2025T09:42:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+11-02-2025T09:42:17 - [MESSAGE][PASSED] - Object 'Object Repository/Home/검색 결과 없음 문구 확인/Page_Search  Tapas/p_No results for' is present
+
+11-02-2025T09:42:17 - [TEST_STEP][PASSED] - comment("✅ 검색 완료"): ✅ 검색 완료
+
+11-02-2025T09:42:17 - [MESSAGE][INFO] - ✅ 검색 완료]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Home/검색 동작/검색 리스트 확인" time="3.692" classname="Test Cases/Home/검색 동작/검색 리스트 확인" status="PASSED">
+         <system-out><![CDATA[11-02-2025T09:42:17 - [TEST_CASE][PASSED] - Test Cases/Home/검색 동작/검색 리스트 확인: Test Cases/Home/검색 동작/검색 리스트 확인
+
+11-02-2025T09:42:17 - [TEST_STEP][PASSED] - comment("✅ 로그인/검색 실행"): ✅ 로그인/검색 실행
+
+11-02-2025T09:42:17 - [MESSAGE][INFO] - ✅ 로그인/검색 실행
+
+11-02-2025T09:42:17 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.tapas.io/"): Navigate to 'https://qa.tapas.io/' successfully
+
+11-02-2025T09:42:18 - [MESSAGE][PASSED] - Navigate to 'https://qa.tapas.io/' successfully
+
+11-02-2025T09:42:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Home/검색 리스트 확인/Page_Home  Spotlight/input_More_q"), "the"): Text 'the' is set on object 'Object Repository/Home/검색 리스트 확인/Page_Home  Spotlight/input_More_q'
+
+11-02-2025T09:42:19 - [MESSAGE][PASSED] - Text 'the' is set on object 'Object Repository/Home/검색 리스트 확인/Page_Home  Spotlight/input_More_q'
+
+11-02-2025T09:42:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Home/검색 리스트 확인/Page_Home  Spotlight/img_More_absolute right-2 top-24 -translate-y-24")): Object: 'Object Repository/Home/검색 리스트 확인/Page_Home  Spotlight/img_More_absolute right-2 top-24 -translate-y-24' is clicked on
+
+11-02-2025T09:42:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Home/검색 리스트 확인/Page_Home  Spotlight/img_More_absolute right-2 top-24 -translate-y-24' is clicked on
+
+11-02-2025T09:42:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Home/검색 리스트 확인/Page_Search  Tapas/input_search results_q"), "`the"): Text '`the' is set on object 'Object Repository/Home/검색 리스트 확인/Page_Search  Tapas/input_search results_q'
+
+11-02-2025T09:42:21 - [MESSAGE][PASSED] - Text '`the' is set on object 'Object Repository/Home/검색 리스트 확인/Page_Search  Tapas/input_search results_q'
+
+11-02-2025T09:42:21 - [TEST_STEP][PASSED] - comment("✅ 완료"): ✅ 완료
+
+11-02-2025T09:42:21 - [MESSAGE][INFO] - ✅ 완료]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Home/홈화면 확인/프로모션 배너 확인 _ 강조" time="8.732" classname="Test Cases/Home/홈화면 확인/프로모션 배너 확인 _ 강조" status="PASSED">
+         <system-out><![CDATA[11-02-2025T09:42:21 - [TEST_CASE][PASSED] - Test Cases/Home/홈화면 확인/프로모션 배너 확인 _ 강조: Test Cases/Home/홈화면 확인/프로모션 배너 확인 _ 강조
+
+11-02-2025T09:42:21 - [TEST_STEP][PASSED] - comment("✅ 프로모션 배너 실행"): ✅ 프로모션 배너 실행
+
+11-02-2025T09:42:21 - [MESSAGE][INFO] - ✅ 프로모션 배너 실행
+
+11-02-2025T09:42:21 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.tapas.io/"): Navigate to 'https://qa.tapas.io/' successfully
+
+11-02-2025T09:42:22 - [MESSAGE][PASSED] - Navigate to 'https://qa.tapas.io/' successfully
+
+11-02-2025T09:42:22 - [TEST_STEP][PASSED] - promotion = findTestObject("Home/프로모션 배너/Page_Home  Spotlight/div_adonis"): null
+
+11-02-2025T09:42:22 - [TEST_STEP][PASSED] - HighlightElement.run(promotion): null
+
+11-02-2025T09:42:25 - [TEST_STEP][PASSED] - verifyElementPresent(promotion, 0): Object 'Object Repository/Home/프로모션 배너/Page_Home  Spotlight/div_adonis' is present
+
+11-02-2025T09:42:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+11-02-2025T09:42:25 - [MESSAGE][PASSED] - Object 'Object Repository/Home/프로모션 배너/Page_Home  Spotlight/div_adonis' is present
+
+11-02-2025T09:42:25 - [TEST_STEP][PASSED] - click(findTestObject("Home/프로모션 배너/Page_Home  Spotlight/div_adonis")): Object: 'Object Repository/Home/프로모션 배너/Page_Home  Spotlight/div_adonis' is clicked on
+
+11-02-2025T09:42:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Home/프로모션 배너/Page_Home  Spotlight/div_adonis' is clicked on
+
+11-02-2025T09:42:26 - [TEST_STEP][PASSED] - contents = findTestObject("Home/프로모션 배너 _ 랜딩 확인/Page_Read Adonis  Leftover Memories  Tapas Comics/p_Leftover Memories"): null
+
+11-02-2025T09:42:26 - [TEST_STEP][PASSED] - HighlightElement.run(contents): null
+
+11-02-2025T09:42:29 - [TEST_STEP][PASSED] - verifyElementPresent(contents, 0): Object 'Object Repository/Home/프로모션 배너 _ 랜딩 확인/Page_Read Adonis  Leftover Memories  Tapas Comics/p_Leftover Memories' is present
+
+11-02-2025T09:42:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+11-02-2025T09:42:30 - [MESSAGE][PASSED] - Object 'Object Repository/Home/프로모션 배너 _ 랜딩 확인/Page_Read Adonis  Leftover Memories  Tapas Comics/p_Leftover Memories' is present
+
+11-02-2025T09:42:30 - [TEST_STEP][PASSED] - comment("✅ 프로모션 배너 완료"): ✅ 프로모션 배너 완료
+
+11-02-2025T09:42:30 - [MESSAGE][INFO] - ✅ 프로모션 배너 완료]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Home/홈화면 확인/빅배너 확인_랜딩 후 복귀" time="37.435" classname="Test Cases/Home/홈화면 확인/빅배너 확인_랜딩 후 복귀" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Home/홈화면 확인/빅배너 확인_랜딩 후 복귀 FAILED.&#xa;Reason:&#xa;java.lang.AssertionError: no such window: target window already closed&#xa;from unknown error: web view not found&#xa;  (Session info: chrome=132.0.6834.160)&#xa;Build info: version: '4.22.0', revision: 'c5f3146703'&#xa;System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '17.0.13'&#xa;Driver info: com.kms.katalon.selenium.driver.CChromeDriver&#xa;Command: [7be8a107035b9c3a459685680d7dc1ea, findElements {using=xpath, value=//div[@id='page-wrap']/div/div/div/section/div[2]/div[2]/div[2]/div}]&#xa;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.83 (03d59cf5ecf1..., userDataDir: /var/folders/jt/hwd168h1059...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51764}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51764/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:12895/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#xa;Session ID: 7be8a107035b9c3a459685680d7dc1ea&#xa;	at org.testng.Assert.fail(Assert.java:111)&#xa;	at com.reusableComponents.HighlightElement.run(HighlightElement.groovy:33)&#xa;	at 빅배너 확인_랜딩 후 복귀.run(빅배너 확인_랜딩 후 복귀:66)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1739234492916.run(TempTestSuite1739234492916.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[11-02-2025T09:42:30 - [TEST_CASE][FAILED] - Test Cases/Home/홈화면 확인/빅배너 확인_랜딩 후 복귀: Test Cases/Home/홈화면 확인/빅배너 확인_랜딩 후 복귀 FAILED.
+Reason:
+java.lang.AssertionError: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.160)
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '17.0.13'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [7be8a107035b9c3a459685680d7dc1ea, findElements {using=xpath, value=//div[@id='page-wrap']/div/div/div/section/div[2]/div[2]/div[2]/div}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.83 (03d59cf5ecf1..., userDataDir: /var/folders/jt/hwd168h1059...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51764}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51764/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:12895/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7be8a107035b9c3a459685680d7dc1ea
+	at org.testng.Assert.fail(Assert.java:111)
+	at com.reusableComponents.HighlightElement.run(HighlightElement.groovy:33)
+	at 빅배너 확인_랜딩 후 복귀.run(빅배너 확인_랜딩 후 복귀:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739234492916.run(TempTestSuite1739234492916.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+11-02-2025T09:42:30 - [TEST_STEP][PASSED] - comment("✅ 배너 실행"): ✅ 배너 실행
+
+11-02-2025T09:42:30 - [MESSAGE][INFO] - ✅ 배너 실행
+
+11-02-2025T09:42:30 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.tapas.io/"): Navigate to 'https://qa.tapas.io/' successfully
+
+11-02-2025T09:42:31 - [MESSAGE][PASSED] - Navigate to 'https://qa.tapas.io/' successfully
+
+11-02-2025T09:42:31 - [TEST_STEP][PASSED] - next = findTestObject("Home/빅배너 이동 클릭 동작 확인/Page_Home  Spotlight/img_EVENT_ml-2 cursor-pointer"): null
+
+11-02-2025T09:42:31 - [TEST_STEP][PASSED] - HighlightElement.run(next): null
+
+11-02-2025T09:42:34 - [TEST_STEP][PASSED] - verifyElementPresent(next, 0): Object 'Object Repository/Home/빅배너 이동 클릭 동작 확인/Page_Home  Spotlight/img_EVENT_ml-2 cursor-pointer' is present
+
+11-02-2025T09:42:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+11-02-2025T09:42:34 - [MESSAGE][PASSED] - Object 'Object Repository/Home/빅배너 이동 클릭 동작 확인/Page_Home  Spotlight/img_EVENT_ml-2 cursor-pointer' is present
+
+11-02-2025T09:42:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Home/빅배너 이동 클릭 동작 확인/Page_Home  Spotlight/img_EVENT_ml-2 cursor-pointer")): Object: 'Object Repository/Home/빅배너 이동 클릭 동작 확인/Page_Home  Spotlight/img_EVENT_ml-2 cursor-pointer' is clicked on
+
+11-02-2025T09:42:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Home/빅배너 이동 클릭 동작 확인/Page_Home  Spotlight/img_EVENT_ml-2 cursor-pointer' is clicked on
+
+11-02-2025T09:42:34 - [TEST_STEP][PASSED] - prev = findTestObject("Home/빅배너 이동 클릭 동작 확인/Page_Home  Spotlight/img_EVENT_mr-2 cursor-pointer"): null
+
+11-02-2025T09:42:34 - [TEST_STEP][PASSED] - HighlightElement.run(prev): null
+
+11-02-2025T09:42:36 - [TEST_STEP][PASSED] - verifyElementPresent(prev, 0): Object 'Object Repository/Home/빅배너 이동 클릭 동작 확인/Page_Home  Spotlight/img_EVENT_mr-2 cursor-pointer' is present
+
+11-02-2025T09:42:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+11-02-2025T09:42:37 - [MESSAGE][PASSED] - Object 'Object Repository/Home/빅배너 이동 클릭 동작 확인/Page_Home  Spotlight/img_EVENT_mr-2 cursor-pointer' is present
+
+11-02-2025T09:42:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Home/빅배너 이동 클릭 동작 확인/Page_Home  Spotlight/img_EVENT_mr-2 cursor-pointer")): Object: 'Object Repository/Home/빅배너 이동 클릭 동작 확인/Page_Home  Spotlight/img_EVENT_mr-2 cursor-pointer' is clicked on
+
+11-02-2025T09:42:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Home/빅배너 이동 클릭 동작 확인/Page_Home  Spotlight/img_EVENT_mr-2 cursor-pointer' is clicked on
+
+11-02-2025T09:42:37 - [TEST_STEP][PASSED] - delay(11): Delayed 11 second(s)
+
+11-02-2025T09:42:48 - [MESSAGE][PASSED] - Delayed 11 second(s)
+
+11-02-2025T09:42:48 - [TEST_STEP][PASSED] - page2 = findTestObject("Home/빅배너 자동 스와이프 확인/Page_Home  Spotlight/span_2"): null
+
+11-02-2025T09:42:48 - [TEST_STEP][PASSED] - HighlightElement.run(page2): null
+
+11-02-2025T09:42:50 - [TEST_STEP][PASSED] - verifyElementPresent(page2, 0): Object 'Object Repository/Home/빅배너 자동 스와이프 확인/Page_Home  Spotlight/span_2' is present
+
+11-02-2025T09:42:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+11-02-2025T09:42:50 - [MESSAGE][PASSED] - Object 'Object Repository/Home/빅배너 자동 스와이프 확인/Page_Home  Spotlight/span_2' is present
+
+11-02-2025T09:42:50 - [TEST_STEP][PASSED] - prev1 = findTestObject("Home/빅배너 이동 클릭 동작 확인/Page_Home  Spotlight/img_EVENT_mr-2 cursor-pointer"): null
+
+11-02-2025T09:42:50 - [TEST_STEP][PASSED] - HighlightElement.run(prev1): null
+
+11-02-2025T09:42:53 - [TEST_STEP][PASSED] - verifyElementPresent(prev1, 0): Object 'Object Repository/Home/빅배너 이동 클릭 동작 확인/Page_Home  Spotlight/img_EVENT_mr-2 cursor-pointer' is present
+
+11-02-2025T09:42:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+11-02-2025T09:42:53 - [MESSAGE][PASSED] - Object 'Object Repository/Home/빅배너 이동 클릭 동작 확인/Page_Home  Spotlight/img_EVENT_mr-2 cursor-pointer' is present
+
+11-02-2025T09:42:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Home/빅배너 이동 클릭 동작 확인/Page_Home  Spotlight/img_EVENT_mr-2 cursor-pointer")): Object: 'Object Repository/Home/빅배너 이동 클릭 동작 확인/Page_Home  Spotlight/img_EVENT_mr-2 cursor-pointer' is clicked on
+
+11-02-2025T09:42:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Home/빅배너 이동 클릭 동작 확인/Page_Home  Spotlight/img_EVENT_mr-2 cursor-pointer' is clicked on
+
+11-02-2025T09:42:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Home/빅배너 복귀/Page_Home  Spotlight/picture")): Object: 'Object Repository/Home/빅배너 복귀/Page_Home  Spotlight/picture' is clicked on
+
+11-02-2025T09:42:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Home/빅배너 복귀/Page_Home  Spotlight/picture' is clicked on
+
+11-02-2025T09:42:55 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+11-02-2025T09:42:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+11-02-2025T09:42:56 - [TEST_STEP][PASSED] - title1 = findTestObject("Home/빅배너 복귀/Page_Read Love for Hire  Tapas Web Comics/div_Love for Hire"): null
+
+11-02-2025T09:42:56 - [TEST_STEP][FAILED] - HighlightElement.run(title1): Test Cases/Home/홈화면 확인/빅배너 확인_랜딩 후 복귀 FAILED.
+Reason:
+java.lang.AssertionError: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.160)
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '17.0.13'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [7be8a107035b9c3a459685680d7dc1ea, findElements {using=xpath, value=//div[@id='page-wrap']/div/div/div/section/div[2]/div[2]/div[2]/div}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.83 (03d59cf5ecf1..., userDataDir: /var/folders/jt/hwd168h1059...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51764}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51764/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:12895/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7be8a107035b9c3a459685680d7dc1ea
+	at org.testng.Assert.fail(Assert.java:111)
+	at com.reusableComponents.HighlightElement.run(HighlightElement.groovy:33)
+	at 빅배너 확인_랜딩 후 복귀.run(빅배너 확인_랜딩 후 복귀:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739234492916.run(TempTestSuite1739234492916.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+11-02-2025T09:43:07 - [MESSAGE][FAILED] - Test Cases/Home/홈화면 확인/빅배너 확인_랜딩 후 복귀 FAILED.
+Reason:
+java.lang.AssertionError: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.160)
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '17.0.13'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [7be8a107035b9c3a459685680d7dc1ea, findElements {using=xpath, value=//div[@id='page-wrap']/div/div/div/section/div[2]/div[2]/div[2]/div}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.83 (03d59cf5ecf1..., userDataDir: /var/folders/jt/hwd168h1059...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51764}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51764/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:12895/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7be8a107035b9c3a459685680d7dc1ea
+	at org.testng.Assert.fail(Assert.java:111)
+	at com.reusableComponents.HighlightElement.run(HighlightElement.groovy:33)
+	at 빅배너 확인_랜딩 후 복귀.run(빅배너 확인_랜딩 후 복귀:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739234492916.run(TempTestSuite1739234492916.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+         <system-err><![CDATA[11-02-2025T09:42:30 - [TEST_CASE][FAILED] - Test Cases/Home/홈화면 확인/빅배너 확인_랜딩 후 복귀: Test Cases/Home/홈화면 확인/빅배너 확인_랜딩 후 복귀 FAILED.
+Reason:
+java.lang.AssertionError: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.160)
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '17.0.13'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [7be8a107035b9c3a459685680d7dc1ea, findElements {using=xpath, value=//div[@id='page-wrap']/div/div/div/section/div[2]/div[2]/div[2]/div}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.83 (03d59cf5ecf1..., userDataDir: /var/folders/jt/hwd168h1059...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51764}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51764/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:12895/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7be8a107035b9c3a459685680d7dc1ea
+	at org.testng.Assert.fail(Assert.java:111)
+	at com.reusableComponents.HighlightElement.run(HighlightElement.groovy:33)
+	at 빅배너 확인_랜딩 후 복귀.run(빅배너 확인_랜딩 후 복귀:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739234492916.run(TempTestSuite1739234492916.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Home/홈화면 확인/라인배너 확인" time="0.032" classname="Test Cases/Home/홈화면 확인/라인배너 확인" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Home/홈화면 확인/라인배너 확인 FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'https://qa.tapas.io/'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:185)&#xa;	at 라인배너 확인.run(라인배너 확인:23)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1739234492916.run(TempTestSuite1739234492916.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed&#xa;from unknown error: web view not found&#xa;  (Session info: chrome=132.0.6834.160)&#xa;Build info: version: '4.22.0', revision: 'c5f3146703'&#xa;System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '17.0.13'&#xa;Driver info: com.kms.katalon.selenium.driver.CChromeDriver&#xa;Command: [7be8a107035b9c3a459685680d7dc1ea, get {url=https://qa.tapas.io/}]&#xa;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.83 (03d59cf5ecf1..., userDataDir: /var/folders/jt/hwd168h1059...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51764}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51764/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:12895/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#xa;Session ID: 7be8a107035b9c3a459685680d7dc1ea&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#xa;	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)&#xa;	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)&#xa;	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)&#xa;	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)&#xa;	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)&#xa;	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:300)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:1063)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)&#xa;	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)&#xa;	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)&#xa;	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$ibjX9mJH.to(Unknown Source)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:81)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[11-02-2025T09:43:07 - [TEST_CASE][FAILED] - Test Cases/Home/홈화면 확인/라인배너 확인: Test Cases/Home/홈화면 확인/라인배너 확인 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'https://qa.tapas.io/'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:185)
+	at 라인배너 확인.run(라인배너 확인:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739234492916.run(TempTestSuite1739234492916.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.160)
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '17.0.13'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [7be8a107035b9c3a459685680d7dc1ea, get {url=https://qa.tapas.io/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.83 (03d59cf5ecf1..., userDataDir: /var/folders/jt/hwd168h1059...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51764}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51764/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:12895/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7be8a107035b9c3a459685680d7dc1ea
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:300)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:1063)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$ibjX9mJH.to(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more
+
+
+11-02-2025T09:43:07 - [TEST_STEP][PASSED] - comment("✅ 라인배너 실행"): ✅ 라인배너 실행
+
+11-02-2025T09:43:07 - [MESSAGE][INFO] - ✅ 라인배너 실행
+
+11-02-2025T09:43:07 - [TEST_STEP][FAILED] - navigateToUrl("https://qa.tapas.io/"): Unable to navigate to 'https://qa.tapas.io/' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'https://qa.tapas.io/'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:185)
+	at 라인배너 확인.run(라인배너 확인:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739234492916.run(TempTestSuite1739234492916.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.160)
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '17.0.13'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [7be8a107035b9c3a459685680d7dc1ea, get {url=https://qa.tapas.io/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.83 (03d59cf5ecf1..., userDataDir: /var/folders/jt/hwd168h1059...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51764}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51764/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:12895/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7be8a107035b9c3a459685680d7dc1ea
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:300)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:1063)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$ibjX9mJH.to(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:185)
+	at Script1739156270462.run(Script1739156270462.groovy:23)
+	... 15 more
+)
+
+11-02-2025T09:43:07 - [MESSAGE][WARNING] - Cannot take screenshot
+
+11-02-2025T09:43:07 - [MESSAGE][FAILED] - Unable to navigate to 'https://qa.tapas.io/' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'https://qa.tapas.io/'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:185)
+	at 라인배너 확인.run(라인배너 확인:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739234492916.run(TempTestSuite1739234492916.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.160)
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '17.0.13'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [7be8a107035b9c3a459685680d7dc1ea, get {url=https://qa.tapas.io/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.83 (03d59cf5ecf1..., userDataDir: /var/folders/jt/hwd168h1059...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51764}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51764/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:12895/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7be8a107035b9c3a459685680d7dc1ea
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:300)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:1063)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$ibjX9mJH.to(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:185)
+	at Script1739156270462.run(Script1739156270462.groovy:23)
+	... 15 more
+)]]></system-out>
+         <system-err><![CDATA[11-02-2025T09:43:07 - [TEST_CASE][FAILED] - Test Cases/Home/홈화면 확인/라인배너 확인: Test Cases/Home/홈화면 확인/라인배너 확인 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'https://qa.tapas.io/'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:185)
+	at 라인배너 확인.run(라인배너 확인:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739234492916.run(TempTestSuite1739234492916.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.160)
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '17.0.13'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [7be8a107035b9c3a459685680d7dc1ea, get {url=https://qa.tapas.io/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.83 (03d59cf5ecf1..., userDataDir: /var/folders/jt/hwd168h1059...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51764}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51764/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:12895/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7be8a107035b9c3a459685680d7dc1ea
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:300)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:1063)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$ibjX9mJH.to(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Home/홈화면 확인/최근본섹션-로그인" time="0.142" classname="Test Cases/Home/홈화면 확인/최근본섹션-로그인" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Home/홈화면 확인/최근본섹션-로그인 FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to wait for object '' to be present&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword.waitForElementPresent(WaitForElementPresentKeyword.groovy:95)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword.execute(WaitForElementPresentKeyword.groovy:68)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(WebUiBuiltInKeywords.groovy:423)&#xa;	at 최근본섹션-로그인.run(최근본섹션-로그인:90)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1739234492916.run(TempTestSuite1739234492916.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed&#xa;from unknown error: web view not found&#xa;  (Session info: chrome=132.0.6834.160)&#xa;Build info: version: '4.22.0', revision: 'c5f3146703'&#xa;System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '17.0.13'&#xa;Driver info: com.kms.katalon.selenium.driver.CChromeDriver&#xa;Command: [7be8a107035b9c3a459685680d7dc1ea, findElements {using=xpath, value=//input[@name=&quot;email&quot;]}]&#xa;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.83 (03d59cf5ecf1..., userDataDir: /var/folders/jt/hwd168h1059...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51764}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51764/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:12895/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#xa;Session ID: 7be8a107035b9c3a459685680d7dc1ea&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#xa;	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)&#xa;	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)&#xa;	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)&#xa;	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)&#xa;	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)&#xa;	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)&#xa;	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:182)&#xa;	at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:103)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:368)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:362)&#xa;	at jdk.internal.reflect.GeneratedMethodAccessor29.invoke(Unknown Source)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)&#xa;	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)&#xa;	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$hsEA4WRX.findElements(Unknown Source)&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1063)&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:948)&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:936)&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:931)&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:927)&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:759)&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1447)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword$_waitForElementPresent_closure1.doCall(WaitForElementPresentKeyword.groovy:81)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword$_waitForElementPresent_closure1.call(WaitForElementPresentKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[11-02-2025T09:43:07 - [TEST_CASE][FAILED] - Test Cases/Home/홈화면 확인/최근본섹션-로그인: Test Cases/Home/홈화면 확인/최근본섹션-로그인 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to wait for object '' to be present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword.waitForElementPresent(WaitForElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword.execute(WaitForElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(WebUiBuiltInKeywords.groovy:423)
+	at 최근본섹션-로그인.run(최근본섹션-로그인:90)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739234492916.run(TempTestSuite1739234492916.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.160)
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '17.0.13'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [7be8a107035b9c3a459685680d7dc1ea, findElements {using=xpath, value=//input[@name="email"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.83 (03d59cf5ecf1..., userDataDir: /var/folders/jt/hwd168h1059...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51764}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51764/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:12895/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7be8a107035b9c3a459685680d7dc1ea
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:182)
+	at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:103)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:362)
+	at jdk.internal.reflect.GeneratedMethodAccessor29.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$hsEA4WRX.findElements(Unknown Source)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1063)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:948)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:936)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:931)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:927)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:759)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1447)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword$_waitForElementPresent_closure1.doCall(WaitForElementPresentKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword$_waitForElementPresent_closure1.call(WaitForElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more
+
+
+11-02-2025T09:43:07 - [TEST_STEP][PASSED] - url = "https://qa.tapas.io/account/signin?from=/": null
+
+11-02-2025T09:43:07 - [TEST_STEP][PASSED] - email = "dkttapas00@gmail.com": null
+
+11-02-2025T09:43:07 - [TEST_STEP][PASSED] - password = "winehouse": null
+
+11-02-2025T09:43:07 - [TEST_STEP][PASSED] - cookieFilePath = "cookies.save": null
+
+11-02-2025T09:43:07 - [TEST_STEP][PASSED] - comment("✅ 최근본섹션 실행"): ✅ 최근본섹션 실행
+
+11-02-2025T09:43:07 - [MESSAGE][INFO] - ✅ 최근본섹션 실행
+
+11-02-2025T09:43:07 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+11-02-2025T09:43:07 - [TEST_STEP][PASSED] - cookieFile = new java.io.File(cookieFilePath): null
+
+11-02-2025T09:43:07 - [TEST_STEP][PASSED] - if (cookieFile.exists()): ⚠️ 쿠키 로드 실패: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.160)
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '17.0.13'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [7be8a107035b9c3a459685680d7dc1ea, addCookie {cookie=_ga_1X5Z80XRH8=GS1.2.1739149707.2.0.1739149707.60.0.0; expires=화, 17 3월 2026 01:08:27 GMT; path=/; domain=.tapas.io; sameSite=Lax}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.83 (03d59cf5ecf1..., userDataDir: /var/folders/jt/hwd168h1059...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51764}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51764/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:12895/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7be8a107035b9c3a459685680d7dc1ea
+
+11-02-2025T09:43:07 - [TEST_STEP][PASSED] - try: null
+
+11-02-2025T09:43:07 - [TEST_STEP][PASSED] - fis = new java.io.FileInputStream(cookieFile): null
+
+11-02-2025T09:43:07 - [TEST_STEP][PASSED] - ois = new java.io.ObjectInputStream(fis): null
+
+11-02-2025T09:43:07 - [TEST_STEP][PASSED] - cookies = ois.readObject(): null
+
+11-02-2025T09:43:07 - [TEST_STEP][PASSED] - ois.close(): null
+
+11-02-2025T09:43:07 - [TEST_STEP][PASSED] - fis.close(): null
+
+11-02-2025T09:43:07 - [TEST_STEP][PASSED] - for (org.openqa.selenium.Cookie cookie : cookies): null
+
+11-02-2025T09:43:07 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+11-02-2025T09:43:07 - [TEST_STEP][PASSED] - catch (Exception e): ⚠️ 쿠키 로드 실패: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.160)
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '17.0.13'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [7be8a107035b9c3a459685680d7dc1ea, addCookie {cookie=_ga_1X5Z80XRH8=GS1.2.1739149707.2.0.1739149707.60.0.0; expires=화, 17 3월 2026 01:08:27 GMT; path=/; domain=.tapas.io; sameSite=Lax}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.83 (03d59cf5ecf1..., userDataDir: /var/folders/jt/hwd168h1059...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51764}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51764/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:12895/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7be8a107035b9c3a459685680d7dc1ea
+
+11-02-2025T09:43:07 - [TEST_STEP][PASSED] - comment("⚠️ 쿠키 로드 실패: " + e.getMessage()): ⚠️ 쿠키 로드 실패: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.160)
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '17.0.13'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [7be8a107035b9c3a459685680d7dc1ea, addCookie {cookie=_ga_1X5Z80XRH8=GS1.2.1739149707.2.0.1739149707.60.0.0; expires=화, 17 3월 2026 01:08:27 GMT; path=/; domain=.tapas.io; sameSite=Lax}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.83 (03d59cf5ecf1..., userDataDir: /var/folders/jt/hwd168h1059...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51764}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51764/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:12895/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7be8a107035b9c3a459685680d7dc1ea
+
+11-02-2025T09:43:07 - [MESSAGE][INFO] - ⚠️ 쿠키 로드 실패: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.160)
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '17.0.13'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [7be8a107035b9c3a459685680d7dc1ea, addCookie {cookie=_ga_1X5Z80XRH8=GS1.2.1739149707.2.0.1739149707.60.0.0; expires=화, 17 3월 2026 01:08:27 GMT; path=/; domain=.tapas.io; sameSite=Lax}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.83 (03d59cf5ecf1..., userDataDir: /var/folders/jt/hwd168h1059...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51764}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51764/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:12895/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7be8a107035b9c3a459685680d7dc1ea
+
+11-02-2025T09:43:07 - [TEST_STEP][PASSED] - comment("🆕 쿠키 없음 또는 자동 로그인 실패, 로그인 진행"): 🆕 쿠키 없음 또는 자동 로그인 실패, 로그인 진행
+
+11-02-2025T09:43:07 - [MESSAGE][INFO] - 🆕 쿠키 없음 또는 자동 로그인 실패, 로그인 진행
+
+11-02-2025T09:43:07 - [TEST_STEP][PASSED] - emailField = new com.kms.katalon.core.testobject.TestObject(): null
+
+11-02-2025T09:43:07 - [TEST_STEP][PASSED] - emailField.addProperty("xpath", EQUALS, "//input[@name="email"]"): null
+
+11-02-2025T09:43:07 - [TEST_STEP][FAILED] - if (waitForElementPresent(emailField, 10)): Unable to wait for object '' to be present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to wait for object '' to be present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword.waitForElementPresent(WaitForElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword.execute(WaitForElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(WebUiBuiltInKeywords.groovy:423)
+	at 최근본섹션-로그인.run(최근본섹션-로그인:90)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739234492916.run(TempTestSuite1739234492916.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.160)
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '17.0.13'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [7be8a107035b9c3a459685680d7dc1ea, findElements {using=xpath, value=//input[@name="email"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.83 (03d59cf5ecf1..., userDataDir: /var/folders/jt/hwd168h1059...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51764}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51764/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:12895/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7be8a107035b9c3a459685680d7dc1ea
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:182)
+	at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:103)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:362)
+	at jdk.internal.reflect.GeneratedMethodAccessor29.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$hsEA4WRX.findElements(Unknown Source)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1063)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:948)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:936)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:931)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:927)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:759)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1447)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword$_waitForElementPresent_closure1.doCall(WaitForElementPresentKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword$_waitForElementPresent_closure1.call(WaitForElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword.waitForElementPresent(WaitForElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword.execute(WaitForElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(WebUiBuiltInKeywords.groovy:423)
+	at Script1739162351809.run(Script1739162351809.groovy:90)
+	... 15 more
+)
+
+11-02-2025T09:43:07 - [MESSAGE][WARNING] - Cannot take screenshot
+
+11-02-2025T09:43:07 - [MESSAGE][FAILED] - Unable to wait for object '' to be present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to wait for object '' to be present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword.waitForElementPresent(WaitForElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword.execute(WaitForElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(WebUiBuiltInKeywords.groovy:423)
+	at 최근본섹션-로그인.run(최근본섹션-로그인:90)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739234492916.run(TempTestSuite1739234492916.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.160)
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '17.0.13'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [7be8a107035b9c3a459685680d7dc1ea, findElements {using=xpath, value=//input[@name="email"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.83 (03d59cf5ecf1..., userDataDir: /var/folders/jt/hwd168h1059...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51764}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51764/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:12895/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7be8a107035b9c3a459685680d7dc1ea
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:182)
+	at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:103)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:362)
+	at jdk.internal.reflect.GeneratedMethodAccessor29.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$hsEA4WRX.findElements(Unknown Source)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1063)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:948)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:936)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:931)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:927)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:759)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1447)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword$_waitForElementPresent_closure1.doCall(WaitForElementPresentKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword$_waitForElementPresent_closure1.call(WaitForElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword.waitForElementPresent(WaitForElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword.execute(WaitForElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(WebUiBuiltInKeywords.groovy:423)
+	at Script1739162351809.run(Script1739162351809.groovy:90)
+	... 15 more
+)]]></system-out>
+         <system-err><![CDATA[11-02-2025T09:43:07 - [TEST_CASE][FAILED] - Test Cases/Home/홈화면 확인/최근본섹션-로그인: Test Cases/Home/홈화면 확인/최근본섹션-로그인 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to wait for object '' to be present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword.waitForElementPresent(WaitForElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword.execute(WaitForElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(WebUiBuiltInKeywords.groovy:423)
+	at 최근본섹션-로그인.run(최근본섹션-로그인:90)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739234492916.run(TempTestSuite1739234492916.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.160)
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '17.0.13'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [7be8a107035b9c3a459685680d7dc1ea, findElements {using=xpath, value=//input[@name="email"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.83 (03d59cf5ecf1..., userDataDir: /var/folders/jt/hwd168h1059...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51764}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51764/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:12895/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7be8a107035b9c3a459685680d7dc1ea
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:182)
+	at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:103)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:362)
+	at jdk.internal.reflect.GeneratedMethodAccessor29.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$hsEA4WRX.findElements(Unknown Source)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1063)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:948)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:936)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:931)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:927)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:759)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1447)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword$_waitForElementPresent_closure1.doCall(WaitForElementPresentKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword$_waitForElementPresent_closure1.call(WaitForElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[11-02-2025T09:41:37 - [TEST_SUITE][FAILED] - Home: Test Cases/Home/홈화면 확인/빅배너 확인_랜딩 후 복귀 FAILED.
+Reason:
+java.lang.AssertionError: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.160)
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '17.0.13'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [7be8a107035b9c3a459685680d7dc1ea, findElements {using=xpath, value=//div[@id='page-wrap']/div/div/div/section/div[2]/div[2]/div[2]/div}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.83 (03d59cf5ecf1..., userDataDir: /var/folders/jt/hwd168h1059...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51764}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51764/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:12895/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7be8a107035b9c3a459685680d7dc1ea
+	at org.testng.Assert.fail(Assert.java:111)
+	at com.reusableComponents.HighlightElement.run(HighlightElement.groovy:33)
+	at 빅배너 확인_랜딩 후 복귀.run(빅배너 확인_랜딩 후 복귀:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739234492916.run(TempTestSuite1739234492916.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+      <system-err><![CDATA[11-02-2025T09:41:37 - [TEST_SUITE][FAILED] - Home: Test Cases/Home/홈화면 확인/빅배너 확인_랜딩 후 복귀 FAILED.
+Reason:
+java.lang.AssertionError: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.160)
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '17.0.13'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [7be8a107035b9c3a459685680d7dc1ea, findElements {using=xpath, value=//div[@id='page-wrap']/div/div/div/section/div[2]/div[2]/div[2]/div}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.83 (03d59cf5ecf1..., userDataDir: /var/folders/jt/hwd168h1059...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51764}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51764/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:12895/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7be8a107035b9c3a459685680d7dc1ea
+	at org.testng.Assert.fail(Assert.java:111)
+	at com.reusableComponents.HighlightElement.run(HighlightElement.groovy:33)
+	at 빅배너 확인_랜딩 후 복귀.run(빅배너 확인_랜딩 후 복귀:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739234492916.run(TempTestSuite1739234492916.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+   </testsuite>
+</testsuites>

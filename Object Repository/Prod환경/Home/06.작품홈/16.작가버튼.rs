@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>16.작가버튼</name>
+   <tag></tag>
+   <elementGuidId>d2f33f99-c8ff-41d8-ac44-8aee3b510563</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='page-wrap']/div/div/div/section[2]/div[2]/ul/li/div/div/a/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li.creator-section__item.creator-section__item--border > div.creator-info > div.creator-info__top > a.thumb.circle.js-fb-tracking > div.thumb-overlay.circle</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>8f935f8c-1fa7-40a1-b9f0-e3dbee20f008</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>thumb-overlay circle</value>
+      <webElementGuid>f4745853-9fd0-472a-b682-c26facd85efa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;page-wrap&quot;)/div[@class=&quot;series-root&quot;]/div[@class=&quot;section-wrapper&quot;]/div[@class=&quot;section-sub-wrapper&quot;]/section[@class=&quot;section section--right&quot;]/div[@class=&quot;section__row&quot;]/ul[@class=&quot;row-body creator-section&quot;]/li[@class=&quot;creator-section__item creator-section__item--border&quot;]/div[@class=&quot;creator-info&quot;]/div[@class=&quot;creator-info__top&quot;]/a[@class=&quot;thumb circle js-fb-tracking&quot;]/div[@class=&quot;thumb-overlay circle&quot;]</value>
+      <webElementGuid>c5391aa9-f6ca-48ea-a9e8-f8b7ef33cda1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='page-wrap']/div/div/div/section[2]/div[2]/ul/li/div/div/a/div</value>
+      <webElementGuid>12c334d2-badb-4ab4-a9f7-5aa4850b3876</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/ul/li/div/div/a/div</value>
+      <webElementGuid>90a10fc2-4cfc-46bf-aab5-3c363164f03a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

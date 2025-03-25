@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Comic 홈" time="115.494" tests="6" failures="0" errors="0">
+   <testsuite name="Comic 홈" tests="6" failures="0" errors="0" time="115.494" skipped="0" timestamp="11-02-2025T13:41:00" hostname="ruben.lee - localhost" id="Test Suites/Comic 홈">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/ruben.lee/Katalon Studio/Tapas Test/Reports/20250211_134056/Comic \uD648/20250211_134056"/>
+         <property name="logFiles" value="/Users/ruben.lee/Katalon Studio/Tapas Test/Reports/20250211_134056/Comic \uD648/20250211_134056/execution0.log"/>
+         <property name="attachments" value="/Users/ruben.lee/Katalon Studio/Tapas Test/Reports/20250211_134056/Comic \uD648/20250211_134056/1739248871213.png"/>
+         <property name="hostName" value="ruben.lee - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="10.1.0.223"/>
+         <property name="browser" value="Chrome 132.0.6834.160"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="f20d2b633008d4ba2d7aa5746e68d3d0"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/서브탭 확인/New 서브탭 - 로그인 경우 추가필요" time="13.017" classname="Test Cases/서브탭 확인/New 서브탭 - 로그인 경우 추가필요" status="PASSED">
+         <system-out><![CDATA[11-02-2025T13:41:00 - [TEST_CASE][PASSED] - Test Cases/서브탭 확인/New 서브탭 - 로그인 경우 추가필요: Test Cases/서브탭 확인/New 서브탭 - 로그인 경우 추가필요
+
+11-02-2025T13:41:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-02-2025T13:41:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-02-2025T13:41:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-02-2025T13:41:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-02-2025T13:41:03 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.tapas.io/"): Navigate to 'https://qa.tapas.io/' successfully
+
+11-02-2025T13:41:04 - [MESSAGE][PASSED] - Navigate to 'https://qa.tapas.io/' successfully
+
+11-02-2025T13:41:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/서브탭/New 서브탭/Page_Home  Spotlight/div_Publish_absolute left-0 top-0 size-full_9e46ba")): Object: 'Object Repository/서브탭/New 서브탭/Page_Home  Spotlight/div_Publish_absolute left-0 top-0 size-full_9e46ba' is clicked on
+
+11-02-2025T13:41:06 - [MESSAGE][PASSED] - Object: 'Object Repository/서브탭/New 서브탭/Page_Home  Spotlight/div_Publish_absolute left-0 top-0 size-full_9e46ba' is clicked on
+
+11-02-2025T13:41:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/서브탭/New 서브탭/Page_Home  New/a_Novels")): Object: 'Object Repository/서브탭/New 서브탭/Page_Home  New/a_Novels' is clicked on
+
+11-02-2025T13:41:07 - [MESSAGE][PASSED] - Object: 'Object Repository/서브탭/New 서브탭/Page_Home  New/a_Novels' is clicked on
+
+11-02-2025T13:41:07 - [TEST_STEP][PASSED] - NewNovel = findTestObject("서브탭/New 서브탭/Page_Home  New/h2_No results were found"): null
+
+11-02-2025T13:41:07 - [TEST_STEP][PASSED] - TodayNovel = findTestObject("서브탭/New 서브탭/Page_Home  New/p_Today"): null
+
+11-02-2025T13:41:07 - [TEST_STEP][PASSED] - isNewNovelPresent = verifyElementPresent(NewNovel, 3, OPTIONAL): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/서브탭/New 서브탭/Page_Home  New/h2_No results were found' located by '//div[@id='__next']/div/div/main/div/div/div/h2' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/서브탭/New 서브탭/Page_Home  New/h2_No results were found' located by '//div[@id='__next']/div/div/main/div/div/div/h2' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1524)
+	at New 서브탭 - 로그인 경우 추가필요.run(New 서브탭 - 로그인 경우 추가필요:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739248856130.run(TempTestSuite1739248856130.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+11-02-2025T13:41:11 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='__next']/div/div/main/div/div/div/h2'. Please recheck the objects properties to make sure the desired element is located. 
+
+11-02-2025T13:41:11 - [MESSAGE][WARNING] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/서브탭/New 서브탭/Page_Home  New/h2_No results were found' located by '//div[@id='__next']/div/div/main/div/div/div/h2' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/서브탭/New 서브탭/Page_Home  New/h2_No results were found' located by '//div[@id='__next']/div/div/main/div/div/div/h2' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1524)
+	at New 서브탭 - 로그인 경우 추가필요.run(New 서브탭 - 로그인 경우 추가필요:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739248856130.run(TempTestSuite1739248856130.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|/Users/ruben.lee/Katalon Studio/Tapas Test/Reports/20250211_134056/Comic \uD648/20250211_134056/1739248871213.png]]
+
+11-02-2025T13:41:11 - [TEST_STEP][PASSED] - isTodayNovelPresent = verifyElementPresent(TodayNovel, 3, OPTIONAL): Object 'Object Repository/서브탭/New 서브탭/Page_Home  New/p_Today' is present
+
+11-02-2025T13:41:11 - [MESSAGE][PASSED] - Object 'Object Repository/서브탭/New 서브탭/Page_Home  New/p_Today' is present
+
+11-02-2025T13:41:11 - [TEST_STEP][PASSED] - if (isNewNovelPresent): null
+
+11-02-2025T13:41:11 - [TEST_STEP][PASSED] - else if (isTodayNovelPresent): null
+
+11-02-2025T13:41:11 - [TEST_STEP][PASSED] - HighlightElement.run(TodayNovel): null
+
+11-02-2025T13:41:13 - [TEST_STEP][PASSED] - println("✅ Today Novel 확인"): null
+
+11-02-2025T13:41:13 - [TEST_STEP][PASSED] - comment("✅ New 서브탭 실행"): ✅ New 서브탭 실행
+
+11-02-2025T13:41:13 - [MESSAGE][INFO] - ✅ New 서브탭 실행]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/서브탭 확인/Popular 서브탭" time="32.897" classname="Test Cases/서브탭 확인/Popular 서브탭" status="PASSED">
+         <system-out><![CDATA[11-02-2025T13:41:13 - [TEST_CASE][PASSED] - Test Cases/서브탭 확인/Popular 서브탭: Test Cases/서브탭 확인/Popular 서브탭
+
+11-02-2025T13:41:14 - [TEST_STEP][PASSED] - comment("✅ New 서브탭 실행"): ✅ New 서브탭 실행
+
+11-02-2025T13:41:14 - [MESSAGE][INFO] - ✅ New 서브탭 실행
+
+11-02-2025T13:41:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/서브탭/Popular 서브탭/Page_Home  Spotlight/div_Publish_absolute left-0 top-0 size-full_9e46ba")): Object: 'Object Repository/서브탭/Popular 서브탭/Page_Home  Spotlight/div_Publish_absolute left-0 top-0 size-full_9e46ba' is clicked on
+
+11-02-2025T13:41:14 - [MESSAGE][PASSED] - Object: 'Object Repository/서브탭/Popular 서브탭/Page_Home  Spotlight/div_Publish_absolute left-0 top-0 size-full_9e46ba' is clicked on
+
+11-02-2025T13:41:14 - [TEST_STEP][PASSED] - for ([i = 0, i < 11, (i++)]): Delayed 2 second(s)
+
+11-02-2025T13:41:14 - [TEST_STEP][PASSED] - executeJavaScript("window.scrollTo(0, document.body.scrollHeight);", null): Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+11-02-2025T13:41:14 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+11-02-2025T13:41:14 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+11-02-2025T13:41:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-02-2025T13:41:16 - [TEST_STEP][PASSED] - executeJavaScript("window.scrollTo(0, document.body.scrollHeight);", null): Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+11-02-2025T13:41:16 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+11-02-2025T13:41:16 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+11-02-2025T13:41:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-02-2025T13:41:18 - [TEST_STEP][PASSED] - executeJavaScript("window.scrollTo(0, document.body.scrollHeight);", null): Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+11-02-2025T13:41:18 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+11-02-2025T13:41:18 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+11-02-2025T13:41:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-02-2025T13:41:20 - [TEST_STEP][PASSED] - executeJavaScript("window.scrollTo(0, document.body.scrollHeight);", null): Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+11-02-2025T13:41:20 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+11-02-2025T13:41:20 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+11-02-2025T13:41:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-02-2025T13:41:22 - [TEST_STEP][PASSED] - executeJavaScript("window.scrollTo(0, document.body.scrollHeight);", null): Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+11-02-2025T13:41:22 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+11-02-2025T13:41:22 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+11-02-2025T13:41:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-02-2025T13:41:24 - [TEST_STEP][PASSED] - executeJavaScript("window.scrollTo(0, document.body.scrollHeight);", null): Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+11-02-2025T13:41:24 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+11-02-2025T13:41:24 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+11-02-2025T13:41:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-02-2025T13:41:26 - [TEST_STEP][PASSED] - executeJavaScript("window.scrollTo(0, document.body.scrollHeight);", null): Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+11-02-2025T13:41:26 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+11-02-2025T13:41:26 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+11-02-2025T13:41:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-02-2025T13:41:28 - [TEST_STEP][PASSED] - executeJavaScript("window.scrollTo(0, document.body.scrollHeight);", null): Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+11-02-2025T13:41:28 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+11-02-2025T13:41:28 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+11-02-2025T13:41:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-02-2025T13:41:30 - [TEST_STEP][PASSED] - executeJavaScript("window.scrollTo(0, document.body.scrollHeight);", null): Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+11-02-2025T13:41:30 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+11-02-2025T13:41:30 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+11-02-2025T13:41:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-02-2025T13:41:32 - [TEST_STEP][PASSED] - executeJavaScript("window.scrollTo(0, document.body.scrollHeight);", null): Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+11-02-2025T13:41:32 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+11-02-2025T13:41:32 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+11-02-2025T13:41:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-02-2025T13:41:34 - [TEST_STEP][PASSED] - executeJavaScript("window.scrollTo(0, document.body.scrollHeight);", null): Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+11-02-2025T13:41:34 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+11-02-2025T13:41:34 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+11-02-2025T13:41:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-02-2025T13:41:36 - [TEST_STEP][PASSED] - rank300 = findTestObject("서브탭/Popular 서브탭/Page_Home  Popular/div_300"): null
+
+11-02-2025T13:41:36 - [TEST_STEP][PASSED] - HighlightElement.run(rank300): null
+
+11-02-2025T13:41:38 - [TEST_STEP][PASSED] - verifyElementPresent(rank300, 0): Object 'Object Repository/서브탭/Popular 서브탭/Page_Home  Popular/div_300' is present
+
+11-02-2025T13:41:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+11-02-2025T13:41:39 - [MESSAGE][PASSED] - Object 'Object Repository/서브탭/Popular 서브탭/Page_Home  Popular/div_300' is present
+
+11-02-2025T13:41:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/서브탭/Popular 서브탭/Page_Home  Popular/a_Novels")): Object: 'Object Repository/서브탭/Popular 서브탭/Page_Home  Popular/a_Novels' is clicked on
+
+11-02-2025T13:41:43 - [MESSAGE][PASSED] - Object: 'Object Repository/서브탭/Popular 서브탭/Page_Home  Popular/a_Novels' is clicked on
+
+11-02-2025T13:41:43 - [TEST_STEP][PASSED] - P_novel = findTestObject("서브탭/Popular 서브탭/Page_Home  Popular/a_Novels"): null
+
+11-02-2025T13:41:43 - [TEST_STEP][PASSED] - HighlightElement.run(P_novel): null
+
+11-02-2025T13:41:46 - [TEST_STEP][PASSED] - verifyElementPresent(P_novel, 0): Object 'Object Repository/서브탭/Popular 서브탭/Page_Home  Popular/a_Novels' is present
+
+11-02-2025T13:41:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+11-02-2025T13:41:46 - [MESSAGE][PASSED] - Object 'Object Repository/서브탭/Popular 서브탭/Page_Home  Popular/a_Novels' is present
+
+11-02-2025T13:41:46 - [TEST_STEP][PASSED] - comment("✅ popular 서브탭 실행"): ✅ popular 서브탭 실행
+
+11-02-2025T13:41:46 - [MESSAGE][INFO] - ✅ popular 서브탭 실행]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/서브탭 확인/Comic_All Comic" time="21.969" classname="Test Cases/서브탭 확인/Comic_All Comic" status="PASSED">
+         <system-out><![CDATA[11-02-2025T13:41:46 - [TEST_CASE][PASSED] - Test Cases/서브탭 확인/Comic_All Comic: Test Cases/서브탭 확인/Comic_All Comic
+
+11-02-2025T13:41:46 - [TEST_STEP][PASSED] - comment("✅ All comic 서브탭 실행"): ✅ All comic 서브탭 실행
+
+11-02-2025T13:41:46 - [MESSAGE][INFO] - ✅ All comic 서브탭 실행
+
+11-02-2025T13:41:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/서브탭/Comic_Spotlight/Page_Home  Spotlight/span_Comics")): Object: 'Object Repository/서브탭/Comic_Spotlight/Page_Home  Spotlight/span_Comics' is clicked on
+
+11-02-2025T13:41:47 - [MESSAGE][PASSED] - Object: 'Object Repository/서브탭/Comic_Spotlight/Page_Home  Spotlight/span_Comics' is clicked on
+
+11-02-2025T13:41:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/서브탭/Comic_All Comic/Page_Comics  Spotlight/div_Publish_absolute left-0 top-0 size-full rounded-16 border-1 border-transparent20")): Object: 'Object Repository/서브탭/Comic_All Comic/Page_Comics  Spotlight/div_Publish_absolute left-0 top-0 size-full rounded-16 border-1 border-transparent20' is clicked on
+
+11-02-2025T13:41:48 - [MESSAGE][PASSED] - Object: 'Object Repository/서브탭/Comic_All Comic/Page_Comics  Spotlight/div_Publish_absolute left-0 top-0 size-full rounded-16 border-1 border-transparent20' is clicked on
+
+11-02-2025T13:41:48 - [TEST_STEP][PASSED] - genrefilter = findTestObject("서브탭/Comic_All Comic/Page_Comics  All Genres/a_Action Fantasy"): null
+
+11-02-2025T13:41:48 - [TEST_STEP][PASSED] - HighlightElement.run(genrefilter): null
+
+11-02-2025T13:41:51 - [TEST_STEP][PASSED] - verifyElementPresent(genrefilter, 0): Object 'Object Repository/서브탭/Comic_All Comic/Page_Comics  All Genres/a_Action Fantasy' is present
+
+11-02-2025T13:41:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+11-02-2025T13:41:51 - [MESSAGE][PASSED] - Object 'Object Repository/서브탭/Comic_All Comic/Page_Comics  All Genres/a_Action Fantasy' is present
+
+11-02-2025T13:41:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/서브탭/Comic_All Comic/Page_Comics  All Genres/a_Action Fantasy")): Object: 'Object Repository/서브탭/Comic_All Comic/Page_Comics  All Genres/a_Action Fantasy' is clicked on
+
+11-02-2025T13:41:52 - [MESSAGE][PASSED] - Object: 'Object Repository/서브탭/Comic_All Comic/Page_Comics  All Genres/a_Action Fantasy' is clicked on
+
+11-02-2025T13:41:52 - [TEST_STEP][PASSED] - filter = findTestObject("서브탭/Comic_All Comic/Page_Comics  All Genres/img_Fantasy_block"): null
+
+11-02-2025T13:41:52 - [TEST_STEP][PASSED] - HighlightElement.run(filter): null
+
+11-02-2025T13:41:55 - [TEST_STEP][PASSED] - verifyElementPresent(filter, 0): Object 'Object Repository/서브탭/Comic_All Comic/Page_Comics  All Genres/img_Fantasy_block' is present
+
+11-02-2025T13:41:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+11-02-2025T13:41:55 - [MESSAGE][PASSED] - Object 'Object Repository/서브탭/Comic_All Comic/Page_Comics  All Genres/img_Fantasy_block' is present
+
+11-02-2025T13:41:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/서브탭/Comic_All Comic/Page_Comics  All Genres/img_Fantasy_block")): Object: 'Object Repository/서브탭/Comic_All Comic/Page_Comics  All Genres/img_Fantasy_block' is clicked on
+
+11-02-2025T13:41:55 - [MESSAGE][PASSED] - Object: 'Object Repository/서브탭/Comic_All Comic/Page_Comics  All Genres/img_Fantasy_block' is clicked on
+
+11-02-2025T13:41:55 - [TEST_STEP][PASSED] - epfilter = findTestObject("서브탭/Comic_All Comic/Page_Comics  All Genres/span_Newest episode"): null
+
+11-02-2025T13:41:55 - [TEST_STEP][PASSED] - HighlightElement.run(epfilter): null
+
+11-02-2025T13:41:58 - [TEST_STEP][PASSED] - verifyElementPresent(epfilter, 0): Object 'Object Repository/서브탭/Comic_All Comic/Page_Comics  All Genres/span_Newest episode' is present
+
+11-02-2025T13:41:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+11-02-2025T13:41:58 - [MESSAGE][PASSED] - Object 'Object Repository/서브탭/Comic_All Comic/Page_Comics  All Genres/span_Newest episode' is present
+
+11-02-2025T13:41:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/서브탭/Comic_All Comic/Page_Comics  All Genres/span_Newest episode")): Object: 'Object Repository/서브탭/Comic_All Comic/Page_Comics  All Genres/span_Newest episode' is clicked on
+
+11-02-2025T13:41:58 - [MESSAGE][PASSED] - Object: 'Object Repository/서브탭/Comic_All Comic/Page_Comics  All Genres/span_Newest episode' is clicked on
+
+11-02-2025T13:41:58 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+11-02-2025T13:42:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-02-2025T13:42:00 - [TEST_STEP][PASSED] - filter1 = findTestObject("서브탭/Comic_All Comic/Page_Comics  All Genres/img_Fantasy_block_1"): null
+
+11-02-2025T13:42:00 - [TEST_STEP][PASSED] - HighlightElement.run(filter1): null
+
+11-02-2025T13:42:03 - [TEST_STEP][PASSED] - verifyElementPresent(filter1, 0): Object 'Object Repository/서브탭/Comic_All Comic/Page_Comics  All Genres/img_Fantasy_block_1' is present
+
+11-02-2025T13:42:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+11-02-2025T13:42:03 - [MESSAGE][PASSED] - Object 'Object Repository/서브탭/Comic_All Comic/Page_Comics  All Genres/img_Fantasy_block_1' is present
+
+11-02-2025T13:42:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/서브탭/Comic_All Comic/Page_Comics  All Genres/img_Fantasy_block_1")): Object: 'Object Repository/서브탭/Comic_All Comic/Page_Comics  All Genres/img_Fantasy_block_1' is clicked on
+
+11-02-2025T13:42:03 - [MESSAGE][PASSED] - Object: 'Object Repository/서브탭/Comic_All Comic/Page_Comics  All Genres/img_Fantasy_block_1' is clicked on
+
+11-02-2025T13:42:03 - [TEST_STEP][PASSED] - sefilter = findTestObject("서브탭/Comic_All Comic/Page_Comics  All Genres/span_Newest series"): null
+
+11-02-2025T13:42:03 - [TEST_STEP][PASSED] - HighlightElement.run(sefilter): null
+
+11-02-2025T13:42:06 - [TEST_STEP][PASSED] - verifyElementPresent(sefilter, 0): Object 'Object Repository/서브탭/Comic_All Comic/Page_Comics  All Genres/span_Newest series' is present
+
+11-02-2025T13:42:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+11-02-2025T13:42:06 - [MESSAGE][PASSED] - Object 'Object Repository/서브탭/Comic_All Comic/Page_Comics  All Genres/span_Newest series' is present
+
+11-02-2025T13:42:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/서브탭/Comic_All Comic/Page_Comics  All Genres/span_Newest series")): Object: 'Object Repository/서브탭/Comic_All Comic/Page_Comics  All Genres/span_Newest series' is clicked on
+
+11-02-2025T13:42:06 - [MESSAGE][PASSED] - Object: 'Object Repository/서브탭/Comic_All Comic/Page_Comics  All Genres/span_Newest series' is clicked on
+
+11-02-2025T13:42:06 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+11-02-2025T13:42:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-02-2025T13:42:08 - [TEST_STEP][PASSED] - comment("✅ All comic 서브탭 완료"): ✅ All comic 서브탭 완료
+
+11-02-2025T13:42:08 - [MESSAGE][INFO] - ✅ All comic 서브탭 완료]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/서브탭 확인/Comic _ Spolight_promobanner" time="6.523" classname="Test Cases/서브탭 확인/Comic _ Spolight_promobanner" status="PASSED">
+         <system-out><![CDATA[11-02-2025T13:42:08 - [TEST_CASE][PASSED] - Test Cases/서브탭 확인/Comic _ Spolight_promobanner: Test Cases/서브탭 확인/Comic _ Spolight_promobanner
+
+11-02-2025T13:42:08 - [TEST_STEP][PASSED] - comment("✅ spotlight - promo 서브탭 실행"): ✅ spotlight - promo 서브탭 실행
+
+11-02-2025T13:42:08 - [MESSAGE][INFO] - ✅ spotlight - promo 서브탭 실행
+
+11-02-2025T13:42:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/서브탭/Comic_Spotlight/Page_Home  Spotlight/span_Comics")): Object: 'Object Repository/서브탭/Comic_Spotlight/Page_Home  Spotlight/span_Comics' is clicked on
+
+11-02-2025T13:42:09 - [MESSAGE][PASSED] - Object: 'Object Repository/서브탭/Comic_Spotlight/Page_Home  Spotlight/span_Comics' is clicked on
+
+11-02-2025T13:42:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/서브탭/Comic_Spotlight/Page_Comics  Spotlight/div_Publish_absolute left-0 top-0 size-full_65218a")): Object: 'Object Repository/서브탭/Comic_Spotlight/Page_Comics  Spotlight/div_Publish_absolute left-0 top-0 size-full_65218a' is clicked on
+
+11-02-2025T13:42:09 - [MESSAGE][PASSED] - Object: 'Object Repository/서브탭/Comic_Spotlight/Page_Comics  Spotlight/div_Publish_absolute left-0 top-0 size-full_65218a' is clicked on
+
+11-02-2025T13:42:09 - [TEST_STEP][PASSED] - promotion = findTestObject("서브탭/Comic_Spotlight/Page_Comics  Spotlight/div_0314 jerotest"): null
+
+11-02-2025T13:42:09 - [TEST_STEP][PASSED] - HighlightElement.run(promotion): null
+
+11-02-2025T13:42:12 - [TEST_STEP][PASSED] - verifyElementPresent(promotion, 0): Object 'Object Repository/서브탭/Comic_Spotlight/Page_Comics  Spotlight/div_0314 jerotest' is present
+
+11-02-2025T13:42:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+11-02-2025T13:42:12 - [MESSAGE][PASSED] - Object 'Object Repository/서브탭/Comic_Spotlight/Page_Comics  Spotlight/div_0314 jerotest' is present
+
+11-02-2025T13:42:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/서브탭/Comic_Spotlight/Page_Comics  Spotlight/div_0314 jerotest")): Object: 'Object Repository/서브탭/Comic_Spotlight/Page_Comics  Spotlight/div_0314 jerotest' is clicked on
+
+11-02-2025T13:42:12 - [MESSAGE][PASSED] - Object: 'Object Repository/서브탭/Comic_Spotlight/Page_Comics  Spotlight/div_0314 jerotest' is clicked on
+
+11-02-2025T13:42:12 - [TEST_STEP][PASSED] - prolanding = findTestObject("서브탭/Comic_Spotlight/Page_Redeem/div_Redeem code"): null
+
+11-02-2025T13:42:12 - [TEST_STEP][PASSED] - HighlightElement.run(prolanding): null
+
+11-02-2025T13:42:15 - [TEST_STEP][PASSED] - verifyElementPresent(prolanding, 0): Object 'Object Repository/서브탭/Comic_Spotlight/Page_Redeem/div_Redeem code' is present
+
+11-02-2025T13:42:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+11-02-2025T13:42:15 - [MESSAGE][PASSED] - Object 'Object Repository/서브탭/Comic_Spotlight/Page_Redeem/div_Redeem code' is present
+
+11-02-2025T13:42:15 - [TEST_STEP][PASSED] - comment("✅ spotlight - promo 서브탭 실행"): ✅ spotlight - promo 서브탭 실행
+
+11-02-2025T13:42:15 - [MESSAGE][INFO] - ✅ spotlight - promo 서브탭 실행]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/서브탭 확인/Comic_Bigbanner" time="27.79" classname="Test Cases/서브탭 확인/Comic_Bigbanner" status="PASSED">
+         <system-out><![CDATA[11-02-2025T13:42:15 - [TEST_CASE][PASSED] - Test Cases/서브탭 확인/Comic_Bigbanner: Test Cases/서브탭 확인/Comic_Bigbanner
+
+11-02-2025T13:42:15 - [TEST_STEP][PASSED] - comment("✅ spotlight -big 서브탭 실행"): ✅ spotlight -big 서브탭 실행
+
+11-02-2025T13:42:15 - [MESSAGE][INFO] - ✅ spotlight -big 서브탭 실행
+
+11-02-2025T13:42:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/서브탭/Comic_Spotlight/Page_Home  Spotlight/span_Comics")): Object: 'Object Repository/서브탭/Comic_Spotlight/Page_Home  Spotlight/span_Comics' is clicked on
+
+11-02-2025T13:42:15 - [MESSAGE][PASSED] - Object: 'Object Repository/서브탭/Comic_Spotlight/Page_Home  Spotlight/span_Comics' is clicked on
+
+11-02-2025T13:42:15 - [TEST_STEP][PASSED] - next = findTestObject("서브탭/Comic_Spotlight/Page_Home  Spotlight/img_EVENT_ml-2 cursor-pointer"): null
+
+11-02-2025T13:42:15 - [TEST_STEP][PASSED] - HighlightElement.run(next): null
+
+11-02-2025T13:42:18 - [TEST_STEP][PASSED] - verifyElementPresent(next, 0): Object 'Object Repository/서브탭/Comic_Spotlight/Page_Home  Spotlight/img_EVENT_ml-2 cursor-pointer' is present
+
+11-02-2025T13:42:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+11-02-2025T13:42:18 - [MESSAGE][PASSED] - Object 'Object Repository/서브탭/Comic_Spotlight/Page_Home  Spotlight/img_EVENT_ml-2 cursor-pointer' is present
+
+11-02-2025T13:42:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/서브탭/Comic_Spotlight/Page_Home  Spotlight/img_EVENT_ml-2 cursor-pointer")): Object: 'Object Repository/서브탭/Comic_Spotlight/Page_Home  Spotlight/img_EVENT_ml-2 cursor-pointer' is clicked on
+
+11-02-2025T13:42:18 - [MESSAGE][PASSED] - Object: 'Object Repository/서브탭/Comic_Spotlight/Page_Home  Spotlight/img_EVENT_ml-2 cursor-pointer' is clicked on
+
+11-02-2025T13:42:18 - [TEST_STEP][PASSED] - prev = findTestObject("서브탭/Comic_Spotlight/Page_Home  Spotlight/img_EVENT_mr-2 cursor-pointer"): null
+
+11-02-2025T13:42:18 - [TEST_STEP][PASSED] - HighlightElement.run(prev): null
+
+11-02-2025T13:42:21 - [TEST_STEP][PASSED] - verifyElementPresent(prev, 0): Object 'Object Repository/서브탭/Comic_Spotlight/Page_Home  Spotlight/img_EVENT_mr-2 cursor-pointer' is present
+
+11-02-2025T13:42:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+11-02-2025T13:42:21 - [MESSAGE][PASSED] - Object 'Object Repository/서브탭/Comic_Spotlight/Page_Home  Spotlight/img_EVENT_mr-2 cursor-pointer' is present
+
+11-02-2025T13:42:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/서브탭/Comic_Spotlight/Page_Home  Spotlight/img_EVENT_mr-2 cursor-pointer")): Object: 'Object Repository/서브탭/Comic_Spotlight/Page_Home  Spotlight/img_EVENT_mr-2 cursor-pointer' is clicked on
+
+11-02-2025T13:42:21 - [MESSAGE][PASSED] - Object: 'Object Repository/서브탭/Comic_Spotlight/Page_Home  Spotlight/img_EVENT_mr-2 cursor-pointer' is clicked on
+
+11-02-2025T13:42:21 - [TEST_STEP][PASSED] - delay(11): Delayed 11 second(s)
+
+11-02-2025T13:42:32 - [MESSAGE][PASSED] - Delayed 11 second(s)
+
+11-02-2025T13:42:32 - [TEST_STEP][PASSED] - page2 = findTestObject("서브탭/Comic_Spotlight/Page_Home  Spotlight/span_2"): null
+
+11-02-2025T13:42:32 - [TEST_STEP][PASSED] - HighlightElement.run(page2): null
+
+11-02-2025T13:42:34 - [TEST_STEP][PASSED] - verifyElementPresent(page2, 0): Object 'Object Repository/서브탭/Comic_Spotlight/Page_Home  Spotlight/span_2' is present
+
+11-02-2025T13:42:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+11-02-2025T13:42:35 - [MESSAGE][PASSED] - Object 'Object Repository/서브탭/Comic_Spotlight/Page_Home  Spotlight/span_2' is present
+
+11-02-2025T13:42:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/서브탭/Comic_Spotlight/Page_Home  Spotlight/img_EVENT_mr-2 cursor-pointer")): Object: 'Object Repository/서브탭/Comic_Spotlight/Page_Home  Spotlight/img_EVENT_mr-2 cursor-pointer' is clicked on
+
+11-02-2025T13:42:35 - [MESSAGE][PASSED] - Object: 'Object Repository/서브탭/Comic_Spotlight/Page_Home  Spotlight/img_EVENT_mr-2 cursor-pointer' is clicked on
+
+11-02-2025T13:42:35 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+11-02-2025T13:42:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-02-2025T13:42:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/서브탭/Comic_Spotlight/Page_Comics  Spotlight/picture")): Object: 'Object Repository/서브탭/Comic_Spotlight/Page_Comics  Spotlight/picture' is clicked on
+
+11-02-2025T13:42:37 - [MESSAGE][PASSED] - Object: 'Object Repository/서브탭/Comic_Spotlight/Page_Comics  Spotlight/picture' is clicked on
+
+11-02-2025T13:42:37 - [TEST_STEP][PASSED] - cblanding = findTestObject("서브탭/Comic_Spotlight/Page_Events/h1_Event List"): null
+
+11-02-2025T13:42:37 - [TEST_STEP][PASSED] - HighlightElement.run(cblanding): null
+
+11-02-2025T13:42:40 - [TEST_STEP][PASSED] - verifyElementPresent(cblanding, 0): Object 'Object Repository/서브탭/Comic_Spotlight/Page_Events/h1_Event List' is present
+
+11-02-2025T13:42:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+11-02-2025T13:42:41 - [MESSAGE][PASSED] - Object 'Object Repository/서브탭/Comic_Spotlight/Page_Events/h1_Event List' is present
+
+11-02-2025T13:42:41 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+11-02-2025T13:42:41 - [MESSAGE][PASSED] - Navigate back successfully
+
+11-02-2025T13:42:41 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+11-02-2025T13:42:43 - [MESSAGE][PASSED] - Refresh successfully
+
+11-02-2025T13:42:43 - [TEST_STEP][PASSED] - comment("✅ spotlight -big 서브탭 실행"): ✅ spotlight -big 서브탭 실행
+
+11-02-2025T13:42:43 - [MESSAGE][INFO] - ✅ spotlight -big 서브탭 실행]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/서브탭 확인/Comic_lina banner" time="13.205" classname="Test Cases/서브탭 확인/Comic_lina banner" status="PASSED">
+         <system-out><![CDATA[11-02-2025T13:42:43 - [TEST_CASE][PASSED] - Test Cases/서브탭 확인/Comic_lina banner: Test Cases/서브탭 확인/Comic_lina banner
+
+11-02-2025T13:42:43 - [TEST_STEP][PASSED] - comment("✅ spotlight -big 서브탭 실행"): ✅ spotlight -big 서브탭 실행
+
+11-02-2025T13:42:43 - [MESSAGE][INFO] - ✅ spotlight -big 서브탭 실행
+
+11-02-2025T13:42:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/서브탭/Comic_Spotlight/Page_Home  Spotlight/span_Comics")): Object: 'Object Repository/서브탭/Comic_Spotlight/Page_Home  Spotlight/span_Comics' is clicked on
+
+11-02-2025T13:42:44 - [MESSAGE][PASSED] - Object: 'Object Repository/서브탭/Comic_Spotlight/Page_Home  Spotlight/span_Comics' is clicked on
+
+11-02-2025T13:42:44 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+11-02-2025T13:42:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-02-2025T13:42:46 - [TEST_STEP][PASSED] - linebanner = findTestObject("서브탭/Comic_line banner/Page_Comics  Spotlight/div_--"): null
+
+11-02-2025T13:42:46 - [TEST_STEP][PASSED] - HighlightElement.run(linebanner): null
+
+11-02-2025T13:42:48 - [TEST_STEP][PASSED] - verifyElementPresent(linebanner, 0): Object 'Object Repository/서브탭/Comic_line banner/Page_Comics  Spotlight/div_--' is present
+
+11-02-2025T13:42:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+11-02-2025T13:42:48 - [MESSAGE][PASSED] - Object 'Object Repository/서브탭/Comic_line banner/Page_Comics  Spotlight/div_--' is present
+
+11-02-2025T13:42:48 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+11-02-2025T13:42:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-02-2025T13:42:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/서브탭/Comic_line banner/Page_Comics  Spotlight/div_--")): Object: 'Object Repository/서브탭/Comic_line banner/Page_Comics  Spotlight/div_--' is clicked on
+
+11-02-2025T13:42:50 - [MESSAGE][PASSED] - Object: 'Object Repository/서브탭/Comic_line banner/Page_Comics  Spotlight/div_--' is clicked on
+
+11-02-2025T13:42:50 - [TEST_STEP][PASSED] - linelanding = findTestObject("서브탭/Comic_line banner/Page_Events/h1_Event List"): null
+
+11-02-2025T13:42:50 - [TEST_STEP][PASSED] - HighlightElement.run(linelanding): null
+
+11-02-2025T13:42:53 - [TEST_STEP][PASSED] - verifyElementPresent(linelanding, 0): Object 'Object Repository/서브탭/Comic_line banner/Page_Events/h1_Event List' is present
+
+11-02-2025T13:42:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+11-02-2025T13:42:54 - [MESSAGE][PASSED] - Object 'Object Repository/서브탭/Comic_line banner/Page_Events/h1_Event List' is present
+
+11-02-2025T13:42:54 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+11-02-2025T13:42:54 - [MESSAGE][PASSED] - Navigate back successfully
+
+11-02-2025T13:42:54 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+11-02-2025T13:42:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-02-2025T13:42:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-02-2025T13:42:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[11-02-2025T13:41:00 - [TEST_SUITE][PASSED] - Comic 홈: Test Cases/서브탭 확인/Comic_lina banner]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

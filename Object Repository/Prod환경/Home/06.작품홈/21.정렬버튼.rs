@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>21.정렬버튼</name>
+   <tag></tag>
+   <elementGuidId>1854908e-b73a-4d12-9d71-2311ce42754f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='headlessui-popover-button-:r5:']/div/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>0ad6a318-cd8b-4322-9952-9cbb7e77534b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>whitespace-nowrap text-base50 font-system-12b</value>
+      <webElementGuid>d1776e82-222a-43ba-9f8a-8fadb8163015</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Popular</value>
+      <webElementGuid>64605155-858d-463a-89f2-555f67fa0e09</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;headlessui-popover-button-:r5:&quot;)/div[@class=&quot;flex w-full cursor-pointer items-center justify-center h-32 space-x-2 rounded-8&quot;]/p[@class=&quot;whitespace-nowrap text-base50 font-system-12b&quot;]</value>
+      <webElementGuid>c24dd2d8-158b-46b0-873e-515e238cf432</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//button[@id='headlessui-popover-button-:r5:']/div/p</value>
+      <webElementGuid>b60f8578-c447-432c-97c6-6ff8e27b0172</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fantasy'])[1]/following::p[2]</value>
+      <webElementGuid>1dbc8b1f-3d81-4c26-b801-ed5f025e4088</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Comedy'])[1]/following::p[2]</value>
+      <webElementGuid>21087a99-7746-4ffe-9e6f-27f290ec7d70</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='UP'])[1]/preceding::p[1]</value>
+      <webElementGuid>f0f93ccc-d2e4-4104-9a94-f6a86d8d240c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='UP'])[2]/preceding::p[1]</value>
+      <webElementGuid>81c2cd08-e080-4900-b5ec-b94d90282c7a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Popular']/parent::*</value>
+      <webElementGuid>b5aa5947-fe1e-41a4-a3fc-ae44a2d09268</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/button/div/p</value>
+      <webElementGuid>08a7c525-afd4-4475-baa6-d62e310f8e40</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Popular' or . = 'Popular')]</value>
+      <webElementGuid>427359d2-6861-4824-8687-66799164256a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

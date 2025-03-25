@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>01.라인배너</name>
+   <tag></tag>
+   <elementGuidId>36d93110-0003-4e53-8b3f-3b8d0abc0cc6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.flex.items-center.justify-between.self-stretch.size-full.pl-18.relative.overflow-hidden.rounded-8</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div/main/section[2]/section/div/article/a/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>a75ffd29-aa10-447a-9c0f-33bef5921905</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex items-center justify-between self-stretch size-full pl-18 relative overflow-hidden rounded-8</value>
+      <webElementGuid>6d6fc4ac-6ab6-4639-ac7d-dd61d5a57948</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Free AccessLearn More > </value>
+      <webElementGuid>ca7a231c-4d9b-4dff-9ce0-f4dc7063f1ec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;relative mx-auto flex min-h-full flex-col text-base60 __variable_a04e73 __variable_aa69c3&quot;]/div[@class=&quot;mx-auto flex grow flex-col w-1010&quot;]/main[@class=&quot;flex flex-col items-center w-full space-y-4&quot;]/section[@class=&quot;flex flex-col items-center self-stretch w-full space-y-4&quot;]/section[@class=&quot;w-full&quot;]/div[@class=&quot;flex w-full space-x-4 px-11&quot;]/article[@class=&quot;flex-1&quot;]/a[1]/div[@class=&quot;h-64 w-full&quot;]/div[@class=&quot;flex items-center justify-between self-stretch size-full pl-18 relative overflow-hidden rounded-8&quot;]</value>
+      <webElementGuid>fea84935-88fb-4b42-91ea-c08c7dac22b2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div/main/section[2]/section/div/article/a/div/div</value>
+      <webElementGuid>2c1d6aea-9b52-42b2-9019-37eba5d79067</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Drama'])[1]/following::div[4]</value>
+      <webElementGuid>caa6493c-77a7-4283-bf1b-9dbddea33b46</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Comic'])[3]/following::div[4]</value>
+      <webElementGuid>0c16230e-a6de-4f0b-b844-d7ef63dc4cf4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Go to Tapas App'])[1]/preceding::div[3]</value>
+      <webElementGuid>d65f897d-3009-4e5e-8c7e-baed9a209aec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section/div/article/a/div/div</value>
+      <webElementGuid>a2e82a2b-e8d0-446c-8ed4-de56b6c82f29</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Free AccessLearn More > ' or . = 'Free AccessLearn More > ')]</value>
+      <webElementGuid>b419eeb1-d31a-467f-846e-2ccf556c5922</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
