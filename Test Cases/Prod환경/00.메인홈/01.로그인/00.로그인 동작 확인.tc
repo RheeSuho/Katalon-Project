@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>00.로그인 동작 확인</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>95fccc6e-8cf2-4ca5-ba96-7e503c9fee0c</testCaseGuid>
+</TestCaseEntity>

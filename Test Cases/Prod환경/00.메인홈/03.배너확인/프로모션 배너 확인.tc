@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>프로모션 배너 확인</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>1b4428d8-2110-4a79-a2bf-dfdf139c7a9b</testCaseGuid>
-</TestCaseEntity>

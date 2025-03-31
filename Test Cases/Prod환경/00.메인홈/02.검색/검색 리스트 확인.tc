@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>검색 리스트 확인</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>1b8ef27e-6471-4610-9668-b1d9c6cf42c1</testCaseGuid>
-</TestCaseEntity>

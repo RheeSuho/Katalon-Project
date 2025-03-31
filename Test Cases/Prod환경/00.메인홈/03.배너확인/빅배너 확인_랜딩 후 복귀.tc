@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>빅배너 확인_랜딩 후 복귀</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>380d8f44-1cf8-4dcd-bada-4a4081af3951</testCaseGuid>
-</TestCaseEntity>

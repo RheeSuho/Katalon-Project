@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 import com.reusableComponents.HighlightElement as HighlightElement
 
 //WebUI.callTestCase(findTestCase("Test Cases/CallTest용도/브라우저오픈"), [:], FailureHandling.STOP_ON_FAILURE)
-WebUI.callTestCase(findTestCase('Test Cases/Prod환경/00.메인홈/01.로그인/2222'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Test Cases/Prod환경/00.메인홈/01.로그인/01.자동 로그인 확인'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(2)
 

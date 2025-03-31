@@ -20,7 +20,7 @@ import com.reusableComponents.HighlightElement as HighlightElement
 
 WebUI.comment('✅ 로그인/검색 실행')
 
-WebUI.callTestCase(findTestCase('Test Cases/Prod환경/00.메인홈/01.로그인/2222'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Test Cases/Prod환경/00.메인홈/01.로그인/01.자동 로그인 확인'), [:], FailureHandling.STOP_ON_FAILURE)
 
 //callTestcase 용이므로 검색어는 그때마다 변경 가능
 WebUI.setText(findTestObject('Object Repository/Prod환경/Home/02.검색/00.검색란'), 'Soft Touch')

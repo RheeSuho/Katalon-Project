@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>09.무료회차진입</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>9ee95082-b303-4f90-b91d-fd70d284bc19</testCaseGuid>
-</TestCaseEntity>

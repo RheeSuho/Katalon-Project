@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Add a comment_thumb-overlay</name>
+   <tag></tag>
+   <elementGuidId>18206889-fc55-4e1c-8bf8-06be517fdd34</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.thumb > div.thumb-overlay</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='episode-1701734']/div[2]/div[5]/ul/li/a/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>7ab38156-70b8-400c-ab1e-61fe5d2d151d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>thumb-overlay</value>
+      <webElementGuid>5c10e0c3-b6c0-4372-9822-6d30678b40cc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;episode-1701734&quot;)/div[@class=&quot;viewer-bottom&quot;]/div[@class=&quot;viewer-section viewer-section--recommend&quot;]/ul[@class=&quot;row-body row-body--series-list js-recommendations&quot;]/li[@class=&quot;series-list-item&quot;]/a[@class=&quot;series-item ga-tracking js-fb-tracking js-recommended-series js-tiara-tracking&quot;]/div[@class=&quot;thumb&quot;]/div[@class=&quot;thumb-overlay&quot;]</value>
+      <webElementGuid>37ebc1f8-e396-403e-b835-dfed3ff5e3ab</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='episode-1701734']/div[2]/div[5]/ul/li/a/div/div</value>
+      <webElementGuid>909ab66f-0eda-440b-bb5d-ca8e2dd16c2a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/div/div</value>
+      <webElementGuid>490ba043-346c-4632-b669-45d2d93653fe</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

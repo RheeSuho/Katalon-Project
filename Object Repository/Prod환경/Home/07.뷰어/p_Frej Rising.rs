@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Frej Rising</name>
+   <tag></tag>
+   <elementGuidId>a899b59f-cc81-4f47-9860-6d1437a40168</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>p.item__title</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='episode-1738821']/div[2]/div[5]/ul/li/a/div[2]/p[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>d26f6fe4-2212-4839-9e08-dea1010cc4d5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>item__title</value>
+      <webElementGuid>b4669743-7460-450b-aba3-5b160b53266b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Frej Rising</value>
+      <webElementGuid>f19f9de5-a720-491d-aa1c-975754c6de33</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;episode-1738821&quot;)/div[@class=&quot;viewer-bottom&quot;]/div[@class=&quot;viewer-section viewer-section--recommend&quot;]/ul[@class=&quot;row-body row-body--series-list js-recommendations&quot;]/li[@class=&quot;series-list-item&quot;]/a[@class=&quot;series-item ga-tracking js-fb-tracking js-recommended-series js-tiara-tracking&quot;]/div[@class=&quot;info&quot;]/p[@class=&quot;item__title&quot;]</value>
+      <webElementGuid>5bea1807-c5e5-41e4-89d2-2e73bf7f69ff</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='episode-1738821']/div[2]/div[5]/ul/li/a/div[2]/p[2]</value>
+      <webElementGuid>c8794be6-c1f2-4299-bbd0-bef521d4c604</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add a comment'])[1]/following::p[3]</value>
+      <webElementGuid>390ba332-a5c4-4184-95e1-49bcefe32b7d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rakka'])[1]/following::p[6]</value>
+      <webElementGuid>67d523dc-51f5-4ad1-9cd9-69670871616c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='LGBTQ+'])[1]/preceding::p[1]</value>
+      <webElementGuid>556be6ae-b293-4f05-94b7-46f5ff54fc98</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BL'])[1]/preceding::p[4]</value>
+      <webElementGuid>a942909d-1b0d-4f97-91b1-2ac0650b0b5e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Frej Rising']/parent::*</value>
+      <webElementGuid>88204e8a-0a63-465b-89f6-bb6faca56140</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/p[2]</value>
+      <webElementGuid>de85665b-28d0-4396-9b23-2cba3c276f40</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Frej Rising' or . = 'Frej Rising')]</value>
+      <webElementGuid>37666dd1-d5c5-4108-b897-6ae331996c23</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

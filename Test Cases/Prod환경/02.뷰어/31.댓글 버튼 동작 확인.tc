@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>하단 툴바</description>
+   <name>31.댓글 버튼 동작 확인</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>89c0d015-5341-460a-be1b-cf6ac6b2e1e4</testCaseGuid>
+</TestCaseEntity>

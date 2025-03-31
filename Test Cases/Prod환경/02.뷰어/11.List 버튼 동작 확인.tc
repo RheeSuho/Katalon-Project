@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>11.List 버튼 동작 확인</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>44c3023a-4399-4b02-b18a-c0de6a730147</testCaseGuid>
-</TestCaseEntity>
