@@ -29,7 +29,7 @@ for (int i = 0; i < 5; i++) {
 	if (WebUI.verifyElementPresent(ccoment, 1, FailureHandling.OPTIONAL)) {
 		break
 	}
-	WebUI.verifyElementVisible(findTestObject('Object Repository/Prod환경/Home/07.뷰어/div_Add a comment_thumb-overlay'))
+	WebUI.verifyElementVisible(findTestObject('Object Repository/Prod환경/Home/07.뷰어/28-1. 썸네일'))
 }
 
 WebUI.delay(3)

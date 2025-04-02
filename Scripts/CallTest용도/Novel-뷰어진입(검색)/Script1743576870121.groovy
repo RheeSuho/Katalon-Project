@@ -17,20 +17,16 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.reusableComponents.HighlightElement as HighlightElement
-import com.kms.katalon.core.webui.driver.DriverFactory
-import org.openqa.selenium.chrome.ChromeDriver
-import org.openqa.selenium.chrome.ChromeOptions
-import org.openqa.selenium.WebDriver
-
 
 //WebUI.callTestCase(findTestCase("Test Cases/CallTest용도/브라우저오픈"), [:], FailureHandling.STOP_ON_FAILURE)
-WebUI.callTestCase(findTestCase('Test Cases/CallTest용도/Novel-뷰어진입(검색)'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Object Repository/Prod환경/Home/07.뷰어/13.more버튼'))
-
-WebUI.click(findTestObject('Object Repository/Prod환경/Home/07.뷰어/22.페이스북버튼'))
+WebUI.callTestCase(findTestCase('Test Cases/Prod환경/00.메인홈/01.로그인/01.자동 로그인 확인'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(2)
 
-// 페이스북 탭 닫기
-WebUI.closeWindowIndex(1)
+WebUI.setText(findTestObject('Object Repository/Prod환경/Home/02.검색/00.검색란'), 'Zero')
+
+WebUI.click(findTestObject('Object Repository/Prod환경/Home/02.검색/01.검색버튼'))
+
+WebUI.click(findTestObject('Object Repository/Prod환경/Home/02.검색/07.Novel탭'))
+
+WebUI.click(findTestObject('Object Repository/Prod환경/Home/07.뷰어/00.썸네일'))

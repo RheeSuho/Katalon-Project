@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>37.자간 마이너스 버튼</name>
+   <tag></tag>
+   <elementGuidId>ebcd999b-3d34-4044-8b35-d09e881bbfa3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='page-wrap']/div/div[5]/div/div/div[2]/div/div[4]/a/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.edit__size.size--height.js-line-height > a.js-minus > i.sp-viewer-minus</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>929a5ed6-2e3a-4425-b3a9-ab5f3e2f30ca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sp-viewer-minus</value>
+      <webElementGuid>a6bf03bd-3983-4bb6-8b84-074ead014fbf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;page-wrap&quot;)/div[@class=&quot;vw-root js-viewer-root&quot;]/div[@class=&quot;toolbar&quot;]/div[@class=&quot;toolbar__wrapper toolbar__wrapper--wide js-toolbar&quot;]/div[@class=&quot;toolbar__row toolbar__row--left&quot;]/div[@class=&quot;row-item&quot;]/div[@class=&quot;dropdown-float dropdown-float--view js-edit-menu js-float&quot;]/div[@class=&quot;edit__size size--height js-line-height&quot;]/a[@class=&quot;js-minus&quot;]/i[@class=&quot;sp-viewer-minus&quot;]</value>
+      <webElementGuid>30fcf749-30e5-4e23-a0b5-564b34913bd1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='page-wrap']/div/div[5]/div/div/div[2]/div/div[4]/a/i</value>
+      <webElementGuid>76a36d9d-c608-46f3-b884-4fd5547407e1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[4]/a/i</value>
+      <webElementGuid>19fe20d7-4472-49ba-b216-2e25e470c0f7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

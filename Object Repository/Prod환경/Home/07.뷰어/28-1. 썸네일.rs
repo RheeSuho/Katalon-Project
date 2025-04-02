@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Add a comment_thumb-overlay</name>
+   <name>28-1. 썸네일</name>
    <tag></tag>
    <elementGuidId>18206889-fc55-4e1c-8bf8-06be517fdd34</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.thumb > div.thumb-overlay</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='episode-1701734']/div[2]/div[5]/ul/li/a/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.thumb > div.thumb-overlay</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

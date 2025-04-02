@@ -23,14 +23,47 @@ import org.openqa.selenium.chrome.ChromeOptions
 import org.openqa.selenium.WebDriver
 
 
+
 //WebUI.callTestCase(findTestCase("Test Cases/CallTest용도/브라우저오픈"), [:], FailureHandling.STOP_ON_FAILURE)
-WebUI.callTestCase(findTestCase('Test Cases/CallTest용도/Novel-뷰어진입(검색)'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Test Cases/CallTest용도/검색 용도'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Prod환경/Home/07.뷰어/13.more버튼'))
+WebUI.click(findTestObject('Object Repository/Prod환경/Home/07.뷰어/27.Accept버튼'))
 
-WebUI.click(findTestObject('Object Repository/Prod환경/Home/07.뷰어/22.페이스북버튼'))
+WebUI.click(findTestObject('Object Repository/Prod환경/Home/07.뷰어/29.소설옵션버튼'))
+
+WebUI.click(findTestObject('Object Repository/Prod환경/Home/07.뷰어/32. Lora 폰트'))
+
+WebUI.click(findTestObject('Object Repository/Prod환경/Home/07.뷰어/33.Lato 폰트'))
+
+WebUI.delay(2) 
+
+WebUI.click(findTestObject('Object Repository/Prod환경/Home/07.뷰어/30.플러스 버튼'))
+
+WebUI.click(findTestObject('Object Repository/Prod환경/Home/07.뷰어/31.마이너스 버튼'))
 
 WebUI.delay(2)
 
-// 페이스북 탭 닫기
-WebUI.closeWindowIndex(1)
+WebUI.click(findTestObject('Object Repository/Prod환경/Home/07.뷰어/34.중앙정렬'))
+
+WebUI.click(findTestObject('Object Repository/Prod환경/Home/07.뷰어/35.좌측정렬'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/Prod환경/Home/07.뷰어/36. 자간 플러스 버튼'))
+
+WebUI.click(findTestObject('Object Repository/Prod환경/Home/07.뷰어/37.자간 마이너스 버튼'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/Prod환경/Home/07.뷰어/38.다크모드'))
+
+WebUI.click(findTestObject('Object Repository/Prod환경/Home/07.뷰어/39.라이트모드'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/Prod환경/Home/07.뷰어/29.소설옵션버튼'))
+
+WebUI.closeBrowser()
+
+
+// 만드는 중 아직 미완료 확인해야함 

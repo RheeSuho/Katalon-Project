@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Comic-뷰어진입</name>
+   <name>Novel-뷰어진입(검색)</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>e775f3c7-2be9-4be2-94e7-a41507685cd6</testCaseGuid>
+   <testCaseGuid>dd703e97-b7a6-47e1-9941-c1674d574948</testCaseGuid>
 </TestCaseEntity>

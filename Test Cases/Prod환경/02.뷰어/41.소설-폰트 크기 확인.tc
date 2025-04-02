@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>글자 크키만 확인</description>
+   <name>41.소설-폰트 크기 확인</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5e2378ee-f2a4-4f51-aa31-dad7f227db5c</testCaseGuid>
+</TestCaseEntity>

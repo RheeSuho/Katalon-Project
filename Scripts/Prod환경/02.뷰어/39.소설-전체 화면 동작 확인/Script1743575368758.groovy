@@ -23,14 +23,18 @@ import org.openqa.selenium.chrome.ChromeOptions
 import org.openqa.selenium.WebDriver
 
 
+
 //WebUI.callTestCase(findTestCase("Test Cases/CallTest용도/브라우저오픈"), [:], FailureHandling.STOP_ON_FAILURE)
-WebUI.callTestCase(findTestCase('Test Cases/CallTest용도/Novel-뷰어진입(검색)'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Test Cases/CallTest용도/검색 용도'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Prod환경/Home/07.뷰어/13.more버튼'))
+WebUI.click(findTestObject('Object Repository/Prod환경/Home/07.뷰어/27.Accept버튼'))
 
-WebUI.click(findTestObject('Object Repository/Prod환경/Home/07.뷰어/22.페이스북버튼'))
+WebUI.click(findTestObject('Object Repository/Prod환경/Home/07.뷰어/19.전체화면버튼'))
+ 
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/Prod환경/Home/07.뷰어/19-1.화면축소버튼'))
 
 WebUI.delay(2)
 
-// 페이스북 탭 닫기
-WebUI.closeWindowIndex(1)
+WebUI.closeBrowser()

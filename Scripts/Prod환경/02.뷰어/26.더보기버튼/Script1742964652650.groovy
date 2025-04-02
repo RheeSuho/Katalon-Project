@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 import com.reusableComponents.HighlightElement as HighlightElement
 
 //WebUI.callTestCase(findTestCase("Test Cases/CallTest용도/브라우저오픈"), [:], FailureHandling.STOP_ON_FAILURE)
-WebUI.callTestCase(findTestCase('Test Cases/CallTest용도/Comic-뷰어진입'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Test Cases/CallTest용도/Novel-뷰어진입(검색)'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Prod환경/Home/07.뷰어/13.more버튼'))
 

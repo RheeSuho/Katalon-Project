@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Comic-뷰어진입</name>
+   <name>39.소설-전체 화면 동작 확인</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>e775f3c7-2be9-4be2-94e7-a41507685cd6</testCaseGuid>
+   <testCaseGuid>09705070-99aa-4190-99b6-39937bc4f80c</testCaseGuid>
 </TestCaseEntity>
