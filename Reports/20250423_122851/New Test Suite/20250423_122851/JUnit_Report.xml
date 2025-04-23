@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="19.762" tests="4" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="4" failures="0" errors="0" time="19.762" skipped="0" timestamp="23-04-2025T12:28:55" hostname="ruben.lee - localhost" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/ruben.lee/Katalon Studio/TapasTest/Reports/20250423_122851/New Test Suite/20250423_122851"/>
+         <property name="logFiles" value="/Users/ruben.lee/Katalon Studio/TapasTest/Reports/20250423_122851/New Test Suite/20250423_122851/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ruben.lee - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="10.1.0.223"/>
+         <property name="browser" value="Chrome 135.0.7049.96"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="bc95f9effefde6b09bcd9dc7c568924b"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/suite setup" time="0.052" classname="Test Cases/suite setup" status="PASSED">
+         <system-out><![CDATA[23-04-2025T12:29:00 - [TEST_CASE][PASSED] - Test Cases/suite setup: Test Cases/suite setup
+
+23-04-2025T12:29:00 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+23-04-2025T12:29:00 - [TEST_STEP][PASSED] - if (!(isSuite)): null
+
+23-04-2025T12:29:00 - [TEST_STEP][PASSED] - isSuite = true: null
+
+23-04-2025T12:29:00 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+23-04-2025T12:29:00 - [TEST_STEP][PASSED] - if (!(isSuite)): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Prod환경/00.메인홈/01.로그인/01.자동 로그인 확인 - Copy" time="3.838" classname="Test Cases/Prod환경/00.메인홈/01.로그인/01.자동 로그인 확인 - Copy" status="PASSED">
+         <system-out><![CDATA[23-04-2025T12:29:00 - [TEST_CASE][PASSED] - Test Cases/Prod환경/00.메인홈/01.로그인/01.자동 로그인 확인 - Copy: Test Cases/Prod환경/00.메인홈/01.로그인/01.자동 로그인 확인 - Copy
+
+23-04-2025T12:29:00 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+23-04-2025T12:29:00 - [TEST_STEP][PASSED] - if (!(isSuite)): null
+
+23-04-2025T12:29:00 - [TEST_STEP][PASSED] - url = "https://tapas.io/account/signin?from=/": null
+
+23-04-2025T12:29:00 - [TEST_STEP][PASSED] - cookieFilePath = "cookies.save": null
+
+23-04-2025T12:29:00 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+23-04-2025T12:29:00 - [TEST_STEP][PASSED] - cookieFile = new java.io.File(cookieFilePath): null
+
+23-04-2025T12:29:00 - [TEST_STEP][PASSED] - if (cookieFile.exists()): ✅ 쿠키 로드 완료! 자동 로그인 성공 시도
+
+23-04-2025T12:29:00 - [TEST_STEP][PASSED] - try: ✅ 쿠키 로드 완료! 자동 로그인 성공 시도
+
+23-04-2025T12:29:00 - [TEST_STEP][PASSED] - fis = new java.io.FileInputStream(cookieFile): null
+
+23-04-2025T12:29:00 - [TEST_STEP][PASSED] - ois = new java.io.ObjectInputStream(fis): null
+
+23-04-2025T12:29:00 - [TEST_STEP][PASSED] - cookies = ois.readObject(): null
+
+23-04-2025T12:29:00 - [TEST_STEP][PASSED] - ois.close(): null
+
+23-04-2025T12:29:00 - [TEST_STEP][PASSED] - fis.close(): null
+
+23-04-2025T12:29:00 - [TEST_STEP][PASSED] - for (org.openqa.selenium.Cookie cookie : cookies): null
+
+23-04-2025T12:29:00 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+23-04-2025T12:29:01 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+23-04-2025T12:29:01 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+23-04-2025T12:29:01 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+23-04-2025T12:29:01 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+23-04-2025T12:29:01 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+23-04-2025T12:29:01 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+23-04-2025T12:29:01 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+23-04-2025T12:29:01 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+23-04-2025T12:29:01 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+23-04-2025T12:29:01 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+23-04-2025T12:29:01 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+23-04-2025T12:29:01 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+23-04-2025T12:29:01 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+23-04-2025T12:29:01 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+23-04-2025T12:29:01 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+23-04-2025T12:29:01 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+23-04-2025T12:29:01 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+23-04-2025T12:29:01 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+23-04-2025T12:29:01 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+23-04-2025T12:29:01 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+23-04-2025T12:29:01 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+23-04-2025T12:29:01 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+23-04-2025T12:29:01 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+23-04-2025T12:29:01 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+23-04-2025T12:29:01 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+23-04-2025T12:29:01 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+23-04-2025T12:29:01 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+23-04-2025T12:29:01 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+23-04-2025T12:29:01 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+23-04-2025T12:29:01 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+23-04-2025T12:29:01 - [TEST_STEP][PASSED] - navigate().refresh(): null
+
+23-04-2025T12:29:02 - [TEST_STEP][PASSED] - comment("✅ 쿠키 로드 완료! 자동 로그인 성공 시도"): ✅ 쿠키 로드 완료! 자동 로그인 성공 시도
+
+23-04-2025T12:29:02 - [MESSAGE][INFO] - ✅ 쿠키 로드 완료! 자동 로그인 성공 시도
+
+23-04-2025T12:29:02 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-04-2025T12:29:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-04-2025T12:29:04 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+23-04-2025T12:29:04 - [MESSAGE][PASSED] - Current window maximized
+
+23-04-2025T12:29:04 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+23-04-2025T12:29:04 - [TEST_STEP][PASSED] - if (!(isSuite)): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Prod환경/00.메인홈/02.검색/02.검색 결과 없음 확인 - Copy" time="4.983" classname="Test Cases/Prod환경/00.메인홈/02.검색/02.검색 결과 없음 확인 - Copy" status="PASSED">
+         <system-out><![CDATA[23-04-2025T12:29:04 - [TEST_CASE][PASSED] - Test Cases/Prod환경/00.메인홈/02.검색/02.검색 결과 없음 확인 - Copy: Test Cases/Prod환경/00.메인홈/02.검색/02.검색 결과 없음 확인 - Copy
+
+23-04-2025T12:29:04 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+23-04-2025T12:29:04 - [TEST_STEP][PASSED] - if (!(isSuite)): null
+
+23-04-2025T12:29:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Prod환경/Home/02.검색/00.검색란"), "비비비비비비비비비비"): Text '비비비비비비비비비비' is set on object 'Object Repository/Prod환경/Home/02.검색/00.검색란'
+
+23-04-2025T12:29:05 - [MESSAGE][PASSED] - Text '비비비비비비비비비비' is set on object 'Object Repository/Prod환경/Home/02.검색/00.검색란'
+
+23-04-2025T12:29:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Prod환경/Home/02.검색/01.검색버튼")): Object: 'Object Repository/Prod환경/Home/02.검색/01.검색버튼' is clicked on
+
+23-04-2025T12:29:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Prod환경/Home/02.검색/01.검색버튼' is clicked on
+
+23-04-2025T12:29:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Prod환경/Home/02.검색/04.검색결과 문구 없음"), 0): Object 'Object Repository/Prod환경/Home/02.검색/04.검색결과 문구 없음' is present
+
+23-04-2025T12:29:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+23-04-2025T12:29:08 - [MESSAGE][PASSED] - Object 'Object Repository/Prod환경/Home/02.검색/04.검색결과 문구 없음' is present
+
+23-04-2025T12:29:08 - [TEST_STEP][PASSED] - nolist = findTestObject("Prod환경/Home/02.검색/04.검색결과 문구 없음"): null
+
+23-04-2025T12:29:08 - [TEST_STEP][PASSED] - HighlightElement.run(nolist): null
+
+23-04-2025T12:29:09 - [TEST_STEP][PASSED] - verifyElementPresent(nolist, 0): Object 'Object Repository/Prod환경/Home/02.검색/04.검색결과 문구 없음' is present
+
+23-04-2025T12:29:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+23-04-2025T12:29:09 - [MESSAGE][PASSED] - Object 'Object Repository/Prod환경/Home/02.검색/04.검색결과 문구 없음' is present
+
+23-04-2025T12:29:09 - [TEST_STEP][PASSED] - comment("✅ 검색 완료"): ✅ 검색 완료
+
+23-04-2025T12:29:09 - [MESSAGE][INFO] - ✅ 검색 완료
+
+23-04-2025T12:29:09 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+23-04-2025T12:29:09 - [TEST_STEP][PASSED] - if (!(isSuite)): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Prod환경/00.메인홈/02.검색/03.검색 리스트 확인 - Copy" time="5.661" classname="Test Cases/Prod환경/00.메인홈/02.검색/03.검색 리스트 확인 - Copy" status="PASSED">
+         <system-out><![CDATA[23-04-2025T12:29:09 - [TEST_CASE][PASSED] - Test Cases/Prod환경/00.메인홈/02.검색/03.검색 리스트 확인 - Copy: Test Cases/Prod환경/00.메인홈/02.검색/03.검색 리스트 확인 - Copy
+
+23-04-2025T12:29:09 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+23-04-2025T12:29:09 - [TEST_STEP][PASSED] - if (!(isSuite)): null
+
+23-04-2025T12:29:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Prod환경/Home/Tapas 로고")): Object: 'Object Repository/Prod환경/Home/Tapas 로고' is clicked on
+
+23-04-2025T12:29:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Prod환경/Home/Tapas 로고' is clicked on
+
+23-04-2025T12:29:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Prod환경/Home/02.검색/00.검색란"), "Solo leveling"): Text 'Solo leveling' is set on object 'Object Repository/Prod환경/Home/02.검색/00.검색란'
+
+23-04-2025T12:29:11 - [MESSAGE][PASSED] - Text 'Solo leveling' is set on object 'Object Repository/Prod환경/Home/02.검색/00.검색란'
+
+23-04-2025T12:29:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Prod환경/Home/02.검색/01.검색버튼")): Object: 'Object Repository/Prod환경/Home/02.검색/01.검색버튼' is clicked on
+
+23-04-2025T12:29:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Prod환경/Home/02.검색/01.검색버튼' is clicked on
+
+23-04-2025T12:29:12 - [TEST_STEP][PASSED] - searchlist = findTestObject("Prod환경/Home/02.검색/03.Solo Leveling 타이틀"): null
+
+23-04-2025T12:29:12 - [TEST_STEP][PASSED] - HighlightElement.run(searchlist): null
+
+23-04-2025T12:29:14 - [TEST_STEP][PASSED] - verifyElementPresent(searchlist, 0): Object 'Object Repository/Prod환경/Home/02.검색/03.Solo Leveling 타이틀' is present
+
+23-04-2025T12:29:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+23-04-2025T12:29:15 - [MESSAGE][PASSED] - Object 'Object Repository/Prod환경/Home/02.검색/03.Solo Leveling 타이틀' is present
+
+23-04-2025T12:29:15 - [TEST_STEP][PASSED] - comment("✅ 완료"): ✅ 완료
+
+23-04-2025T12:29:15 - [MESSAGE][INFO] - ✅ 완료
+
+23-04-2025T12:29:15 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+23-04-2025T12:29:15 - [TEST_STEP][PASSED] - if (!(isSuite)): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[23-04-2025T12:28:55 - [TEST_SUITE][PASSED] - New Test Suite: Test Cases/Prod환경/00.메인홈/02.검색/03.검색 리스트 확인 - Copy]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

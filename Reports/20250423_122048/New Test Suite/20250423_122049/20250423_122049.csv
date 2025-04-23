@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,Chrome 135.0.7049.96,,,23-04-2025 12:20:53,23-04-2025 12:21:03,10.228s,ERROR
+,,,,,,,
+Test Cases/suite setup,Chrome 135.0.7049.96,,,23-04-2025 12:20:54,23-04-2025 12:20:54,0.041s,ERROR
+Start listener action : beforeTestCase,Chrome 135.0.7049.96,,,23-04-2025 12:20:54,23-04-2025 12:20:54,0.009s,ERROR
+isSuite = true,Chrome 135.0.7049.96,,,23-04-2025 12:20:54,23-04-2025 12:20:54,0.002s,ERROR
+Start listener action : afterTestCase,Chrome 135.0.7049.96,,,23-04-2025 12:20:54,23-04-2025 12:20:54,0.001s,ERROR
+,,,,,,,
+Test Cases/Prod환경/00.메인홈/01.로그인/01.자동 로그인 확인 - Copy,Chrome 135.0.7049.96,,,23-04-2025 12:20:54,23-04-2025 12:20:57,2.567s,PASSED
+Start listener action : beforeTestCase,Chrome 135.0.7049.96,,,23-04-2025 12:20:54,23-04-2025 12:20:54,0.002s,ERROR
+"url = ""https://tapas.io/account/signin?from=/""",Chrome 135.0.7049.96,,,23-04-2025 12:20:55,23-04-2025 12:20:55,0.000s,PASSED
+"cookieFilePath = ""cookies.save""",Chrome 135.0.7049.96,,,23-04-2025 12:20:55,23-04-2025 12:20:55,0.000s,PASSED
+driver = getWebDriver(),Chrome 135.0.7049.96,,,23-04-2025 12:20:55,23-04-2025 12:20:55,0.002s,PASSED
+cookieFile = new java.io.File(cookieFilePath),Chrome 135.0.7049.96,,,23-04-2025 12:20:55,23-04-2025 12:20:55,0.001s,PASSED
+if (cookieFile.exists()),Chrome 135.0.7049.96,,,23-04-2025 12:20:55,23-04-2025 12:20:55,0.053s,PASSED
+delay(2),Chrome 135.0.7049.96,,,23-04-2025 12:20:55,23-04-2025 12:20:57,2.012s,PASSED
+maximizeWindow(),Chrome 135.0.7049.96,,,23-04-2025 12:20:57,23-04-2025 12:20:57,0.398s,PASSED
+Start listener action : afterTestCase,Chrome 135.0.7049.96,,,23-04-2025 12:20:57,23-04-2025 12:20:57,0.001s,ERROR
+,,,,,,,
+Test Cases/Prod환경/00.메인홈/02.검색/02.검색 결과 없음 확인 - Copy,Chrome 135.0.7049.96,,,23-04-2025 12:20:57,23-04-2025 12:21:03,6.355s,FAILED
+Start listener action : beforeTestCase,Chrome 135.0.7049.96,,,23-04-2025 12:20:57,23-04-2025 12:20:57,0.001s,ERROR
+"setText(findTestObject(""Object Repository/Prod환경/Home/02.검색/00.검색란""), ""비비비비비비비비비비"")",Chrome 135.0.7049.96,,,23-04-2025 12:20:57,23-04-2025 12:21:03,6.316s,FAILED
+Start listener action : afterTestCase,Chrome 135.0.7049.96,,,23-04-2025 12:21:03,23-04-2025 12:21:03,0.001s,ERROR
+,,,,,,,
+Test Cases/Prod환경/00.메인홈/02.검색/03.검색 리스트 확인 - Copy,Chrome 135.0.7049.96,,,23-04-2025 12:21:03,23-04-2025 12:21:03,0.037s,FAILED
+Start listener action : beforeTestCase,Chrome 135.0.7049.96,,,23-04-2025 12:21:03,23-04-2025 12:21:03,0.001s,ERROR
+"click(findTestObject(""Object Repository/Prod환경/Home/Tapas 로고""))",Chrome 135.0.7049.96,,,23-04-2025 12:21:03,23-04-2025 12:21:03,0.011s,FAILED
+Start listener action : afterTestCase,Chrome 135.0.7049.96,,,23-04-2025 12:21:03,23-04-2025 12:21:03,0.001s,ERROR

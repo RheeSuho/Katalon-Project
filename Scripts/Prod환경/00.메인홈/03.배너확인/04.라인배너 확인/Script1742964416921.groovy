@@ -24,7 +24,7 @@ WebUI.callTestCase(findTestCase("Test Cases/CallTest용도/브라우저오픈"),
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/Prod환경/Home/04.배너/라인배너/00.FreeAccess 서브탭'))
+WebUI.click(findTestObject('Object Repository/Prod환경/Home/04.배너/라인배너/00. Free 서브탭'))
 
 //라인배너 확인
 TestObject linebanner = findTestObject('Prod환경/Home/04.배너/라인배너/01.라인배너')

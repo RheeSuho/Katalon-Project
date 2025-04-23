@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>00. Free 서브탭</name>
+   <tag></tag>
+   <elementGuidId>ec794e64-f8a7-4299-9a2d-e3fb9685cea4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/nav/div/div[2]/div/div/div/div[2]/a[5]/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>1f5eecf1-a92a-4ca3-b44b-3c6ab8b67d9f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>absolute left-0 top-0 size-full rounded-16 border-1 border-transparent20</value>
+      <webElementGuid>c9043f1c-53f6-44cf-99a4-c3a54f118edf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;relative mx-auto flex min-h-full flex-col text-base60 __variable_079bb4 __variable_4825e1&quot;]/nav[@class=&quot;sticky top-0 z-navigation w-full bg-bg10&quot;]/div[@class=&quot;mx-auto w-1010 bg-bg10&quot;]/div[2]/div[1]/div[@class=&quot;relative&quot;]/div[@class=&quot;z-navigation flex w-full items-center overflow-x-scroll scrollbar-hide&quot;]/div[@class=&quot;flex items-center space-x-6 pb-12 pt-4 after:h-1 after:w-11 after:shrink-0 after:content-[&quot;&quot;]&quot;]/a[@class=&quot;shrink-0&quot;]/div[@class=&quot;relative h-40 min-w-104 rounded-16 px-12 py-10&quot;]/div[@class=&quot;absolute left-0 top-0 size-full rounded-16 border-1 border-transparent20&quot;]</value>
+      <webElementGuid>22af614f-5f0c-4eb5-a698-d584a31b66de</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/nav/div/div[2]/div/div/div/div[2]/a[5]/div/div</value>
+      <webElementGuid>589f06b9-cc37-438e-bb6a-74a56e83668a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/a[5]/div/div</value>
+      <webElementGuid>657e6436-fa89-481a-9e68-95437da333af</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

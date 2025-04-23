@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>02.검색 결과 없음 확인 - Copy</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4aa89187-f39c-469c-9e40-dac247dac027</testCaseGuid>
+</TestCaseEntity>

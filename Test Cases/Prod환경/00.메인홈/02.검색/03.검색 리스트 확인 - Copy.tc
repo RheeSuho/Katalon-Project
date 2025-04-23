@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>03.검색 리스트 확인 - Copy</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>030bcb4a-ae80-44b5-b5f3-c2c81e1634eb</testCaseGuid>
+</TestCaseEntity>

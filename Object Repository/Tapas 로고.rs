@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Tapas 로고</name>
+   <tag></tag>
+   <elementGuidId>40818999-ff93-418d-84db-bd2dbe1e3f28</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.ico.sp-nav-logo-renewal</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>4ee9e51f-1886-4f5f-b290-13d3966b2897</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ico sp-nav-logo-renewal</value>
+      <webElementGuid>6332c1ce-5cdd-43fd-b2ed-8209b7c38cb2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;desktop search&quot;]/div[@class=&quot;body&quot;]/div[@class=&quot;top-nav-wrap js-top-nav-wrap&quot;]/div[@class=&quot;top-nav  js-top-nav scroll-hide&quot;]/div[@class=&quot;top-nav-wrapper&quot;]/div[@class=&quot;top-nav-logo&quot;]/a[@class=&quot;top-nav__logo js-fb-tracking js-amp-tracking js-braze-tracking js-tiara-tracking-nav&quot;]/i[@class=&quot;ico sp-nav-logo-renewal&quot;]</value>
+      <webElementGuid>46d15bfd-428a-48f0-b1cf-3baf8c58cc97</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//i</value>
+      <webElementGuid>8cbfdd56-ca87-4219-bff7-04f843f1fd80</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

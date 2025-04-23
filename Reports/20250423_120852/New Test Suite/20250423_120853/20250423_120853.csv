@@ -1,0 +1,33 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,Chrome 135.0.7049.96,,,23-04-2025 12:08:57,23-04-2025 12:09:34,37.345s,FAILED
+,,,,,,,
+Test Cases/Prod환경/00.메인홈/01.로그인/01.자동 로그인 확인,Chrome 135.0.7049.96,,,23-04-2025 12:08:58,23-04-2025 12:09:07,8.876s,PASSED
+Start listener action : beforeTestCase,Chrome 135.0.7049.96,,,23-04-2025 12:08:58,23-04-2025 12:08:58,0.005s,PASSED
+"url = ""https://tapas.io/account/signin?from=/""",Chrome 135.0.7049.96,,,23-04-2025 12:08:58,23-04-2025 12:08:58,0.001s,PASSED
+"cookieFilePath = ""cookies.save""",Chrome 135.0.7049.96,,,23-04-2025 12:08:58,23-04-2025 12:08:58,0.000s,PASSED
+"openBrowser("""")",Chrome 135.0.7049.96,,,23-04-2025 12:08:58,23-04-2025 12:08:59,0.710s,PASSED
+navigateToUrl(url),Chrome 135.0.7049.96,,,23-04-2025 12:08:59,23-04-2025 12:09:02,2.570s,PASSED
+driver = getWebDriver(),Chrome 135.0.7049.96,,,23-04-2025 12:09:02,23-04-2025 12:09:02,0.004s,PASSED
+cookieFile = new java.io.File(cookieFilePath),Chrome 135.0.7049.96,,,23-04-2025 12:09:02,23-04-2025 12:09:02,0.001s,PASSED
+if (cookieFile.exists()),Chrome 135.0.7049.96,,,23-04-2025 12:09:02,23-04-2025 12:09:05,3.041s,PASSED
+delay(2),Chrome 135.0.7049.96,,,23-04-2025 12:09:05,23-04-2025 12:09:07,2.016s,PASSED
+maximizeWindow(),Chrome 135.0.7049.96,,,23-04-2025 12:09:07,23-04-2025 12:09:07,0.402s,PASSED
+Start listener action : afterTestCase,Chrome 135.0.7049.96,,,23-04-2025 12:09:07,23-04-2025 12:09:07,0.001s,PASSED
+,,,,,,,
+Test Cases/Prod환경/00.메인홈/02.검색/02.검색 결과 없음 확인 - Copy,Chrome 135.0.7049.96,,,23-04-2025 12:09:07,23-04-2025 12:09:12,4.526s,PASSED
+Start listener action : beforeTestCase,Chrome 135.0.7049.96,,,23-04-2025 12:09:07,23-04-2025 12:09:07,0.000s,PASSED
+"setText(findTestObject(""Object Repository/Prod환경/Home/02.검색/00.검색란""), ""비비비비비비비비비비"")",Chrome 135.0.7049.96,,,23-04-2025 12:09:07,23-04-2025 12:09:08,0.566s,PASSED
+"click(findTestObject(""Object Repository/Prod환경/Home/02.검색/01.검색버튼""))",Chrome 135.0.7049.96,,,23-04-2025 12:09:08,23-04-2025 12:09:08,0.257s,PASSED
+"verifyElementPresent(findTestObject(""Prod환경/Home/02.검색/04.검색결과 문구 없음""), 0)",Chrome 135.0.7049.96,,,23-04-2025 12:09:08,23-04-2025 12:09:10,1.954s,PASSED
+"nolist = findTestObject(""Prod환경/Home/02.검색/04.검색결과 문구 없음"")",Chrome 135.0.7049.96,,,23-04-2025 12:09:10,23-04-2025 12:09:10,0.004s,PASSED
+HighlightElement.run(nolist),Chrome 135.0.7049.96,,,23-04-2025 12:09:10,23-04-2025 12:09:11,1.271s,PASSED
+"verifyElementPresent(nolist, 0)",Chrome 135.0.7049.96,,,23-04-2025 12:09:11,23-04-2025 12:09:12,0.441s,PASSED
+"comment(""✅ 검색 완료"")",Chrome 135.0.7049.96,,,23-04-2025 12:09:12,23-04-2025 12:09:12,0.001s,PASSED
+Start listener action : afterTestCase,Chrome 135.0.7049.96,,,23-04-2025 12:09:12,23-04-2025 12:09:12,0.001s,PASSED
+,,,,,,,
+Test Cases/Prod환경/00.메인홈/02.검색/03.검색 리스트 확인 - Copy,Chrome 135.0.7049.96,,,23-04-2025 12:09:12,23-04-2025 12:09:34,22.653s,FAILED
+Start listener action : beforeTestCase,Chrome 135.0.7049.96,,,23-04-2025 12:09:12,23-04-2025 12:09:12,0.001s,PASSED
+"comment(""✅ 로그인/검색 실행"")",Chrome 135.0.7049.96,,,23-04-2025 12:09:12,23-04-2025 12:09:12,0.002s,PASSED
+"setText(findTestObject(""Object Repository/Prod환경/Home/02.검색/00.검색란""), ""Solo leveling"")",Chrome 135.0.7049.96,,,23-04-2025 12:09:12,23-04-2025 12:09:12,0.504s,PASSED
+"click(findTestObject(""Object Repository/Prod환경/Home/02.검색/01.검색버튼""))",Chrome 135.0.7049.96,,,23-04-2025 12:09:12,23-04-2025 12:09:34,22.118s,FAILED
+Start listener action : afterTestCase,Chrome 135.0.7049.96,,,23-04-2025 12:09:34,23-04-2025 12:09:34,0.001s,PASSED
