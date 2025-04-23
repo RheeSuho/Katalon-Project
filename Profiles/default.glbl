@@ -9,9 +9,4 @@
       <initValue>false</initValue>
       <name>isSuite</name>
    </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'\'https://www.tapas.io\''</initValue>
-      <name>baseUrl</name>
-   </GlobalVariableEntity>
 </GlobalVariableEntities>

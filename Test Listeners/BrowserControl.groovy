@@ -7,36 +7,50 @@ import internal.GlobalVariable
 
 class BrowserControl {
 
-    @BeforeTestCase
-    def beforeTestCase() {
-        if (!GlobalVariable.isSuite) {
-            println("[단독 실행] 브라우저 오픈")
-            WebUI.openBrowser('')
-			WebUI.navigateToUrl(GlobalVariable.baseUrl)
-			
-        }
-    }
+	@BeforeTestCase
+	def beforeTestCase() {
+		println("[BeforeTestCase] GlobalVariable.isSuite: " + GlobalVariable.isSuite)
 
-    @AfterTestCase
-    def afterTestCase() {
-        if (!GlobalVariable.isSuite) {
-            println("[단독 실행] 브라우저 닫기")
-            WebUI.closeBrowser()
-        }
-    }
+		if (!GlobalVariable.isSuite) {
+			println("[단독 실행] 브라우저 오픈")
+			WebUI.openBrowser('')
 
-    @BeforeTestSuite
-    def beforeSuite() {
-        println("[Suite 실행] 브라우저 오픈")
-        WebUI.openBrowser('')
-		WebUI.navigateToUrl(GlobalVariable.baseUrl)
-		
-    }
+			// ✅ URL 강제 지정
+			String url = 'https://tapas.io'
+			WebUI.navigateToUrl(url)
+			WebUI.waitForPageLoad(10)
+			WebUI.verifyMatch(WebUI.getUrl(), url, false)
 
-    @AfterTestSuite
-    def afterSuite() {
-        println("[Suite 실행] 브라우저 닫기")
-        WebUI.closeBrowser()
-        GlobalVariable.isSuite = false  // 다음 실행을 위해 초기화
-    }
+			WebUI.delay(2)
+		}
+	}
+
+	@AfterTestCase
+	def afterTestCase() {
+		println("[AfterTestCase] GlobalVariable.isSuite: " + GlobalVariable.isSuite)
+
+		if (!GlobalVariable.isSuite) {
+			println("[단독 실행] 브라우저 닫기")
+			WebUI.closeBrowser()
+		}
+	}
+
+	@BeforeTestSuite
+	def beforeSuite() {
+		println("[Suite 실행] 브라우저 오픈")
+		WebUI.openBrowser('')
+
+		// ✅ URL 강제 지정
+		String url = 'https://tapas.io'
+		WebUI.navigateToUrl(url)
+		WebUI.waitForPageLoad(10)
+		WebUI.verifyMatch(WebUI.getUrl(), url, false)
+	}
+
+	@AfterTestSuite
+	def afterSuite() {
+		println("[Suite 실행] 브라우저 닫기")
+		WebUI.closeBrowser()
+		GlobalVariable.isSuite = false  // 다음 단독 실행 위해 초기화
+	}
 }
