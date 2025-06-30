@@ -1,0 +1,40 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC1,Chrome 136.0.7103.93,,,13-05-2025 10:12:46,13-05-2025 10:13:07,20.798s,PASSED
+,,,,,,,
+Test Cases/SetSuiteFlag,Chrome 136.0.7103.93,,,13-05-2025 10:12:51,13-05-2025 10:12:53,2.296s,PASSED
+Start listener action : beforeTestCase,Chrome 136.0.7103.93,,,13-05-2025 10:12:51,13-05-2025 10:12:53,2.253s,ERROR
+isSuite = true,Chrome 136.0.7103.93,,,13-05-2025 10:12:53,13-05-2025 10:12:53,0.000s,PASSED
+Start listener action : afterTestCase,Chrome 136.0.7103.93,,,13-05-2025 10:12:53,13-05-2025 10:12:53,0.001s,PASSED
+,,,,,,,
+Test Cases/Prod환경/00.메인홈/01.로그인/01.자동 로그인 확인 - Copy,Chrome 136.0.7103.93,,,13-05-2025 10:12:53,13-05-2025 10:12:57,3.815s,PASSED
+Start listener action : beforeTestCase,Chrome 136.0.7103.93,,,13-05-2025 10:12:53,13-05-2025 10:12:53,0.002s,PASSED
+"url = ""https://tapas.io/account/signin?from=/""",Chrome 136.0.7103.93,,,13-05-2025 10:12:53,13-05-2025 10:12:53,0.001s,PASSED
+"cookieFilePath = ""cookies.save""",Chrome 136.0.7103.93,,,13-05-2025 10:12:53,13-05-2025 10:12:53,0.001s,PASSED
+driver = getWebDriver(),Chrome 136.0.7103.93,,,13-05-2025 10:12:53,13-05-2025 10:12:53,0.000s,PASSED
+cookieFile = new java.io.File(cookieFilePath),Chrome 136.0.7103.93,,,13-05-2025 10:12:53,13-05-2025 10:12:53,0.001s,PASSED
+if (cookieFile.exists()),Chrome 136.0.7103.93,,,13-05-2025 10:12:53,13-05-2025 10:12:54,1.254s,PASSED
+delay(2),Chrome 136.0.7103.93,,,13-05-2025 10:12:54,13-05-2025 10:12:56,2.013s,PASSED
+maximizeWindow(),Chrome 136.0.7103.93,,,13-05-2025 10:12:56,13-05-2025 10:12:57,0.405s,PASSED
+Start listener action : afterTestCase,Chrome 136.0.7103.93,,,13-05-2025 10:12:57,13-05-2025 10:12:57,0.001s,PASSED
+,,,,,,,
+Test Cases/Prod환경/00.메인홈/02.검색/02.검색 결과 없음 확인 - Copy,Chrome 136.0.7103.93,,,13-05-2025 10:12:57,13-05-2025 10:13:01,4.281s,PASSED
+Start listener action : beforeTestCase,Chrome 136.0.7103.93,,,13-05-2025 10:12:57,13-05-2025 10:12:57,0.001s,PASSED
+"setText(findTestObject(""Object Repository/Prod환경/Home/02.검색/00.검색란""), ""비비비비비비비비비비"")",Chrome 136.0.7103.93,,,13-05-2025 10:12:57,13-05-2025 10:12:57,0.557s,PASSED
+"click(findTestObject(""Object Repository/Prod환경/Home/02.검색/01.검색버튼""))",Chrome 136.0.7103.93,,,13-05-2025 10:12:57,13-05-2025 10:12:59,1.726s,PASSED
+"verifyElementPresent(findTestObject(""Prod환경/Home/02.검색/04.검색결과 문구 없음""), 0)",Chrome 136.0.7103.93,,,13-05-2025 10:12:59,13-05-2025 10:13:00,0.446s,PASSED
+"nolist = findTestObject(""Prod환경/Home/02.검색/04.검색결과 문구 없음"")",Chrome 136.0.7103.93,,,13-05-2025 10:13:00,13-05-2025 10:13:00,0.004s,PASSED
+HighlightElement.run(nolist),Chrome 136.0.7103.93,,,13-05-2025 10:13:00,13-05-2025 10:13:01,1.270s,PASSED
+"verifyElementPresent(nolist, 0)",Chrome 136.0.7103.93,,,13-05-2025 10:13:01,13-05-2025 10:13:01,0.243s,PASSED
+"comment(""✅ 검색 완료"")",Chrome 136.0.7103.93,,,13-05-2025 10:13:01,13-05-2025 10:13:01,0.002s,PASSED
+Start listener action : afterTestCase,Chrome 136.0.7103.93,,,13-05-2025 10:13:01,13-05-2025 10:13:01,0.001s,PASSED
+,,,,,,,
+Test Cases/Prod환경/00.메인홈/02.검색/03.검색 리스트 확인 - Copy,Chrome 136.0.7103.93,,,13-05-2025 10:13:01,13-05-2025 10:13:07,5.940s,PASSED
+Start listener action : beforeTestCase,Chrome 136.0.7103.93,,,13-05-2025 10:13:01,13-05-2025 10:13:01,0.000s,PASSED
+if (isSuite),Chrome 136.0.7103.93,,,13-05-2025 10:13:01,13-05-2025 10:13:03,1.710s,PASSED
+"setText(findTestObject(""Object Repository/Prod환경/Home/02.검색/00.검색란""), ""Solo leveling"")",Chrome 136.0.7103.93,,,13-05-2025 10:13:03,13-05-2025 10:13:04,1.075s,PASSED
+"click(findTestObject(""Object Repository/Prod환경/Home/02.검색/01.검색버튼""))",Chrome 136.0.7103.93,,,13-05-2025 10:13:04,13-05-2025 10:13:05,1.345s,PASSED
+"searchlist = findTestObject(""Prod환경/Home/02.검색/03.Solo Leveling 타이틀"")",Chrome 136.0.7103.93,,,13-05-2025 10:13:05,13-05-2025 10:13:05,0.004s,PASSED
+HighlightElement.run(searchlist),Chrome 136.0.7103.93,,,13-05-2025 10:13:05,13-05-2025 10:13:07,1.507s,PASSED
+"verifyElementPresent(searchlist, 0)",Chrome 136.0.7103.93,,,13-05-2025 10:13:07,13-05-2025 10:13:07,0.264s,PASSED
+"comment(""✅ 완료"")",Chrome 136.0.7103.93,,,13-05-2025 10:13:07,13-05-2025 10:13:07,0.000s,PASSED
+Start listener action : afterTestCase,Chrome 136.0.7103.93,,,13-05-2025 10:13:07,13-05-2025 10:13:07,0.001s,PASSED

@@ -3,18 +3,18 @@
    <description></description>
    <name>38.다크모드</name>
    <tag></tag>
-   <elementGuidId>c5a58c94-6861-411b-8ded-60ab2bd34a18</elementGuidId>
+   <elementGuidId>d5f8c698-8079-4d4d-9e74-df3cae762143</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='page-wrap']/div/div[5]/div/div/div[2]/div/div[5]/a</value>
+         <value>//div[@id='page-wrap']/div/div[5]/div/div/div[2]/div/div[5]/a[4]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>a.bg--dark js-bg</value>
+         <value>a.bg--dark.js-bg</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -23,23 +23,31 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>53755144-f804-43c5-ba92-abd70e893287</webElementGuid>
+      <webElementGuid>41d08e9c-cc58-4b1c-8d82-5d04126a0f8b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>js-bg bg--on</value>
-      <webElementGuid>71987317-563e-4a29-9250-fad23c85e899</webElementGuid>
+      <value>bg--dark js-bg</value>
+      <webElementGuid>d8a23db0-c0b8-48c8-9f0d-24b6197dbe21</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-value</name>
       <type>Main</type>
-      <value>#FFFFFF</value>
-      <webElementGuid>491f6b53-7114-4b83-a62d-28a01dc9b6af</webElementGuid>
+      <value>#121212</value>
+      <webElementGuid>2f055920-9cac-4fb6-be04-a1aaf3dac7aa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-color</name>
+      <type>Main</type>
+      <value>dark</value>
+      <webElementGuid>de66f831-f718-424b-af70-4b1ea8c62247</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,79 +55,71 @@
       <name>text</name>
       <type>Main</type>
       <value>A</value>
-      <webElementGuid>60e57518-7218-4083-919d-fbfe92d22efd</webElementGuid>
+      <webElementGuid>5e14a668-87a3-4eb2-b28c-fc08332139ba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;page-wrap&quot;)/div[@class=&quot;vw-root js-viewer-root&quot;]/div[@class=&quot;toolbar&quot;]/div[@class=&quot;toolbar__wrapper toolbar__wrapper--wide js-toolbar&quot;]/div[@class=&quot;toolbar__row toolbar__row--left&quot;]/div[@class=&quot;row-item&quot;]/div[@class=&quot;dropdown-float dropdown-float--view js-edit-menu js-float&quot;]/div[@class=&quot;edit__back&quot;]/a[@class=&quot;js-bg bg--on&quot;]</value>
-      <webElementGuid>f565fe38-3eb6-45eb-b211-f120ee09e646</webElementGuid>
+      <value>id(&quot;page-wrap&quot;)/div[@class=&quot;vw-root js-viewer-root&quot;]/div[@class=&quot;toolbar&quot;]/div[@class=&quot;toolbar__wrapper toolbar__wrapper--wide js-toolbar&quot;]/div[@class=&quot;toolbar__row toolbar__row--left&quot;]/div[@class=&quot;row-item&quot;]/div[@class=&quot;dropdown-float dropdown-float--view js-edit-menu js-float&quot;]/div[@class=&quot;edit__back&quot;]/a[@class=&quot;bg--dark js-bg&quot;]</value>
+      <webElementGuid>6501a1ef-8714-46ec-9192-5c2cc3ef56c4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='page-wrap']/div/div[5]/div/div/div[2]/div/div[5]/a</value>
-      <webElementGuid>c4de7f35-963e-4595-a65b-0c138b7c9e78</webElementGuid>
+      <value>//div[@id='page-wrap']/div/div[5]/div/div/div[2]/div/div[5]/a[4]</value>
+      <webElementGuid>5db352d0-2718-426f-bb9a-2765a985aec0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'A')]</value>
-      <webElementGuid>a8405d08-bba3-457d-b9ca-601c45031cba</webElementGuid>
+      <value>(//a[contains(text(),'A')])[4]</value>
+      <webElementGuid>ae4bdea8-09a6-4ebf-9511-3db44c03f9c1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lora'])[1]/following::a[7]</value>
-      <webElementGuid>350aa9b2-404c-4dd9-9a0f-3544ece2df9c</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='A'])[3]/following::a[1]</value>
+      <webElementGuid>a27cfd25-3726-41f4-93a5-4e164cb1e9bf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lato'])[1]/following::a[8]</value>
-      <webElementGuid>8feeec2f-e972-4395-ba28-7f5ca88aef20</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='A'])[2]/following::a[2]</value>
+      <webElementGuid>62256a93-69ec-4819-abe9-09a295909aa2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='A'])[2]/preceding::a[1]</value>
-      <webElementGuid>5feb9d1f-20e9-4517-b0a9-a8ae0482df43</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='More'])[3]/preceding::a[1]</value>
+      <webElementGuid>ca899add-d6a3-4014-9baa-eae347d2b07a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='A'])[3]/preceding::a[2]</value>
-      <webElementGuid>80c7cda4-d6cd-4420-b4c5-c8d3caee6782</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='A']/parent::*</value>
-      <webElementGuid>f2a13507-1013-46e2-a7b2-206ced3f03c8</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Like'])[1]/preceding::a[2]</value>
+      <webElementGuid>bbf7e6b9-87ea-4c73-9805-a39b02ca5f1f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[5]/div/div/div[2]/div/div[5]/a</value>
-      <webElementGuid>980832bf-eb83-4ab4-9c16-9fe7e38d5542</webElementGuid>
+      <value>//div[5]/a[4]</value>
+      <webElementGuid>89f84aee-10b2-4e04-9a9f-e157f510907a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,6 +127,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[(text() = 'A' or . = 'A')]</value>
-      <webElementGuid>bdb694a6-ac85-4c6e-ae7d-c2a5d70532f0</webElementGuid>
+      <webElementGuid>b7a7a2e3-eef4-472e-b26f-ec670e696db3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

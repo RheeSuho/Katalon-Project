@@ -52,4 +52,3 @@ try {
 	WebUI.comment('⚠️ 쿠키 저장 실패: ' + e.getMessage())
 }
 
-WebUI.closeBrowser()

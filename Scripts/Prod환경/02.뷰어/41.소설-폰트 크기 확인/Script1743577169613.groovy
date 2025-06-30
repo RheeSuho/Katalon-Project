@@ -66,4 +66,3 @@ WebUI.click(findTestObject('Object Repository/Prod환경/Home/07.뷰어/29.소�
 WebUI.closeBrowser()
 
 
-// 만드는 중 아직 미완료 확인해야함 
