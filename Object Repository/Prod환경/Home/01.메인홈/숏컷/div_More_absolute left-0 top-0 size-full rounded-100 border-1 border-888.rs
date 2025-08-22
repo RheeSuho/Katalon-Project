@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>05.프로필이미지</name>
+   <name>div_More_absolute left-0 top-0 size-full rounded-100 border-1 border-888</name>
    <tag></tag>
-   <elementGuidId>c5d7b128-4412-43f6-8fc2-b871471ee54a</elementGuidId>
+   <elementGuidId>9cd6cbfa-0400-4f6c-af55-3f626f683bca</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//button[@id='headlessui-popover-button-:Rbraqcm:']/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>ea9d7df3-bbf2-4d4f-82f3-e5dbfdd94591</webElementGuid>
+      <webElementGuid>e967ec3b-22c8-458c-9008-3b9b711180d0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>absolute left-0 top-0 size-full rounded-100 border-1 border-[#888]</value>
-      <webElementGuid>6cf27624-a665-4668-9804-10a547e0b888</webElementGuid>
+      <webElementGuid>a262a3b1-6ace-4203-943f-c2c39c20dce8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +39,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;headlessui-popover-button-:Rbraqcm:&quot;)/div[@class=&quot;relative rounded-100&quot;]/div[@class=&quot;absolute left-0 top-0 size-full rounded-100 border-1 border-[#888]&quot;]</value>
-      <webElementGuid>5de1a14a-3b43-489d-aa0f-3ee94c4a5253</webElementGuid>
+      <webElementGuid>39d2de2f-ea78-4cea-8ed9-4e2b842ced5f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +47,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//button[@id='headlessui-popover-button-:Rbraqcm:']/div/div</value>
-      <webElementGuid>0dfc8ef1-14b4-46df-baa6-0d68eedc153c</webElementGuid>
+      <webElementGuid>74f23c43-7084-4efe-8c74-5f2366ee1161</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,6 +55,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/button/div/div</value>
-      <webElementGuid>37d410a4-78d3-448a-928f-8adacf74a0d2</webElementGuid>
+      <webElementGuid>35ee4705-4d4d-4296-b390-02bdc9a5a8ac</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

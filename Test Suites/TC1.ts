@@ -46,4 +46,25 @@
       <testCaseId>Test Cases/Prod환경/00.메인홈/03.배너확인/05.빅배너 확인_랜딩 후 복귀</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>fa322b1f-05c9-41d7-b808-eddeccfacc43</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Prod환경/00.메인홈/03.배너확인/06.숏컷 객체 강조 - 로그인</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8efacbbd-b005-453e-afb9-37e670cbbe29</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Prod환경/00.메인홈/03.배너확인/07.최근본섹션-로그인</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>25a17126-1966-4873-93ad-a84e499546be</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Prod환경/00.메인홈/04.서브탭/09.Popular 서브탭</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>

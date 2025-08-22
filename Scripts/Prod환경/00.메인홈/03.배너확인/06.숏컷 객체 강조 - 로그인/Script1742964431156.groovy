@@ -18,9 +18,11 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.reusableComponents.HighlightElement as HighlightElement
 
-WebUI.callTestCase(findTestCase("Test Cases/CallTest용도/브라우저오픈"), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Test Cases/Prod환경/00.메인홈/01.로그인/01.자동 로그인 확인'), [:], FailureHandling.STOP_ON_FAILURE)
 
-// 객체 찾기 및 강조
+
+
+
 TestObject searchBox = findTestObject('Object Repository/Prod환경/Home/01.메인홈/숏컷/00.검색란')
 HighlightElement.run(searchBox)
 WebUI.verifyElementPresent(searchBox, 1)
@@ -31,14 +33,23 @@ HighlightElement.run(logoImage)
 WebUI.verifyElementPresent(logoImage, 1)
 
 
-TestObject loginButton = findTestObject('Prod환경/Home/01.메인홈/숏컷/로그인버튼')
+TestObject loginButton = findTestObject('Object Repository/Prod환경/Home/01.메인홈/숏컷/03.library버튼')
 HighlightElement.run(loginButton)
 WebUI.verifyElementPresent(loginButton, 1)
 
 
-TestObject publishButton = findTestObject('Prod환경/Home/01.메인홈/숏컷/06.Publish버튼')
-HighlightElement.run(publishButton)
-WebUI.verifyElementPresent(publishButton, 1)
+TestObject inboxbutton = findTestObject('Object Repository/Prod환경/Home/01.메인홈/숏컷/04.inbox버튼')
+HighlightElement.run(inboxbutton)
+WebUI.verifyElementPresent(inboxbutton, 1)
+
+TestObject profileimage = findTestObject('Object Repository/Prod환경/Home/01.메인홈/숏컷/05.프로필이미지버튼')
+WebUI.waitForElementVisible(profileimage, 5)  // ✅ 최대 5초까지 기다림
+HighlightElement.run(profileimage)
+WebUI.verifyElementPresent(profileimage, 1)
+
+TestObject publishButton1 = findTestObject('Object Repository/Prod환경/Home/01.메인홈/숏컷/07.로그인publish버튼')
+HighlightElement.run(publishButton1)
+WebUI.verifyElementPresent(publishButton1, 1)
 
 WebUI.comment('✅ Test 1 완료. 브라우저 유지 상태에서 Test 2 실행')
 

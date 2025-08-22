@@ -20,7 +20,7 @@ import com.reusableComponents.HighlightElement as HighlightElement
 
 WebUI.comment('✅ 프로모션 배너 실행')
 
-WebUI.callTestCase(findTestCase("Test Cases/CallTest용도/브라우저오픈"), [:], FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase("Test Cases/CallTest용도/브라우저오픈"), [:], FailureHandling.STOP_ON_FAILURE)
 
 TestObject promotion = findTestObject('Prod환경/Home/04.배너/프로모션 배너/프로모션배너확인')
 HighlightElement.run(promotion)
@@ -35,6 +35,7 @@ WebUI.verifyElementPresent(contents, 0)
 
 
 WebUI.back()
+
 WebUI.refresh()
 
 WebUI.comment('✅ 프로모션 배너 완료')

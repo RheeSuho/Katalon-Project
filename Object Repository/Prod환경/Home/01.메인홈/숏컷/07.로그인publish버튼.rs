@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>07.로그인publish버튼</name>
+   <tag></tag>
+   <elementGuidId>5f66b238-b95d-4542-ab1a-2d7adf606d2e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/nav/div/div/div/div/a[4]/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>bc1bee0b-829b-4b48-8af5-093630d9ae6b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex items-center justify-center rounded-100 disabled:bg-base30 disabled:text-base20 h-28 px-12 font-system-12b active:text-base60/50 bg-base20 text-base60</value>
+      <webElementGuid>a2925c50-c5d2-451b-a5fa-96d05c534526</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Publish</value>
+      <webElementGuid>605b0049-fceb-46cf-8a54-1b5fa8e8c591</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;relative mx-auto flex min-h-full flex-col text-base60 __variable_026074 __variable_3c0b91&quot;]/nav[@class=&quot;sticky top-0 z-navigation w-full bg-bg10&quot;]/div[@class=&quot;mx-auto w-1010 bg-bg10&quot;]/div[1]/div[@class=&quot;relative bg-bg10 px-18 pb-20 pt-32&quot;]/div[@class=&quot;flex items-center justify-between space-x-20&quot;]/a[4]/button[@class=&quot;flex items-center justify-center rounded-100 disabled:bg-base30 disabled:text-base20 h-28 px-12 font-system-12b active:text-base60/50 bg-base20 text-base60&quot;]</value>
+      <webElementGuid>00df8cb9-8176-43c7-b00d-1cad0b4bfcde</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/nav/div/div/div/div/a[4]/button</value>
+      <webElementGuid>19b38caf-7b23-4350-a26e-3eaf3ffaadae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='More'])[1]/following::button[3]</value>
+      <webElementGuid>1e0cd114-5f95-4485-ae3e-2fcac150cefd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mature'])[1]/following::button[4]</value>
+      <webElementGuid>75e0ccb9-569f-4af8-80e1-ecef83e617ac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='EVENT'])[1]/preceding::button[1]</value>
+      <webElementGuid>1db10b92-4f63-4a1e-8fe8-3bbe14c410ce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Comic'])[1]/preceding::button[1]</value>
+      <webElementGuid>7def7093-25ee-4394-a10b-ffff27d0e02e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Publish']/parent::*</value>
+      <webElementGuid>57b460e2-7cc2-435a-b814-af1c01e508aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[4]/button</value>
+      <webElementGuid>636fe79d-3089-4c39-99be-ed92d2bd4ab1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Publish' or . = 'Publish')]</value>
+      <webElementGuid>c345e390-32e1-444c-b547-37fd41426dd4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

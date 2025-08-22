@@ -109,7 +109,7 @@ TestObject inboximage = findTestObject('Prod환경/Home/01.메인홈/숏컷/04.i
 HighlightElement.run(inboximage)
 WebUI.verifyElementPresent(inboximage, 0)
 
-TestObject profileImage = findTestObject('Prod환경/Home/01.메인홈/숏컷/05.프로필이미지')
+TestObject profileImage = findTestObject('null')
 HighlightElement.run(profileImage)
 WebUI.verifyElementPresent(profileImage, 0)
 
