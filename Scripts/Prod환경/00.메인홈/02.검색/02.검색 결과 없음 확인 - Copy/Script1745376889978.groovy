@@ -20,9 +20,6 @@
 //
 //WebUI.comment('✅ 검색 실행')
 //
-//WebUI. openBrowser('')
-//WebUI.navigateToUrl('https://tapas.io/')
-//
 //WebUI.setText(findTestObject('null'), '비비비비비비비비비비')
 //
 //WebUI.click(findTestObject('null'))

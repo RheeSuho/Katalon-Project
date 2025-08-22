@@ -29,7 +29,6 @@ import java.util.Set
 String url = 'https://tapas.io/account/signin?from=/'
 String cookieFilePath = 'cookies.save' // 쿠키 저장 파일 경로
 
-WebUI.openBrowser('')
 WebUI.navigateToUrl(url)
 
 WebDriver driver = DriverFactory.getWebDriver()

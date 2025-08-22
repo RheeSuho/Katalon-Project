@@ -33,7 +33,6 @@ import org.openqa.selenium.WebDriver
 String url = 'https://tapas.io/account/signin?from=/'
 String cookieFilePath = 'cookies.save'
 
-WebUI.openBrowser('')
 WebUI.navigateToUrl(url)
 
 WebDriver driver = DriverFactory.getWebDriver()

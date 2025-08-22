@@ -1,0 +1,44 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC1,Chrome 139.0.7258.138,,,22-08-2025 10:02:27,22-08-2025 10:02:49,21.473s,PASSED
+,,,,,,,
+Start listener action : beforeSuite,Chrome 139.0.7258.138,,,22-08-2025 10:02:27,22-08-2025 10:02:30,2.838s,ERROR
+,,,,,,,
+Test Cases/SetSuiteFlag,Chrome 139.0.7258.138,,,22-08-2025 10:02:30,22-08-2025 10:02:32,2.121s,PASSED
+Start listener action : beforeTestCase,Chrome 139.0.7258.138,,,22-08-2025 10:02:30,22-08-2025 10:02:32,2.075s,ERROR
+isSuite = true,Chrome 139.0.7258.138,,,22-08-2025 10:02:32,22-08-2025 10:02:32,0.001s,PASSED
+Start listener action : afterTestCase,Chrome 139.0.7258.138,,,22-08-2025 10:02:32,22-08-2025 10:02:32,0.003s,PASSED
+,,,,,,,
+Test Cases/Prod환경/00.메인홈/01.로그인/01.자동 로그인 확인 - Copy,Chrome 139.0.7258.138,,,22-08-2025 10:02:32,22-08-2025 10:02:36,3.938s,PASSED
+Start listener action : beforeTestCase,Chrome 139.0.7258.138,,,22-08-2025 10:02:33,22-08-2025 10:02:33,0.004s,PASSED
+"url = ""https://tapas.io/account/signin?from=/""",Chrome 139.0.7258.138,,,22-08-2025 10:02:33,22-08-2025 10:02:33,0.001s,PASSED
+"cookieFilePath = ""cookies.save""",Chrome 139.0.7258.138,,,22-08-2025 10:02:33,22-08-2025 10:02:33,0.000s,PASSED
+driver = getWebDriver(),Chrome 139.0.7258.138,,,22-08-2025 10:02:33,22-08-2025 10:02:33,0.001s,PASSED
+cookieFile = new java.io.File(cookieFilePath),Chrome 139.0.7258.138,,,22-08-2025 10:02:33,22-08-2025 10:02:33,0.001s,PASSED
+if (cookieFile.exists()),Chrome 139.0.7258.138,,,22-08-2025 10:02:33,22-08-2025 10:02:34,1.393s,PASSED
+delay(2),Chrome 139.0.7258.138,,,22-08-2025 10:02:34,22-08-2025 10:02:36,2.013s,PASSED
+maximizeWindow(),Chrome 139.0.7258.138,,,22-08-2025 10:02:36,22-08-2025 10:02:36,0.404s,PASSED
+Start listener action : afterTestCase,Chrome 139.0.7258.138,,,22-08-2025 10:02:36,22-08-2025 10:02:36,0.002s,PASSED
+,,,,,,,
+Test Cases/Prod환경/00.메인홈/02.검색/02.검색 결과 없음 확인 - Copy,Chrome 139.0.7258.138,,,22-08-2025 10:02:36,22-08-2025 10:02:42,5.390s,PASSED
+Start listener action : beforeTestCase,Chrome 139.0.7258.138,,,22-08-2025 10:02:36,22-08-2025 10:02:36,0.001s,PASSED
+"setText(findTestObject(""Object Repository/Prod환경/Home/02.검색/00.검색란""), ""비비비비비비비비비비"")",Chrome 139.0.7258.138,,,22-08-2025 10:02:36,22-08-2025 10:02:37,0.568s,PASSED
+"click(findTestObject(""Object Repository/Prod환경/Home/02.검색/01.검색버튼""))",Chrome 139.0.7258.138,,,22-08-2025 10:02:37,22-08-2025 10:02:40,2.534s,PASSED
+"verifyElementPresent(findTestObject(""Prod환경/Home/02.검색/04.검색결과 문구 없음""), 0)",Chrome 139.0.7258.138,,,22-08-2025 10:02:40,22-08-2025 10:02:40,0.443s,PASSED
+"nolist = findTestObject(""Prod환경/Home/02.검색/04.검색결과 문구 없음"")",Chrome 139.0.7258.138,,,22-08-2025 10:02:40,22-08-2025 10:02:40,0.002s,PASSED
+HighlightElement.run(nolist),Chrome 139.0.7258.138,,,22-08-2025 10:02:40,22-08-2025 10:02:42,1.562s,PASSED
+"verifyElementPresent(nolist, 0)",Chrome 139.0.7258.138,,,22-08-2025 10:02:42,22-08-2025 10:02:42,0.230s,PASSED
+"comment(""✅ 검색 완료"")",Chrome 139.0.7258.138,,,22-08-2025 10:02:42,22-08-2025 10:02:42,0.001s,PASSED
+Start listener action : afterTestCase,Chrome 139.0.7258.138,,,22-08-2025 10:02:42,22-08-2025 10:02:42,0.001s,PASSED
+,,,,,,,
+Test Cases/Prod환경/00.메인홈/02.검색/03.검색 리스트 확인 - Copy,Chrome 139.0.7258.138,,,22-08-2025 10:02:42,22-08-2025 10:02:49,6.917s,PASSED
+Start listener action : beforeTestCase,Chrome 139.0.7258.138,,,22-08-2025 10:02:42,22-08-2025 10:02:42,0.000s,PASSED
+if (isSuite),Chrome 139.0.7258.138,,,22-08-2025 10:02:42,22-08-2025 10:02:44,1.756s,PASSED
+"setText(findTestObject(""Object Repository/Prod환경/Home/02.검색/00.검색란""), ""Solo leveling"")",Chrome 139.0.7258.138,,,22-08-2025 10:02:44,22-08-2025 10:02:45,0.909s,PASSED
+"click(findTestObject(""Object Repository/Prod환경/Home/02.검색/01.검색버튼""))",Chrome 139.0.7258.138,,,22-08-2025 10:02:45,22-08-2025 10:02:45,0.452s,PASSED
+"searchlist = findTestObject(""Prod환경/Home/02.검색/03.Solo Leveling 타이틀"")",Chrome 139.0.7258.138,,,22-08-2025 10:02:45,22-08-2025 10:02:45,0.002s,PASSED
+HighlightElement.run(searchlist),Chrome 139.0.7258.138,,,22-08-2025 10:02:45,22-08-2025 10:02:49,3.535s,PASSED
+"verifyElementPresent(searchlist, 0)",Chrome 139.0.7258.138,,,22-08-2025 10:02:49,22-08-2025 10:02:49,0.222s,PASSED
+"comment(""✅ 완료"")",Chrome 139.0.7258.138,,,22-08-2025 10:02:49,22-08-2025 10:02:49,0.001s,PASSED
+Start listener action : afterTestCase,Chrome 139.0.7258.138,,,22-08-2025 10:02:49,22-08-2025 10:02:49,0.001s,PASSED
+,,,,,,,
+Start listener action : afterSuite,Chrome 139.0.7258.138,,,22-08-2025 10:02:49,22-08-2025 10:02:49,0.106s,PASSED

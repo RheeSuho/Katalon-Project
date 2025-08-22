@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 import com.reusableComponents.HighlightElement // ✨ 객체 강조 기능 추가
 
 WebUI.comment('✅ 라인배너 실행')
-WebUI.callTestCase(findTestCase("Test Cases/CallTest용도/브라우저오픈"), [:], FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase("Test Cases/CallTest용도/브라우저오픈"), [:], FailureHandling.STOP_ON_FAILURE)
 
 
 WebUI.delay(2)
@@ -40,6 +40,10 @@ WebUI.delay(2)
 
 // 뒤로 가기 동작
 WebUI. back()
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/Prod환경/Home/01.메인홈/숏컷/Tapas 버튼'))
 
 WebUI.comment('✅ 라인배너 완')
 

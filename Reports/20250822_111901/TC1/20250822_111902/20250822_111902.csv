@@ -1,0 +1,47 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC1,Chrome 139.0.7258.138,,,22-08-2025 11:19:04,22-08-2025 11:19:59,55.170s,FAILED
+,,,,,,,
+Start listener action : beforeSuite,Chrome 139.0.7258.138,,,22-08-2025 11:19:04,22-08-2025 11:19:07,3.132s,ERROR
+,,,,,,,
+Test Cases/SetSuiteFlag,Chrome 139.0.7258.138,,,22-08-2025 11:19:07,22-08-2025 11:19:10,2.399s,PASSED
+Start listener action : beforeTestCase,Chrome 139.0.7258.138,,,22-08-2025 11:19:07,22-08-2025 11:19:10,2.367s,ERROR
+isSuite = true,Chrome 139.0.7258.138,,,22-08-2025 11:19:10,22-08-2025 11:19:10,0.000s,PASSED
+Start listener action : afterTestCase,Chrome 139.0.7258.138,,,22-08-2025 11:19:10,22-08-2025 11:19:10,0.002s,PASSED
+,,,,,,,
+Test Cases/Prod환경/00.메인홈/01.로그인/01.자동 로그인 확인 - Copy,Chrome 139.0.7258.138,,,22-08-2025 11:19:10,22-08-2025 11:19:13,3.636s,PASSED
+Start listener action : beforeTestCase,Chrome 139.0.7258.138,,,22-08-2025 11:19:10,22-08-2025 11:19:10,0.001s,PASSED
+"url = ""https://tapas.io/account/signin?from=/""",Chrome 139.0.7258.138,,,22-08-2025 11:19:10,22-08-2025 11:19:10,0.001s,PASSED
+"cookieFilePath = ""cookies.save""",Chrome 139.0.7258.138,,,22-08-2025 11:19:10,22-08-2025 11:19:10,0.001s,PASSED
+driver = getWebDriver(),Chrome 139.0.7258.138,,,22-08-2025 11:19:10,22-08-2025 11:19:10,0.000s,PASSED
+cookieFile = new java.io.File(cookieFilePath),Chrome 139.0.7258.138,,,22-08-2025 11:19:10,22-08-2025 11:19:10,0.001s,PASSED
+if (cookieFile.exists()),Chrome 139.0.7258.138,,,22-08-2025 11:19:10,22-08-2025 11:19:11,1.104s,PASSED
+delay(2),Chrome 139.0.7258.138,,,22-08-2025 11:19:11,22-08-2025 11:19:13,2.011s,PASSED
+maximizeWindow(),Chrome 139.0.7258.138,,,22-08-2025 11:19:13,22-08-2025 11:19:13,0.405s,PASSED
+Start listener action : afterTestCase,Chrome 139.0.7258.138,,,22-08-2025 11:19:13,22-08-2025 11:19:13,0.002s,PASSED
+,,,,,,,
+Test Cases/Prod환경/00.메인홈/02.검색/02.검색 결과 없음 확인 - Copy,Chrome 139.0.7258.138,,,22-08-2025 11:19:13,22-08-2025 11:19:57,43.649s,FAILED
+Start listener action : beforeTestCase,Chrome 139.0.7258.138,,,22-08-2025 11:19:13,22-08-2025 11:19:13,0.002s,PASSED
+"setText(findTestObject(""Object Repository/Prod환경/Home/02.검색/00.검색란""), ""비비비비비비비비비비"")",Chrome 139.0.7258.138,,,22-08-2025 11:19:13,22-08-2025 11:19:14,0.528s,PASSED
+"click(findTestObject(""Object Repository/Prod환경/Home/02.검색/01.검색버튼""))",Chrome 139.0.7258.138,,,22-08-2025 11:19:14,22-08-2025 11:19:57,42.951s,PASSED
+"verifyElementPresent(findTestObject(""Prod환경/Home/02.검색/04.검색결과 문구 없음""), 0)",Chrome 139.0.7258.138,,,22-08-2025 11:19:57,22-08-2025 11:19:57,0.131s,FAILED
+Start listener action : afterTestCase,Chrome 139.0.7258.138,,,22-08-2025 11:19:57,22-08-2025 11:19:57,0.000s,PASSED
+,,,,,,,
+Test Cases/Prod환경/00.메인홈/02.검색/03.검색 리스트 확인 - Copy,Chrome 139.0.7258.138,,,22-08-2025 11:19:57,22-08-2025 11:19:57,0.063s,FAILED
+Start listener action : beforeTestCase,Chrome 139.0.7258.138,,,22-08-2025 11:19:57,22-08-2025 11:19:57,0.001s,PASSED
+if (isSuite),Chrome 139.0.7258.138,,,22-08-2025 11:19:57,22-08-2025 11:19:57,0.027s,FAILED
+Start listener action : afterTestCase,Chrome 139.0.7258.138,,,22-08-2025 11:19:57,22-08-2025 11:19:57,0.000s,PASSED
+,,,,,,,
+Test Cases/Prod환경/00.메인홈/03.배너확인/04.라인배너 확인,Chrome 139.0.7258.138,,,22-08-2025 11:19:57,22-08-2025 11:19:59,2.059s,FAILED
+Start listener action : beforeTestCase,Chrome 139.0.7258.138,,,22-08-2025 11:19:57,22-08-2025 11:19:57,0.001s,PASSED
+"comment(""✅ 라인배너 실행"")",Chrome 139.0.7258.138,,,22-08-2025 11:19:57,22-08-2025 11:19:57,0.001s,PASSED
+delay(2),Chrome 139.0.7258.138,,,22-08-2025 11:19:57,22-08-2025 11:19:59,2.008s,PASSED
+"click(findTestObject(""Object Repository/Prod환경/Home/04.배너/라인배너/00. Free 서브탭""))",Chrome 139.0.7258.138,,,22-08-2025 11:19:59,22-08-2025 11:19:59,0.021s,FAILED
+Start listener action : afterTestCase,Chrome 139.0.7258.138,,,22-08-2025 11:19:59,22-08-2025 11:19:59,0.001s,PASSED
+,,,,,,,
+Test Cases/Prod환경/00.메인홈/03.배너확인/05.빅배너 확인_랜딩 후 복귀,Chrome 139.0.7258.138,,,22-08-2025 11:19:59,22-08-2025 11:19:59,0.066s,FAILED
+Start listener action : beforeTestCase,Chrome 139.0.7258.138,,,22-08-2025 11:19:59,22-08-2025 11:19:59,0.000s,PASSED
+"next = findTestObject(""Prod환경/Home/04.배너/빅배너/01.빅배너 다음 버튼"")",Chrome 139.0.7258.138,,,22-08-2025 11:19:59,22-08-2025 11:19:59,0.004s,PASSED
+HighlightElement.run(next),Chrome 139.0.7258.138,,,22-08-2025 11:19:59,22-08-2025 11:19:59,0.022s,FAILED
+Start listener action : afterTestCase,Chrome 139.0.7258.138,,,22-08-2025 11:19:59,22-08-2025 11:19:59,0.001s,PASSED
+,,,,,,,
+Start listener action : afterSuite,Chrome 139.0.7258.138,,,22-08-2025 11:19:59,22-08-2025 11:19:59,0.023s,PASSED

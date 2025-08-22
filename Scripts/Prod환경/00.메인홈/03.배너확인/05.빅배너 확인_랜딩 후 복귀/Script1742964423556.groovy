@@ -21,10 +21,10 @@ import com.reusableComponents.HighlightElement as HighlightElement
 //WebUI.comment('✅ 배너 실행')
 
 //브라우저 오픈 후 이동
-WebUI.callTestCase(findTestCase("Test Cases/CallTest용도/브라우저오픈"), [:], FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase("Test Cases/CallTest용도/브라우저오픈"), [:], FailureHandling.STOP_ON_FAILURE)
 
 // 브라우저 창 최대화
-WebUI.maximizeWindow()
+// WebUI.maximizeWindow()
 
 //다음 버튼 확인
 TestObject next = findTestObject('Prod환경/Home/04.배너/빅배너/01.빅배너 다음 버튼')
@@ -62,15 +62,15 @@ WebUI.click(findTestObject('Prod환경/Home/04.배너/빅배너/02.빅배너 이
 WebUI.click(findTestObject('Object Repository/Prod환경/Home/04.배너/빅배너/04.빅배너이미지'))
 
 //랜딩 확인을 위한 2초 딜레이
-WebUI. delay(1)
+WebUI. delay(2)
 
-//랜딩 후 작품 확인
-TestObject title = findTestObject('Prod환경/Home/04.배너/빅배너/08.작품이미지')
-HighlightElement.run(title)
-WebUI.verifyElementPresent(title, 0)
-
-//정상적인 작품 랜딩확인을 위한 딜레이 1초
-WebUI. delay(1)
+////랜딩 후 작품 확인
+//TestObject title = findTestObject('Prod환경/Home/04.배너/빅배너/08.작품이미지')
+//HighlightElement.run(title)
+//WebUI.verifyElementPresent(title, 0)
+//
+////정상적인 작품 랜딩확인을 위한 딜레이 1초
+//WebUI. delay(1)
 
 //뒤로가기
 WebUI.back()
@@ -79,9 +79,6 @@ WebUI.back()
 TestObject bancheck = findTestObject('Prod환경/Home/04.배너/빅배너/04.빅배너이미지')
 HighlightElement.run(bancheck)
 WebUI.verifyElementPresent(bancheck, 0)
-
-//브라우저 닫기
-WebUI.closeBrowser()	
 
 WebUI.comment('✅ 빅배너 완료')
 

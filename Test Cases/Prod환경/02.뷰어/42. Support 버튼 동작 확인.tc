@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>42. Support 버튼 동작 확인</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7934dcff-83c0-417e-a8b7-a1e9543c7f3f</testCaseGuid>
+</TestCaseEntity>

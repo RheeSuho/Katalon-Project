@@ -34,4 +34,7 @@ TestObject searchlist = findTestObject('Prod환경/Home/02.검색/03.Solo Leveli
 HighlightElement.run(searchlist)
 WebUI.verifyElementPresent(searchlist, 0)
 
+// 뒤로 가기 동작
+WebUI. back()
+
 WebUI.comment('✅ 완료')

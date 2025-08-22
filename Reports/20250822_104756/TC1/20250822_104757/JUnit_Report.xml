@@ -1,0 +1,800 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TC1" time="29.288" tests="5" failures="1" errors="0">
+   <testsuite name="TC1" tests="5" failures="1" errors="0" time="29.288" skipped="0" timestamp="22-08-2025T10:47:59" hostname="ruben.lee - localhost" id="Test Suites/TC1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/ruben.lee/Katalon Studio/TapasTest/Reports/20250822_104756/TC1/20250822_104757"/>
+         <property name="logFiles" value="/Users/ruben.lee/Katalon Studio/TapasTest/Reports/20250822_104756/TC1/20250822_104757/execution0.log, /Users/ruben.lee/Katalon Studio/TapasTest/Reports/20250822_104756/TC1/20250822_104757/console0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ruben.lee - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="10.2.1.0"/>
+         <property name="browser" value="Chrome 139.0.7258.138"/>
+         <property name="userFullName" value="이수호 ruben"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="7b2fa18ed242eb3c1724e34b9c80eab7"/>
+         <property name="projectName" value="Tapas Test"/>
+         <property name="seleniumVersion" value="4.28.1"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/SetSuiteFlag" time="2.347" classname="Test Cases/SetSuiteFlag" status="PASSED">
+         <system-out><![CDATA[22-08-2025T10:48:02 - [TEST_CASE][PASSED] - Test Cases/SetSuiteFlag: Test Cases/SetSuiteFlag
+
+22-08-2025T10:48:02 - [TEST_STEP][ERROR] - Start listener action : beforeTestCase: com.kms.katalon.core.exception.StepFailedException: Actual text 'https://tapas.io/' and expected text 'https://tapas.io' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at BrowserControl.beforeTestCase(BrowserControl.groovy:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1755827277518.run(TempTestSuite1755827277518.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+22-08-2025T10:48:02 - [TEST_STEP][PASSED] - println("[BeforeTestCase] GlobalVariable.isSuite: " + isSuite): null
+
+22-08-2025T10:48:02 - [TEST_STEP][ERROR] - if (!(isSuite)): com.kms.katalon.core.exception.StepFailedException: Actual text 'https://tapas.io/' and expected text 'https://tapas.io' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at BrowserControl.beforeTestCase(BrowserControl.groovy:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1755827277518.run(TempTestSuite1755827277518.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+22-08-2025T10:48:02 - [TEST_STEP][PASSED] - println("[단독 실행] 브라우저 오픈"): null
+
+22-08-2025T10:48:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+22-08-2025T10:48:02 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+22-08-2025T10:48:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+22-08-2025T10:48:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+22-08-2025T10:48:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+22-08-2025T10:48:03 - [TEST_STEP][PASSED] - url = "https://tapas.io": null
+
+22-08-2025T10:48:03 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://tapas.io' successfully
+
+22-08-2025T10:48:04 - [MESSAGE][PASSED] - Navigate to 'https://tapas.io' successfully
+
+22-08-2025T10:48:04 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+22-08-2025T10:48:04 - [MESSAGE][PASSED] - Wait for page load successfully
+
+22-08-2025T10:48:04 - [TEST_STEP][ERROR] - verifyMatch(getUrl(), url, false): com.kms.katalon.core.exception.StepFailedException: Actual text 'https://tapas.io/' and expected text 'https://tapas.io' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at BrowserControl.beforeTestCase(BrowserControl.groovy:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1755827277518.run(TempTestSuite1755827277518.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+22-08-2025T10:48:04 - [MESSAGE][PASSED] - Current window's url is: 'https://tapas.io/'
+
+22-08-2025T10:48:04 - [MESSAGE][FAILED] - Unable to verify match between actual text 'https://tapas.io/' and expected text 'https://tapas.io' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'https://tapas.io/' and expected text 'https://tapas.io' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at BrowserControl.beforeTestCase(BrowserControl.groovy:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1755827277518.run(TempTestSuite1755827277518.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+22-08-2025T10:48:04 - [MESSAGE][ERROR] - com.kms.katalon.core.exception.StepFailedException: Actual text 'https://tapas.io/' and expected text 'https://tapas.io' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at BrowserControl.beforeTestCase(BrowserControl.groovy:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1755827277518.run(TempTestSuite1755827277518.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+22-08-2025T10:48:04 - [TEST_STEP][PASSED] - isSuite = true: null
+
+22-08-2025T10:48:04 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+22-08-2025T10:48:04 - [TEST_STEP][PASSED] - println("[AfterTestCase] GlobalVariable.isSuite: " + isSuite): null
+
+22-08-2025T10:48:04 - [TEST_STEP][PASSED] - if (!(isSuite)): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Prod환경/00.메인홈/01.로그인/01.자동 로그인 확인 - Copy" time="3.868" classname="Test Cases/Prod환경/00.메인홈/01.로그인/01.자동 로그인 확인 - Copy" status="PASSED">
+         <system-out><![CDATA[22-08-2025T10:48:04 - [TEST_CASE][PASSED] - Test Cases/Prod환경/00.메인홈/01.로그인/01.자동 로그인 확인 - Copy: Test Cases/Prod환경/00.메인홈/01.로그인/01.자동 로그인 확인 - Copy
+
+22-08-2025T10:48:04 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+22-08-2025T10:48:04 - [TEST_STEP][PASSED] - println("[BeforeTestCase] GlobalVariable.isSuite: " + isSuite): null
+
+22-08-2025T10:48:04 - [TEST_STEP][PASSED] - if (!(isSuite)): null
+
+22-08-2025T10:48:04 - [TEST_STEP][PASSED] - url = "https://tapas.io/account/signin?from=/": null
+
+22-08-2025T10:48:04 - [TEST_STEP][PASSED] - cookieFilePath = "cookies.save": null
+
+22-08-2025T10:48:04 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+22-08-2025T10:48:04 - [TEST_STEP][PASSED] - cookieFile = new java.io.File(cookieFilePath): null
+
+22-08-2025T10:48:04 - [TEST_STEP][PASSED] - if (cookieFile.exists()): ✅ 쿠키 로드 완료! 자동 로그인 성공 시도
+
+22-08-2025T10:48:04 - [TEST_STEP][PASSED] - try: ✅ 쿠키 로드 완료! 자동 로그인 성공 시도
+
+22-08-2025T10:48:04 - [TEST_STEP][PASSED] - fis = new java.io.FileInputStream(cookieFile): null
+
+22-08-2025T10:48:04 - [TEST_STEP][PASSED] - ois = new java.io.ObjectInputStream(fis): null
+
+22-08-2025T10:48:04 - [TEST_STEP][PASSED] - cookies = ois.readObject(): null
+
+22-08-2025T10:48:04 - [TEST_STEP][PASSED] - ois.close(): null
+
+22-08-2025T10:48:04 - [TEST_STEP][PASSED] - fis.close(): null
+
+22-08-2025T10:48:04 - [TEST_STEP][PASSED] - for (org.openqa.selenium.Cookie cookie : cookies): null
+
+22-08-2025T10:48:04 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+22-08-2025T10:48:04 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+22-08-2025T10:48:04 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+22-08-2025T10:48:04 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+22-08-2025T10:48:04 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+22-08-2025T10:48:04 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+22-08-2025T10:48:04 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+22-08-2025T10:48:04 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+22-08-2025T10:48:04 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+22-08-2025T10:48:04 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+22-08-2025T10:48:04 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+22-08-2025T10:48:04 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+22-08-2025T10:48:04 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+22-08-2025T10:48:04 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+22-08-2025T10:48:04 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+22-08-2025T10:48:04 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+22-08-2025T10:48:04 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+22-08-2025T10:48:05 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+22-08-2025T10:48:05 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+22-08-2025T10:48:05 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+22-08-2025T10:48:05 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+22-08-2025T10:48:05 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+22-08-2025T10:48:05 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+22-08-2025T10:48:05 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+22-08-2025T10:48:05 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+22-08-2025T10:48:05 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+22-08-2025T10:48:05 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+22-08-2025T10:48:05 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+22-08-2025T10:48:05 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+22-08-2025T10:48:05 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+22-08-2025T10:48:05 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+22-08-2025T10:48:05 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+22-08-2025T10:48:05 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+22-08-2025T10:48:05 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+22-08-2025T10:48:05 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+22-08-2025T10:48:05 - [TEST_STEP][PASSED] - navigate().refresh(): null
+
+22-08-2025T10:48:06 - [TEST_STEP][PASSED] - comment("✅ 쿠키 로드 완료! 자동 로그인 성공 시도"): ✅ 쿠키 로드 완료! 자동 로그인 성공 시도
+
+22-08-2025T10:48:06 - [MESSAGE][INFO] - ✅ 쿠키 로드 완료! 자동 로그인 성공 시도
+
+22-08-2025T10:48:06 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+22-08-2025T10:48:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+22-08-2025T10:48:08 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+22-08-2025T10:48:08 - [MESSAGE][PASSED] - Current window maximized
+
+22-08-2025T10:48:08 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+22-08-2025T10:48:08 - [TEST_STEP][PASSED] - println("[AfterTestCase] GlobalVariable.isSuite: " + isSuite): null
+
+22-08-2025T10:48:08 - [TEST_STEP][PASSED] - if (!(isSuite)): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Prod환경/00.메인홈/02.검색/02.검색 결과 없음 확인 - Copy" time="5.56" classname="Test Cases/Prod환경/00.메인홈/02.검색/02.검색 결과 없음 확인 - Copy" status="PASSED">
+         <system-out><![CDATA[22-08-2025T10:48:08 - [TEST_CASE][PASSED] - Test Cases/Prod환경/00.메인홈/02.검색/02.검색 결과 없음 확인 - Copy: Test Cases/Prod환경/00.메인홈/02.검색/02.검색 결과 없음 확인 - Copy
+
+22-08-2025T10:48:08 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+22-08-2025T10:48:08 - [TEST_STEP][PASSED] - println("[BeforeTestCase] GlobalVariable.isSuite: " + isSuite): null
+
+22-08-2025T10:48:08 - [TEST_STEP][PASSED] - if (!(isSuite)): null
+
+22-08-2025T10:48:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Prod환경/Home/02.검색/00.검색란"), "비비비비비비비비비비"): Text '비비비비비비비비비비' is set on object 'Object Repository/Prod환경/Home/02.검색/00.검색란'
+
+22-08-2025T10:48:09 - [MESSAGE][PASSED] - Text '비비비비비비비비비비' is set on object 'Object Repository/Prod환경/Home/02.검색/00.검색란'
+
+22-08-2025T10:48:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Prod환경/Home/02.검색/01.검색버튼")): Object: 'Object Repository/Prod환경/Home/02.검색/01.검색버튼' is clicked on
+
+22-08-2025T10:48:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Prod환경/Home/02.검색/01.검색버튼' is clicked on
+
+22-08-2025T10:48:09 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Prod환경/Home/02.검색/04.검색결과 문구 없음"), 0): Object 'Object Repository/Prod환경/Home/02.검색/04.검색결과 문구 없음' is present
+
+22-08-2025T10:48:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+22-08-2025T10:48:12 - [MESSAGE][PASSED] - Object 'Object Repository/Prod환경/Home/02.검색/04.검색결과 문구 없음' is present
+
+22-08-2025T10:48:12 - [TEST_STEP][PASSED] - nolist = findTestObject("Prod환경/Home/02.검색/04.검색결과 문구 없음"): null
+
+22-08-2025T10:48:12 - [TEST_STEP][PASSED] - HighlightElement.run(nolist): null
+
+22-08-2025T10:48:13 - [TEST_STEP][PASSED] - verifyElementPresent(nolist, 0): Object 'Object Repository/Prod환경/Home/02.검색/04.검색결과 문구 없음' is present
+
+22-08-2025T10:48:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+22-08-2025T10:48:14 - [MESSAGE][PASSED] - Object 'Object Repository/Prod환경/Home/02.검색/04.검색결과 문구 없음' is present
+
+22-08-2025T10:48:14 - [TEST_STEP][PASSED] - comment("✅ 검색 완료"): ✅ 검색 완료
+
+22-08-2025T10:48:14 - [MESSAGE][INFO] - ✅ 검색 완료
+
+22-08-2025T10:48:14 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+22-08-2025T10:48:14 - [TEST_STEP][PASSED] - println("[AfterTestCase] GlobalVariable.isSuite: " + isSuite): null
+
+22-08-2025T10:48:14 - [TEST_STEP][PASSED] - if (!(isSuite)): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Prod환경/00.메인홈/02.검색/03.검색 리스트 확인 - Copy" time="6.634" classname="Test Cases/Prod환경/00.메인홈/02.검색/03.검색 리스트 확인 - Copy" status="PASSED">
+         <system-out><![CDATA[22-08-2025T10:48:14 - [TEST_CASE][PASSED] - Test Cases/Prod환경/00.메인홈/02.검색/03.검색 리스트 확인 - Copy: Test Cases/Prod환경/00.메인홈/02.검색/03.검색 리스트 확인 - Copy
+
+22-08-2025T10:48:14 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+22-08-2025T10:48:14 - [TEST_STEP][PASSED] - println("[BeforeTestCase] GlobalVariable.isSuite: " + isSuite): null
+
+22-08-2025T10:48:14 - [TEST_STEP][PASSED] - if (!(isSuite)): null
+
+22-08-2025T10:48:14 - [TEST_STEP][PASSED] - if (isSuite): Object: 'Object Repository/Tapas 로고' is clicked on
+
+22-08-2025T10:48:14 - [TEST_STEP][PASSED] - logo = findTestObject("Object Repository/Tapas 로고"): null
+
+22-08-2025T10:48:14 - [TEST_STEP][PASSED] - waitForElementVisible(logo, 10): Object 'Object Repository/Tapas 로고' is visible
+
+22-08-2025T10:48:14 - [MESSAGE][PASSED] - Object 'Object Repository/Tapas 로고' is visible
+
+22-08-2025T10:48:14 - [TEST_STEP][PASSED] - waitForElementClickable(logo, 10): Object 'Object Repository/Tapas 로고' is clickable
+
+22-08-2025T10:48:14 - [MESSAGE][PASSED] - Object 'Object Repository/Tapas 로고' is clickable
+
+22-08-2025T10:48:14 - [TEST_STEP][PASSED] - click(logo): Object: 'Object Repository/Tapas 로고' is clicked on
+
+22-08-2025T10:48:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Tapas 로고' is clicked on
+
+22-08-2025T10:48:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Prod환경/Home/02.검색/00.검색란"), "Solo leveling"): Text 'Solo leveling' is set on object 'Object Repository/Prod환경/Home/02.검색/00.검색란'
+
+22-08-2025T10:48:17 - [MESSAGE][PASSED] - Text 'Solo leveling' is set on object 'Object Repository/Prod환경/Home/02.검색/00.검색란'
+
+22-08-2025T10:48:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Prod환경/Home/02.검색/01.검색버튼")): Object: 'Object Repository/Prod환경/Home/02.검색/01.검색버튼' is clicked on
+
+22-08-2025T10:48:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Prod환경/Home/02.검색/01.검색버튼' is clicked on
+
+22-08-2025T10:48:17 - [TEST_STEP][PASSED] - searchlist = findTestObject("Prod환경/Home/02.검색/03.Solo Leveling 타이틀"): null
+
+22-08-2025T10:48:17 - [TEST_STEP][PASSED] - HighlightElement.run(searchlist): null
+
+22-08-2025T10:48:20 - [TEST_STEP][PASSED] - verifyElementPresent(searchlist, 0): Object 'Object Repository/Prod환경/Home/02.검색/03.Solo Leveling 타이틀' is present
+
+22-08-2025T10:48:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+22-08-2025T10:48:20 - [MESSAGE][PASSED] - Object 'Object Repository/Prod환경/Home/02.검색/03.Solo Leveling 타이틀' is present
+
+22-08-2025T10:48:20 - [TEST_STEP][PASSED] - comment("✅ 완료"): ✅ 완료
+
+22-08-2025T10:48:20 - [MESSAGE][INFO] - ✅ 완료
+
+22-08-2025T10:48:20 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+22-08-2025T10:48:20 - [TEST_STEP][PASSED] - println("[AfterTestCase] GlobalVariable.isSuite: " + isSuite): null
+
+22-08-2025T10:48:20 - [TEST_STEP][PASSED] - if (!(isSuite)): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Prod환경/00.메인홈/03.배너확인/04.라인배너 확인" time="7.954" classname="Test Cases/Prod환경/00.메인홈/03.배너확인/04.라인배너 확인" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Prod환경/00.메인홈/03.배너확인/04.라인배너 확인 FAILED.&#xa;Reason:&#xa;java.lang.AssertionError: Session ID is null. Using WebDriver after calling quit()?&#xa;Build info: version: '4.28.1', revision: '73f5ad48a2'&#xa;System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '17.0.13'&#xa;Driver info: com.kms.katalon.selenium.driver.CChromeDriver&#xa;Command: [null, executeScript {args=[{element-6066-11e4-a52e-4f735466cecf=f.2BF1E388DADF865B4462E7ADE12589BA.d.BEBAAE91488CDBB4C4E81645B2E8F36E.e.189}], script=arguments[0].setAttribute('style','background: yellow; border: 5px solid red;');}]&#xa;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.138, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/jt/hwd168h1059...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51955}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51955/devtoo..., se:cdpVersion: 139.0.7258.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:36126/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#xa;	at org.testng.Assert.fail(Assert.java:111)&#xa;	at com.reusableComponents.HighlightElement.run(HighlightElement.groovy:33)&#xa;	at 04.라인배너 확인.run(04.라인배너 확인:31)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)&#xa;	at TempTestSuite1755827277518.run(TempTestSuite1755827277518.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[22-08-2025T10:48:20 - [TEST_CASE][FAILED] - Test Cases/Prod환경/00.메인홈/03.배너확인/04.라인배너 확인: Test Cases/Prod환경/00.메인홈/03.배너확인/04.라인배너 확인 FAILED.
+Reason:
+java.lang.AssertionError: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '17.0.13'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [null, executeScript {args=[{element-6066-11e4-a52e-4f735466cecf=f.2BF1E388DADF865B4462E7ADE12589BA.d.BEBAAE91488CDBB4C4E81645B2E8F36E.e.189}], script=arguments[0].setAttribute('style','background: yellow; border: 5px solid red;');}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.138, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/jt/hwd168h1059...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51955}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51955/devtoo..., se:cdpVersion: 139.0.7258.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:36126/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+	at org.testng.Assert.fail(Assert.java:111)
+	at com.reusableComponents.HighlightElement.run(HighlightElement.groovy:33)
+	at 04.라인배너 확인.run(04.라인배너 확인:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1755827277518.run(TempTestSuite1755827277518.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+22-08-2025T10:48:20 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+22-08-2025T10:48:20 - [TEST_STEP][PASSED] - println("[BeforeTestCase] GlobalVariable.isSuite: " + isSuite): null
+
+22-08-2025T10:48:20 - [TEST_STEP][PASSED] - if (!(isSuite)): null
+
+22-08-2025T10:48:20 - [TEST_STEP][PASSED] - comment("✅ 라인배너 실행"): ✅ 라인배너 실행
+
+22-08-2025T10:48:20 - [MESSAGE][INFO] - ✅ 라인배너 실행
+
+22-08-2025T10:48:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/CallTest용도/브라우저오픈"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/CallTest용도/브라우저오픈' successfully
+
+22-08-2025T10:48:20 - [TEST_CASE][PASSED] - Test Cases/CallTest용도/브라우저오픈: Test Cases/CallTest용도/브라우저오픈
+
+22-08-2025T10:48:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+22-08-2025T10:48:20 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+22-08-2025T10:48:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+22-08-2025T10:48:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+22-08-2025T10:48:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+22-08-2025T10:48:21 - [TEST_STEP][PASSED] - navigateToUrl("https://tapas.io/"): Navigate to 'https://tapas.io/' successfully
+
+22-08-2025T10:48:25 - [MESSAGE][PASSED] - Navigate to 'https://tapas.io/' successfully
+
+22-08-2025T10:48:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CallTest용도/브라우저오픈' successfully
+
+22-08-2025T10:48:25 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+22-08-2025T10:48:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+22-08-2025T10:48:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Prod환경/Home/04.배너/라인배너/00. Free 서브탭")): Object: 'Object Repository/Prod환경/Home/04.배너/라인배너/00. Free 서브탭' is clicked on
+
+22-08-2025T10:48:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Prod환경/Home/04.배너/라인배너/00. Free 서브탭' is clicked on
+
+22-08-2025T10:48:27 - [TEST_STEP][PASSED] - linebanner = findTestObject("Prod환경/Home/04.배너/라인배너/01.라인배너"): null
+
+22-08-2025T10:48:27 - [TEST_STEP][FAILED] - HighlightElement.run(linebanner): Test Cases/Prod환경/00.메인홈/03.배너확인/04.라인배너 확인 FAILED.
+Reason:
+java.lang.AssertionError: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '17.0.13'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [null, executeScript {args=[{element-6066-11e4-a52e-4f735466cecf=f.2BF1E388DADF865B4462E7ADE12589BA.d.BEBAAE91488CDBB4C4E81645B2E8F36E.e.189}], script=arguments[0].setAttribute('style','background: yellow; border: 5px solid red;');}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.138, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/jt/hwd168h1059...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51955}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51955/devtoo..., se:cdpVersion: 139.0.7258.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:36126/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+	at org.testng.Assert.fail(Assert.java:111)
+	at com.reusableComponents.HighlightElement.run(HighlightElement.groovy:33)
+	at 04.라인배너 확인.run(04.라인배너 확인:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1755827277518.run(TempTestSuite1755827277518.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+22-08-2025T10:48:28 - [MESSAGE][FAILED] - Test Cases/Prod환경/00.메인홈/03.배너확인/04.라인배너 확인 FAILED.
+Reason:
+java.lang.AssertionError: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '17.0.13'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [null, executeScript {args=[{element-6066-11e4-a52e-4f735466cecf=f.2BF1E388DADF865B4462E7ADE12589BA.d.BEBAAE91488CDBB4C4E81645B2E8F36E.e.189}], script=arguments[0].setAttribute('style','background: yellow; border: 5px solid red;');}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.138, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/jt/hwd168h1059...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51955}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51955/devtoo..., se:cdpVersion: 139.0.7258.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:36126/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+	at org.testng.Assert.fail(Assert.java:111)
+	at com.reusableComponents.HighlightElement.run(HighlightElement.groovy:33)
+	at 04.라인배너 확인.run(04.라인배너 확인:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1755827277518.run(TempTestSuite1755827277518.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+22-08-2025T10:48:28 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+22-08-2025T10:48:28 - [TEST_STEP][PASSED] - println("[AfterTestCase] GlobalVariable.isSuite: " + isSuite): null
+
+22-08-2025T10:48:28 - [TEST_STEP][PASSED] - if (!(isSuite)): null]]></system-out>
+         <system-err><![CDATA[22-08-2025T10:48:20 - [TEST_CASE][FAILED] - Test Cases/Prod환경/00.메인홈/03.배너확인/04.라인배너 확인: Test Cases/Prod환경/00.메인홈/03.배너확인/04.라인배너 확인 FAILED.
+Reason:
+java.lang.AssertionError: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '17.0.13'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [null, executeScript {args=[{element-6066-11e4-a52e-4f735466cecf=f.2BF1E388DADF865B4462E7ADE12589BA.d.BEBAAE91488CDBB4C4E81645B2E8F36E.e.189}], script=arguments[0].setAttribute('style','background: yellow; border: 5px solid red;');}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.138, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/jt/hwd168h1059...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51955}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51955/devtoo..., se:cdpVersion: 139.0.7258.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:36126/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+	at org.testng.Assert.fail(Assert.java:111)
+	at com.reusableComponents.HighlightElement.run(HighlightElement.groovy:33)
+	at 04.라인배너 확인.run(04.라인배너 확인:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1755827277518.run(TempTestSuite1755827277518.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[22-08-2025T10:47:59 - [TEST_STEP][ERROR] - Start listener action : beforeSuite: com.kms.katalon.core.exception.StepFailedException: Actual text 'https://tapas.io/' and expected text 'https://tapas.io' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at BrowserControl.beforeSuite(BrowserControl.groovy:47)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1755827277518.run(TempTestSuite1755827277518.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+22-08-2025T10:47:59 - [TEST_STEP][PASSED] - println("[Suite 실행] 브라우저 오픈"): null
+
+22-08-2025T10:47:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+22-08-2025T10:47:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+22-08-2025T10:47:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+22-08-2025T10:48:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+22-08-2025T10:48:01 - [TEST_STEP][PASSED] - url = "https://tapas.io": null
+
+22-08-2025T10:48:01 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://tapas.io' successfully
+
+22-08-2025T10:48:02 - [MESSAGE][PASSED] - Navigate to 'https://tapas.io' successfully
+
+22-08-2025T10:48:02 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+22-08-2025T10:48:02 - [MESSAGE][PASSED] - Wait for page load successfully
+
+22-08-2025T10:48:02 - [TEST_STEP][ERROR] - verifyMatch(getUrl(), url, false): com.kms.katalon.core.exception.StepFailedException: Actual text 'https://tapas.io/' and expected text 'https://tapas.io' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at BrowserControl.beforeSuite(BrowserControl.groovy:47)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1755827277518.run(TempTestSuite1755827277518.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+22-08-2025T10:48:02 - [MESSAGE][PASSED] - Current window's url is: 'https://tapas.io/'
+
+22-08-2025T10:48:02 - [MESSAGE][FAILED] - Unable to verify match between actual text 'https://tapas.io/' and expected text 'https://tapas.io' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'https://tapas.io/' and expected text 'https://tapas.io' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at BrowserControl.beforeSuite(BrowserControl.groovy:47)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1755827277518.run(TempTestSuite1755827277518.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+22-08-2025T10:48:02 - [MESSAGE][ERROR] - com.kms.katalon.core.exception.StepFailedException: Actual text 'https://tapas.io/' and expected text 'https://tapas.io' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at BrowserControl.beforeSuite(BrowserControl.groovy:47)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1755827277518.run(TempTestSuite1755827277518.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+22-08-2025T10:47:59 - [TEST_SUITE][FAILED] - TC1: Test Cases/Prod환경/00.메인홈/03.배너확인/04.라인배너 확인 FAILED.
+Reason:
+java.lang.AssertionError: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '17.0.13'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [null, executeScript {args=[{element-6066-11e4-a52e-4f735466cecf=f.2BF1E388DADF865B4462E7ADE12589BA.d.BEBAAE91488CDBB4C4E81645B2E8F36E.e.189}], script=arguments[0].setAttribute('style','background: yellow; border: 5px solid red;');}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.138, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/jt/hwd168h1059...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51955}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51955/devtoo..., se:cdpVersion: 139.0.7258.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:36126/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+	at org.testng.Assert.fail(Assert.java:111)
+	at com.reusableComponents.HighlightElement.run(HighlightElement.groovy:33)
+	at 04.라인배너 확인.run(04.라인배너 확인:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1755827277518.run(TempTestSuite1755827277518.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+22-08-2025T10:48:28 - [TEST_STEP][PASSED] - Start listener action : afterSuite: null
+
+22-08-2025T10:48:28 - [TEST_STEP][PASSED] - println("[Suite 실행] 브라우저 닫기"): null
+
+22-08-2025T10:48:28 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+22-08-2025T10:48:28 - [MESSAGE][PASSED] - Browser is closed
+
+22-08-2025T10:48:28 - [TEST_STEP][PASSED] - isSuite = false: null]]></system-out>
+      <system-err><![CDATA[22-08-2025T10:47:59 - [TEST_SUITE][FAILED] - TC1: Test Cases/Prod환경/00.메인홈/03.배너확인/04.라인배너 확인 FAILED.
+Reason:
+java.lang.AssertionError: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '17.0.13'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [null, executeScript {args=[{element-6066-11e4-a52e-4f735466cecf=f.2BF1E388DADF865B4462E7ADE12589BA.d.BEBAAE91488CDBB4C4E81645B2E8F36E.e.189}], script=arguments[0].setAttribute('style','background: yellow; border: 5px solid red;');}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.138, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /var/folders/jt/hwd168h1059...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51955}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51955/devtoo..., se:cdpVersion: 139.0.7258.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:36126/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+	at org.testng.Assert.fail(Assert.java:111)
+	at com.reusableComponents.HighlightElement.run(HighlightElement.groovy:33)
+	at 04.라인배너 확인.run(04.라인배너 확인:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1755827277518.run(TempTestSuite1755827277518.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+   </testsuite>
+</testsuites>
