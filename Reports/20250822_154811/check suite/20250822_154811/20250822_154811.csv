@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+check suite,Chrome 139.0.7258.138,,,22-08-2025 15:48:13,22-08-2025 15:48:20,7.510s,ERROR
+,,,,,,,
+Start listener action : beforeSuite,Chrome 139.0.7258.138,,,22-08-2025 15:48:13,22-08-2025 15:48:16,3.206s,ERROR
+,,,,,,,
+Test Cases/Prod환경/00.메인홈/01.로그인/01.자동 로그인 확인 - Copy,Chrome 139.0.7258.138,,,22-08-2025 15:48:16,22-08-2025 15:48:20,4.058s,PASSED
+Start listener action : beforeTestCase,Chrome 139.0.7258.138,,,22-08-2025 15:48:16,22-08-2025 15:48:16,0.006s,PASSED
+"url = ""https://tapas.io/account/signin?from=/""",Chrome 139.0.7258.138,,,22-08-2025 15:48:16,22-08-2025 15:48:16,0.001s,PASSED
+"cookieFilePath = ""cookies.save""",Chrome 139.0.7258.138,,,22-08-2025 15:48:16,22-08-2025 15:48:16,0.000s,PASSED
+driver = getWebDriver(),Chrome 139.0.7258.138,,,22-08-2025 15:48:16,22-08-2025 15:48:16,0.001s,PASSED
+cookieFile = new java.io.File(cookieFilePath),Chrome 139.0.7258.138,,,22-08-2025 15:48:16,22-08-2025 15:48:16,0.001s,PASSED
+if (cookieFile.exists()),Chrome 139.0.7258.138,,,22-08-2025 15:48:16,22-08-2025 15:48:18,1.499s,PASSED
+delay(2),Chrome 139.0.7258.138,,,22-08-2025 15:48:18,22-08-2025 15:48:20,2.015s,PASSED
+maximizeWindow(),Chrome 139.0.7258.138,,,22-08-2025 15:48:20,22-08-2025 15:48:20,0.409s,PASSED
+Start listener action : afterTestCase,Chrome 139.0.7258.138,,,22-08-2025 15:48:20,22-08-2025 15:48:20,0.007s,PASSED
+,,,,,,,
+Test Cases/Prod환경/00.메인홈/03.배너확인/06.숏컷 객체 강조 - 로그인,Chrome 139.0.7258.138,,,22-08-2025 15:48:20,22-08-2025 15:48:20,0.041s,ERROR
+Start listener action : beforeTestCase,Chrome 139.0.7258.138,,,22-08-2025 15:48:20,22-08-2025 15:48:20,0.001s,PASSED
+Start listener action : afterTestCase,Chrome 139.0.7258.138,,,22-08-2025 15:48:20,22-08-2025 15:48:20,0.000s,PASSED
+,,,,,,,
+Start listener action : afterSuite,Chrome 139.0.7258.138,,,22-08-2025 15:48:20,22-08-2025 15:48:20,0.136s,PASSED

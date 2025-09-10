@@ -1,0 +1,1048 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="check suite" time="63.201" tests="2" failures="0" errors="0">
+   <testsuite name="check suite" tests="2" failures="0" errors="0" time="63.201" skipped="0" timestamp="22-08-2025T16:16:02" hostname="ruben.lee - localhost" id="Test Suites/check suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/ruben.lee/Katalon Studio/TapasTest/Reports/20250822_161559/check suite/20250822_161600"/>
+         <property name="logFiles" value="/Users/ruben.lee/Katalon Studio/TapasTest/Reports/20250822_161559/check suite/20250822_161600/execution0.log, /Users/ruben.lee/Katalon Studio/TapasTest/Reports/20250822_161559/check suite/20250822_161600/console0.log"/>
+         <property name="attachments" value="/Users/ruben.lee/Katalon Studio/TapasTest/Reports/20250822_161559/check suite/20250822_161600/1755846974717.png, /Users/ruben.lee/Katalon Studio/TapasTest/Reports/20250822_161559/check suite/20250822_161600/1755846979722.png, /Users/ruben.lee/Katalon Studio/TapasTest/Reports/20250822_161559/check suite/20250822_161600/1755846984568.png, /Users/ruben.lee/Katalon Studio/TapasTest/Reports/20250822_161559/check suite/20250822_161600/1755846989408.png, /Users/ruben.lee/Katalon Studio/TapasTest/Reports/20250822_161559/check suite/20250822_161600/1755846994226.png, /Users/ruben.lee/Katalon Studio/TapasTest/Reports/20250822_161559/check suite/20250822_161600/1755846999039.png, /Users/ruben.lee/Katalon Studio/TapasTest/Reports/20250822_161559/check suite/20250822_161600/1755847004094.png, /Users/ruben.lee/Katalon Studio/TapasTest/Reports/20250822_161559/check suite/20250822_161600/1755847008997.png, /Users/ruben.lee/Katalon Studio/TapasTest/Reports/20250822_161559/check suite/20250822_161600/1755847013900.png, /Users/ruben.lee/Katalon Studio/TapasTest/Reports/20250822_161559/check suite/20250822_161600/1755847018758.png"/>
+         <property name="hostName" value="ruben.lee - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="10.2.1.0"/>
+         <property name="browser" value="Chrome 139.0.7258.138"/>
+         <property name="userFullName" value="이수호 ruben"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="b7b8d5fc667e23fc1965718a88b2b32d"/>
+         <property name="projectName" value="Tapas Test"/>
+         <property name="seleniumVersion" value="4.28.1"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Prod환경/00.메인홈/01.로그인/01.자동 로그인 확인 - Copy" time="4.307" classname="Test Cases/Prod환경/00.메인홈/01.로그인/01.자동 로그인 확인 - Copy" status="PASSED">
+         <system-out><![CDATA[22-08-2025T16:16:05 - [TEST_CASE][PASSED] - Test Cases/Prod환경/00.메인홈/01.로그인/01.자동 로그인 확인 - Copy: Test Cases/Prod환경/00.메인홈/01.로그인/01.자동 로그인 확인 - Copy
+
+22-08-2025T16:16:05 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+22-08-2025T16:16:05 - [TEST_STEP][PASSED] - println("[BeforeTestCase] GlobalVariable.isSuite: " + isSuite): null
+
+22-08-2025T16:16:05 - [TEST_STEP][PASSED] - if (!(isSuite)): null
+
+22-08-2025T16:16:05 - [TEST_STEP][PASSED] - url = "https://tapas.io/account/signin?from=/": null
+
+22-08-2025T16:16:05 - [TEST_STEP][PASSED] - cookieFilePath = "cookies.save": null
+
+22-08-2025T16:16:05 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+22-08-2025T16:16:05 - [TEST_STEP][PASSED] - cookieFile = new java.io.File(cookieFilePath): null
+
+22-08-2025T16:16:05 - [TEST_STEP][PASSED] - if (cookieFile.exists()): ✅ 쿠키 로드 완료! 자동 로그인 성공 시도
+
+22-08-2025T16:16:05 - [TEST_STEP][PASSED] - try: ✅ 쿠키 로드 완료! 자동 로그인 성공 시도
+
+22-08-2025T16:16:05 - [TEST_STEP][PASSED] - fis = new java.io.FileInputStream(cookieFile): null
+
+22-08-2025T16:16:05 - [TEST_STEP][PASSED] - ois = new java.io.ObjectInputStream(fis): null
+
+22-08-2025T16:16:05 - [TEST_STEP][PASSED] - cookies = ois.readObject(): null
+
+22-08-2025T16:16:05 - [TEST_STEP][PASSED] - ois.close(): null
+
+22-08-2025T16:16:05 - [TEST_STEP][PASSED] - fis.close(): null
+
+22-08-2025T16:16:05 - [TEST_STEP][PASSED] - for (org.openqa.selenium.Cookie cookie : cookies): null
+
+22-08-2025T16:16:05 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+22-08-2025T16:16:05 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+22-08-2025T16:16:05 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+22-08-2025T16:16:05 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+22-08-2025T16:16:05 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+22-08-2025T16:16:05 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+22-08-2025T16:16:05 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+22-08-2025T16:16:05 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+22-08-2025T16:16:05 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+22-08-2025T16:16:05 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+22-08-2025T16:16:05 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+22-08-2025T16:16:05 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+22-08-2025T16:16:05 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+22-08-2025T16:16:05 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+22-08-2025T16:16:05 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+22-08-2025T16:16:05 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+22-08-2025T16:16:05 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+22-08-2025T16:16:05 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+22-08-2025T16:16:05 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+22-08-2025T16:16:05 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+22-08-2025T16:16:05 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+22-08-2025T16:16:05 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+22-08-2025T16:16:05 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+22-08-2025T16:16:05 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+22-08-2025T16:16:05 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+22-08-2025T16:16:05 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+22-08-2025T16:16:05 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+22-08-2025T16:16:05 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+22-08-2025T16:16:05 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+22-08-2025T16:16:05 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+22-08-2025T16:16:05 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+22-08-2025T16:16:05 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+22-08-2025T16:16:05 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+22-08-2025T16:16:05 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+22-08-2025T16:16:05 - [TEST_STEP][PASSED] - manage().addCookie(cookie): null
+
+22-08-2025T16:16:05 - [TEST_STEP][PASSED] - navigate().refresh(): null
+
+22-08-2025T16:16:07 - [TEST_STEP][PASSED] - comment("✅ 쿠키 로드 완료! 자동 로그인 성공 시도"): ✅ 쿠키 로드 완료! 자동 로그인 성공 시도
+
+22-08-2025T16:16:07 - [MESSAGE][INFO] - ✅ 쿠키 로드 완료! 자동 로그인 성공 시도
+
+22-08-2025T16:16:07 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+22-08-2025T16:16:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+22-08-2025T16:16:09 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+22-08-2025T16:16:09 - [MESSAGE][PASSED] - Current window maximized
+
+22-08-2025T16:16:09 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+22-08-2025T16:16:09 - [TEST_STEP][PASSED] - println("[AfterTestCase] GlobalVariable.isSuite: " + isSuite): null
+
+22-08-2025T16:16:09 - [TEST_STEP][PASSED] - if (!(isSuite)): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Prod환경/00.메인홈/04.서브탭/09.Popular 서브탭" time="55.881" classname="Test Cases/Prod환경/00.메인홈/04.서브탭/09.Popular 서브탭" status="PASSED">
+         <system-out><![CDATA[22-08-2025T16:16:09 - [TEST_CASE][PASSED] - Test Cases/Prod환경/00.메인홈/04.서브탭/09.Popular 서브탭: Test Cases/Prod환경/00.메인홈/04.서브탭/09.Popular 서브탭
+
+22-08-2025T16:16:09 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+22-08-2025T16:16:09 - [TEST_STEP][PASSED] - println("[BeforeTestCase] GlobalVariable.isSuite: " + isSuite): null
+
+22-08-2025T16:16:09 - [TEST_STEP][PASSED] - if (!(isSuite)): null
+
+22-08-2025T16:16:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Prod환경/Home/05.서브탭/00.popular 버튼")): Object: 'Object Repository/Prod환경/Home/05.서브탭/00.popular 버튼' is clicked on
+
+22-08-2025T16:16:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Prod환경/Home/05.서브탭/00.popular 버튼' is clicked on
+
+22-08-2025T16:16:10 - [TEST_STEP][PASSED] - for ([i = 0, i < 11, (i++)]): null
+
+22-08-2025T16:16:10 - [TEST_STEP][PASSED] - executeJavaScript("window.scrollTo(0, document.body.scrollHeight);", null): Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+22-08-2025T16:16:10 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+22-08-2025T16:16:10 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+22-08-2025T16:16:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+22-08-2025T16:16:12 - [TEST_STEP][PASSED] - rank300 = findTestObject("Prod환경/Home/05.서브탭/01.300위작품"): null
+
+22-08-2025T16:16:12 - [TEST_STEP][WARNING] - if (verifyElementPresent(rank300, 1, OPTIONAL)): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Prod환경/Home/05.서브탭/01.300위작품' located by '//div[@id='__next']/div/div/main/section[3]/section/div/div/article[299]/a/div/div[4]/div' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Prod환경/Home/05.서브탭/01.300위작품' located by '//div[@id='__next']/div/div/main/section[3]/section/div/div/article[299]/a/div/div[4]/div' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1524)
+	at 09.Popular 서브탭.run(09.Popular 서브탭:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1755846960321.run(TempTestSuite1755846960321.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+22-08-2025T16:16:14 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='__next']/div/div/main/section[3]/section/div/div/article[299]/a/div/div[4]/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+22-08-2025T16:16:15 - [MESSAGE][WARNING] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Prod환경/Home/05.서브탭/01.300위작품' located by '//div[@id='__next']/div/div/main/section[3]/section/div/div/article[299]/a/div/div[4]/div' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Prod환경/Home/05.서브탭/01.300위작품' located by '//div[@id='__next']/div/div/main/section[3]/section/div/div/article[299]/a/div/div[4]/div' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1524)
+	at 09.Popular 서브탭.run(09.Popular 서브탭:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1755846960321.run(TempTestSuite1755846960321.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|/Users/ruben.lee/Katalon Studio/TapasTest/Reports/20250822_161559/check suite/20250822_161600/1755846974717.png]]
+
+22-08-2025T16:16:15 - [TEST_STEP][PASSED] - executeJavaScript("window.scrollTo(0, document.body.scrollHeight);", null): Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+22-08-2025T16:16:15 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+22-08-2025T16:16:15 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+22-08-2025T16:16:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+22-08-2025T16:16:17 - [TEST_STEP][PASSED] - rank300 = findTestObject("Prod환경/Home/05.서브탭/01.300위작품"): null
+
+22-08-2025T16:16:17 - [TEST_STEP][WARNING] - if (verifyElementPresent(rank300, 1, OPTIONAL)): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Prod환경/Home/05.서브탭/01.300위작품' located by '//div[@id='__next']/div/div/main/section[3]/section/div/div/article[299]/a/div/div[4]/div' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Prod환경/Home/05.서브탭/01.300위작품' located by '//div[@id='__next']/div/div/main/section[3]/section/div/div/article[299]/a/div/div[4]/div' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1524)
+	at 09.Popular 서브탭.run(09.Popular 서브탭:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1755846960321.run(TempTestSuite1755846960321.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+22-08-2025T16:16:19 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='__next']/div/div/main/section[3]/section/div/div/article[299]/a/div/div[4]/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+22-08-2025T16:16:20 - [MESSAGE][WARNING] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Prod환경/Home/05.서브탭/01.300위작품' located by '//div[@id='__next']/div/div/main/section[3]/section/div/div/article[299]/a/div/div[4]/div' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Prod환경/Home/05.서브탭/01.300위작품' located by '//div[@id='__next']/div/div/main/section[3]/section/div/div/article[299]/a/div/div[4]/div' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1524)
+	at 09.Popular 서브탭.run(09.Popular 서브탭:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1755846960321.run(TempTestSuite1755846960321.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|/Users/ruben.lee/Katalon Studio/TapasTest/Reports/20250822_161559/check suite/20250822_161600/1755846979722.png]]
+
+22-08-2025T16:16:20 - [TEST_STEP][PASSED] - executeJavaScript("window.scrollTo(0, document.body.scrollHeight);", null): Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+22-08-2025T16:16:20 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+22-08-2025T16:16:20 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+22-08-2025T16:16:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+22-08-2025T16:16:22 - [TEST_STEP][PASSED] - rank300 = findTestObject("Prod환경/Home/05.서브탭/01.300위작품"): null
+
+22-08-2025T16:16:22 - [TEST_STEP][WARNING] - if (verifyElementPresent(rank300, 1, OPTIONAL)): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Prod환경/Home/05.서브탭/01.300위작품' located by '//div[@id='__next']/div/div/main/section[3]/section/div/div/article[299]/a/div/div[4]/div' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Prod환경/Home/05.서브탭/01.300위작품' located by '//div[@id='__next']/div/div/main/section[3]/section/div/div/article[299]/a/div/div[4]/div' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1524)
+	at 09.Popular 서브탭.run(09.Popular 서브탭:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1755846960321.run(TempTestSuite1755846960321.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+22-08-2025T16:16:24 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='__next']/div/div/main/section[3]/section/div/div/article[299]/a/div/div[4]/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+22-08-2025T16:16:25 - [MESSAGE][WARNING] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Prod환경/Home/05.서브탭/01.300위작품' located by '//div[@id='__next']/div/div/main/section[3]/section/div/div/article[299]/a/div/div[4]/div' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Prod환경/Home/05.서브탭/01.300위작품' located by '//div[@id='__next']/div/div/main/section[3]/section/div/div/article[299]/a/div/div[4]/div' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1524)
+	at 09.Popular 서브탭.run(09.Popular 서브탭:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1755846960321.run(TempTestSuite1755846960321.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|/Users/ruben.lee/Katalon Studio/TapasTest/Reports/20250822_161559/check suite/20250822_161600/1755846984568.png]]
+
+22-08-2025T16:16:25 - [TEST_STEP][PASSED] - executeJavaScript("window.scrollTo(0, document.body.scrollHeight);", null): Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+22-08-2025T16:16:25 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+22-08-2025T16:16:25 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+22-08-2025T16:16:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+22-08-2025T16:16:27 - [TEST_STEP][PASSED] - rank300 = findTestObject("Prod환경/Home/05.서브탭/01.300위작품"): null
+
+22-08-2025T16:16:27 - [TEST_STEP][WARNING] - if (verifyElementPresent(rank300, 1, OPTIONAL)): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Prod환경/Home/05.서브탭/01.300위작품' located by '//div[@id='__next']/div/div/main/section[3]/section/div/div/article[299]/a/div/div[4]/div' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Prod환경/Home/05.서브탭/01.300위작품' located by '//div[@id='__next']/div/div/main/section[3]/section/div/div/article[299]/a/div/div[4]/div' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1524)
+	at 09.Popular 서브탭.run(09.Popular 서브탭:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1755846960321.run(TempTestSuite1755846960321.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+22-08-2025T16:16:29 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='__next']/div/div/main/section[3]/section/div/div/article[299]/a/div/div[4]/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+22-08-2025T16:16:30 - [MESSAGE][WARNING] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Prod환경/Home/05.서브탭/01.300위작품' located by '//div[@id='__next']/div/div/main/section[3]/section/div/div/article[299]/a/div/div[4]/div' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Prod환경/Home/05.서브탭/01.300위작품' located by '//div[@id='__next']/div/div/main/section[3]/section/div/div/article[299]/a/div/div[4]/div' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1524)
+	at 09.Popular 서브탭.run(09.Popular 서브탭:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1755846960321.run(TempTestSuite1755846960321.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|/Users/ruben.lee/Katalon Studio/TapasTest/Reports/20250822_161559/check suite/20250822_161600/1755846989408.png]]
+
+22-08-2025T16:16:30 - [TEST_STEP][PASSED] - executeJavaScript("window.scrollTo(0, document.body.scrollHeight);", null): Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+22-08-2025T16:16:30 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+22-08-2025T16:16:30 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+22-08-2025T16:16:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+22-08-2025T16:16:32 - [TEST_STEP][PASSED] - rank300 = findTestObject("Prod환경/Home/05.서브탭/01.300위작품"): null
+
+22-08-2025T16:16:32 - [TEST_STEP][WARNING] - if (verifyElementPresent(rank300, 1, OPTIONAL)): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Prod환경/Home/05.서브탭/01.300위작품' located by '//div[@id='__next']/div/div/main/section[3]/section/div/div/article[299]/a/div/div[4]/div' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Prod환경/Home/05.서브탭/01.300위작품' located by '//div[@id='__next']/div/div/main/section[3]/section/div/div/article[299]/a/div/div[4]/div' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1524)
+	at 09.Popular 서브탭.run(09.Popular 서브탭:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1755846960321.run(TempTestSuite1755846960321.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+22-08-2025T16:16:34 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='__next']/div/div/main/section[3]/section/div/div/article[299]/a/div/div[4]/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+22-08-2025T16:16:34 - [MESSAGE][WARNING] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Prod환경/Home/05.서브탭/01.300위작품' located by '//div[@id='__next']/div/div/main/section[3]/section/div/div/article[299]/a/div/div[4]/div' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Prod환경/Home/05.서브탭/01.300위작품' located by '//div[@id='__next']/div/div/main/section[3]/section/div/div/article[299]/a/div/div[4]/div' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1524)
+	at 09.Popular 서브탭.run(09.Popular 서브탭:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1755846960321.run(TempTestSuite1755846960321.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|/Users/ruben.lee/Katalon Studio/TapasTest/Reports/20250822_161559/check suite/20250822_161600/1755846994226.png]]
+
+22-08-2025T16:16:34 - [TEST_STEP][PASSED] - executeJavaScript("window.scrollTo(0, document.body.scrollHeight);", null): Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+22-08-2025T16:16:34 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+22-08-2025T16:16:34 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+22-08-2025T16:16:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+22-08-2025T16:16:36 - [TEST_STEP][PASSED] - rank300 = findTestObject("Prod환경/Home/05.서브탭/01.300위작품"): null
+
+22-08-2025T16:16:36 - [TEST_STEP][WARNING] - if (verifyElementPresent(rank300, 1, OPTIONAL)): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Prod환경/Home/05.서브탭/01.300위작품' located by '//div[@id='__next']/div/div/main/section[3]/section/div/div/article[299]/a/div/div[4]/div' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Prod환경/Home/05.서브탭/01.300위작품' located by '//div[@id='__next']/div/div/main/section[3]/section/div/div/article[299]/a/div/div[4]/div' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1524)
+	at 09.Popular 서브탭.run(09.Popular 서브탭:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1755846960321.run(TempTestSuite1755846960321.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+22-08-2025T16:16:39 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='__next']/div/div/main/section[3]/section/div/div/article[299]/a/div/div[4]/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+22-08-2025T16:16:39 - [MESSAGE][WARNING] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Prod환경/Home/05.서브탭/01.300위작품' located by '//div[@id='__next']/div/div/main/section[3]/section/div/div/article[299]/a/div/div[4]/div' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Prod환경/Home/05.서브탭/01.300위작품' located by '//div[@id='__next']/div/div/main/section[3]/section/div/div/article[299]/a/div/div[4]/div' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1524)
+	at 09.Popular 서브탭.run(09.Popular 서브탭:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1755846960321.run(TempTestSuite1755846960321.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|/Users/ruben.lee/Katalon Studio/TapasTest/Reports/20250822_161559/check suite/20250822_161600/1755846999039.png]]
+
+22-08-2025T16:16:39 - [TEST_STEP][PASSED] - executeJavaScript("window.scrollTo(0, document.body.scrollHeight);", null): Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+22-08-2025T16:16:39 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+22-08-2025T16:16:39 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+22-08-2025T16:16:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+22-08-2025T16:16:41 - [TEST_STEP][PASSED] - rank300 = findTestObject("Prod환경/Home/05.서브탭/01.300위작품"): null
+
+22-08-2025T16:16:41 - [TEST_STEP][WARNING] - if (verifyElementPresent(rank300, 1, OPTIONAL)): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Prod환경/Home/05.서브탭/01.300위작품' located by '//div[@id='__next']/div/div/main/section[3]/section/div/div/article[299]/a/div/div[4]/div' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Prod환경/Home/05.서브탭/01.300위작품' located by '//div[@id='__next']/div/div/main/section[3]/section/div/div/article[299]/a/div/div[4]/div' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1524)
+	at 09.Popular 서브탭.run(09.Popular 서브탭:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1755846960321.run(TempTestSuite1755846960321.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+22-08-2025T16:16:44 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='__next']/div/div/main/section[3]/section/div/div/article[299]/a/div/div[4]/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+22-08-2025T16:16:44 - [MESSAGE][WARNING] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Prod환경/Home/05.서브탭/01.300위작품' located by '//div[@id='__next']/div/div/main/section[3]/section/div/div/article[299]/a/div/div[4]/div' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Prod환경/Home/05.서브탭/01.300위작품' located by '//div[@id='__next']/div/div/main/section[3]/section/div/div/article[299]/a/div/div[4]/div' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1524)
+	at 09.Popular 서브탭.run(09.Popular 서브탭:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1755846960321.run(TempTestSuite1755846960321.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|/Users/ruben.lee/Katalon Studio/TapasTest/Reports/20250822_161559/check suite/20250822_161600/1755847004094.png]]
+
+22-08-2025T16:16:44 - [TEST_STEP][PASSED] - executeJavaScript("window.scrollTo(0, document.body.scrollHeight);", null): Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+22-08-2025T16:16:44 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+22-08-2025T16:16:44 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+22-08-2025T16:16:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+22-08-2025T16:16:46 - [TEST_STEP][PASSED] - rank300 = findTestObject("Prod환경/Home/05.서브탭/01.300위작품"): null
+
+22-08-2025T16:16:46 - [TEST_STEP][WARNING] - if (verifyElementPresent(rank300, 1, OPTIONAL)): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Prod환경/Home/05.서브탭/01.300위작품' located by '//div[@id='__next']/div/div/main/section[3]/section/div/div/article[299]/a/div/div[4]/div' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Prod환경/Home/05.서브탭/01.300위작품' located by '//div[@id='__next']/div/div/main/section[3]/section/div/div/article[299]/a/div/div[4]/div' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1524)
+	at 09.Popular 서브탭.run(09.Popular 서브탭:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1755846960321.run(TempTestSuite1755846960321.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+22-08-2025T16:16:48 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='__next']/div/div/main/section[3]/section/div/div/article[299]/a/div/div[4]/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+22-08-2025T16:16:49 - [MESSAGE][WARNING] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Prod환경/Home/05.서브탭/01.300위작품' located by '//div[@id='__next']/div/div/main/section[3]/section/div/div/article[299]/a/div/div[4]/div' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Prod환경/Home/05.서브탭/01.300위작품' located by '//div[@id='__next']/div/div/main/section[3]/section/div/div/article[299]/a/div/div[4]/div' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1524)
+	at 09.Popular 서브탭.run(09.Popular 서브탭:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1755846960321.run(TempTestSuite1755846960321.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|/Users/ruben.lee/Katalon Studio/TapasTest/Reports/20250822_161559/check suite/20250822_161600/1755847008997.png]]
+
+22-08-2025T16:16:49 - [TEST_STEP][PASSED] - executeJavaScript("window.scrollTo(0, document.body.scrollHeight);", null): Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+22-08-2025T16:16:49 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+22-08-2025T16:16:49 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+22-08-2025T16:16:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+22-08-2025T16:16:51 - [TEST_STEP][PASSED] - rank300 = findTestObject("Prod환경/Home/05.서브탭/01.300위작품"): null
+
+22-08-2025T16:16:51 - [TEST_STEP][WARNING] - if (verifyElementPresent(rank300, 1, OPTIONAL)): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Prod환경/Home/05.서브탭/01.300위작품' located by '//div[@id='__next']/div/div/main/section[3]/section/div/div/article[299]/a/div/div[4]/div' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Prod환경/Home/05.서브탭/01.300위작품' located by '//div[@id='__next']/div/div/main/section[3]/section/div/div/article[299]/a/div/div[4]/div' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1524)
+	at 09.Popular 서브탭.run(09.Popular 서브탭:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1755846960321.run(TempTestSuite1755846960321.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+22-08-2025T16:16:53 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='__next']/div/div/main/section[3]/section/div/div/article[299]/a/div/div[4]/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+22-08-2025T16:16:54 - [MESSAGE][WARNING] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Prod환경/Home/05.서브탭/01.300위작품' located by '//div[@id='__next']/div/div/main/section[3]/section/div/div/article[299]/a/div/div[4]/div' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Prod환경/Home/05.서브탭/01.300위작품' located by '//div[@id='__next']/div/div/main/section[3]/section/div/div/article[299]/a/div/div[4]/div' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1524)
+	at 09.Popular 서브탭.run(09.Popular 서브탭:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1755846960321.run(TempTestSuite1755846960321.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|/Users/ruben.lee/Katalon Studio/TapasTest/Reports/20250822_161559/check suite/20250822_161600/1755847013900.png]]
+
+22-08-2025T16:16:54 - [TEST_STEP][PASSED] - executeJavaScript("window.scrollTo(0, document.body.scrollHeight);", null): Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+22-08-2025T16:16:54 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+22-08-2025T16:16:54 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+22-08-2025T16:16:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+22-08-2025T16:16:56 - [TEST_STEP][PASSED] - rank300 = findTestObject("Prod환경/Home/05.서브탭/01.300위작품"): null
+
+22-08-2025T16:16:56 - [TEST_STEP][WARNING] - if (verifyElementPresent(rank300, 1, OPTIONAL)): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Prod환경/Home/05.서브탭/01.300위작품' located by '//div[@id='__next']/div/div/main/section[3]/section/div/div/article[299]/a/div/div[4]/div' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Prod환경/Home/05.서브탭/01.300위작품' located by '//div[@id='__next']/div/div/main/section[3]/section/div/div/article[299]/a/div/div[4]/div' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1524)
+	at 09.Popular 서브탭.run(09.Popular 서브탭:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1755846960321.run(TempTestSuite1755846960321.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+22-08-2025T16:16:58 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='__next']/div/div/main/section[3]/section/div/div/article[299]/a/div/div[4]/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+22-08-2025T16:16:59 - [MESSAGE][WARNING] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Prod환경/Home/05.서브탭/01.300위작품' located by '//div[@id='__next']/div/div/main/section[3]/section/div/div/article[299]/a/div/div[4]/div' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Prod환경/Home/05.서브탭/01.300위작품' located by '//div[@id='__next']/div/div/main/section[3]/section/div/div/article[299]/a/div/div[4]/div' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1524)
+	at 09.Popular 서브탭.run(09.Popular 서브탭:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1755846960321.run(TempTestSuite1755846960321.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|/Users/ruben.lee/Katalon Studio/TapasTest/Reports/20250822_161559/check suite/20250822_161600/1755847018758.png]]
+
+22-08-2025T16:16:59 - [TEST_STEP][PASSED] - executeJavaScript("window.scrollTo(0, document.body.scrollHeight);", null): Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+22-08-2025T16:16:59 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+22-08-2025T16:16:59 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+22-08-2025T16:17:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+22-08-2025T16:17:01 - [TEST_STEP][PASSED] - rank300 = findTestObject("Prod환경/Home/05.서브탭/01.300위작품"): null
+
+22-08-2025T16:17:01 - [TEST_STEP][PASSED] - if (verifyElementPresent(rank300, 1, OPTIONAL)): null
+
+22-08-2025T16:17:01 - [MESSAGE][PASSED] - Object 'Object Repository/Prod환경/Home/05.서브탭/01.300위작품' is present
+
+22-08-2025T16:17:01 - [TEST_STEP][PASSED] - break: null
+
+22-08-2025T16:17:01 - [TEST_STEP][PASSED] - rank300 = findTestObject("Prod환경/Home/05.서브탭/01.300위작품"): null
+
+22-08-2025T16:17:01 - [TEST_STEP][PASSED] - HighlightElement.run(rank300): null
+
+22-08-2025T16:17:03 - [TEST_STEP][PASSED] - verifyElementPresent(rank300, 5, STOP_ON_FAILURE): Object 'Object Repository/Prod환경/Home/05.서브탭/01.300위작품' is present
+
+22-08-2025T16:17:03 - [MESSAGE][PASSED] - Object 'Object Repository/Prod환경/Home/05.서브탭/01.300위작품' is present
+
+22-08-2025T16:17:03 - [TEST_STEP][PASSED] - executeJavaScript("window.scrollTo(0, 0);", null): Execute JavaScript 'window.scrollTo(0, 0);' successfully
+
+22-08-2025T16:17:03 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollTo(0, 0);' successfully
+
+22-08-2025T16:17:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Prod환경/Home/05.서브탭/02.Novel버튼")): Object: 'Object Repository/Prod환경/Home/05.서브탭/02.Novel버튼' is clicked on
+
+22-08-2025T16:17:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Prod환경/Home/05.서브탭/02.Novel버튼' is clicked on
+
+22-08-2025T16:17:03 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+22-08-2025T16:17:03 - [MESSAGE][PASSED] - Wait for page load successfully
+
+22-08-2025T16:17:03 - [TEST_STEP][PASSED] - P_novel = findTestObject("Prod환경/Home/05.서브탭/02.Novel버튼"): null
+
+22-08-2025T16:17:03 - [TEST_STEP][PASSED] - HighlightElement.run(P_novel): null
+
+22-08-2025T16:17:05 - [TEST_STEP][PASSED] - verifyElementPresent(P_novel, 5, STOP_ON_FAILURE): Object 'Object Repository/Prod환경/Home/05.서브탭/02.Novel버튼' is present
+
+22-08-2025T16:17:05 - [MESSAGE][PASSED] - Object 'Object Repository/Prod환경/Home/05.서브탭/02.Novel버튼' is present
+
+22-08-2025T16:17:05 - [TEST_STEP][PASSED] - comment("✅ popular 서브탭 실행 완료"): ✅ popular 서브탭 실행 완료
+
+22-08-2025T16:17:05 - [MESSAGE][INFO] - ✅ popular 서브탭 실행 완료
+
+22-08-2025T16:17:05 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+22-08-2025T16:17:05 - [TEST_STEP][PASSED] - println("[AfterTestCase] GlobalVariable.isSuite: " + isSuite): null
+
+22-08-2025T16:17:05 - [TEST_STEP][PASSED] - if (!(isSuite)): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[22-08-2025T16:16:02 - [TEST_STEP][ERROR] - Start listener action : beforeSuite: com.kms.katalon.core.exception.StepFailedException: Actual text 'https://tapas.io/' and expected text 'https://tapas.io' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at BrowserControl.beforeSuite(BrowserControl.groovy:50)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1755846960321.run(TempTestSuite1755846960321.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+22-08-2025T16:16:02 - [TEST_STEP][PASSED] - println("[Suite 실행] 브라우저 오픈"): null
+
+22-08-2025T16:16:02 - [TEST_STEP][PASSED] - isSuite = true: null
+
+22-08-2025T16:16:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+22-08-2025T16:16:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+22-08-2025T16:16:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+22-08-2025T16:16:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+22-08-2025T16:16:04 - [TEST_STEP][PASSED] - url = "https://tapas.io": null
+
+22-08-2025T16:16:04 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://tapas.io' successfully
+
+22-08-2025T16:16:05 - [MESSAGE][PASSED] - Navigate to 'https://tapas.io' successfully
+
+22-08-2025T16:16:05 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+22-08-2025T16:16:05 - [MESSAGE][PASSED] - Wait for page load successfully
+
+22-08-2025T16:16:05 - [TEST_STEP][ERROR] - verifyMatch(getUrl(), url, false): com.kms.katalon.core.exception.StepFailedException: Actual text 'https://tapas.io/' and expected text 'https://tapas.io' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at BrowserControl.beforeSuite(BrowserControl.groovy:50)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1755846960321.run(TempTestSuite1755846960321.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+22-08-2025T16:16:05 - [MESSAGE][PASSED] - Current window's url is: 'https://tapas.io/'
+
+22-08-2025T16:16:05 - [MESSAGE][FAILED] - Unable to verify match between actual text 'https://tapas.io/' and expected text 'https://tapas.io' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'https://tapas.io/' and expected text 'https://tapas.io' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at BrowserControl.beforeSuite(BrowserControl.groovy:50)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1755846960321.run(TempTestSuite1755846960321.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+22-08-2025T16:16:05 - [MESSAGE][ERROR] - com.kms.katalon.core.exception.StepFailedException: Actual text 'https://tapas.io/' and expected text 'https://tapas.io' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at BrowserControl.beforeSuite(BrowserControl.groovy:50)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1755846960321.run(TempTestSuite1755846960321.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+22-08-2025T16:16:02 - [TEST_SUITE][PASSED] - check suite: Test Cases/Prod환경/00.메인홈/04.서브탭/09.Popular 서브탭
+
+22-08-2025T16:17:05 - [TEST_STEP][PASSED] - Start listener action : afterSuite: null
+
+22-08-2025T16:17:05 - [TEST_STEP][PASSED] - println("[Suite 실행] 브라우저 닫기 시도"): null
+
+22-08-2025T16:17:05 - [TEST_STEP][PASSED] - closeBrowserIfOpen("AfterTestSuite"): null
+
+22-08-2025T16:17:05 - [TEST_STEP][PASSED] - try: null
+
+22-08-2025T16:17:05 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+22-08-2025T16:17:05 - [TEST_STEP][PASSED] - if (driver != null && !(getWindowHandles().isEmpty())): null
+
+22-08-2025T16:17:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+22-08-2025T16:17:05 - [MESSAGE][PASSED] - Browser is closed
+
+22-08-2025T16:17:05 - [TEST_STEP][PASSED] - println([$context] 브라우저 정상 종료 완료): null
+
+22-08-2025T16:17:06 - [TEST_STEP][PASSED] - isSuite = false: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

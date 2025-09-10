@@ -1,0 +1,33 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+check suite,Chrome 139.0.7258.138,,,22-08-2025 16:16:02,22-08-2025 16:17:06,1m - 3.396s,PASSED
+,,,,,,,
+Start listener action : beforeSuite,Chrome 139.0.7258.138,,,22-08-2025 16:16:02,22-08-2025 16:16:05,2.966s,ERROR
+,,,,,,,
+Test Cases/Prod환경/00.메인홈/01.로그인/01.자동 로그인 확인 - Copy,Chrome 139.0.7258.138,,,22-08-2025 16:16:05,22-08-2025 16:16:09,4.307s,PASSED
+Start listener action : beforeTestCase,Chrome 139.0.7258.138,,,22-08-2025 16:16:05,22-08-2025 16:16:05,0.005s,PASSED
+"url = ""https://tapas.io/account/signin?from=/""",Chrome 139.0.7258.138,,,22-08-2025 16:16:05,22-08-2025 16:16:05,0.001s,PASSED
+"cookieFilePath = ""cookies.save""",Chrome 139.0.7258.138,,,22-08-2025 16:16:05,22-08-2025 16:16:05,0.000s,PASSED
+driver = getWebDriver(),Chrome 139.0.7258.138,,,22-08-2025 16:16:05,22-08-2025 16:16:05,0.001s,PASSED
+cookieFile = new java.io.File(cookieFilePath),Chrome 139.0.7258.138,,,22-08-2025 16:16:05,22-08-2025 16:16:05,0.001s,PASSED
+if (cookieFile.exists()),Chrome 139.0.7258.138,,,22-08-2025 16:16:05,22-08-2025 16:16:07,1.719s,PASSED
+delay(2),Chrome 139.0.7258.138,,,22-08-2025 16:16:07,22-08-2025 16:16:09,2.012s,PASSED
+maximizeWindow(),Chrome 139.0.7258.138,,,22-08-2025 16:16:09,22-08-2025 16:16:09,0.443s,PASSED
+Start listener action : afterTestCase,Chrome 139.0.7258.138,,,22-08-2025 16:16:09,22-08-2025 16:16:09,0.009s,PASSED
+,,,,,,,
+Test Cases/Prod환경/00.메인홈/04.서브탭/09.Popular 서브탭,Chrome 139.0.7258.138,,,22-08-2025 16:16:09,22-08-2025 16:17:05,55.881s,PASSED
+Start listener action : beforeTestCase,Chrome 139.0.7258.138,,,22-08-2025 16:16:09,22-08-2025 16:16:09,0.001s,PASSED
+"click(findTestObject(""Object Repository/Prod환경/Home/05.서브탭/00.popular 버튼""))",Chrome 139.0.7258.138,,,22-08-2025 16:16:10,22-08-2025 16:16:10,0.315s,PASSED
+"for ([i = 0, i < 11, (i++)])",Chrome 139.0.7258.138,,,22-08-2025 16:16:10,22-08-2025 16:17:01,51.428s,PASSED
+"rank300 = findTestObject(""Prod환경/Home/05.서브탭/01.300위작품"")",Chrome 139.0.7258.138,,,22-08-2025 16:17:01,22-08-2025 16:17:01,0.004s,PASSED
+HighlightElement.run(rank300),Chrome 139.0.7258.138,,,22-08-2025 16:17:01,22-08-2025 16:17:03,1.277s,PASSED
+"verifyElementPresent(rank300, 5, STOP_ON_FAILURE)",Chrome 139.0.7258.138,,,22-08-2025 16:17:03,22-08-2025 16:17:03,0.235s,PASSED
+"executeJavaScript(""window.scrollTo(0, 0);"", null)",Chrome 139.0.7258.138,,,22-08-2025 16:17:03,22-08-2025 16:17:03,0.009s,PASSED
+"click(findTestObject(""Object Repository/Prod환경/Home/05.서브탭/02.Novel버튼""))",Chrome 139.0.7258.138,,,22-08-2025 16:17:03,22-08-2025 16:17:03,0.357s,PASSED
+waitForPageLoad(10),Chrome 139.0.7258.138,,,22-08-2025 16:17:03,22-08-2025 16:17:03,0.046s,PASSED
+"P_novel = findTestObject(""Prod환경/Home/05.서브탭/02.Novel버튼"")",Chrome 139.0.7258.138,,,22-08-2025 16:17:03,22-08-2025 16:17:03,0.003s,PASSED
+HighlightElement.run(P_novel),Chrome 139.0.7258.138,,,22-08-2025 16:17:03,22-08-2025 16:17:05,1.871s,PASSED
+"verifyElementPresent(P_novel, 5, STOP_ON_FAILURE)",Chrome 139.0.7258.138,,,22-08-2025 16:17:05,22-08-2025 16:17:05,0.234s,PASSED
+"comment(""✅ popular 서브탭 실행 완료"")",Chrome 139.0.7258.138,,,22-08-2025 16:17:05,22-08-2025 16:17:05,0.003s,PASSED
+Start listener action : afterTestCase,Chrome 139.0.7258.138,,,22-08-2025 16:17:05,22-08-2025 16:17:05,0.001s,PASSED
+,,,,,,,
+Start listener action : afterSuite,Chrome 139.0.7258.138,,,22-08-2025 16:17:05,22-08-2025 16:17:06,0.184s,PASSED

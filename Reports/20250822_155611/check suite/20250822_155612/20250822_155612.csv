@@ -1,0 +1,40 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+check suite,Chrome 139.0.7258.138,,,22-08-2025 15:56:14,22-08-2025 15:56:31,17.508s,PASSED
+,,,,,,,
+Start listener action : beforeSuite,Chrome 139.0.7258.138,,,22-08-2025 15:56:14,22-08-2025 15:56:18,4.570s,ERROR
+,,,,,,,
+Test Cases/Prod환경/00.메인홈/01.로그인/01.자동 로그인 확인 - Copy,Chrome 139.0.7258.138,,,22-08-2025 15:56:18,22-08-2025 15:56:22,3.852s,PASSED
+Start listener action : beforeTestCase,Chrome 139.0.7258.138,,,22-08-2025 15:56:18,22-08-2025 15:56:19,0.016s,PASSED
+"url = ""https://tapas.io/account/signin?from=/""",Chrome 139.0.7258.138,,,22-08-2025 15:56:19,22-08-2025 15:56:19,0.000s,PASSED
+"cookieFilePath = ""cookies.save""",Chrome 139.0.7258.138,,,22-08-2025 15:56:19,22-08-2025 15:56:19,0.001s,PASSED
+driver = getWebDriver(),Chrome 139.0.7258.138,,,22-08-2025 15:56:19,22-08-2025 15:56:19,0.001s,PASSED
+cookieFile = new java.io.File(cookieFilePath),Chrome 139.0.7258.138,,,22-08-2025 15:56:19,22-08-2025 15:56:19,0.002s,PASSED
+if (cookieFile.exists()),Chrome 139.0.7258.138,,,22-08-2025 15:56:19,22-08-2025 15:56:20,1.275s,PASSED
+delay(2),Chrome 139.0.7258.138,,,22-08-2025 15:56:20,22-08-2025 15:56:22,2.015s,PASSED
+maximizeWindow(),Chrome 139.0.7258.138,,,22-08-2025 15:56:22,22-08-2025 15:56:22,0.403s,PASSED
+Start listener action : afterTestCase,Chrome 139.0.7258.138,,,22-08-2025 15:56:22,22-08-2025 15:56:22,0.003s,PASSED
+,,,,,,,
+Test Cases/Prod환경/00.메인홈/03.배너확인/06.숏컷 객체 강조 - 로그인,Chrome 139.0.7258.138,,,22-08-2025 15:56:22,22-08-2025 15:56:31,8.904s,PASSED
+Start listener action : beforeTestCase,Chrome 139.0.7258.138,,,22-08-2025 15:56:22,22-08-2025 15:56:22,0.001s,PASSED
+"searchBox = findTestObject(""Object Repository/Prod환경/Home/01.메인홈/숏컷/00.검색란"")",Chrome 139.0.7258.138,,,22-08-2025 15:56:22,22-08-2025 15:56:22,0.020s,PASSED
+HighlightElement.run(searchBox),Chrome 139.0.7258.138,,,22-08-2025 15:56:22,22-08-2025 15:56:24,1.258s,PASSED
+"verifyElementPresent(searchBox, 1)",Chrome 139.0.7258.138,,,22-08-2025 15:56:24,22-08-2025 15:56:24,0.232s,PASSED
+"logoImage = findTestObject(""Object Repository/Prod환경/Home/01.메인홈/숏컷/01.검색버튼"")",Chrome 139.0.7258.138,,,22-08-2025 15:56:24,22-08-2025 15:56:24,0.007s,PASSED
+HighlightElement.run(logoImage),Chrome 139.0.7258.138,,,22-08-2025 15:56:24,22-08-2025 15:56:25,1.245s,PASSED
+"verifyElementPresent(logoImage, 1)",Chrome 139.0.7258.138,,,22-08-2025 15:56:25,22-08-2025 15:56:25,0.223s,PASSED
+"loginButton = findTestObject(""Object Repository/Prod환경/Home/01.메인홈/숏컷/03.library버튼"")",Chrome 139.0.7258.138,,,22-08-2025 15:56:25,22-08-2025 15:56:25,0.002s,PASSED
+HighlightElement.run(loginButton),Chrome 139.0.7258.138,,,22-08-2025 15:56:25,22-08-2025 15:56:27,1.244s,PASSED
+"verifyElementPresent(loginButton, 1)",Chrome 139.0.7258.138,,,22-08-2025 15:56:27,22-08-2025 15:56:27,0.233s,PASSED
+"inboxbutton = findTestObject(""Object Repository/Prod환경/Home/01.메인홈/숏컷/04.inbox버튼"")",Chrome 139.0.7258.138,,,22-08-2025 15:56:27,22-08-2025 15:56:27,0.004s,PASSED
+HighlightElement.run(inboxbutton),Chrome 139.0.7258.138,,,22-08-2025 15:56:27,22-08-2025 15:56:28,1.242s,PASSED
+"verifyElementPresent(inboxbutton, 1)",Chrome 139.0.7258.138,,,22-08-2025 15:56:28,22-08-2025 15:56:28,0.213s,PASSED
+"profileimage = findTestObject(""Object Repository/Prod환경/Home/01.메인홈/숏컷/05.프로필이미지"")",Chrome 139.0.7258.138,,,22-08-2025 15:56:28,22-08-2025 15:56:28,0.002s,PASSED
+HighlightElement.run(profileimage),Chrome 139.0.7258.138,,,22-08-2025 15:56:28,22-08-2025 15:56:30,1.239s,PASSED
+"verifyElementPresent(profileimage, 1)",Chrome 139.0.7258.138,,,22-08-2025 15:56:30,22-08-2025 15:56:30,0.232s,PASSED
+"publishButton1 = findTestObject(""Object Repository/Prod환경/Home/01.메인홈/숏컷/07.로그인publish버튼"")",Chrome 139.0.7258.138,,,22-08-2025 15:56:30,22-08-2025 15:56:30,0.008s,PASSED
+HighlightElement.run(publishButton1),Chrome 139.0.7258.138,,,22-08-2025 15:56:30,22-08-2025 15:56:31,1.231s,PASSED
+"verifyElementPresent(publishButton1, 1)",Chrome 139.0.7258.138,,,22-08-2025 15:56:31,22-08-2025 15:56:31,0.221s,PASSED
+"comment(""✅ Test 1 완료. 브라우저 유지 상태에서 Test 2 실행"")",Chrome 139.0.7258.138,,,22-08-2025 15:56:31,22-08-2025 15:56:31,0.001s,PASSED
+Start listener action : afterTestCase,Chrome 139.0.7258.138,,,22-08-2025 15:56:31,22-08-2025 15:56:31,0.001s,PASSED
+,,,,,,,
+Start listener action : afterSuite,Chrome 139.0.7258.138,,,22-08-2025 15:56:31,22-08-2025 15:56:31,0.120s,PASSED

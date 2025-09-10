@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+check suite,Chrome 139.0.7258.138,,,22-08-2025 16:11:02,22-08-2025 16:12:45,1m - 43.125s,FAILED
+,,,,,,,
+Start listener action : beforeSuite,Chrome 139.0.7258.138,,,22-08-2025 16:11:02,22-08-2025 16:11:05,2.722s,ERROR
+,,,,,,,
+Test Cases/Prod환경/00.메인홈/01.로그인/01.자동 로그인 확인 - Copy,Chrome 139.0.7258.138,,,22-08-2025 16:11:05,22-08-2025 16:11:09,4.020s,PASSED
+Start listener action : beforeTestCase,Chrome 139.0.7258.138,,,22-08-2025 16:11:05,22-08-2025 16:11:05,0.008s,PASSED
+"url = ""https://tapas.io/account/signin?from=/""",Chrome 139.0.7258.138,,,22-08-2025 16:11:05,22-08-2025 16:11:05,0.001s,PASSED
+"cookieFilePath = ""cookies.save""",Chrome 139.0.7258.138,,,22-08-2025 16:11:05,22-08-2025 16:11:05,0.000s,PASSED
+driver = getWebDriver(),Chrome 139.0.7258.138,,,22-08-2025 16:11:05,22-08-2025 16:11:05,0.002s,PASSED
+cookieFile = new java.io.File(cookieFilePath),Chrome 139.0.7258.138,,,22-08-2025 16:11:05,22-08-2025 16:11:05,0.001s,PASSED
+if (cookieFile.exists()),Chrome 139.0.7258.138,,,22-08-2025 16:11:05,22-08-2025 16:11:06,1.443s,PASSED
+delay(2),Chrome 139.0.7258.138,,,22-08-2025 16:11:06,22-08-2025 16:11:08,2.015s,PASSED
+maximizeWindow(),Chrome 139.0.7258.138,,,22-08-2025 16:11:08,22-08-2025 16:11:09,0.402s,PASSED
+Start listener action : afterTestCase,Chrome 139.0.7258.138,,,22-08-2025 16:11:09,22-08-2025 16:11:09,0.005s,PASSED
+,,,,,,,
+Test Cases/Prod환경/00.메인홈/04.서브탭/09.Popular 서브탭,Chrome 139.0.7258.138,,,22-08-2025 16:11:09,22-08-2025 16:12:45,1m - 36.164s,FAILED
+Start listener action : beforeTestCase,Chrome 139.0.7258.138,,,22-08-2025 16:11:09,22-08-2025 16:11:09,0.000s,PASSED
+"click(findTestObject(""Object Repository/Prod환경/Home/05.서브탭/00.popular 버튼""))",Chrome 139.0.7258.138,,,22-08-2025 16:11:09,22-08-2025 16:11:09,0.288s,PASSED
+"for ([i = 0, i < 11, (i++)])",Chrome 139.0.7258.138,,,22-08-2025 16:11:09,22-08-2025 16:12:00,50.800s,PASSED
+"rank300 = findTestObject(""Prod환경/Home/05.서브탭/01.300위작품"")",Chrome 139.0.7258.138,,,22-08-2025 16:12:00,22-08-2025 16:12:00,0.002s,PASSED
+HighlightElement.run(rank300),Chrome 139.0.7258.138,,,22-08-2025 16:12:00,22-08-2025 16:12:01,1.260s,PASSED
+"verifyElementPresent(rank300, 5, STOP_ON_FAILURE)",Chrome 139.0.7258.138,,,22-08-2025 16:12:01,22-08-2025 16:12:01,0.235s,PASSED
+"click(findTestObject(""Object Repository/Prod환경/Home/05.서브탭/02.Novel버튼""))",Chrome 139.0.7258.138,,,22-08-2025 16:12:01,22-08-2025 16:12:45,43.525s,FAILED
+Start listener action : afterTestCase,Chrome 139.0.7258.138,,,22-08-2025 16:12:45,22-08-2025 16:12:45,0.000s,PASSED
+,,,,,,,
+Start listener action : afterSuite,Chrome 139.0.7258.138,,,22-08-2025 16:12:45,22-08-2025 16:12:45,0.149s,PASSED

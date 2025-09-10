@@ -17,11 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase("Test Cases/CallTest용도/브라우저오픈"), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.maximizeWindow()
-
-WebUI.click(findTestObject('Object Repository/Prod환경/Home/06.작품홈/00.Popular 서브탭'))
+WebUI.click(findTestObject('Object Repository/Prod환경/Home/05.서브탭/00.popular 버튼'))
 
 WebUI.click(findTestObject('Object Repository/Prod환경/Home/06.작품홈/01.1위 작품'))
 
